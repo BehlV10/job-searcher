@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Datadog",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ) & Boston Office",
+    "industry": "Observability & Cloud Security",
+    "careers_url": "https://www.datadoghq.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Go", "Python", "Kubernetes", "Kafka", "Distributed Systems"]
+  },
+  {
+    "name": "Toast",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Restaurant Tech & FinTech Platform",
+    "careers_url": "https://careers.toasttab.com/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Java", "Kotlin", "AWS", "Microservices", "React"]
+  },
+  {
+    "name": "Klaviyo",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Marketing Automation & Customer Data Platform",
+    "careers_url": "https://www.klaviyo.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Python", "Django", "PostgreSQL", "Kafka", "AWS"]
+  },
+  {
+    "name": "MongoDB",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ) & Boston Office",
+    "industry": "Developer Data Platform & Database Systems",
+    "careers_url": "https://www.mongodb.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["C++", "Go", "Python", "Distributed Systems", "Cloud"]
+  },
+  {
+    "name": "Palantir Technologies",
+    "metro": "New York, NY",
+    "presence": "NYC Engineering Hub",
+    "industry": "Enterprise AI Platforms & Defense Data Systems",
+    "careers_url": "https://www.palantir.com/careers/",
+    "ats_board": "Lever",
+    "tech_stack": ["Java", "TypeScript", "React", "Distributed Systems", "Python"]
+  },
+  {
+    "name": "Spotify",
+    "metro": "New York, NY",
+    "presence": "NYC Engineering & R&D Hub",
+    "industry": "Audio Streaming & Media Tech",
+    "careers_url": "https://www.lifeatspotify.com/jobs",
+    "ats_board": "Lever",
+    "tech_stack": ["Java", "Python", "GCP", "Kubernetes", "Big Data"]
+  },
+  {
+    "name": "Braze",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "Customer Engagement & Streaming Data",
+    "careers_url": "https://www.braze.com/about/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Ruby", "Go", "Kafka", "MongoDB", "AWS"]
+  },
+  {
+    "name": "CarGurus",
+    "metro": "Boston, MA",
+    "presence": "Cambridge / Boston (HQ)",
+    "industry": "Automotive Marketplace & High-Scale Search",
+    "careers_url": "https://www.cargurus.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Java", "Python", "Kubernetes", "Elasticsearch", "React"]
+  },
+  {
+    "name": "Formlabs",
+    "metro": "Boston, MA",
+    "presence": "Somerville / Boston (HQ)",
+    "industry": "3D Printing Systems & Embedded Software",
+    "careers_url": "https://formlabs.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["C++", "Python", "TypeScript", "Cloud / WebGL"]
+  },
+  {
+    "name": "Starburst Data",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Distributed SQL / Trino Query Engine",
+    "careers_url": "https://www.starburst.io/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Java", "Distributed Systems", "Trino", "Kubernetes", "Cloud"]
+  },
+  {
+    "name": "Squarespace",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "Web Publishing & E-Commerce Infrastructure",
+    "careers_url": "https://www.squarespace.com/about/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Java", "JavaScript", "React", "Kubernetes", "PostgreSQL"]
+  },
+  {
+    "name": "Flatiron Health",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "HealthTech & Oncology Data Infrastructure",
+    "careers_url": "https://flatiron.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Python", "Go", "SQL", "AWS", "Health Data"]
+  },
+  {
+    "name": "Oscar Health",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "HealthTech & Insurance Technology",
+    "careers_url": "https://www.hioscar.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Python", "Go", "React", "AWS", "Aurora"]
+  },
+  {
+    "name": "Betterment",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "FinTech & Automated Investing Infrastructure",
+    "careers_url": "https://www.betterment.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Ruby", "Java", "Python", "React", "PostgreSQL"]
+  },
+  {
+    "name": "DraftKings",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Sports Entertainment & High-Frequency Betting Tech",
+    "careers_url": "https://careers.draftkings.com/",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["C# / .NET", "Java", "Kafka", "AWS", "Distributed Systems"]
+  },
+  {
+    "name": "HubSpot",
+    "metro": "Boston, MA",
+    "presence": "Cambridge / Boston (HQ)",
+    "industry": "CRM & Customer Growth Platform",
+    "careers_url": "https://www.hubspot.com/careers",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["Java", "Python", "React", "Kafka", "Microservices"]
+  },
+  {
+    "name": "Wayfair",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "E-Commerce Logistics & Distributed Systems",
+    "careers_url": "https://www.aboutwayfair.com/careers",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["Java", "Python", "Kubernetes", "GCP", "GraphQL"]
+  },
+  {
+    "name": "WHOOP",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ - Fenway)",
+    "industry": "Wearable Biometrics & High-Volume Time-Series Data",
+    "careers_url": "https://www.whoop.com/careers/",
+    "ats_board": "Built In / Direct",
+    "tech_stack": ["Go", "Java", "PostgreSQL", "Kafka", "AWS"]
+  },
+  {
+    "name": "Ramp",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "Corporate Cards & Financial Automation",
+    "careers_url": "https://ramp.com/careers",
+    "ats_board": "Greenhouse / Ashby",
+    "tech_stack": ["Python", "Elixir", "TypeScript", "React", "PostgreSQL"]
+  },
+  {
+    "name": "Cockroach Labs",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "Cloud-Native Distributed SQL Database",
+    "careers_url": "https://www.cockroachlabs.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Go", "C++", "Distributed Consensus / Raft", "Kubernetes"]
+  },
+  {
+    "name": "Two Sigma",
+    "metro": "New York, NY",
+    "presence": "NYC (SoHo HQ)",
+    "industry": "Quantitative Finance & High-Performance Computing",
+    "careers_url": "https://www.twosigma.com/careers/",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["C++", "Java", "Python", "Distributed Systems", "Linux"]
+  },
+  {
+    "name": "Jane Street",
+    "metro": "New York, NY",
+    "presence": "NYC (FiDi HQ)",
+    "industry": "Quantitative Trading & Proprietary Systems",
+    "careers_url": "https://www.janestreet.com/join-jane-street/",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["OCaml", "C++", "Low-Latency Networks", "Linux"]
+  },
+  {
+    "name": "Bloomberg LP",
+    "metro": "New York, NY",
+    "presence": "NYC (Global HQ - Midtown)",
+    "industry": "Financial Data Infrastructure & Terminal Ecosystem",
+    "careers_url": "https://www.bloomberg.com/company/careers/",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["C++", "Python", "JavaScript", "Distributed Systems"]
+  },
+  {
+    "name": "Flywire",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Global Payments & FinTech Infrastructure",
+    "careers_url": "https://www.flywire.com/company/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Ruby", "Go", "AWS", "Kafka", "React"]
+  },
+  {
+    "name": "Circle",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ)",
+    "industry": "Digital Currency & USDC Financial Infrastructure",
+    "careers_url": "https://www.circle.com/en/careers",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["Go", "Node.js", "AWS", "Cryptography", "Distributed Systems"]
+  },
+  {
+    "name": "Akamai Technologies",
+    "metro": "Boston, MA",
+    "presence": "Cambridge / Boston (HQ)",
+    "industry": "Content Delivery Network (CDN) & Edge Cloud",
+    "careers_url": "https://www.akamai.com/careers",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["C++", "Go", "Python", "Edge Computing", "Networking"]
+  },
+  {
+    "name": "Recorded Future",
+    "metro": "Boston, MA",
+    "presence": "Somerville / Boston (HQ)",
+    "industry": "Threat Intelligence & Cyber Security AI",
+    "careers_url": "https://www.recordedfuture.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": ["Python", "Java", "Elasticsearch", "AWS", "NLP"]
+  },
+  {
+    "name": "Rapid7",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ - Downtown)",
+    "industry": "Cybersecurity Analytics & Cloud Detection",
+    "careers_url": "https://www.rapid7.com/about/careers/",
+    "ats_board": "Direct Portal",
+    "tech_stack": ["Java", "Python", "AWS", "PostgreSQL", "React"]
+  }
+]

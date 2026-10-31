@@ -1,7 +1,7 @@
 /**
  * StaffHunt - Frontend Application Logic
- * Fast, reactive client-side search, filtering, recruiter outreach copilot,
- * and application pipeline tracking.
+ * Multi-board search, filtering, recruiter outreach copilot,
+ * tech companies directory, and application pipeline tracking.
  */
 
 (function () {
@@ -10,8 +10,11 @@
   // Application State
   const state = {
     jobs: [],
+    companies: [],
     filteredJobs: [],
+    filteredCompanies: [],
     metadata: {},
+    activeTab: 'jobs', // 'jobs' | 'companies'
     userProfile: {
       name: "Varun Behl",
       target_roles: ["Staff Software Engineer", "Senior Software Engineer"],
@@ -29,11 +32,25 @@
       source: 'all',
       sortBy: 'salary-desc'
     },
+    companyFilters: {
+      location: 'all',
+      search: ''
+    },
     selectedJob: null
   };
 
   // DOM Elements
   const el = {
+    // Nav tabs
+    navTabJobs: document.getElementById('nav-tab-jobs'),
+    navTabCompanies: document.getElementById('nav-tab-companies'),
+    mobileTabJobs: document.getElementById('mobile-tab-jobs'),
+    mobileTabCompanies: document.getElementById('mobile-tab-companies'),
+    viewJobListings: document.getElementById('view-job-listings'),
+    viewCompanies: document.getElementById('view-companies'),
+    badgeNavJobsCount: document.getElementById('badge-nav-jobs-count'),
+
+    // Jobs View
     jobsContainer: document.getElementById('jobs-container'),
     emptyState: document.getElementById('empty-state'),
     searchInput: document.getElementById('search-input'),
@@ -50,7 +67,6 @@
     salaryBadge: document.getElementById('salary-filter-badge'),
     metricTotal: document.getElementById('metric-total-jobs'),
     metricSalary: document.getElementById('metric-salary-jobs'),
-    metricUpdated: document.getElementById('metric-last-updated'),
     countLocAll: document.getElementById('count-loc-all'),
     countLocNyc: document.getElementById('count-loc-nyc'),
     countLocBoston: document.getElementById('count-loc-boston'),
@@ -58,12 +74,23 @@
     badgeSavedCount: document.getElementById('badge-saved-count'),
     themeToggle: document.getElementById('btn-theme-toggle'),
 
+    // Companies View
+    companiesGrid: document.getElementById('companies-grid'),
+    companySearchInput: document.getElementById('company-search-input'),
+    compLocButtons: document.querySelectorAll('.comp-filter-btn'),
+    countCompAll: document.getElementById('count-comp-all'),
+    countCompNyc: document.getElementById('count-comp-nyc'),
+    countCompBoston: document.getElementById('count-comp-boston'),
+
     // Recruiter Modal
     recruiterModal: document.getElementById('recruiter-modal'),
     modalClose: document.getElementById('modal-close'),
     modalInitial: document.getElementById('modal-company-initial'),
     modalCompName: document.getElementById('modal-company-name'),
     modalJobTitle: document.getElementById('modal-job-title'),
+    modalPocName: document.getElementById('modal-poc-name'),
+    modalTeamName: document.getElementById('modal-team-name'),
+    modalPartnerBadge: document.getElementById('modal-partner-badge'),
     modalBtnRecruiter: document.getElementById('modal-btn-recruiter'),
     modalBtnManager: document.getElementById('modal-btn-manager'),
     modalOutreachText: document.getElementById('modal-outreach-text'),
@@ -82,9 +109,11 @@
     drawerSalary: document.getElementById('drawer-salary'),
     drawerExperience: document.getElementById('drawer-experience'),
     drawerTechStack: document.getElementById('drawer-tech-stack'),
+    drawerRecruiterPoc: document.getElementById('drawer-recruiter-poc'),
     drawerDescription: document.getElementById('drawer-description'),
     drawerBtnApply: document.getElementById('drawer-btn-apply'),
     drawerBtnOutreach: document.getElementById('drawer-btn-outreach'),
+    drawerBtnOutreachInline: document.getElementById('drawer-btn-outreach-inline'),
 
     // Profile Modal
     profileModal: document.getElementById('profile-modal'),
@@ -101,15 +130,15 @@
     savedJobsList: document.getElementById('saved-jobs-list')
   };
 
-  // Initialize
+  // Initialization
   async function init() {
     initTheme();
     loadProfile();
     bindEvents();
-    await fetchJobs();
+    await Promise.all([fetchJobs(), fetchCompanies()]);
   }
 
-  // Dark / Light Theme
+  // Theme setup
   function initTheme() {
     const isDark = localStorage.getItem('staffhunt_theme') === 'dark' ||
       (!('staffhunt_theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -126,7 +155,7 @@
     if (window.lucide) lucide.createIcons();
   }
 
-  // Load User Profile from storage
+  // Profile
   function loadProfile() {
     const stored = localStorage.getItem('staffhunt_profile');
     if (stored) {
@@ -138,13 +167,11 @@
     }
   }
 
-  // Fetch Jobs Dataset
+  // Fetch Jobs Data
   async function fetchJobs() {
     try {
       const response = await fetch('jobs.json?t=' + Date.now());
-      if (!response.ok) {
-        throw new Error('Failed to load jobs.json: ' + response.status);
-      }
+      if (!response.ok) throw new Error('Failed to load jobs.json: ' + response.status);
       const data = await response.json();
       state.jobs = data.jobs || [];
       state.metadata = data.metadata || {};
@@ -156,17 +183,29 @@
       updateTopMetrics();
       applyFilters();
     } catch (err) {
-      console.error('Fetch error:', err);
+      console.error('Fetch jobs error:', err);
       el.jobsContainer.innerHTML = `
         <div class="bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900 rounded-2xl p-6 text-center text-red-800 dark:text-red-200">
-          <p class="font-bold">Error loading jobs data</p>
+          <p class="font-bold">Error loading jobs dataset</p>
           <p class="text-xs mt-1">Please ensure jobs.json is present in the web root or run python3 -m scraper.run_scraper.</p>
         </div>
       `;
     }
   }
 
-  // Update Top Metrics & Counters
+  // Fetch Companies Directory
+  async function fetchCompanies() {
+    try {
+      const response = await fetch('companies.json?t=' + Date.now());
+      if (!response.ok) throw new Error('Failed to load companies.json');
+      state.companies = await response.json();
+      updateCompanyCounts();
+      renderCompanies();
+    } catch (err) {
+      console.error('Fetch companies error:', err);
+    }
+  }
+
   function updateTopMetrics() {
     const total = state.jobs.length;
     const withSalary = state.jobs.filter(j => j.salary).length;
@@ -178,10 +217,8 @@
     if (el.countLocAll) el.countLocAll.textContent = total;
     if (el.countLocNyc) el.countLocNyc.textContent = nyc;
     if (el.countLocBoston) el.countLocBoston.textContent = boston;
+    if (el.badgeNavJobsCount) el.badgeNavJobsCount.textContent = total;
 
-    if (state.metadata.last_updated && el.metricUpdated) {
-      el.metricUpdated.textContent = state.metadata.last_updated.split(' ')[0];
-    }
     updateSavedBadge();
   }
 
@@ -191,7 +228,51 @@
     }
   }
 
-  // Filter & Sort Logic
+  function updateCompanyCounts() {
+    const total = state.companies.length;
+    const nyc = state.companies.filter(c => c.metro === 'New York, NY').length;
+    const boston = state.companies.filter(c => c.metro === 'Boston, MA').length;
+
+    if (el.countCompAll) el.countCompAll.textContent = total;
+    if (el.countCompNyc) el.countCompNyc.textContent = nyc;
+    if (el.countCompBoston) el.countCompBoston.textContent = boston;
+  }
+
+  // Tab Switching
+  function switchTab(tab) {
+    state.activeTab = tab;
+    if (tab === 'jobs') {
+      el.viewJobListings.classList.remove('hidden');
+      el.viewCompanies.classList.add('hidden');
+
+      el.navTabJobs.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      el.navTabJobs.classList.remove('text-slate-600', 'dark:text-slate-400');
+      el.navTabCompanies.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      el.navTabCompanies.classList.add('text-slate-600', 'dark:text-slate-400');
+
+      if (el.mobileTabJobs) {
+        el.mobileTabJobs.classList.add('bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        el.mobileTabCompanies.classList.remove('bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      }
+    } else {
+      el.viewJobListings.classList.add('hidden');
+      el.viewCompanies.classList.remove('hidden');
+
+      el.navTabCompanies.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      el.navTabCompanies.classList.remove('text-slate-600', 'dark:text-slate-400');
+      el.navTabJobs.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      el.navTabJobs.classList.add('text-slate-600', 'dark:text-slate-400');
+
+      if (el.mobileTabCompanies) {
+        el.mobileTabCompanies.classList.add('bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        el.mobileTabJobs.classList.remove('bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+      }
+      renderCompanies();
+    }
+    if (window.lucide) lucide.createIcons();
+  }
+
+  // Filter Jobs Logic
   function applyFilters() {
     const { search, location, seniority, minSalary, minYoE, source, sortBy } = state.filters;
     const searchLower = search.trim().toLowerCase();
@@ -227,20 +308,14 @@
       }
 
       // 4. Minimum Salary
-      if (minSalary > 0) {
-        // If salary is specified on the job, it must meet or exceed minSalary
-        if (job.salary) {
-          if (job.salary.max < minSalary) return false;
-        }
-        // If no salary was parsed, optionally still allow or hide depending on strictness
+      if (minSalary > 0 && job.salary) {
+        if (job.salary.max < minSalary) return false;
       }
 
       // 5. Years of Experience
       if (minYoE !== 'all') {
-        const requiredYoE = parseInt(minYoE, 10);
-        if (job.experience) {
-          if (job.experience.min_years < requiredYoE) return false;
-        }
+        const reqYoE = parseInt(minYoE, 10);
+        if (job.experience && job.experience.min_years < reqYoE) return false;
       }
 
       // 6. Source Board
@@ -277,7 +352,6 @@
     const list = state.filteredJobs;
     el.showingCount.textContent = list.length;
 
-    // Salary filter indicator
     if (state.filters.minSalary > 0) {
       el.salaryBadge.classList.remove('hidden');
       el.salaryBadge.textContent = `$${(state.filters.minSalary / 1000).toFixed(0)}k+ Target`;
@@ -297,7 +371,6 @@
       const isSaved = state.savedJobIds.has(job.id);
       const initial = (job.company || 'C').charAt(0).toUpperCase();
 
-      // Seniority color
       let seniorityBadgeClass = 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-900';
       if (['Staff', 'Principal'].includes(job.seniority)) {
         seniorityBadgeClass = 'bg-purple-50 text-purple-700 dark:bg-purple-950/60 dark:text-purple-300 border-purple-200 dark:border-purple-900';
@@ -331,7 +404,12 @@
         `;
       }
 
-      // Tech tags (up to 4)
+      // Recruiter info
+      const rec = job.recruiter || {};
+      const pocTitle = rec.point_of_contact || 'Technical Recruiter';
+      const isVerified = rec.is_verified_partner;
+
+      // Tech tags
       const tags = (job.tech_stack || []).slice(0, 4);
       const tagsHtml = tags.map(t => `
         <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
@@ -339,14 +417,13 @@
         </span>
       `).join('');
 
-      // Workplace badge icon
       const locIcon = job.work_model === 'Remote' ? 'globe' : 'map-pin';
 
       return `
         <div class="job-card group relative bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 hover:border-brand-500/80 dark:hover:border-brand-500 transition-all shadow-sm hover:shadow-md cursor-pointer" data-job-id="${job.id}">
           <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
             
-            <!-- Left Column: Company & Title -->
+            <!-- Left: Company & Title -->
             <div class="flex items-start gap-3.5 flex-1 min-w-0">
               <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 border border-slate-200 dark:border-slate-700 flex items-center justify-center font-extrabold text-base text-slate-700 dark:text-slate-200 shadow-sm shrink-0">
                 ${initial}
@@ -376,11 +453,17 @@
                     <i data-lucide="calendar" class="w-3.5 h-3.5 text-slate-400"></i>
                     ${job.date_posted}
                   </span>
+                  <!-- Matched Recruiter Pill -->
+                  <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-900">
+                    <i data-lucide="users" class="w-3 h-3 text-brand-500"></i>
+                    <span>Recruiter: ${pocTitle}</span>
+                    ${isVerified ? '<i data-lucide="check" class="w-3 h-3 text-emerald-500 font-bold"></i>' : ''}
+                  </span>
                 </div>
               </div>
             </div>
 
-            <!-- Right Column: Salary & Quick Actions -->
+            <!-- Right: Salary & Actions -->
             <div class="flex sm:flex-col items-center sm:items-end justify-between sm:justify-start gap-3 shrink-0">
               <div class="flex flex-wrap items-center gap-2">
                 ${salaryHtml}
@@ -390,7 +473,7 @@
               <!-- Action buttons -->
               <div class="flex items-center gap-2">
                 <!-- Outreach button -->
-                <button class="btn-outreach px-3 py-1.5 rounded-xl border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-semibold flex items-center gap-1.5 transition-all shadow-sm" data-job-id="${job.id}" title="Find recruiters on LinkedIn">
+                <button class="btn-outreach px-3 py-1.5 rounded-xl border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-semibold flex items-center gap-1.5 transition-all shadow-sm" data-job-id="${job.id}" title="Match with Recruiter on LinkedIn">
                   <i data-lucide="send" class="w-3 h-3"></i>
                   <span>Outreach</span>
                 </button>
@@ -410,7 +493,7 @@
 
           </div>
 
-          <!-- Bottom Row: Tech Tags & Snippet preview -->
+          <!-- Bottom: Tech tags & view details -->
           ${tags.length > 0 ? `
             <div class="mt-3.5 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between gap-2">
               <div class="flex flex-wrap items-center gap-1.5">
@@ -418,7 +501,7 @@
                 ${tagsHtml}
               </div>
               <span class="text-[11px] font-semibold text-brand-600 dark:text-brand-400 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
-                View Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                View Details & Recruiter <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </span>
             </div>
           ` : ''}
@@ -429,7 +512,7 @@
     el.jobsContainer.innerHTML = html;
     if (window.lucide) lucide.createIcons();
 
-    // Attach card click handlers
+    // Card click
     document.querySelectorAll('.job-card').forEach(card => {
       card.addEventListener('click', (e) => {
         if (e.target.closest('button') || e.target.closest('a')) return;
@@ -438,7 +521,7 @@
       });
     });
 
-    // Outreach buttons
+    // Outreach click
     document.querySelectorAll('.btn-outreach').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -447,7 +530,7 @@
       });
     });
 
-    // Save buttons
+    // Save click
     document.querySelectorAll('.btn-save').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -457,7 +540,90 @@
     });
   }
 
-  // Toggle Save / Bookmark
+  // Render Companies Directory
+  function renderCompanies() {
+    const { location, search } = state.companyFilters;
+    const searchLower = search.trim().toLowerCase();
+
+    state.filteredCompanies = state.companies.filter(c => {
+      if (location !== 'all' && c.metro !== location) return false;
+      if (searchLower) {
+        const nameMatch = c.name.toLowerCase().includes(searchLower);
+        const indMatch = c.industry.toLowerCase().includes(searchLower);
+        const stackMatch = (c.tech_stack || []).some(t => t.toLowerCase().includes(searchLower));
+        if (!nameMatch && !indMatch && !stackMatch) return false;
+      }
+      return true;
+    });
+
+    if (state.filteredCompanies.length === 0) {
+      el.companiesGrid.innerHTML = `
+        <div class="col-span-full py-12 text-center text-slate-400">
+          <p class="font-bold">No companies found matching criteria.</p>
+        </div>
+      `;
+      return;
+    }
+
+    const html = state.filteredCompanies.map(c => {
+      const initial = c.name.charAt(0).toUpperCase();
+      const recruiterQuery = encodeURIComponent(`${c.name} technical recruiter ${c.metro.includes('York') ? 'New York' : 'Boston'}`);
+      const recruiterUrl = `https://www.linkedin.com/search/results/people/?keywords=${recruiterQuery}`;
+
+      const stackHtml = (c.tech_stack || []).map(t => `
+        <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+          ${t}
+        </span>
+      `).join('');
+
+      return `
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-4">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-2">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-50 to-indigo-50 dark:from-slate-800 dark:to-slate-700 border border-slate-200 dark:border-slate-700 flex items-center justify-center font-bold text-slate-800 dark:text-slate-200">
+                  ${initial}
+                </div>
+                <div>
+                  <h3 class="font-bold text-base text-slate-900 dark:text-white leading-tight">${c.name}</h3>
+                  <span class="text-xs text-brand-600 dark:text-brand-400 font-medium">${c.presence}</span>
+                </div>
+              </div>
+              <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-100 dark:bg-slate-800 text-slate-500">
+                ${c.ats_board}
+              </span>
+            </div>
+
+            <p class="text-xs text-slate-500 dark:text-slate-400 font-medium mb-3">
+              ${c.industry}
+            </p>
+
+            <div class="flex flex-wrap gap-1 mb-2">
+              ${stackHtml}
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between gap-2">
+            <a href="${c.careers_url}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-all">
+              <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+              <span>Careers Page</span>
+            </a>
+
+            <a href="${recruiterUrl}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-semibold flex items-center gap-1.5 transition-all">
+              <i data-lucide="users" class="w-3.5 h-3.5"></i>
+              <span>Find Recruiters</span>
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    el.companiesGrid.innerHTML = html;
+    if (window.lucide) lucide.createIcons();
+  }
+
+  // Toggle Save
   function toggleSaveJob(jobId) {
     if (state.savedJobIds.has(jobId)) {
       state.savedJobIds.delete(jobId);
@@ -484,7 +650,9 @@
     el.drawerSalary.textContent = job.salary ? job.salary.display : 'Not explicitly stated in header';
     el.drawerExperience.textContent = job.experience ? job.experience.display : 'Senior / Staff Equivalent';
 
-    // Tech stack pills
+    const rec = job.recruiter || {};
+    el.drawerRecruiterPoc.textContent = `${rec.point_of_contact || 'Technical Recruiter'} (${rec.recruiter_team || job.company + ' Talent'})`;
+
     const tech = job.tech_stack || [];
     if (tech.length > 0) {
       el.drawerTechStack.innerHTML = tech.map(t => `
@@ -496,16 +664,13 @@
       el.drawerTechStack.innerHTML = `<span class="text-xs text-slate-400">See description details</span>`;
     }
 
-    // Description text
     el.drawerDescription.textContent = job.description || job.snippet || 'No full description available.';
-
-    // Actions
     el.drawerBtnApply.href = job.apply_url;
-    el.drawerBtnOutreach.onclick = () => {
-      openRecruiterModal(job.id);
-    };
 
-    // Open drawer
+    const launchOutreach = () => openRecruiterModal(job.id);
+    el.drawerBtnOutreach.onclick = launchOutreach;
+    el.drawerBtnOutreachInline.onclick = launchOutreach;
+
     el.drawerBackdrop.classList.remove('hidden');
     el.drawer.classList.remove('translate-x-full');
     if (window.lucide) lucide.createIcons();
@@ -516,7 +681,7 @@
     el.drawer.classList.add('translate-x-full');
   }
 
-  // Open Recruiter Outreach Modal
+  // Open Recruiter Modal
   function openRecruiterModal(jobId) {
     const job = state.jobs.find(j => j.id === jobId);
     if (!job) return;
@@ -525,14 +690,21 @@
     el.modalCompName.textContent = job.company;
     el.modalJobTitle.textContent = `${job.title} (${job.city})`;
 
-    // Configure LinkedIn search links
-    const recLinks = job.recruiter || {};
-    el.modalBtnRecruiter.href = recLinks.recruiter_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
-    el.modalBtnManager.href = recLinks.manager_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' engineering manager ' + job.city)}`;
+    const rec = job.recruiter || {};
+    el.modalPocName.textContent = rec.point_of_contact || 'Technical Recruiter';
+    el.modalTeamName.textContent = rec.recruiter_team || `${job.company} Talent Acquisition`;
 
-    // Generate personalized outreach message
+    if (rec.is_verified_partner) {
+      el.modalPartnerBadge.classList.remove('hidden');
+    } else {
+      el.modalPartnerBadge.classList.add('hidden');
+    }
+
+    el.modalBtnRecruiter.href = rec.recruiter_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
+    el.modalBtnManager.href = rec.manager_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' engineering manager ' + job.city)}`;
+
     let note = state.userProfile.outreach_template || '';
-    note = note.replace(/{{recruiter_name}}/g, 'Recruiter / Hiring Lead');
+    note = note.replace(/{{recruiter_name}}/g, rec.point_of_contact || 'Recruiter / Hiring Lead');
     note = note.replace(/{{company}}/g, job.company);
     note = note.replace(/{{job_title}}/g, job.title);
     note = note.replace(/{{location}}/g, job.city);
@@ -549,26 +721,22 @@
     el.recruiterModal.classList.add('hidden');
   }
 
-  // Copy Outreach Message
+  // Copy Outreach Note
   async function copyOutreachMessage() {
     const text = el.modalOutreachText.value;
     try {
       await navigator.clipboard.writeText(text);
       el.copyToast.classList.remove('opacity-0');
-      setTimeout(() => {
-        el.copyToast.classList.add('opacity-0');
-      }, 2500);
+      setTimeout(() => el.copyToast.classList.add('opacity-0'), 2500);
     } catch (err) {
       el.modalOutreachText.select();
       document.execCommand('copy');
       el.copyToast.classList.remove('opacity-0');
-      setTimeout(() => {
-        el.copyToast.classList.add('opacity-0');
-      }, 2500);
+      setTimeout(() => el.copyToast.classList.add('opacity-0'), 2500);
     }
   }
 
-  // Open Profile Modal
+  // Profile modal
   function openProfileModal() {
     el.prefUserName.value = state.userProfile.name || '';
     el.prefRoleTitle.value = (state.userProfile.target_roles || []).join(', ');
@@ -586,7 +754,7 @@
     el.profileModal.classList.add('hidden');
   }
 
-  // Open Saved Jobs Modal
+  // Saved Jobs modal
   function openSavedModal() {
     const saved = state.jobs.filter(j => state.savedJobIds.has(j.id));
     if (saved.length === 0) {
@@ -616,19 +784,22 @@
     if (window.lucide) lucide.createIcons();
   }
 
-  // Event Listeners
+  // Bind Events
   function bindEvents() {
+    // Nav tabs
+    el.navTabJobs.addEventListener('click', () => switchTab('jobs'));
+    el.navTabCompanies.addEventListener('click', () => switchTab('companies'));
+    if (el.mobileTabJobs) el.mobileTabJobs.addEventListener('click', () => switchTab('jobs'));
+    if (el.mobileTabCompanies) el.mobileTabCompanies.addEventListener('click', () => switchTab('companies'));
+
     // Theme toggle
     el.themeToggle.addEventListener('click', toggleTheme);
 
-    // Search bar
+    // Job search
     el.searchInput.addEventListener('input', (e) => {
       state.filters.search = e.target.value;
-      if (e.target.value) {
-        el.searchClear.classList.remove('hidden');
-      } else {
-        el.searchClear.classList.add('hidden');
-      }
+      if (e.target.value) el.searchClear.classList.remove('hidden');
+      else el.searchClear.classList.add('hidden');
       applyFilters();
     });
 
@@ -653,6 +824,28 @@
         applyFilters();
       });
     });
+
+    // Company filter buttons
+    el.compLocButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        el.compLocButtons.forEach(b => {
+          b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+          b.classList.add('text-slate-600', 'dark:text-slate-400');
+        });
+        btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        btn.classList.remove('text-slate-600', 'dark:text-slate-400');
+
+        state.companyFilters.location = btn.getAttribute('data-comp-loc');
+        renderCompanies();
+      });
+    });
+
+    if (el.companySearchInput) {
+      el.companySearchInput.addEventListener('input', (e) => {
+        state.companyFilters.search = e.target.value;
+        renderCompanies();
+      });
+    }
 
     // Select filters
     el.senioritySelect.addEventListener('change', (e) => {
@@ -680,7 +873,7 @@
       applyFilters();
     });
 
-    // Reset buttons
+    // Reset filters
     const resetFn = () => {
       el.searchInput.value = '';
       state.filters.search = '';
@@ -728,7 +921,7 @@
     el.btnSaved.addEventListener('click', openSavedModal);
     el.savedModalClose.addEventListener('click', () => el.savedModal.classList.add('hidden'));
 
-    // Global ESC to close modals/drawers
+    // ESC to close
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         closeJobDrawer();
@@ -750,7 +943,6 @@
     }
   };
 
-  // Launch on DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

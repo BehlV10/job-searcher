@@ -1,13 +1,12 @@
 """
 LinkedIn Public Job Scraper.
-Uses LinkedIn's guest job search API (no login/credentials required).
+Uses LinkedIn's guest job search endpoint (no login/credentials required).
 Scrapes listings for Senior and Staff SWE positions in NYC and Boston.
 """
 
 import re
 import time
 import logging
-import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 from typing import List, Dict, Any
@@ -18,9 +17,9 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
-    parse_location_type,
-    generate_recruiter_links
+    parse_location_type
 )
+from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
@@ -76,19 +75,14 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                 if not title or not company:
                     continue
 
-                # Clean tracking params from apply URL
                 clean_url = apply_url.split("?")[0] if apply_url else ""
-
-                # Extract job ID
                 job_id_match = re.search(r"-(\d+)$", clean_url) or re.search(r"/view/.*?(\d+)", clean_url)
                 job_id = f"li_{job_id_match.group(1)}" if job_id_match else f"li_{abs(hash(title + company))}"
 
-                # Date
                 date_posted = "Recently"
                 if time_elem:
                     date_posted = time_elem.get("datetime") or time_elem.get_text(strip=True)
 
-                # Check if salary was provided in card badge
                 salary_badge = salary_elem.get_text(strip=True) if salary_elem else ""
                 salary_info = parse_salary(salary_badge) if salary_badge else None
 
@@ -98,7 +92,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     city = "New York, NY" if "york" in location.lower() else "Boston, MA"
 
                 seniority = parse_seniority(title)
-                recruiter_links = generate_recruiter_links(company, city, title)
+                recruiter_info = match_recruiter_for_job(company, city, title)
 
                 results.append({
                     "id": job_id,
@@ -112,11 +106,11 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     "apply_url": clean_url or apply_url,
                     "date_posted": date_posted,
                     "salary": salary_info,
-                    "experience": None,  # Can be populated if description fetched
+                    "experience": None,
                     "tech_stack": parse_tech_stack(title),
-                    "snippet": f"Open position for {title} at {company} ({loc_str}).",
+                    "snippet": f"Open position for {title} at {company} ({loc_str}) via LinkedIn.",
                     "description": "",
-                    "recruiter": recruiter_links
+                    "recruiter": recruiter_info
                 })
 
             time.sleep(0.5)

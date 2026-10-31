@@ -1,7 +1,6 @@
 """
 Lever Job Board Scraper.
-Fetches open engineering positions from top tech companies using Lever ATS (Palantir, Spotify, Scale AI, Postman, etc.).
-Lever returns clean plain-text descriptions, salary disclosures, and exact office locations.
+Fetches open engineering positions from top tech companies using Lever ATS (Palantir, Spotify, etc.).
 """
 
 import time
@@ -16,20 +15,16 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
-    parse_location_type,
-    generate_recruiter_links
+    parse_location_type
 )
+from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
-# Top tech companies with Lever boards and NYC / Boston offices
 DEFAULT_LEVER_COMPANIES = [
     {"name": "Palantir", "slug": "palantir"},
     {"name": "Spotify", "slug": "spotify"},
-    {"name": "Scale AI", "slug": "scaleai"},
-    {"name": "Postman", "slug": "postman"},
-    {"name": "Carta", "slug": "carta"},
-    {"name": "Brex", "slug": "brex"}
+    {"name": "Postman", "slug": "postman"}
 ]
 
 
@@ -60,17 +55,15 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             loc_info = parse_location_type(combined_loc)
             city = loc_info["city"]
 
-            # Filter for NYC, Boston, or Remote
             if city not in ["New York, NY", "Boston, MA", "Remote"]:
                 loc_lower = combined_loc.lower()
-                if "new york" in loc_lower or "nyc" in loc_lower:
+                if "new york" in loc_lower or "nyc" in loc_lower or "manhattan" in loc_lower:
                     city = "New York, NY"
                 elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower:
                     city = "Boston, MA"
                 else:
                     continue
 
-            # Senior / Staff SWE check
             title_lower = title.lower()
             swe_terms = ["software", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "data engineer"]
             senior_terms = ["senior", "staff", "lead", "principal", "architect", "manager", "head"]
@@ -88,16 +81,14 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             yoe_info = parse_yoe(full_text)
             tech_stack = parse_tech_stack(full_text)
             seniority = parse_seniority(title)
-            recruiter_links = generate_recruiter_links(company_name, city, title)
+            recruiter_info = match_recruiter_for_job(company_name, city, title)
 
-            # Date posted
             created_at_ms = item.get("createdAt")
             if created_at_ms:
                 date_posted = datetime.datetime.fromtimestamp(created_at_ms / 1000.0).strftime("%Y-%m-%d")
             else:
                 date_posted = "Recently"
 
-            # Workplace type
             work_model = "On-site"
             workplace_type = item.get("workplaceType", "").lower()
             if "remote" in workplace_type:
@@ -123,7 +114,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                 "tech_stack": tech_stack,
                 "snippet": snippet,
                 "description": full_text,
-                "recruiter": recruiter_links
+                "recruiter": recruiter_info
             })
 
         logger.info(f"Lever [{company_name}]: Found {len(results)} matching Senior/Staff jobs.")

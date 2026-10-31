@@ -1,11 +1,10 @@
 """
 Greenhouse Job Board Scraper.
 Fetches open engineering positions from top tech companies using Greenhouse.
-Greenhouse provides complete job descriptions, which contain mandatory NYC/MA salary ranges and YoE.
+Greenhouse provides complete job descriptions containing mandatory NYC/MA salary disclosures and YoE.
 """
 
 import time
-import uuid
 import logging
 import requests
 from bs4 import BeautifulSoup
@@ -17,22 +16,27 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
-    parse_location_type,
-    generate_recruiter_links
+    parse_location_type
 )
+from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
-# Curated top tech companies hiring in NYC / Boston using Greenhouse
+# Expanded curated top tech companies hiring Senior/Staff SWEs in NYC & Boston
 DEFAULT_GREENHOUSE_BOARDS = [
+    {"name": "Toast", "token": "toast"},
+    {"name": "Klaviyo", "token": "klaviyo"},
     {"name": "Datadog", "token": "datadog"},
     {"name": "MongoDB", "token": "mongodb"},
-    {"name": "Cockroach Labs", "token": "cockroachlabs"},
-    {"name": "Figma", "token": "figma"},
-    {"name": "Ramp", "token": "ramp"},
-    {"name": "Etsy", "token": "etsy"},
+    {"name": "Braze", "token": "braze"},
+    {"name": "Oscar Health", "token": "oscar"},
+    {"name": "CarGurus", "token": "cargurus"},
+    {"name": "Formlabs", "token": "formlabs"},
+    {"name": "Starburst Data", "token": "starburst"},
+    {"name": "Betterment", "token": "betterment"},
     {"name": "Squarespace", "token": "squarespace"},
-    {"name": "Flatiron Health", "token": "flatironhealth"}
+    {"name": "Flatiron Health", "token": "flatironhealth"},
+    {"name": "Cockroach Labs", "token": "cockroachlabs"}
 ]
 
 
@@ -64,19 +68,18 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
 
             # Filter for NYC, Boston, or Remote
             if city not in ["New York, NY", "Boston, MA", "Remote"]:
-                # Check if text mentions New York or Boston
                 loc_lower = location_str.lower()
-                if "new york" in loc_lower or "nyc" in loc_lower:
+                if "new york" in loc_lower or "nyc" in loc_lower or "manhattan" in loc_lower:
                     city = "New York, NY"
-                elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower:
+                elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower or "somerville" in loc_lower:
                     city = "Boston, MA"
                 else:
                     continue
 
             # Check if title matches Senior/Staff/Lead engineering roles
             title_lower = title.lower()
-            engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems engineer", "platform"]
-            seniority_keywords = ["senior", "staff", "lead", "principal", "distinguished", "architect"]
+            engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems engineer", "platform", "data engineer", "machine learning"]
+            seniority_keywords = ["senior", "staff", "lead", "principal", "distinguished", "architect", "manager", "head", "director", "sr."]
 
             is_swe = any(k in title_lower for k in engineering_keywords)
             is_senior = any(k in title_lower for k in seniority_keywords)
@@ -91,7 +94,7 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
             yoe_info = parse_yoe(clean_desc)
             tech_stack = parse_tech_stack(clean_desc)
             seniority = parse_seniority(title)
-            recruiter_links = generate_recruiter_links(company_name, city, title)
+            recruiter_info = match_recruiter_for_job(company_name, city, title)
 
             # Greenhouse updated_at date
             updated_at = item.get("updated_at", "")
@@ -118,7 +121,7 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
                 "tech_stack": tech_stack,
                 "snippet": snippet,
                 "description": clean_desc,
-                "recruiter": recruiter_links
+                "recruiter": recruiter_info
             })
 
         logger.info(f"Greenhouse [{company_name}]: Extracted {len(results)} matching Senior/Staff jobs.")
