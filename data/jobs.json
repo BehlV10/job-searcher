@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "last_updated": "2026-10-31 18:31:33 UTC",
-    "total_jobs": 263,
+    "last_updated": "2026-10-31 18:34:37 UTC",
+    "total_jobs": 261,
     "with_salary_count": 102,
-    "nyc_jobs": 118,
-    "boston_jobs": 145,
-    "staff_principal_jobs": 82,
-    "senior_lead_jobs": 166,
+    "nyc_jobs": 117,
+    "boston_jobs": 144,
+    "staff_principal_jobs": 81,
+    "senior_lead_jobs": 165,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -17,7 +17,7 @@
       "Greenhouse": 154,
       "Lever": 13,
       "Built In": 23,
-      "LinkedIn": 73
+      "LinkedIn": 71
     }
   },
   "user_profile": {
@@ -4222,7 +4222,7 @@
       }
     },
     {
-      "id": "builtin_5617696187978318665",
+      "id": "builtin_7420918632537657842",
       "title": "Forward Deployed Software Engineer-Palantir Foundry-Manager",
       "company": "PwC",
       "location": "New York, NY",
@@ -4248,7 +4248,7 @@
       }
     },
     {
-      "id": "builtin_1046157520128850622",
+      "id": "builtin_6443796223757115477",
       "title": "Forward Deployed Software Engineer-Palantir Foundry-Senior Associate",
       "company": "PwC",
       "location": "New York, NY",
@@ -4274,7 +4274,7 @@
       }
     },
     {
-      "id": "builtin_5211247199021732020",
+      "id": "builtin_7689810845841979168",
       "title": "Senior Audio Software Engineer",
       "company": "Bose",
       "location": "Boston, MA",
@@ -4301,7 +4301,7 @@
       }
     },
     {
-      "id": "builtin_8732412495409158715",
+      "id": "builtin_1212850967590516756",
       "title": "Software Engineer (Senior/Staff)",
       "company": "Sailor Health",
       "location": "New York, NY",
@@ -4325,7 +4325,7 @@
       }
     },
     {
-      "id": "builtin_3655712664288359162",
+      "id": "builtin_2411802519611454655",
       "title": "Senior / Staff Platform Software Engineer",
       "company": "Clear Street",
       "location": "New York, NY",
@@ -4353,7 +4353,7 @@
       }
     },
     {
-      "id": "builtin_7689173154853133655",
+      "id": "builtin_5600949816565706226",
       "title": "Principal Fullstack Software Engineer",
       "company": "Atlassian",
       "location": "New York, NY",
@@ -4380,7 +4380,7 @@
       }
     },
     {
-      "id": "builtin_4402973701614618535",
+      "id": "builtin_3462036798334790450",
       "title": "Senior Backend Software Engineer, DX",
       "company": "Atlassian",
       "location": "New York, NY",
@@ -4402,7 +4402,7 @@
       }
     },
     {
-      "id": "builtin_1373033686558710439",
+      "id": "builtin_1181359310412123837",
       "title": "Lead Full Stack Software Engineer",
       "company": "MORSE Corp",
       "location": "Boston, MA",
@@ -4433,7 +4433,7 @@
       }
     },
     {
-      "id": "builtin_914483773377076850",
+      "id": "builtin_1781220981624118296",
       "title": "Senior System Software Engineer - Platform Software",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -4459,7 +4459,7 @@
       }
     },
     {
-      "id": "builtin_7824626175460204104",
+      "id": "builtin_2360773356895897125",
       "title": "Senior System Software Engineer, NVLink Fusion",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -4485,7 +4485,7 @@
       }
     },
     {
-      "id": "builtin_3834207582256748919",
+      "id": "builtin_3595541977027570396",
       "title": "Senior Full-Stack Software Engineer - VLSI Tools",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -4515,7 +4515,7 @@
       }
     },
     {
-      "id": "builtin_6588775409727067419",
+      "id": "builtin_4469821469897481044",
       "title": "Senior Fullstack Software Engineer",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -4544,7 +4544,7 @@
       }
     },
     {
-      "id": "builtin_3134681293193593689",
+      "id": "builtin_8946558564295859497",
       "title": "Senior Computational Scientist / Software Engineer - Feature Scale Process Simulation",
       "company": "Lam Research Corporation",
       "location": "Boston, MA",
@@ -4569,7 +4569,7 @@
       }
     },
     {
-      "id": "builtin_5008012644265798754",
+      "id": "builtin_6469144202104625231",
       "title": "Senior Specialist, Scientific Software Engineer, Digital Insights, DSCS Digital Technologies (Hybrid)",
       "company": "MSD Animal Health Technology Labs",
       "location": "Boston, MA",
@@ -4594,7 +4594,7 @@
       }
     },
     {
-      "id": "builtin_4179253352269527187",
+      "id": "builtin_2314715917347921077",
       "title": "Senior Software Engineer – Storage",
       "company": "Hewlett Packard Enterprise",
       "location": "Boston, MA",
@@ -4621,7 +4621,7 @@
       }
     },
     {
-      "id": "builtin_5609685732858329536",
+      "id": "builtin_5652406609469370015",
       "title": "Senior Software Engineer, iOS",
       "company": "DraftKings",
       "location": "Boston, MA",
@@ -4645,7 +4645,7 @@
       }
     },
     {
-      "id": "builtin_8818110420258176581",
+      "id": "builtin_6199593515385803024",
       "title": "Staff Software Engineer, Provider",
       "company": "Headway",
       "location": "Boston, MA",
@@ -4669,7 +4669,7 @@
       }
     },
     {
-      "id": "builtin_3365769866632310662",
+      "id": "builtin_911368732278275871",
       "title": "Sr. Platform Software Engineer (Linux)",
       "company": "Medtronic",
       "location": "Boston, MA",
@@ -4696,7 +4696,7 @@
       }
     },
     {
-      "id": "builtin_1375660483897108382",
+      "id": "builtin_2682919052331182720",
       "title": "Senior Associate - Software Engineer - Investment Technology",
       "company": "New York Life",
       "location": "New York, NY",
@@ -4730,7 +4730,7 @@
       }
     },
     {
-      "id": "builtin_8442685889557732012",
+      "id": "builtin_6376540252154446003",
       "title": "Sr. Backend Software Engineer (Ad Engineering)",
       "company": "Philo",
       "location": "New York, NY",
@@ -4761,7 +4761,7 @@
       }
     },
     {
-      "id": "builtin_8079454832253871786",
+      "id": "builtin_5306594912128654489",
       "title": "Senior Software Engineer",
       "company": "Justworks",
       "location": "New York, NY",
@@ -4787,7 +4787,7 @@
       }
     },
     {
-      "id": "builtin_8625606533074768372",
+      "id": "builtin_7327814466719228673",
       "title": "Senior Frontend Software Engineer, Flights",
       "company": "Navan",
       "location": "New York, NY",
@@ -4813,7 +4813,7 @@
       }
     },
     {
-      "id": "builtin_6062505786449145250",
+      "id": "builtin_487070579395591280",
       "title": "Staff Software Engineer, Java",
       "company": "NinjaOne",
       "location": "New York, NY",
@@ -5740,32 +5740,6 @@
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20engineering%20manager%20New%20York",
         "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20talent%20acquisition%20New%20York",
         "search_keywords": "Robinhood technical recruiter New York"
-      }
-    },
-    {
-      "id": "li_4466236180",
-      "title": "Staff Software Engineer, Storage - Taulu",
-      "company": "DoorDash",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-storage-taulu-at-doordash-4466236180",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Storage - Taulu at DoorDash (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "DoorDash Talent Acquisition",
-        "is_verified_partner": false,
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20engineering%20manager%20New%20York",
-        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20talent%20acquisition%20New%20York",
-        "search_keywords": "DoorDash technical recruiter New York"
       }
     },
     {
@@ -7296,32 +7270,6 @@
       }
     },
     {
-      "id": "li_4453843217",
-      "title": "Senior Software Engineer - Space Applications - Sign-on Bonus",
-      "company": "BAE Systems, Inc.",
-      "location": "Merrimack, NH",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-space-applications-sign-on-bonus-at-bae-systems-inc-4453843217",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer - Space Applications - Sign-on Bonus at BAE Systems, Inc. (Merrimack, NH) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "BAE Systems, Inc. Talent Acquisition",
-        "is_verified_partner": false,
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20engineering%20manager%20Boston",
-        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20talent%20acquisition%20Boston",
-        "search_keywords": "BAE Systems, Inc. technical recruiter Boston"
-      }
-    },
-    {
       "id": "gh_toast_8045807",
       "title": "Manager II, Software Engineering",
       "company": "Toast",
@@ -7582,6 +7530,32 @@
       }
     },
     {
+      "id": "li_4482483213",
+      "title": "Senior Backend Engineer",
+      "company": "MyOme",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-myome-4482483213",
+      "date_posted": "2026-10-22",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior Backend Engineer at MyOme (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "MyOme Talent Acquisition",
+        "is_verified_partner": false,
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=MyOme%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=MyOme%20engineering%20manager%20Boston",
+        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=MyOme%20talent%20acquisition%20Boston",
+        "search_keywords": "MyOme technical recruiter Boston"
+      }
+    },
+    {
       "id": "gh_toast_8185551",
       "title": "Staff Software Engineer, Backend",
       "company": "Toast",
@@ -7789,34 +7763,6 @@
       }
     },
     {
-      "id": "li_4453958523",
-      "title": "Senior Software Engineer, C++ and CUDA - Analytics and Data Intelligence",
-      "company": "NVIDIA",
-      "location": "Massachusetts, United States",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-c%2B%2B-and-cuda-analytics-and-data-intelligence-at-nvidia-4453958523",
-      "date_posted": "2026-10-19",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "C++"
-      ],
-      "snippet": "Open position for Senior Software Engineer, C++ and CUDA - Analytics and Data Intelligence at NVIDIA (Massachusetts, United States) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "NVIDIA Talent Acquisition",
-        "is_verified_partner": false,
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20engineering%20manager%20Boston",
-        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20talent%20acquisition%20Boston",
-        "search_keywords": "NVIDIA technical recruiter Boston"
-      }
-    },
-    {
       "id": "li_4477736763",
       "title": "Staff Software Engineer, Investors",
       "company": "Carta",
@@ -8004,34 +7950,6 @@
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Starburst%20engineering%20manager%20Boston",
         "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=Starburst%20talent%20acquisition%20Boston",
         "search_keywords": "Starburst technical recruiter Boston"
-      }
-    },
-    {
-      "id": "li_4477715113",
-      "title": "Confluent - Senior Software Engineer - Kafka",
-      "company": "IBM",
-      "location": "Lowell, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/confluent-senior-software-engineer-kafka-at-ibm-4477715113",
-      "date_posted": "2026-10-16",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "Kafka"
-      ],
-      "snippet": "Open position for Confluent - Senior Software Engineer - Kafka at IBM (Lowell, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "IBM Talent Acquisition",
-        "is_verified_partner": false,
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston",
-        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20talent%20acquisition%20Boston",
-        "search_keywords": "IBM technical recruiter Boston"
       }
     },
     {
@@ -8723,6 +8641,32 @@
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=AuthZed%20engineering%20manager%20New%20York",
         "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=AuthZed%20talent%20acquisition%20New%20York",
         "search_keywords": "AuthZed technical recruiter New York"
+      }
+    },
+    {
+      "id": "li_4461986239",
+      "title": "Senior Software Engineer - Mobile (Android)",
+      "company": "Eight Sleep",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-mobile-android-at-eight-sleep-4461986239",
+      "date_posted": "2026-09-05",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior Software Engineer - Mobile (Android) at Eight Sleep (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Eight Sleep Talent Acquisition",
+        "is_verified_partner": false,
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eight%20Sleep%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eight%20Sleep%20engineering%20manager%20Boston",
+        "talent_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eight%20Sleep%20talent%20acquisition%20Boston",
+        "search_keywords": "Eight Sleep technical recruiter Boston"
       }
     },
     {
