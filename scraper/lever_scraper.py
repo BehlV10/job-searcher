@@ -15,6 +15,7 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
+    parse_discipline,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -65,7 +66,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                     continue
 
             title_lower = title.lower()
-            swe_terms = ["software", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "data engineer"]
+            swe_terms = ["software", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "data engineer", "ai engineer"]
             senior_terms = ["senior", "staff", "lead", "principal", "architect", "manager", "head"]
 
             is_swe = any(k in title_lower for k in swe_terms)
@@ -81,6 +82,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             yoe_info = parse_yoe(full_text)
             tech_stack = parse_tech_stack(full_text)
             seniority = parse_seniority(title)
+            discipline = parse_discipline(title, full_text)
             recruiter_info = match_recruiter_for_job(company_name, city, title)
 
             created_at_ms = item.get("createdAt")
@@ -106,6 +108,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                 "city": city,
                 "work_model": work_model,
                 "seniority": seniority,
+                "discipline": discipline,
                 "source": "Lever",
                 "apply_url": item.get("hostedUrl", item.get("applyUrl", "")),
                 "date_posted": date_posted,
@@ -117,7 +120,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                 "recruiter": recruiter_info
             })
 
-        logger.info(f"Lever [{company_name}]: Found {len(results)} matching Senior/Staff jobs.")
+        logger.info(f"Lever [{company_name}]: Found {len(results)} matching jobs.")
         return results
 
     except Exception as e:

@@ -43,7 +43,6 @@ def deduplicate_and_rank_jobs(jobs: List[Dict[str, Any]]) -> List[Dict[str, Any]
     for job in jobs:
         comp = job.get("company", "").strip().lower()
         title = job.get("title", "").strip().lower()
-        # Clean common punctuation differences
         clean_title = title.replace("-", " ").replace("–", " ").replace("/", " ")
         clean_title = " ".join(clean_title.split())
         key = f"{comp}::{clean_title}"
@@ -52,7 +51,6 @@ def deduplicate_and_rank_jobs(jobs: List[Dict[str, Any]]) -> List[Dict[str, Any]
             seen[key] = job
         else:
             existing = seen[key]
-            # Replace if new job has salary and existing doesn't
             if job.get("salary") and not existing.get("salary"):
                 seen[key] = job
             elif len(job.get("description", "")) > len(existing.get("description", "")):
@@ -60,7 +58,6 @@ def deduplicate_and_rank_jobs(jobs: List[Dict[str, Any]]) -> List[Dict[str, Any]
 
     deduped = list(seen.values())
 
-    # Sort: jobs with salary first, then by date posted
     def sort_key(j):
         has_sal = 1 if j.get("salary") else 0
         date = j.get("date_posted", "")
@@ -78,8 +75,16 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
     with_salary = sum(1 for j in jobs if j.get("salary"))
     nyc_count = sum(1 for j in jobs if j.get("city") == "New York, NY")
     boston_count = sum(1 for j in jobs if j.get("city") == "Boston, MA")
-    staff_count = sum(1 for j in jobs if j.get("seniority") in ["Staff", "Principal"])
+
+    # Seniority counts
+    senior_staff_count = sum(1 for j in jobs if j.get("seniority") == "Senior Staff")
+    principal_count = sum(1 for j in jobs if j.get("seniority") == "Principal")
+    staff_count = sum(1 for j in jobs if j.get("seniority") == "Staff")
     senior_count = sum(1 for j in jobs if j.get("seniority") in ["Senior", "Lead"])
+
+    # Discipline counts
+    ml_count = sum(1 for j in jobs if j.get("discipline") == "Machine Learning / AI")
+    general_swe_count = sum(1 for j in jobs if j.get("discipline") != "Machine Learning / AI")
 
     # Source breakdown
     sources_summary = {}
@@ -94,8 +99,12 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "with_salary_count": with_salary,
             "nyc_jobs": nyc_count,
             "boston_jobs": boston_count,
-            "staff_principal_jobs": staff_count,
-            "senior_lead_jobs": senior_count,
+            "senior_staff_jobs": senior_staff_count,
+            "principal_jobs": principal_count,
+            "staff_jobs": staff_count,
+            "senior_jobs": senior_count,
+            "ml_jobs": ml_count,
+            "general_swe_jobs": general_swe_count,
             "sources": ["LinkedIn", "Greenhouse", "Lever", "Built In"],
             "source_breakdown": sources_summary
         },
@@ -112,7 +121,7 @@ def run_pipeline():
 
     collected_jobs = []
 
-    # 1. Scrape Greenhouse boards (Toast, Klaviyo, Datadog, MongoDB, etc.)
+    # 1. Scrape Greenhouse boards
     logger.info("--- [1/4] Scraping Direct Greenhouse ATS Boards ---")
     try:
         gh_jobs = scrape_greenhouse_all()
@@ -121,7 +130,7 @@ def run_pipeline():
     except Exception as e:
         logger.error(f"Error in Greenhouse pipeline: {e}")
 
-    # 2. Scrape Lever boards (Palantir, Spotify, Postman)
+    # 2. Scrape Lever boards
     logger.info("--- [2/4] Scraping Direct Lever ATS Boards ---")
     try:
         lever_jobs = scrape_lever_all()
@@ -175,8 +184,12 @@ def run_pipeline():
     print(f"With Parsed Salary:   {final_payload['metadata']['with_salary_count']}")
     print(f"New York, NY:         {final_payload['metadata']['nyc_jobs']}")
     print(f"Boston, MA:           {final_payload['metadata']['boston_jobs']}")
-    print(f"Staff / Principal:    {final_payload['metadata']['staff_principal_jobs']}")
-    print(f"Senior / Lead:        {final_payload['metadata']['senior_lead_jobs']}")
+    print(f"Senior Staff:         {final_payload['metadata']['senior_staff_jobs']}")
+    print(f"Principal:            {final_payload['metadata']['principal_jobs']}")
+    print(f"Staff:                {final_payload['metadata']['staff_jobs']}")
+    print(f"Senior / Lead:        {final_payload['metadata']['senior_jobs']}")
+    print(f"Machine Learning / AI:{final_payload['metadata']['ml_jobs']}")
+    print(f"General SWE:          {final_payload['metadata']['general_swe_jobs']}")
     print("Source Breakdown:    ", final_payload['metadata']['source_breakdown'])
     print("==================================================\n")
 

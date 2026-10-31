@@ -1,6 +1,6 @@
 """
 Built In Scraper for Built In Boston and Built In NYC.
-Scrapes local tech company job boards from Built In's dev-engineering listings.
+Scrapes local tech company job boards from Built In's dev-engineering and data-analytics/AI listings.
 """
 
 import re
@@ -16,9 +16,10 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
-    parse_location_type,
-    generate_recruiter_links
+    parse_discipline,
+    parse_location_type
 )
+from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
@@ -28,22 +29,19 @@ BUILTIN_SITES = [
     {
         "city": "Boston, MA",
         "domain": "www.builtinboston.com",
-        "url": "https://www.builtinboston.com/jobs/dev-engineering"
+        "categories": ["/jobs/dev-engineering", "/jobs/data-analytics"]
     },
     {
         "city": "New York, NY",
         "domain": "www.builtinnyc.com",
-        "url": "https://www.builtinnyc.com/jobs/dev-engineering"
+        "categories": ["/jobs/dev-engineering", "/jobs/data-analytics"]
     }
 ]
 
 
-def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List[Dict[str, Any]]:
-    """Scrapes engineering job listings from Built In Boston or Built In NYC."""
-    city_name = site_config["city"]
-    domain = site_config["domain"]
-    base_url = site_config["url"]
-
+def scrape_builtin_category(city_name: str, domain: str, category_path: str, max_pages: int = 3) -> List[Dict[str, Any]]:
+    """Scrapes job listings for a specific category from Built In."""
+    base_url = f"https://{domain}{category_path}"
     headers = {
         "User-Agent": USER_AGENT,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -58,19 +56,14 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
         try:
             res = requests.get(page_url, headers=headers, timeout=12)
             if res.status_code != 200:
-                logger.warning(f"Built In [{city_name}] page {page} returned status {res.status_code}")
                 break
 
             soup = BeautifulSoup(res.text, "html.parser")
             cards = soup.find_all("div", {"data-id": "job-card"})
             if not cards:
-                # Fallback to secondary card class
                 cards = soup.find_all("div", class_=re.compile(r"job-bounded-responsive|job-item"))
 
-            logger.info(f"Built In [{city_name}] page {page}: Found {len(cards)} raw cards.")
-
             for card in cards:
-                # Extract Title
                 title_elem = (
                     card.find("a", {"data-id": "job-card-title"}) or
                     card.find("h2") or
@@ -78,7 +71,6 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
                 )
                 title = title_elem.get_text(strip=True) if title_elem else ""
 
-                # Extract Company
                 comp_elem = (
                     card.find("span", {"data-id": "company-title"}) or
                     card.find("a", {"data-id": "company-title"}) or
@@ -89,9 +81,8 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
                 if not title or not company:
                     continue
 
-                # Filter for Software / Engineering roles and Senior / Staff
                 title_lower = title.lower()
-                swe_terms = ["engineer", "developer", "backend", "full stack", "frontend", "infrastructure", "systems", "architect", "platform"]
+                swe_terms = ["engineer", "developer", "backend", "full stack", "frontend", "infrastructure", "systems", "architect", "platform", "machine learning", "data scientist", "ai"]
                 senior_terms = ["senior", "staff", "lead", "principal", "architect", "manager", "head", "sr", "director"]
 
                 is_swe = any(k in title_lower for k in swe_terms)
@@ -99,7 +90,6 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
                 if not (is_swe and is_senior):
                     continue
 
-                # Extract Link
                 job_link = ""
                 if title_elem and title_elem.name == "a" and title_elem.get("href"):
                     job_link = title_elem["href"]
@@ -115,21 +105,19 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
 
                 card_text = card.get_text(" ", strip=True)
 
-                # Parse salary from card text
                 salary_info = parse_salary(card_text)
                 yoe_info = parse_yoe(card_text)
                 tech_stack = parse_tech_stack(card_text)
                 seniority = parse_seniority(title)
+                discipline = parse_discipline(title, card_text)
 
-                # Workplace model
                 work_model = "On-site"
                 if "remote" in card_text.lower():
                     work_model = "Remote"
                 elif "hybrid" in card_text.lower():
                     work_model = "Hybrid"
 
-                recruiter_links = generate_recruiter_links(company, city_name, title)
-
+                recruiter_info = match_recruiter_for_job(company, city_name, title)
                 job_id = f"builtin_{abs(hash(title + company + city_name))}"
 
                 results.append({
@@ -140,31 +128,32 @@ def scrape_builtin_site(site_config: Dict[str, str], max_pages: int = 2) -> List
                     "city": city_name,
                     "work_model": work_model,
                     "seniority": seniority,
+                    "discipline": discipline,
                     "source": "Built In",
                     "apply_url": job_link or f"https://{domain}",
                     "date_posted": "Recently",
                     "salary": salary_info,
                     "experience": yoe_info,
                     "tech_stack": tech_stack,
-                    "snippet": f"Open {seniority} engineering position at {company} in {city_name} via Built In.",
+                    "snippet": f"Open {seniority} role at {company} in {city_name} via Built In.",
                     "description": card_text,
-                    "recruiter": recruiter_links
+                    "recruiter": recruiter_info
                 })
 
-            time.sleep(0.5)
+            time.sleep(0.4)
 
         except Exception as e:
-            logger.error(f"Error scraping Built In [{city_name}]: {e}")
+            logger.error(f"Error scraping Built In [{city_name} {category_path}]: {e}")
             break
 
-    logger.info(f"Built In [{city_name}]: Extracted {len(results)} matching Senior/Staff positions.")
     return results
 
 
 def scrape_builtin_all() -> List[Dict[str, Any]]:
-    """Scrapes Built In Boston and Built In NYC."""
+    """Scrapes Built In Boston and Built In NYC across multiple pages and categories."""
     all_jobs = []
     for site in BUILTIN_SITES:
-        jobs = scrape_builtin_site(site, max_pages=2)
-        all_jobs.extend(jobs)
+        for cat in site["categories"]:
+            jobs = scrape_builtin_category(site["city"], site["domain"], cat, max_pages=3)
+            all_jobs.extend(jobs)
     return all_jobs

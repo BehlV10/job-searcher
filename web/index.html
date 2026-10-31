@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StaffHunt | Senior & Staff SWE Job Board & Recruiter Matcher</title>
-  <meta name="description" content="Automated multi-source job board and recruiter outreach assistant for Senior & Staff Software Engineers in New York and Boston.">
+  <title>StaffHunt | Senior, Staff, Principal & ML Job Board</title>
+  <meta name="description" content="Automated multi-source job board and recruiter matcher for Senior, Staff, Senior Staff, Principal, and Machine Learning engineers in NYC & Boston.">
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -32,7 +32,6 @@
   
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Custom Styling -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-full flex flex-col transition-colors duration-200">
@@ -41,7 +40,7 @@
   <header class="sticky top-0 z-30 glass border-b border-slate-200 dark:border-slate-800 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
       
-      <!-- Brand Logo & Live Pulse -->
+      <!-- Brand Logo -->
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20">
           <i data-lucide="compass" class="w-5 h-5"></i>
@@ -56,11 +55,11 @@
               NYC & Boston
             </span>
           </div>
-          <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">LinkedIn • Built In • Greenhouse • Lever</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">Senior • Staff • Sr. Staff • Principal • ML/AI</p>
         </div>
       </div>
 
-      <!-- Main Navigation Tabs -->
+      <!-- Navigation Tabs -->
       <nav class="hidden md:flex items-center gap-1 bg-slate-100 dark:bg-slate-900 p-1 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-semibold">
         <button id="nav-tab-jobs" class="nav-tab active px-3.5 py-1.5 rounded-lg bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-300 shadow-sm transition-all flex items-center gap-1.5">
           <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
@@ -69,27 +68,27 @@
         </button>
         <button id="nav-tab-companies" class="nav-tab px-3.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center gap-1.5">
           <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
-          <span>Tech Companies & Career Sites</span>
+          <span>Companies & Direct Career Pages</span>
         </button>
       </nav>
 
-      <!-- Navigation Actions & Controls -->
+      <!-- Action Buttons -->
       <div class="flex items-center gap-2">
-        <!-- Pipeline / Saved Jobs Button -->
-        <button id="btn-saved-jobs" class="relative inline-flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-semibold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-brand-500 dark:hover:border-brand-500 transition-all text-slate-700 dark:text-slate-200 shadow-sm">
+        <!-- Saved Jobs Button -->
+        <button id="btn-saved-jobs" class="relative inline-flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-semibold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-brand-500 transition-all text-slate-700 dark:text-slate-200 shadow-sm">
           <i data-lucide="bookmark" class="w-4 h-4 text-amber-500"></i>
           <span class="hidden sm:inline">Saved</span>
           <span id="badge-saved-count" class="w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-[10px] font-bold">0</span>
         </button>
 
-        <!-- Profile & Settings Button -->
-        <button id="btn-open-profile" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-brand-50 dark:bg-brand-950/40 text-brand-700 dark:text-brand-300 border border-brand-200 dark:border-brand-800 hover:bg-brand-100 dark:hover:bg-brand-900/50 transition-all shadow-sm">
+        <!-- Profile Button -->
+        <button id="btn-open-profile" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-brand-50 dark:bg-brand-950/40 text-brand-700 dark:text-brand-300 border border-brand-200 dark:border-brand-800 hover:bg-brand-100 transition-all shadow-sm">
           <i data-lucide="user" class="w-4 h-4"></i>
           <span class="hidden sm:inline">Profile</span>
         </button>
 
         <!-- Dark Mode Toggle -->
-        <button id="btn-theme-toggle" class="p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
+        <button id="btn-theme-toggle" class="p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
           <i data-lucide="moon" class="w-4 h-4 hidden dark:block"></i>
           <i data-lucide="sun" class="w-4 h-4 block dark:hidden"></i>
         </button>
@@ -111,36 +110,41 @@
       </button>
     </div>
 
-    <!-- Hero / Profile Banner -->
+    <!-- Hero Banner -->
     <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-brand-900 via-indigo-900 to-slate-900 text-white p-6 sm:p-8 shadow-xl">
       <div class="relative z-10 max-w-3xl">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-white/10 backdrop-blur-md border border-white/15 mb-3 text-indigo-200">
           <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-300"></i>
-          <span>Multi-Board Aggregator & Recruiter Outreach Copilot</span>
+          <span>Multi-Board Aggregator with Recruiter Profiles & Hiring Posts</span>
         </div>
         <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
-          Senior & Staff SWE Roles in <span class="text-brand-300 underline decoration-brand-400/50">NYC</span> & <span class="text-indigo-300 underline decoration-indigo-400/50">Boston</span>
+          Senior, Staff, Principal & ML Engineering in <span class="text-brand-300 underline decoration-brand-400/50">NYC</span> & <span class="text-indigo-300 underline decoration-indigo-400/50">Boston</span>
         </h1>
         <p class="mt-2 text-slate-300 text-sm sm:text-base leading-relaxed">
-          Aggregating live engineering postings from <strong>Built In Boston</strong>, <strong>Built In NYC</strong>, <strong>LinkedIn</strong>, <strong>Greenhouse</strong>, and <strong>Lever</strong> with parsed salaries, YoE, and matched LinkedIn recruiters.
+          Filter cleanly by <strong>Senior</strong>, <strong>Staff</strong>, <strong>Senior Staff</strong>, <strong>Principal</strong>, or separate <strong>Machine Learning / AI</strong>. Every role is matched with an active LinkedIn recruiter profile and live hiring posts!
         </p>
 
         <!-- Stats Bar -->
         <div class="mt-4 flex flex-wrap items-center gap-2 text-xs">
           <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 backdrop-blur-sm border border-white/10">
             <i data-lucide="briefcase" class="w-3.5 h-3.5 text-brand-300"></i>
-            <span>Total Roles:</span>
+            <span>Total Listings:</span>
             <strong id="metric-total-jobs" class="text-white">--</strong>
           </div>
           <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 backdrop-blur-sm border border-white/10">
-            <i data-lucide="badge-dollar-sign" class="w-3.5 h-3.5 text-emerald-300"></i>
-            <span>With Salary:</span>
-            <strong id="metric-salary-jobs" class="text-white">--</strong>
+            <i data-lucide="cpu" class="w-3.5 h-3.5 text-purple-300"></i>
+            <span>ML / AI Roles:</span>
+            <strong id="metric-ml-jobs" class="text-white">--</strong>
           </div>
           <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 backdrop-blur-sm border border-white/10">
-            <i data-lucide="users" class="w-3.5 h-3.5 text-indigo-300"></i>
-            <span>Recruiter Matched:</span>
-            <strong class="text-white">100%</strong>
+            <i data-lucide="crown" class="w-3.5 h-3.5 text-amber-300"></i>
+            <span>Staff / Principal / Sr Staff:</span>
+            <strong id="metric-staff-jobs" class="text-white">--</strong>
+          </div>
+          <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 backdrop-blur-sm border border-white/10">
+            <i data-lucide="badge-dollar-sign" class="w-3.5 h-3.5 text-emerald-300"></i>
+            <span>With Parsed Salary:</span>
+            <strong id="metric-salary-jobs" class="text-white">--</strong>
           </div>
         </div>
       </div>
@@ -148,59 +152,76 @@
       <div class="absolute right-32 -bottom-20 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
     </div>
 
-    <!-- VIEW 1: JOB LISTINGS SECTION -->
+    <!-- VIEW 1: JOB LISTINGS -->
     <div id="view-job-listings" class="flex flex-col gap-6">
 
       <!-- Search & Multi-Filter Controls -->
       <section class="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col gap-4">
         
-        <!-- Search Bar & Location Pills -->
-        <div class="flex flex-col lg:flex-row items-stretch lg:items-center gap-3">
-          <!-- Search Input -->
-          <div class="relative flex-1">
-            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-              <i data-lucide="search" class="w-4 h-4"></i>
+        <!-- Row 1: Discipline Filter Switch (General SWE vs ML / AI) -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-100 dark:border-slate-800/80">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Discipline:</span>
+            <div class="flex items-center gap-1.5 p-1 bg-slate-100 dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-semibold">
+              <button data-disc="all" class="filter-disc-btn active px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-300 shadow-sm transition-all whitespace-nowrap">
+                All Disciplines (<span id="count-disc-all">0</span>)
+              </button>
+              <button data-disc="General Software" class="filter-disc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all whitespace-nowrap">
+                💻 General SWE / Systems (<span id="count-disc-swe">0</span>)
+              </button>
+              <button data-disc="Machine Learning / AI" class="filter-disc-btn px-3 py-1.5 rounded-lg text-purple-700 dark:text-purple-300 hover:text-purple-900 transition-all whitespace-nowrap">
+                🤖 Machine Learning & AI (<span id="count-disc-ml">0</span>)
+              </button>
             </div>
-            <input 
-              type="text" 
-              id="search-input" 
-              placeholder="Search by role, company, tech stack (e.g. Distributed Systems, Go, Toast, Datadog)..." 
-              class="w-full pl-10 pr-10 py-2.5 text-sm rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-slate-900 dark:text-white placeholder-slate-400 transition-all"
-            >
-            <button id="search-clear" class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hidden">
-              <i data-lucide="x" class="w-4 h-4"></i>
-            </button>
           </div>
 
           <!-- Location Filter Tabs -->
-          <div class="flex items-center gap-1.5 p-1 bg-slate-100 dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 overflow-x-auto text-xs font-semibold">
-            <button data-loc="all" class="filter-loc-btn active px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-300 shadow-sm transition-all whitespace-nowrap">
-              All Locations (<span id="count-loc-all">0</span>)
+          <div class="flex items-center gap-1.5 p-1 bg-slate-100 dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-semibold overflow-x-auto">
+            <button data-loc="all" class="filter-loc-btn active px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-300 shadow-sm whitespace-nowrap">
+              All Metro (<span id="count-loc-all">0</span>)
             </button>
-            <button data-loc="New York, NY" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all whitespace-nowrap">
-              🗽 New York, NY (<span id="count-loc-nyc">0</span>)
+            <button data-loc="New York, NY" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 whitespace-nowrap">
+              🗽 NYC (<span id="count-loc-nyc">0</span>)
             </button>
-            <button data-loc="Boston, MA" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all whitespace-nowrap">
-              🏛️ Boston, MA (<span id="count-loc-boston">0</span>)
+            <button data-loc="Boston, MA" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 whitespace-nowrap">
+              🏛️ Boston (<span id="count-loc-boston">0</span>)
             </button>
-            <button data-loc="Remote" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all whitespace-nowrap">
+            <button data-loc="Remote" class="filter-loc-btn px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 whitespace-nowrap">
               🌐 Remote
             </button>
           </div>
         </div>
 
-        <!-- Secondary Filters Row -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3 pt-2 border-t border-slate-100 dark:border-slate-800/80 text-xs">
+        <!-- Row 2: Search Input -->
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </div>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Search role title, company, or tech (e.g. Distributed Systems, Go, LLM, PyTorch, Toast)..." 
+            class="w-full pl-10 pr-10 py-2.5 text-sm rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-slate-900 dark:text-white placeholder-slate-400 transition-all"
+          >
+          <button id="search-clear" class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 hidden">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+        <!-- Row 3: Granular Dropdown Selectors -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3 pt-1 text-xs">
           
-          <!-- Seniority Filter -->
+          <!-- Seniority Filter: Senior, Staff, Senior Staff, Principal -->
           <div class="flex flex-col gap-1">
             <label class="font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
-              <i data-lucide="award" class="w-3.5 h-3.5 text-brand-500"></i> Seniority
+              <i data-lucide="award" class="w-3.5 h-3.5 text-brand-500"></i> Seniority Level
             </label>
             <select id="filter-seniority" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
               <option value="all">All Levels</option>
-              <option value="Staff">Staff & Principal</option>
               <option value="Senior">Senior & Lead</option>
+              <option value="Staff">Staff</option>
+              <option value="Senior Staff">Senior Staff</option>
+              <option value="Principal">Principal / Distinguished</option>
               <option value="Engineering Manager">Engineering Manager</option>
             </select>
           </div>
@@ -239,7 +260,7 @@
               <i data-lucide="layers" class="w-3.5 h-3.5 text-purple-500"></i> Source Board
             </label>
             <select id="filter-source" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
-              <option value="all">All Sources (Built In, GH, Lever, LinkedIn)</option>
+              <option value="all">All Sources</option>
               <option value="Built In">Built In (Boston & NYC)</option>
               <option value="Greenhouse">Greenhouse (Direct ATS)</option>
               <option value="Lever">Lever (Direct ATS)</option>
@@ -255,7 +276,7 @@
             <select id="sort-by" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
               <option value="salary-desc">Highest Salary First</option>
               <option value="date-desc">Newest Listings First</option>
-              <option value="seniority-desc">Seniority (Staff/Principal)</option>
+              <option value="seniority-desc">Seniority Tier</option>
               <option value="company-asc">Company Name (A-Z)</option>
             </select>
           </div>
@@ -290,7 +311,7 @@
         </div>
         <h3 class="text-lg font-bold text-slate-800 dark:text-slate-100">No jobs match your criteria</h3>
         <p class="text-sm text-slate-500 dark:text-slate-400 max-w-md mx-auto mt-1">
-          Try broadening your search keyword or switching between NYC and Boston.
+          Try switching between Senior, Staff, Senior Staff, and Principal, or selecting All Disciplines.
         </p>
         <button id="btn-empty-reset" class="mt-4 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold shadow-md transition-all">
           Reset All Filters
@@ -310,7 +331,7 @@
               <span>NYC & Boston Software Companies Directory</span>
             </h2>
             <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
-              Direct access to official company career portals, ATS application boards, and targeted recruiter contacts.
+              Direct access to official company career portals, ATS boards, and targeted recruiter contacts.
             </p>
           </div>
 
@@ -343,9 +364,7 @@
       </section>
 
       <!-- Companies Grid -->
-      <div id="companies-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <!-- Rendered dynamically via app.js -->
-      </div>
+      <div id="companies-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
     </div>
 
@@ -376,51 +395,59 @@
         </button>
       </div>
 
-      <!-- Point of Contact Banner -->
-      <div class="p-3.5 rounded-xl bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-900/60 flex items-center justify-between text-xs">
+      <!-- Point of Contact Banner with Direct Profile Link -->
+      <div class="p-4 rounded-xl bg-gradient-to-r from-brand-50 to-indigo-50 dark:from-brand-950/50 dark:to-indigo-950/50 border border-brand-200 dark:border-brand-900/60 flex items-center justify-between text-xs">
         <div>
-          <span class="text-slate-500 dark:text-slate-400 block text-[10px] font-bold uppercase tracking-wider">Matched LinkedIn Point of Contact</span>
-          <strong id="modal-poc-name" class="text-brand-900 dark:text-brand-200 font-bold text-xs">Technical Recruiting Team</strong>
+          <span class="text-slate-500 dark:text-slate-400 block text-[10px] font-bold uppercase tracking-wider">Matched Recruiter / Point of Contact</span>
+          <strong id="modal-poc-name" class="text-brand-900 dark:text-brand-200 font-bold text-sm block mt-0.5">Technical Recruiter</strong>
+          <span id="modal-team-name" class="text-[11px] text-slate-600 dark:text-slate-300">Talent Acquisition</span>
         </div>
-        <span id="modal-team-name" class="text-[11px] font-medium text-slate-600 dark:text-slate-300 bg-white/70 dark:bg-slate-900/70 px-2 py-1 rounded-md border border-slate-200 dark:border-slate-800">
-          Talent Acquisition
-        </span>
+        <a id="modal-btn-direct-profile" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs flex items-center gap-1.5 shadow-md shadow-brand-500/20 transition-all">
+          <i data-lucide="user" class="w-3.5 h-3.5"></i>
+          <span>LinkedIn Profile</span>
+          <i data-lucide="external-link" class="w-3 h-3"></i>
+        </a>
       </div>
 
-      <!-- Step 1: Find the Recruiter / Hiring Team on LinkedIn -->
+      <!-- Action Links -->
       <div class="flex flex-col gap-2">
-        <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Step 1 • Connect with Hiring Team on LinkedIn</span>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-400">LinkedIn Outreach Options</span>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          <a id="modal-btn-hiring-posts" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 hover:border-brand-500 group transition-all text-xs font-semibold text-slate-700 dark:text-slate-200">
+            <div class="flex items-center gap-2">
+              <i data-lucide="megaphone" class="w-4 h-4 text-amber-500"></i>
+              <span>Hiring Posts</span>
+            </div>
+            <i data-lucide="external-link" class="w-3 h-3 text-slate-400 group-hover:text-amber-500"></i>
+          </a>
           <a id="modal-btn-recruiter" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 hover:border-brand-500 group transition-all text-xs font-semibold text-slate-700 dark:text-slate-200">
             <div class="flex items-center gap-2">
               <i data-lucide="users" class="w-4 h-4 text-brand-500"></i>
-              <span>Technical Recruiters</span>
+              <span>All Recruiters</span>
             </div>
-            <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-500"></i>
+            <i data-lucide="external-link" class="w-3 h-3 text-slate-400 group-hover:text-brand-500"></i>
           </a>
           <a id="modal-btn-manager" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 hover:border-brand-500 group transition-all text-xs font-semibold text-slate-700 dark:text-slate-200">
             <div class="flex items-center gap-2">
               <i data-lucide="user-check" class="w-4 h-4 text-indigo-500"></i>
-              <span>Engineering Managers</span>
+              <span>Eng Managers</span>
             </div>
-            <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400 group-hover:text-indigo-500"></i>
+            <i data-lucide="external-link" class="w-3 h-3 text-slate-400 group-hover:text-indigo-500"></i>
           </a>
         </div>
       </div>
 
-      <!-- Step 2: Personalized Cold Outreach Message -->
+      <!-- Personalized Note -->
       <div class="flex flex-col gap-2">
         <div class="flex items-center justify-between">
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Step 2 • Personalized Outreach Note</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Personalized Cold Outreach Note</span>
           <span class="text-[11px] text-slate-400">Tailored for InMail & connection notes</span>
         </div>
-        <div class="relative">
-          <textarea 
-            id="modal-outreach-text" 
-            rows="6" 
-            class="w-full text-xs font-mono p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-slate-800 dark:text-slate-200 resize-none leading-relaxed"
-          ></textarea>
-        </div>
+        <textarea 
+          id="modal-outreach-text" 
+          rows="5" 
+          class="w-full text-xs font-mono p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-slate-800 dark:text-slate-200 resize-none leading-relaxed"
+        ></textarea>
       </div>
 
       <!-- Modal Footer -->
@@ -428,12 +455,10 @@
         <span id="copy-toast" class="text-xs text-emerald-600 dark:text-emerald-400 font-semibold opacity-0 transition-opacity">
           ✓ Message copied to clipboard!
         </span>
-        <div class="flex items-center gap-2 ml-auto">
-          <button id="modal-btn-copy" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-500/20 transition-all">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-            <span>Copy Outreach Message</span>
-          </button>
-        </div>
+        <button id="modal-btn-copy" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold shadow-md shadow-brand-500/20 transition-all ml-auto">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+          <span>Copy Outreach Message</span>
+        </button>
       </div>
 
     </div>
@@ -447,6 +472,7 @@
       <div class="flex-1">
         <div class="flex items-center gap-2 mb-1">
           <span id="drawer-company" class="font-bold text-sm text-brand-600 dark:text-brand-400">Company</span>
+          <span id="drawer-discipline" class="px-2 py-0.5 rounded text-[10px] font-semibold bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800">Discipline</span>
           <span id="drawer-source" class="px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">Board</span>
         </div>
         <h2 id="drawer-title" class="text-xl font-extrabold text-slate-900 dark:text-white leading-tight">Job Title</h2>
@@ -472,7 +498,7 @@
       </div>
     </div>
 
-    <!-- Drawer Content (Scrollable) -->
+    <!-- Drawer Content -->
     <div class="flex-1 overflow-y-auto p-6 space-y-6">
       <!-- Tech Stack Tags -->
       <div>
@@ -480,15 +506,20 @@
         <div id="drawer-tech-stack" class="flex flex-wrap gap-1.5"></div>
       </div>
 
-      <!-- Matched Recruiter Card -->
+      <!-- Recruiter Profile Card in Drawer -->
       <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex items-center justify-between">
         <div>
-          <span class="text-[10px] font-bold text-slate-400 uppercase">Recruiting Point of Contact</span>
+          <span class="text-[10px] font-bold text-slate-400 uppercase">Recruiting Contact / Advertising Lead</span>
           <p id="drawer-recruiter-poc" class="font-bold text-xs text-slate-900 dark:text-white mt-0.5">Technical Recruiter</p>
         </div>
-        <button id="drawer-btn-outreach-inline" class="px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold transition-all shadow-sm flex items-center gap-1">
-          <i data-lucide="send" class="w-3 h-3"></i> Message
-        </button>
+        <div class="flex items-center gap-1.5">
+          <a id="drawer-btn-recruiter-profile" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-bold transition-all flex items-center gap-1">
+            <i data-lucide="user" class="w-3 h-3 text-brand-500"></i> Profile
+          </a>
+          <button id="drawer-btn-outreach-inline" class="px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold transition-all shadow-sm flex items-center gap-1">
+            <i data-lucide="send" class="w-3 h-3"></i> Message
+          </button>
+        </div>
       </div>
 
       <!-- Description Body -->
@@ -502,7 +533,7 @@
 
     <!-- Drawer Sticky Action Footer -->
     <div class="p-4 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex items-center justify-between gap-3">
-      <button id="drawer-btn-outreach" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl border border-brand-500 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-bold transition-all">
+      <button id="drawer-btn-outreach" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl border border-brand-500 text-brand-600 dark:text-brand-300 hover:bg-brand-50 text-xs font-bold transition-all">
         <i data-lucide="send" class="w-3.5 h-3.5"></i>
         <span>Contact Recruiter</span>
       </button>
@@ -522,14 +553,10 @@
           <i data-lucide="sliders" class="w-5 h-5 text-brand-500"></i>
           <span>Candidate Search Profile</span>
         </h3>
-        <button id="profile-modal-close" class="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+        <button id="profile-modal-close" class="p-1 rounded-lg text-slate-400 hover:text-slate-600">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
-
-      <p class="text-xs text-slate-500 dark:text-slate-400">
-        Customize your candidate profile and cold outreach pitch. Saved locally in your browser.
-      </p>
 
       <div class="space-y-3 text-xs">
         <div>
@@ -541,9 +568,8 @@
           <input type="text" id="pref-role-title" class="w-full px-3 py-2 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:ring-1 focus:ring-brand-500">
         </div>
         <div>
-          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Default Outreach Pitch Template</label>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Default Cold Outreach Note</label>
           <textarea id="pref-outreach-template" rows="5" class="w-full px-3 py-2 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:ring-1 focus:ring-brand-500 font-mono text-[11px]"></textarea>
-          <span class="text-[10px] text-slate-400 mt-1 block">Variables: {{recruiter_name}}, {{company}}, {{job_title}}, {{location}}, {{user_name}}</span>
         </div>
       </div>
 
@@ -563,14 +589,12 @@
           <i data-lucide="bookmark" class="w-5 h-5 text-amber-500"></i>
           <h3 class="font-bold text-lg text-slate-900 dark:text-white">Saved Jobs & Pipeline</h3>
         </div>
-        <button id="saved-modal-close" class="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+        <button id="saved-modal-close" class="p-1 rounded-lg text-slate-400 hover:text-slate-600">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
-      <div id="saved-jobs-list" class="flex-1 overflow-y-auto space-y-2 text-xs">
-        <!-- Rendered saved cards -->
-      </div>
+      <div id="saved-jobs-list" class="flex-1 overflow-y-auto space-y-2 text-xs"></div>
     </div>
   </div>
 
@@ -579,15 +603,14 @@
     <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
       <div class="flex items-center gap-2">
         <span class="font-bold text-slate-700 dark:text-slate-300">StaffHunt</span>
-        <span>• Live Aggregator for Senior & Staff SWEs (NYC & Boston)</span>
+        <span>• Senior, Staff, Principal & ML/AI SWE Board (NYC & Boston)</span>
       </div>
       <div>
-        <span>Automated twice-daily via GitHub Actions • Zero server maintenance</span>
+        <span>Automated twice-daily via GitHub Actions</span>
       </div>
     </div>
   </footer>
 
-  <!-- Application Logic -->
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 /**
  * StaffHunt - Frontend Application Logic
- * Multi-board search, filtering, recruiter outreach copilot,
- * tech companies directory, and application pipeline tracking.
+ * Multi-board search, granular seniority (Senior, Staff, Senior Staff, Principal),
+ * ML/AI vs General SWE separation, recruiter direct profiles & hiring posts.
  */
 
 (function () {
@@ -14,10 +14,10 @@
     filteredJobs: [],
     filteredCompanies: [],
     metadata: {},
-    activeTab: 'jobs', // 'jobs' | 'companies'
+    activeTab: 'jobs',
     userProfile: {
       name: "Varun Behl",
-      target_roles: ["Staff Software Engineer", "Senior Software Engineer"],
+      target_roles: ["Staff Software Engineer", "Senior Software Engineer", "Senior Staff Software Engineer", "Principal Software Engineer"],
       target_locations: ["New York, NY", "Boston, MA"],
       min_salary: 180000,
       outreach_template: "Hi {{recruiter_name}},\n\nI noticed {{company}} is hiring for a {{job_title}} in {{location}}. With extensive experience architecting high-scale distributed systems and leading engineering initiatives, I'm very excited about {{company}}'s mission.\n\nI've attached my resume and would love to connect for a quick 10-minute chat if you're open to it.\n\nBest regards,\n{{user_name}}"
@@ -25,8 +25,9 @@
     savedJobIds: new Set(JSON.parse(localStorage.getItem('staffhunt_saved') || '[]')),
     filters: {
       search: '',
+      discipline: 'all', // 'all' | 'General Software' | 'Machine Learning / AI'
       location: 'all',
-      seniority: 'all',
+      seniority: 'all',  // 'all' | 'Senior' | 'Staff' | 'Senior Staff' | 'Principal' | 'Engineering Manager'
       minSalary: 180000,
       minYoE: 'all',
       source: 'all',
@@ -55,6 +56,7 @@
     emptyState: document.getElementById('empty-state'),
     searchInput: document.getElementById('search-input'),
     searchClear: document.getElementById('search-clear'),
+    discButtons: document.querySelectorAll('.filter-disc-btn'),
     locButtons: document.querySelectorAll('.filter-loc-btn'),
     senioritySelect: document.getElementById('filter-seniority'),
     salarySelect: document.getElementById('filter-salary'),
@@ -67,9 +69,14 @@
     salaryBadge: document.getElementById('salary-filter-badge'),
     metricTotal: document.getElementById('metric-total-jobs'),
     metricSalary: document.getElementById('metric-salary-jobs'),
+    metricMl: document.getElementById('metric-ml-jobs'),
+    metricStaff: document.getElementById('metric-staff-jobs'),
     countLocAll: document.getElementById('count-loc-all'),
     countLocNyc: document.getElementById('count-loc-nyc'),
     countLocBoston: document.getElementById('count-loc-boston'),
+    countDiscAll: document.getElementById('count-disc-all'),
+    countDiscSwe: document.getElementById('count-disc-swe'),
+    countDiscMl: document.getElementById('count-disc-ml'),
     btnSaved: document.getElementById('btn-saved-jobs'),
     badgeSavedCount: document.getElementById('badge-saved-count'),
     themeToggle: document.getElementById('btn-theme-toggle'),
@@ -91,6 +98,8 @@
     modalPocName: document.getElementById('modal-poc-name'),
     modalTeamName: document.getElementById('modal-team-name'),
     modalPartnerBadge: document.getElementById('modal-partner-badge'),
+    modalBtnDirectProfile: document.getElementById('modal-btn-direct-profile'),
+    modalBtnHiringPosts: document.getElementById('modal-btn-hiring-posts'),
     modalBtnRecruiter: document.getElementById('modal-btn-recruiter'),
     modalBtnManager: document.getElementById('modal-btn-manager'),
     modalOutreachText: document.getElementById('modal-outreach-text'),
@@ -102,6 +111,7 @@
     drawer: document.getElementById('job-drawer'),
     drawerClose: document.getElementById('drawer-close'),
     drawerCompany: document.getElementById('drawer-company'),
+    drawerDiscipline: document.getElementById('drawer-discipline'),
     drawerSource: document.getElementById('drawer-source'),
     drawerTitle: document.getElementById('drawer-title'),
     drawerLocation: document.getElementById('drawer-location'),
@@ -110,6 +120,7 @@
     drawerExperience: document.getElementById('drawer-experience'),
     drawerTechStack: document.getElementById('drawer-tech-stack'),
     drawerRecruiterPoc: document.getElementById('drawer-recruiter-poc'),
+    drawerBtnRecruiterProfile: document.getElementById('drawer-btn-recruiter-profile'),
     drawerDescription: document.getElementById('drawer-description'),
     drawerBtnApply: document.getElementById('drawer-btn-apply'),
     drawerBtnOutreach: document.getElementById('drawer-btn-outreach'),
@@ -138,7 +149,6 @@
     await Promise.all([fetchJobs(), fetchCompanies()]);
   }
 
-  // Theme setup
   function initTheme() {
     const isDark = localStorage.getItem('staffhunt_theme') === 'dark' ||
       (!('staffhunt_theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -155,7 +165,6 @@
     if (window.lucide) lucide.createIcons();
   }
 
-  // Profile
   function loadProfile() {
     const stored = localStorage.getItem('staffhunt_profile');
     if (stored) {
@@ -167,7 +176,7 @@
     }
   }
 
-  // Fetch Jobs Data
+  // Fetch Jobs
   async function fetchJobs() {
     try {
       const response = await fetch('jobs.json?t=' + Date.now());
@@ -212,20 +221,29 @@
     const nyc = state.jobs.filter(j => j.city === 'New York, NY').length;
     const boston = state.jobs.filter(j => j.city === 'Boston, MA').length;
 
+    const mlCount = state.jobs.filter(j => j.discipline === 'Machine Learning / AI').length;
+    const sweCount = total - mlCount;
+    const staffTierCount = state.jobs.filter(j => ['Staff', 'Senior Staff', 'Principal'].includes(j.seniority)).length;
+
     if (el.metricTotal) el.metricTotal.textContent = total;
     if (el.metricSalary) el.metricSalary.textContent = withSalary;
+    if (el.metricMl) el.metricMl.textContent = mlCount;
+    if (el.metricStaff) el.metricStaff.textContent = staffTierCount;
+
     if (el.countLocAll) el.countLocAll.textContent = total;
     if (el.countLocNyc) el.countLocNyc.textContent = nyc;
     if (el.countLocBoston) el.countLocBoston.textContent = boston;
-    if (el.badgeNavJobsCount) el.badgeNavJobsCount.textContent = total;
 
+    if (el.countDiscAll) el.countDiscAll.textContent = total;
+    if (el.countDiscSwe) el.countDiscSwe.textContent = sweCount;
+    if (el.countDiscMl) el.countDiscMl.textContent = mlCount;
+
+    if (el.badgeNavJobsCount) el.badgeNavJobsCount.textContent = total;
     updateSavedBadge();
   }
 
   function updateSavedBadge() {
-    if (el.badgeSavedCount) {
-      el.badgeSavedCount.textContent = state.savedJobIds.size;
-    }
+    if (el.badgeSavedCount) el.badgeSavedCount.textContent = state.savedJobIds.size;
   }
 
   function updateCompanyCounts() {
@@ -238,7 +256,7 @@
     if (el.countCompBoston) el.countCompBoston.textContent = boston;
   }
 
-  // Tab Switching
+  // Tab switching
   function switchTab(tab) {
     state.activeTab = tab;
     if (tab === 'jobs') {
@@ -272,13 +290,22 @@
     if (window.lucide) lucide.createIcons();
   }
 
-  // Filter Jobs Logic
+  // Filter Jobs
   function applyFilters() {
-    const { search, location, seniority, minSalary, minYoE, source, sortBy } = state.filters;
+    const { search, discipline, location, seniority, minSalary, minYoE, source, sortBy } = state.filters;
     const searchLower = search.trim().toLowerCase();
 
     state.filteredJobs = state.jobs.filter(job => {
-      // 1. Search Query
+      // 1. Discipline Filter (General SWE vs ML / AI)
+      if (discipline !== 'all') {
+        if (discipline === 'Machine Learning / AI') {
+          if (job.discipline !== 'Machine Learning / AI') return false;
+        } else if (discipline === 'General Software') {
+          if (job.discipline === 'Machine Learning / AI') return false;
+        }
+      }
+
+      // 2. Search Query
       if (searchLower) {
         const titleMatch = job.title.toLowerCase().includes(searchLower);
         const compMatch = job.company.toLowerCase().includes(searchLower);
@@ -287,7 +314,7 @@
         if (!titleMatch && !compMatch && !descMatch && !stackMatch) return false;
       }
 
-      // 2. Location
+      // 3. Location
       if (location !== 'all') {
         if (location === 'Remote') {
           if (job.work_model !== 'Remote' && job.city !== 'Remote') return false;
@@ -296,37 +323,39 @@
         }
       }
 
-      // 3. Seniority
+      // 4. Granular Seniority: Senior, Staff, Senior Staff, Principal
       if (seniority !== 'all') {
-        if (seniority === 'Staff') {
-          if (!['Staff', 'Principal'].includes(job.seniority)) return false;
+        if (seniority === 'Senior Staff') {
+          if (job.seniority !== 'Senior Staff') return false;
+        } else if (seniority === 'Staff') {
+          if (job.seniority !== 'Staff') return false;
+        } else if (seniority === 'Principal') {
+          if (job.seniority !== 'Principal') return false;
         } else if (seniority === 'Senior') {
           if (!['Senior', 'Lead'].includes(job.seniority)) return false;
-        } else if (job.seniority !== seniority) {
-          return false;
+        } else if (seniority === 'Engineering Manager') {
+          if (job.seniority !== 'Engineering Manager') return false;
         }
       }
 
-      // 4. Minimum Salary
+      // 5. Min Salary
       if (minSalary > 0 && job.salary) {
         if (job.salary.max < minSalary) return false;
       }
 
-      // 5. Years of Experience
+      // 6. Experience (YoE)
       if (minYoE !== 'all') {
         const reqYoE = parseInt(minYoE, 10);
         if (job.experience && job.experience.min_years < reqYoE) return false;
       }
 
-      // 6. Source Board
-      if (source !== 'all' && job.source !== source) {
-        return false;
-      }
+      // 7. Source
+      if (source !== 'all' && job.source !== source) return false;
 
       return true;
     });
 
-    // Sorting
+    // Sort
     state.filteredJobs.sort((a, b) => {
       if (sortBy === 'salary-desc') {
         const salA = a.salary ? a.salary.max : 0;
@@ -336,7 +365,7 @@
       } else if (sortBy === 'date-desc') {
         return (b.date_posted || '').localeCompare(a.date_posted || '');
       } else if (sortBy === 'seniority-desc') {
-        const score = (s) => (s === 'Principal' ? 4 : s === 'Staff' ? 3 : s === 'Lead' ? 2 : 1);
+        const score = (s) => (s === 'Principal' ? 5 : s === 'Senior Staff' ? 4 : s === 'Staff' ? 3 : s === 'Lead' ? 2 : 1);
         return score(b.seniority) - score(a.seniority);
       } else if (sortBy === 'company-asc') {
         return a.company.localeCompare(b.company);
@@ -371,10 +400,29 @@
       const isSaved = state.savedJobIds.has(job.id);
       const initial = (job.company || 'C').charAt(0).toUpperCase();
 
-      let seniorityBadgeClass = 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-900';
-      if (['Staff', 'Principal'].includes(job.seniority)) {
-        seniorityBadgeClass = 'bg-purple-50 text-purple-700 dark:bg-purple-950/60 dark:text-purple-300 border-purple-200 dark:border-purple-900';
+      // Seniority Styling
+      let seniorityBadgeClass = 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 border-slate-200 dark:border-slate-700';
+      if (job.seniority === 'Senior Staff') {
+        seniorityBadgeClass = 'bg-amber-100 text-amber-900 dark:bg-amber-950/70 dark:text-amber-300 border-amber-300 dark:border-amber-800 font-bold';
+      } else if (job.seniority === 'Principal') {
+        seniorityBadgeClass = 'bg-purple-100 text-purple-900 dark:bg-purple-950/70 dark:text-purple-300 border-purple-300 dark:border-purple-800 font-bold';
+      } else if (job.seniority === 'Staff') {
+        seniorityBadgeClass = 'bg-indigo-100 text-indigo-900 dark:bg-indigo-950/70 dark:text-indigo-300 border-indigo-300 dark:border-indigo-800 font-bold';
+      } else if (job.seniority === 'Senior') {
+        seniorityBadgeClass = 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-900';
       }
+
+      // Discipline Badge
+      const isML = job.discipline === 'Machine Learning / AI';
+      const disciplineBadge = isML ? `
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950/80 dark:text-fuchsia-300 border border-fuchsia-200 dark:border-fuchsia-800">
+          <i data-lucide="cpu" class="w-3 h-3"></i> ML / AI
+        </span>
+      ` : `
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+          General SWE
+        </span>
+      `;
 
       // Salary badge
       let salaryHtml = '';
@@ -406,8 +454,10 @@
 
       // Recruiter info
       const rec = job.recruiter || {};
-      const pocTitle = rec.point_of_contact || 'Technical Recruiter';
-      const isVerified = rec.is_verified_partner;
+      const recName = rec.recruiter_name || 'Technical Recruiter';
+      const pocTitle = rec.point_of_contact || 'Talent Lead';
+      const recProfileUrl = rec.profile_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
+      const hiringPostsUrl = rec.hiring_posts_url || `https://www.linkedin.com/search/results/content/?keywords=${encodeURIComponent(job.company + ' "hiring" ' + job.title)}`;
 
       // Tech tags
       const tags = (job.tech_stack || []).slice(0, 4);
@@ -434,6 +484,7 @@
                   <span class="inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-semibold border ${seniorityBadgeClass}">
                     ${job.seniority}
                   </span>
+                  ${disciplineBadge}
                   <span class="px-2 py-0.5 rounded-md text-[10px] font-semibold bg-slate-100 dark:bg-slate-800/80 text-slate-500 dark:text-slate-400">
                     ${job.source}
                   </span>
@@ -453,17 +504,33 @@
                     <i data-lucide="calendar" class="w-3.5 h-3.5 text-slate-400"></i>
                     ${job.date_posted}
                   </span>
-                  <!-- Matched Recruiter Pill -->
-                  <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-900">
-                    <i data-lucide="users" class="w-3 h-3 text-brand-500"></i>
-                    <span>Recruiter: ${pocTitle}</span>
-                    ${isVerified ? '<i data-lucide="check" class="w-3 h-3 text-emerald-500 font-bold"></i>' : ''}
-                  </span>
                 </div>
+
+                <!-- Recruiter / Advertised By Bar -->
+                <div class="mt-2.5 pt-2 border-t border-slate-100 dark:border-slate-800/60 flex items-center gap-2 text-xs flex-wrap" onclick="event.stopPropagation()">
+                  <span class="text-[11px] text-slate-400 font-medium">Recruiter POC:</span>
+                  <strong class="text-slate-700 dark:text-slate-300 font-semibold">${recName}</strong>
+                  <span class="text-[11px] text-slate-400">(${pocTitle})</span>
+                  
+                  <!-- Direct Recruiter LinkedIn Profile Link -->
+                  <a href="${recProfileUrl}" target="_blank" rel="noopener noreferrer" class="ml-1 inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-brand-50 hover:bg-brand-100 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-900 transition-colors" title="View recruiter LinkedIn profile">
+                    <i data-lucide="user" class="w-3 h-3 text-brand-600"></i>
+                    <span>LinkedIn Profile</span>
+                    <i data-lucide="external-link" class="w-2.5 h-2.5 text-brand-400"></i>
+                  </a>
+
+                  <!-- Direct Hiring Posts Link -->
+                  <a href="${hiringPostsUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-amber-50 hover:bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-200 dark:border-amber-900 transition-colors" title="Find people advertising this job on LinkedIn">
+                    <i data-lucide="megaphone" class="w-3 h-3 text-amber-600"></i>
+                    <span>Hiring Posts</span>
+                    <i data-lucide="external-link" class="w-2.5 h-2.5 text-amber-400"></i>
+                  </a>
+                </div>
+
               </div>
             </div>
 
-            <!-- Right: Salary & Actions -->
+            <!-- Right: Salary & Quick Actions -->
             <div class="flex sm:flex-col items-center sm:items-end justify-between sm:justify-start gap-3 shrink-0">
               <div class="flex flex-wrap items-center gap-2">
                 ${salaryHtml}
@@ -473,9 +540,9 @@
               <!-- Action buttons -->
               <div class="flex items-center gap-2">
                 <!-- Outreach button -->
-                <button class="btn-outreach px-3 py-1.5 rounded-xl border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-semibold flex items-center gap-1.5 transition-all shadow-sm" data-job-id="${job.id}" title="Match with Recruiter on LinkedIn">
+                <button class="btn-outreach px-3 py-1.5 rounded-xl border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-300 hover:bg-brand-50 dark:hover:bg-brand-950/40 text-xs font-semibold flex items-center gap-1.5 transition-all shadow-sm" data-job-id="${job.id}" title="Open outreach copilot">
                   <i data-lucide="send" class="w-3 h-3"></i>
-                  <span>Outreach</span>
+                  <span>Message</span>
                 </button>
 
                 <!-- Direct Apply button -->
@@ -485,7 +552,7 @@
                 </a>
 
                 <!-- Save Bookmark button -->
-                <button class="btn-save p-1.5 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-400 hover:text-amber-500 dark:hover:text-amber-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors ${isSaved ? 'text-amber-500 dark:text-amber-400' : ''}" data-job-id="${job.id}" title="${isSaved ? 'Remove from saved' : 'Save job'}" onclick="event.stopPropagation()">
+                <button class="btn-save p-1.5 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-400 hover:text-amber-500 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors ${isSaved ? 'text-amber-500 dark:text-amber-400' : ''}" data-job-id="${job.id}" title="${isSaved ? 'Remove from saved' : 'Save job'}" onclick="event.stopPropagation()">
                   <i data-lucide="bookmark" class="w-4 h-4 ${isSaved ? 'fill-amber-500' : ''}"></i>
                 </button>
               </div>
@@ -493,7 +560,7 @@
 
           </div>
 
-          <!-- Bottom: Tech tags & view details -->
+          <!-- Bottom: Tech tags -->
           ${tags.length > 0 ? `
             <div class="mt-3.5 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between gap-2">
               <div class="flex flex-wrap items-center gap-1.5">
@@ -501,7 +568,7 @@
                 ${tagsHtml}
               </div>
               <span class="text-[11px] font-semibold text-brand-600 dark:text-brand-400 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
-                View Details & Recruiter <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                Full Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </span>
             </div>
           ` : ''}
@@ -512,7 +579,7 @@
     el.jobsContainer.innerHTML = html;
     if (window.lucide) lucide.createIcons();
 
-    // Card click
+    // Attach card clicks
     document.querySelectorAll('.job-card').forEach(card => {
       card.addEventListener('click', (e) => {
         if (e.target.closest('button') || e.target.closest('a')) return;
@@ -521,7 +588,7 @@
       });
     });
 
-    // Outreach click
+    // Outreach buttons
     document.querySelectorAll('.btn-outreach').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -530,7 +597,7 @@
       });
     });
 
-    // Save click
+    // Save buttons
     document.querySelectorAll('.btn-save').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -603,7 +670,6 @@
             </div>
           </div>
 
-          <!-- Bottom Action Buttons -->
           <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between gap-2">
             <a href="${c.careers_url}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-all">
               <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
@@ -635,7 +701,7 @@
     renderJobsList();
   }
 
-  // Open Detailed Job Drawer
+  // Open Drawer
   function openJobDrawer(jobId) {
     const job = state.jobs.find(j => j.id === jobId);
     if (!job) return;
@@ -643,15 +709,19 @@
 
     el.drawerCompany.textContent = job.company;
     el.drawerSource.textContent = job.source;
+    el.drawerDiscipline.textContent = job.discipline || 'General Software';
     el.drawerTitle.textContent = job.title;
     el.drawerLocation.innerHTML = `<i data-lucide="map-pin" class="w-3.5 h-3.5"></i> ${job.location || job.city}`;
     el.drawerDate.innerHTML = `<i data-lucide="calendar" class="w-3.5 h-3.5"></i> Posted: ${job.date_posted}`;
 
     el.drawerSalary.textContent = job.salary ? job.salary.display : 'Not explicitly stated in header';
-    el.drawerExperience.textContent = job.experience ? job.experience.display : 'Senior / Staff Equivalent';
+    el.drawerExperience.textContent = job.experience ? job.experience.display : `${job.seniority} Tier Equivalent`;
 
     const rec = job.recruiter || {};
-    el.drawerRecruiterPoc.textContent = `${rec.point_of_contact || 'Technical Recruiter'} (${rec.recruiter_team || job.company + ' Talent'})`;
+    el.drawerRecruiterPoc.textContent = `${rec.recruiter_name || 'Technical Recruiter'} - ${rec.point_of_contact || 'Talent Lead'} (${rec.recruiter_team || job.company + ' Talent'})`;
+
+    const profileUrl = rec.profile_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
+    el.drawerBtnRecruiterProfile.href = profileUrl;
 
     const tech = job.tech_stack || [];
     if (tech.length > 0) {
@@ -691,20 +761,21 @@
     el.modalJobTitle.textContent = `${job.title} (${job.city})`;
 
     const rec = job.recruiter || {};
-    el.modalPocName.textContent = rec.point_of_contact || 'Technical Recruiter';
+    el.modalPocName.textContent = rec.recruiter_name ? `${rec.recruiter_name} • ${rec.point_of_contact}` : (rec.point_of_contact || 'Technical Recruiter');
     el.modalTeamName.textContent = rec.recruiter_team || `${job.company} Talent Acquisition`;
 
-    if (rec.is_verified_partner) {
-      el.modalPartnerBadge.classList.remove('hidden');
-    } else {
-      el.modalPartnerBadge.classList.add('hidden');
-    }
+    const profileUrl = rec.profile_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
+    el.modalBtnDirectProfile.href = profileUrl;
+
+    const hiringPostsUrl = rec.hiring_posts_url || `https://www.linkedin.com/search/results/content/?keywords=${encodeURIComponent(job.company + ' "hiring" ' + job.title)}`;
+    el.modalBtnHiringPosts.href = hiringPostsUrl;
 
     el.modalBtnRecruiter.href = rec.recruiter_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' technical recruiter ' + job.city)}`;
     el.modalBtnManager.href = rec.manager_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' engineering manager ' + job.city)}`;
 
     let note = state.userProfile.outreach_template || '';
-    note = note.replace(/{{recruiter_name}}/g, rec.point_of_contact || 'Recruiter / Hiring Lead');
+    const addressee = rec.recruiter_name ? rec.recruiter_name.split(' ')[0] : 'there';
+    note = note.replace(/{{recruiter_name}}/g, addressee);
     note = note.replace(/{{company}}/g, job.company);
     note = note.replace(/{{job_title}}/g, job.title);
     note = note.replace(/{{location}}/g, job.city);
@@ -721,7 +792,6 @@
     el.recruiterModal.classList.add('hidden');
   }
 
-  // Copy Outreach Note
   async function copyOutreachMessage() {
     const text = el.modalOutreachText.value;
     try {
@@ -736,7 +806,6 @@
     }
   }
 
-  // Profile modal
   function openProfileModal() {
     el.prefUserName.value = state.userProfile.name || '';
     el.prefRoleTitle.value = (state.userProfile.target_roles || []).join(', ');
@@ -754,7 +823,6 @@
     el.profileModal.classList.add('hidden');
   }
 
-  // Saved Jobs modal
   function openSavedModal() {
     const saved = state.jobs.filter(j => state.savedJobIds.has(j.id));
     if (saved.length === 0) {
@@ -784,7 +852,6 @@
     if (window.lucide) lucide.createIcons();
   }
 
-  // Bind Events
   function bindEvents() {
     // Nav tabs
     el.navTabJobs.addEventListener('click', () => switchTab('jobs'));
@@ -792,10 +859,25 @@
     if (el.mobileTabJobs) el.mobileTabJobs.addEventListener('click', () => switchTab('jobs'));
     if (el.mobileTabCompanies) el.mobileTabCompanies.addEventListener('click', () => switchTab('companies'));
 
-    // Theme toggle
+    // Theme
     el.themeToggle.addEventListener('click', toggleTheme);
 
-    // Job search
+    // Discipline buttons (General SWE vs ML/AI)
+    el.discButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        el.discButtons.forEach(b => {
+          b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+          b.classList.add('text-slate-600', 'dark:text-slate-400');
+        });
+        btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        btn.classList.remove('text-slate-600', 'dark:text-slate-400');
+
+        state.filters.discipline = btn.getAttribute('data-disc');
+        applyFilters();
+      });
+    });
+
+    // Search
     el.searchInput.addEventListener('input', (e) => {
       state.filters.search = e.target.value;
       if (e.target.value) el.searchClear.classList.remove('hidden');
@@ -877,6 +959,7 @@
     const resetFn = () => {
       el.searchInput.value = '';
       state.filters.search = '';
+      state.filters.discipline = 'all';
       state.filters.location = 'all';
       state.filters.seniority = 'all';
       state.filters.minSalary = 0;
@@ -889,6 +972,14 @@
       el.yoeSelect.value = 'all';
       el.sourceSelect.value = 'all';
       el.sortSelect.value = 'salary-desc';
+
+      el.discButtons.forEach(b => {
+        if (b.getAttribute('data-disc') === 'all') {
+          b.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        } else {
+          b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-brand-600', 'dark:text-brand-300', 'shadow-sm');
+        }
+      });
 
       el.locButtons.forEach(b => {
         if (b.getAttribute('data-loc') === 'all') {
@@ -932,7 +1023,7 @@
     });
   }
 
-  // Global helper for inline remove
+  // Global helper
   window.StaffHunt = {
     removeSaved: function (jobId) {
       state.savedJobIds.delete(jobId);

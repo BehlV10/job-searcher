@@ -1,7 +1,7 @@
 """
 LinkedIn Public Job Scraper.
 Uses LinkedIn's guest job search endpoint (no login/credentials required).
-Scrapes listings for Senior and Staff SWE positions in NYC and Boston.
+Scrapes listings for Senior, Staff, Senior Staff, Principal, and Machine Learning engineering roles in NYC and Boston.
 """
 
 import re
@@ -17,6 +17,7 @@ from scraper.parser import (
     parse_yoe,
     parse_tech_stack,
     parse_seniority,
+    parse_discipline,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -92,6 +93,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     city = "New York, NY" if "york" in location.lower() else "Boston, MA"
 
                 seniority = parse_seniority(title)
+                discipline = parse_discipline(title)
                 recruiter_info = match_recruiter_for_job(company, city, title)
 
                 results.append({
@@ -102,6 +104,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     "city": city,
                     "work_model": loc_info["work_model"],
                     "seniority": seniority,
+                    "discipline": discipline,
                     "source": "LinkedIn",
                     "apply_url": clean_url or apply_url,
                     "date_posted": date_posted,
@@ -113,7 +116,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     "recruiter": recruiter_info
                 })
 
-            time.sleep(0.5)
+            time.sleep(0.4)
 
         except Exception as e:
             logger.error(f"Error querying LinkedIn: {e}")
@@ -124,12 +127,20 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
 
 
 def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str, Any]]:
-    """Runs default searches for NYC and Boston Senior/Staff engineering roles."""
+    """Runs expanded searches across NYC & Boston for Senior Staff, Staff, Principal, and ML."""
     if searches is None:
         searches = [
+            {"keywords": "Senior Staff Software Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Staff Software Engineer", "location": "New York, NY"},
-            {"keywords": "Senior Software Engineer", "location": "New York, NY"},
             {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Principal Software Engineer", "location": "New York, NY"},
+            {"keywords": "Principal Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Machine Learning Engineer", "location": "New York, NY"},
+            {"keywords": "Machine Learning Engineer", "location": "Boston, MA"},
+            {"keywords": "Staff Machine Learning Engineer", "location": "New York, NY"},
+            {"keywords": "Staff Machine Learning Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Software Engineer", "location": "Boston, MA"}
         ]
 
