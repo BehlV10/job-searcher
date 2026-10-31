@@ -1,16 +1,16 @@
 {
   "metadata": {
-    "last_updated": "2026-10-31 18:56:16 UTC",
-    "total_jobs": 440,
+    "last_updated": "2026-10-31 18:58:50 UTC",
+    "total_jobs": 417,
     "with_salary_count": 108,
-    "nyc_jobs": 211,
-    "boston_jobs": 229,
-    "senior_staff_jobs": 22,
-    "principal_jobs": 68,
-    "staff_jobs": 105,
-    "senior_jobs": 227,
+    "nyc_jobs": 205,
+    "boston_jobs": 212,
+    "senior_staff_jobs": 20,
+    "principal_jobs": 67,
+    "staff_jobs": 93,
+    "senior_jobs": 219,
     "ml_jobs": 107,
-    "general_swe_jobs": 333,
+    "general_swe_jobs": 310,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -21,7 +21,7 @@
       "Greenhouse": 164,
       "Lever": 13,
       "Built In": 59,
-      "LinkedIn": 204
+      "LinkedIn": 181
     }
   },
   "user_profile": {
@@ -4697,7 +4697,7 @@
       }
     },
     {
-      "id": "builtin_8024072563163287185",
+      "id": "builtin_5342258167829943794",
       "title": "Forward Deployed Software Engineer-Palantir Foundry-Manager",
       "company": "PwC",
       "location": "New York, NY",
@@ -4729,7 +4729,7 @@
       }
     },
     {
-      "id": "builtin_6709913058310967365",
+      "id": "builtin_4556325055413573209",
       "title": "Forward Deployed Software Engineer-Palantir Foundry-Senior Associate",
       "company": "PwC",
       "location": "New York, NY",
@@ -4761,7 +4761,7 @@
       }
     },
     {
-      "id": "builtin_8997688991897820913",
+      "id": "builtin_6461687084880720253",
       "title": "Senior Audio Software Engineer",
       "company": "Bose",
       "location": "Boston, MA",
@@ -4794,7 +4794,7 @@
       }
     },
     {
-      "id": "builtin_5228299355540490178",
+      "id": "builtin_7550007011539243802",
       "title": "Software Engineer (Senior/Staff)",
       "company": "Sailor Health",
       "location": "New York, NY",
@@ -4824,7 +4824,7 @@
       }
     },
     {
-      "id": "builtin_7388664167916065613",
+      "id": "builtin_398139339120666431",
       "title": "Senior / Staff Platform Software Engineer",
       "company": "Clear Street",
       "location": "New York, NY",
@@ -4858,7 +4858,7 @@
       }
     },
     {
-      "id": "builtin_8630250162409790775",
+      "id": "builtin_2574162248615390228",
       "title": "Principal Fullstack Software Engineer",
       "company": "Atlassian",
       "location": "New York, NY",
@@ -4891,7 +4891,7 @@
       }
     },
     {
-      "id": "builtin_7654623816198798737",
+      "id": "builtin_3067241179745685958",
       "title": "Senior Backend Software Engineer, DX",
       "company": "Atlassian",
       "location": "New York, NY",
@@ -4919,7 +4919,7 @@
       }
     },
     {
-      "id": "builtin_6717520256009214513",
+      "id": "builtin_4927125921785794264",
       "title": "Lead Full Stack Software Engineer",
       "company": "MORSE Corp",
       "location": "Boston, MA",
@@ -4957,7 +4957,7 @@
       }
     },
     {
-      "id": "builtin_809314457465465996",
+      "id": "builtin_963050734985364394",
       "title": "Senior System Software Engineer - Platform Software",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -4990,7 +4990,7 @@
       }
     },
     {
-      "id": "builtin_9038697472083343969",
+      "id": "builtin_6428123322533479582",
       "title": "Senior System Software Engineer, NVLink Fusion",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -5023,7 +5023,7 @@
       }
     },
     {
-      "id": "builtin_1990327177073473851",
+      "id": "builtin_8416249112836217681",
       "title": "Senior Full-Stack Software Engineer - VLSI Tools",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -5060,7 +5060,7 @@
       }
     },
     {
-      "id": "builtin_475754890515117394",
+      "id": "builtin_2573532498161911311",
       "title": "Senior Fullstack Software Engineer",
       "company": "NVIDIA",
       "location": "Boston, MA",
@@ -5096,7 +5096,7 @@
       }
     },
     {
-      "id": "builtin_6004424748103871864",
+      "id": "builtin_8949893333114896676",
       "title": "Senior Computational Scientist / Software Engineer - Feature Scale Process Simulation",
       "company": "Lam Research Corporation",
       "location": "Boston, MA",
@@ -5127,7 +5127,7 @@
       }
     },
     {
-      "id": "builtin_2413432438383518396",
+      "id": "builtin_2490319714769121522",
       "title": "Senior Specialist, Scientific Software Engineer, Digital Insights, DSCS Digital Technologies (Hybrid)",
       "company": "MSD Animal Health Technology Labs",
       "location": "Boston, MA",
@@ -5158,7 +5158,7 @@
       }
     },
     {
-      "id": "builtin_4834937107337687993",
+      "id": "builtin_5941348677298294762",
       "title": "Senior Software Engineer – Storage",
       "company": "Hewlett Packard Enterprise",
       "location": "Boston, MA",
@@ -5191,7 +5191,7 @@
       }
     },
     {
-      "id": "builtin_3063706760291432140",
+      "id": "builtin_4362630183688192332",
       "title": "Senior Software Engineer, iOS",
       "company": "DraftKings",
       "location": "Boston, MA",
@@ -5221,7 +5221,7 @@
       }
     },
     {
-      "id": "builtin_4929583108324040658",
+      "id": "builtin_2178221606184506400",
       "title": "Staff Software Engineer, Provider",
       "company": "Headway",
       "location": "Boston, MA",
@@ -5251,7 +5251,7 @@
       }
     },
     {
-      "id": "builtin_7928521321452216437",
+      "id": "builtin_6670121602831817851",
       "title": "Sr. Platform Software Engineer (Linux)",
       "company": "Medtronic",
       "location": "Boston, MA",
@@ -5284,7 +5284,7 @@
       }
     },
     {
-      "id": "builtin_6579892569049263171",
+      "id": "builtin_6742717264667273693",
       "title": "Sr. LIMS/LIS Software Engineer",
       "company": "Quest Diagnostics",
       "location": "Boston, MA",
@@ -5318,7 +5318,7 @@
       }
     },
     {
-      "id": "builtin_4631459157796648565",
+      "id": "builtin_1593188968971677400",
       "title": "Lead Bioinformatics Software Engineer",
       "company": "Quest Diagnostics",
       "location": "Boston, MA",
@@ -5358,7 +5358,7 @@
       }
     },
     {
-      "id": "builtin_8112362837745202096",
+      "id": "builtin_7807811283037733263",
       "title": "Senior Software Engineer",
       "company": "Vannevar",
       "location": "Boston, MA",
@@ -5393,7 +5393,7 @@
       }
     },
     {
-      "id": "builtin_8179959732882988325",
+      "id": "builtin_9107301422972547825",
       "title": "Lead Software Engineer",
       "company": "STR",
       "location": "Boston, MA",
@@ -5427,7 +5427,7 @@
       }
     },
     {
-      "id": "builtin_7760843994055981184",
+      "id": "builtin_2327183962676330340",
       "title": "Staff Software Engineer, Java",
       "company": "NinjaOne",
       "location": "New York, NY",
@@ -5462,7 +5462,7 @@
       }
     },
     {
-      "id": "builtin_5306849245144610055",
+      "id": "builtin_3971254701553720747",
       "title": "Senior Software Engineer - Growth",
       "company": "Sprinter Health",
       "location": "Boston, MA",
@@ -5498,7 +5498,7 @@
       }
     },
     {
-      "id": "builtin_4872951574317109090",
+      "id": "builtin_2925493696592489684",
       "title": "Staff Software Engineer, Backend (Observability)",
       "company": "Affirm",
       "location": "Boston, MA",
@@ -5534,7 +5534,7 @@
       }
     },
     {
-      "id": "builtin_3706891052083911352",
+      "id": "builtin_5687990963434246186",
       "title": "Senior Software Engineer, Performance | Scalability and Systems Engineering",
       "company": "NinjaOne",
       "location": "New York, NY",
@@ -5573,7 +5573,7 @@
       }
     },
     {
-      "id": "builtin_5232273212529827972",
+      "id": "builtin_5393556781117403485",
       "title": "Principal Software Engineer, Product Engineering",
       "company": "Dropbox",
       "location": "Boston, MA",
@@ -5605,7 +5605,7 @@
       }
     },
     {
-      "id": "builtin_7141442192458712732",
+      "id": "builtin_5290259437821360960",
       "title": "Senior Full Stack Software Engineer-Atlas",
       "company": "Boston Dynamics",
       "location": "Boston, MA",
@@ -5640,7 +5640,7 @@
       }
     },
     {
-      "id": "builtin_3330933522630202447",
+      "id": "builtin_1365588017600012878",
       "title": "Staff Software Engineer, Frontend (Decisions Orchestration)",
       "company": "Affirm",
       "location": "Boston, MA",
@@ -5672,7 +5672,7 @@
       }
     },
     {
-      "id": "builtin_3237172535263766186",
+      "id": "builtin_311814815923189589",
       "title": "Staff Data Analyst, Supply Chain Analytics",
       "company": "Arm",
       "location": "Boston, MA",
@@ -5703,7 +5703,7 @@
       }
     },
     {
-      "id": "builtin_621342449288661090",
+      "id": "builtin_5477626100674451885",
       "title": "Manager, AI-Ready Data Modeling",
       "company": "Takeda",
       "location": "Boston, MA",
@@ -5733,7 +5733,7 @@
       }
     },
     {
-      "id": "builtin_2730545582627808832",
+      "id": "builtin_796913158424398533",
       "title": "Senior Data Engineer",
       "company": "Formation Bio",
       "location": "Boston, MA",
@@ -5767,7 +5767,7 @@
       }
     },
     {
-      "id": "builtin_76658945730629838",
+      "id": "builtin_982420132421111782",
       "title": "Senior Data Platform Engineer",
       "company": "Bevi",
       "location": "Boston, MA",
@@ -5802,7 +5802,7 @@
       }
     },
     {
-      "id": "builtin_1479203480176495793",
+      "id": "builtin_7534865058701790380",
       "title": "Staff Analytics Engineer",
       "company": "Topline Pro",
       "location": "Boston, MA",
@@ -5833,7 +5833,7 @@
       }
     },
     {
-      "id": "builtin_6502547518865875067",
+      "id": "builtin_1526469776077483238",
       "title": "Director, GH&B AI-Ready Data Foundation & Governance",
       "company": "Pfizer",
       "location": "New York, NY",
@@ -5865,7 +5865,7 @@
       }
     },
     {
-      "id": "builtin_62305318221211398",
+      "id": "builtin_6685361953740168606",
       "title": "Senior Associate - Software Engineer - Investment Technology",
       "company": "New York Life",
       "location": "New York, NY",
@@ -5905,7 +5905,7 @@
       }
     },
     {
-      "id": "builtin_8887213722506218402",
+      "id": "builtin_4590308429145647108",
       "title": "Sr. Backend Software Engineer (Ad Engineering)",
       "company": "Philo",
       "location": "New York, NY",
@@ -5942,7 +5942,7 @@
       }
     },
     {
-      "id": "builtin_4382890959406591451",
+      "id": "builtin_4100167096107602889",
       "title": "Senior Software Engineer",
       "company": "Justworks",
       "location": "New York, NY",
@@ -5974,7 +5974,7 @@
       }
     },
     {
-      "id": "builtin_6066540878757971542",
+      "id": "builtin_8359100674115796558",
       "title": "Senior Frontend Software Engineer, Flights",
       "company": "Navan",
       "location": "New York, NY",
@@ -6006,7 +6006,7 @@
       }
     },
     {
-      "id": "builtin_85568196906459891",
+      "id": "builtin_9105955557067242323",
       "title": "Staff Software Engineer, Infrastructure",
       "company": "Current",
       "location": "New York, NY",
@@ -6041,7 +6041,7 @@
       }
     },
     {
-      "id": "builtin_2662311865858980201",
+      "id": "builtin_413884743628057522",
       "title": "Sr. Lead Software Engineer",
       "company": "JPMorganChase",
       "location": "New York, NY",
@@ -6071,7 +6071,7 @@
       }
     },
     {
-      "id": "builtin_3633575068301015041",
+      "id": "builtin_2615727448021722070",
       "title": "Sr. Software Engineer - Sensor, macOS (Hybrid)",
       "company": "CrowdStrike",
       "location": "New York, NY",
@@ -6103,7 +6103,7 @@
       }
     },
     {
-      "id": "builtin_4998381071240447736",
+      "id": "builtin_5134984669105760406",
       "title": "Senior Software Engineer, Workforce Payments",
       "company": "Justworks",
       "location": "New York, NY",
@@ -6142,7 +6142,7 @@
       }
     },
     {
-      "id": "builtin_7774349267947174018",
+      "id": "builtin_4509059600149448048",
       "title": "Senior Software Engineer, Product Foundations",
       "company": "Justworks",
       "location": "New York, NY",
@@ -6181,7 +6181,7 @@
       }
     },
     {
-      "id": "builtin_2517517813565553141",
+      "id": "builtin_2750234877222142491",
       "title": "Staff Software Engineer, Backend, Level 6",
       "company": "Snap Inc.",
       "location": "New York, NY",
@@ -6218,7 +6218,7 @@
       }
     },
     {
-      "id": "builtin_3152462190746588440",
+      "id": "builtin_400228049674031712",
       "title": "Senior Software Engineer - Load Balancing",
       "company": "Cloudflare",
       "location": "New York, NY",
@@ -6256,7 +6256,7 @@
       }
     },
     {
-      "id": "builtin_8395427344627542605",
+      "id": "builtin_6416049187043469460",
       "title": "Principal Software Engineer - Performance Engineering",
       "company": "JPMorganChase",
       "location": "New York, NY",
@@ -6295,7 +6295,7 @@
       }
     },
     {
-      "id": "builtin_3413780321759654996",
+      "id": "builtin_8795480980738741469",
       "title": "Senior Software Engineer - Platform",
       "company": "Narmi",
       "location": "New York, NY",
@@ -6327,7 +6327,7 @@
       }
     },
     {
-      "id": "builtin_6652443190124020574",
+      "id": "builtin_1371684695698961417",
       "title": "Staff Software Development Engineer- Energy & Commodities",
       "company": "Clearwater Analytics (CWAN)",
       "location": "New York, NY",
@@ -6365,7 +6365,7 @@
       }
     },
     {
-      "id": "builtin_5336476022996009108",
+      "id": "builtin_1014160448467240751",
       "title": "Senior Perception Software Engineer",
       "company": "NVIDIA",
       "location": "New York, NY",
@@ -6400,7 +6400,7 @@
       }
     },
     {
-      "id": "builtin_1159365291932975546",
+      "id": "builtin_226683896984122089",
       "title": "Staff+ Software Engineer, Backend",
       "company": "Anthropic",
       "location": "New York, NY",
@@ -6431,7 +6431,7 @@
       }
     },
     {
-      "id": "builtin_7040962265421850449",
+      "id": "builtin_781562663823855917",
       "title": "Senior Forward Deployed Software Engineer",
       "company": "PhysicsX",
       "location": "New York, NY",
@@ -6467,7 +6467,7 @@
       }
     },
     {
-      "id": "builtin_771847730738532117",
+      "id": "builtin_6237144203321408051",
       "title": "Director Software Engineer for BRCC Inbound Communication (Hybrid - Newark, NJ or NYC)",
       "company": "Broadridge",
       "location": "New York, NY",
@@ -6499,7 +6499,7 @@
       }
     },
     {
-      "id": "builtin_3579209100809605029",
+      "id": "builtin_8829937870893142476",
       "title": "Senior Data Engineer",
       "company": "Pontera",
       "location": "New York, NY",
@@ -6532,7 +6532,7 @@
       }
     },
     {
-      "id": "builtin_4291128158707108077",
+      "id": "builtin_4209588778349049378",
       "title": "Sr. Analytics Engineer-Product Insights (Hybrid)",
       "company": "CrowdStrike",
       "location": "New York, NY",
@@ -6571,7 +6571,7 @@
       }
     },
     {
-      "id": "builtin_3756123674643504789",
+      "id": "builtin_5881775521316546771",
       "title": "Senior Data Engineer",
       "company": "Headway",
       "location": "New York, NY",
@@ -6604,7 +6604,7 @@
       }
     },
     {
-      "id": "builtin_3723804564603451612",
+      "id": "builtin_1910611721170252425",
       "title": "Manager, Analytics Engineering",
       "company": "PatientPoint",
       "location": "New York, NY",
@@ -6639,7 +6639,7 @@
       }
     },
     {
-      "id": "builtin_3012745844794003637",
+      "id": "builtin_3623548263267450087",
       "title": "Sr. Staff Analytics Engineer",
       "company": "Flex",
       "location": "New York, NY",
@@ -6670,7 +6670,7 @@
       }
     },
     {
-      "id": "builtin_8049215313475740833",
+      "id": "builtin_3965231734328230972",
       "title": "Principal Sales Infrastructure Analyst, Analytics Engineering",
       "company": "Atlassian",
       "location": "New York, NY",
@@ -6729,65 +6729,6 @@
       }
     },
     {
-      "id": "li_4448478748",
-      "title": "FAST Labs - Senior Principal II Software Engineer - C++ CUDA ($25K Sign-on Bonus)",
-      "company": "BAE Systems, Inc.",
-      "location": "Merrimack, NH",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/fast-labs-senior-principal-ii-software-engineer-c%2B%2B-cuda-%2425k-sign-on-bonus-at-bae-systems-inc-4448478748",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "C++",
-        "CUDA"
-      ],
-      "snippet": "Open position for FAST Labs - Senior Principal II Software Engineer - C++ CUDA ($25K Sign-on Bonus) at BAE Systems, Inc. (Merrimack, NH) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "BAE Systems, Inc. Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "BAE Systems, Inc. Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=BAE%20Systems%2C%20Inc.%20%22hiring%22%20%22FAST%20Labs%20-%20Senior%20Principal%20II%20Software%20Engineer%20-%20C%2B%2B%20CUDA%20%28%2425K%20Sign-on%20Bonus%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4448485250",
-      "title": "FAST Labs - Senior Principal II Software Engineer ($20K Sign On Bonus)",
-      "company": "BAE Systems, Inc.",
-      "location": "Merrimack, NH",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/fast-labs-senior-principal-ii-software-engineer-%2420k-sign-on-bonus-at-bae-systems-inc-4448485250",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for FAST Labs - Senior Principal II Software Engineer ($20K Sign On Bonus) at BAE Systems, Inc. (Merrimack, NH) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "BAE Systems, Inc. Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "BAE Systems, Inc. Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=BAE%20Systems%2C%20Inc.%20%22hiring%22%20%22FAST%20Labs%20-%20Senior%20Principal%20II%20Software%20Engineer%20%28%2420K%20Sign%20On%20Bonus%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4410171647",
       "title": "Sr Staff Engineer Software",
       "company": "Palo Alto Networks",
@@ -6813,62 +6754,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Palo%20Alto%20Networks%20%22hiring%22%20%22Sr%20Staff%20Engineer%20Software%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4441276253",
-      "title": "Staff Software Engineer, Demand Bidder, Ad Serving Platform",
-      "company": "Roku",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-demand-bidder-ad-serving-platform-at-roku-4441276253",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Demand Bidder, Ad Serving Platform at Roku (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Roku Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Roku Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Roku%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Roku%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Demand%20Bidder%2C%20Ad%20Serving%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Roku%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Roku%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4459623829",
-      "title": "Staff Software Engineer, Compute Platform (Routing)",
-      "company": "Coinbase",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-compute-platform-routing-at-coinbase-4459623829",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Compute Platform (Routing) at Coinbase (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Coinbase Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Compute%20Platform%20%28Routing%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -6927,34 +6812,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Wells%20Fargo%20%22hiring%22%20%22Principal%20Engineer%20-%20Java%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Wells%20Fargo%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Wells%20Fargo%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4430237937",
-      "title": "Principal Software Engineer, Sensor - Mac, Linux, or Windows (Hybrid)",
-      "company": "CrowdStrike",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-sensor-mac-linux-or-windows-hybrid-at-crowdstrike-4430237937",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Principal Software Engineer, Sensor - Mac, Linux, or Windows (Hybrid) at CrowdStrike (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "CrowdStrike Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "CrowdStrike Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=CrowdStrike%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=CrowdStrike%20%22hiring%22%20%22Principal%20Software%20Engineer%2C%20Sensor%20-%20Mac%2C%20Linux%2C%20or%20Windows%20%28Hybrid%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=CrowdStrike%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=CrowdStrike%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -7039,64 +6896,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Flagship%20Pioneering%20%22hiring%22%20%22Senior%20ML%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Flagship%20Pioneering%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Flagship%20Pioneering%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4460335262",
-      "title": "Senior Software Engineer, Backend Full Stack - Emerging Products",
-      "company": "Rippling",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-full-stack-emerging-products-at-rippling-4460335262",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer, Backend Full Stack - Emerging Products at Rippling (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Rippling Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Rippling Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Rippling%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Rippling%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Backend%20Full%20Stack%20-%20Emerging%20Products%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Rippling%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Rippling%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4441242438",
-      "title": "Senior Software Engineer, Java",
-      "company": "CLEAR",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-at-clear-4441242438",
-      "date_posted": "2026-10-31",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "Java"
-      ],
-      "snippet": "Open position for Senior Software Engineer, Java at CLEAR (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "CLEAR Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "CLEAR Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=CLEAR%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=CLEAR%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Java%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=CLEAR%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=CLEAR%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -8067,34 +7866,6 @@
       }
     },
     {
-      "id": "li_4485107148",
-      "title": "Senior Staff Software Engineer, Backend (Compute Platform)",
-      "company": "Affirm",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-staff-software-engineer-backend-compute-platform-at-affirm-4485107148",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Staff Software Engineer, Backend (Compute Platform) at Affirm (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Affirm Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Senior%20Staff%20Software%20Engineer%2C%20Backend%20%28Compute%20Platform%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4466666207",
       "title": "Staff Software Engineer, Event Contracts",
       "company": "Robinhood",
@@ -8120,6 +7891,62 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Robinhood%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Event%20Contracts%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4466236180",
+      "title": "Staff Software Engineer, Storage - Taulu",
+      "company": "DoorDash",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Staff",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-storage-taulu-at-doordash-4466236180",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Staff Software Engineer, Storage - Taulu at DoorDash (New York, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "DoorDash Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "DoorDash Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20lead%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=DoorDash%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Storage%20-%20Taulu%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=DoorDash%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4485606624",
+      "title": "Principal Software Engineer",
+      "company": "ITHAKA",
+      "location": "New City, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-at-ithaka-4485606624",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Software Engineer at ITHAKA (New City, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "ITHAKA Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "ITHAKA Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=ITHAKA%20lead%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=ITHAKA%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=ITHAKA%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=ITHAKA%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -8153,31 +7980,31 @@
       }
     },
     {
-      "id": "li_4471938274",
-      "title": "Distinguished Software Engineer",
-      "company": "SimpliSafe",
-      "location": "Boston, MA",
+      "id": "li_4484830401",
+      "title": "Software Principal Engineer",
+      "company": "Dell Technologies",
+      "location": "Franklin, MA",
       "city": "Boston, MA",
       "work_model": "On-site",
       "seniority": "Principal",
       "discipline": "General Software",
       "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/distinguished-software-engineer-at-simplisafe-4471938274",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-principal-engineer-at-dell-technologies-4484830401",
       "date_posted": "2026-10-30",
       "salary": null,
       "experience": null,
       "tech_stack": [],
-      "snippet": "Open position for Distinguished Software Engineer at SimpliSafe (Boston, MA) via LinkedIn.",
+      "snippet": "Open position for Software Principal Engineer at Dell Technologies (Franklin, MA) via LinkedIn.",
       "description": "",
       "recruiter": {
-        "recruiter_name": "SimpliSafe Talent Lead",
+        "recruiter_name": "Dell Technologies Talent Lead",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "SimpliSafe Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20lead%20technical%20recruiter%20Boston",
+        "recruiter_team": "Dell Technologies Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Dell%20Technologies%20lead%20technical%20recruiter%20Boston",
         "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=SimpliSafe%20%22hiring%22%20%22Distinguished%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20engineering%20manager%20Boston"
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Dell%20Technologies%20%22hiring%22%20%22Software%20Principal%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Dell%20Technologies%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Dell%20Technologies%20engineering%20manager%20Boston"
       }
     },
     {
@@ -8209,6 +8036,34 @@
       }
     },
     {
+      "id": "li_4483908239",
+      "title": "Principal Software Engineer",
+      "company": "MAK Technologies",
+      "location": "Cambridge, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-at-mak-technologies-4483908239",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Software Engineer at MAK Technologies (Cambridge, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "MAK Technologies Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "MAK Technologies Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=MAK%20Technologies%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=MAK%20Technologies%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=MAK%20Technologies%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=MAK%20Technologies%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "li_4477620040",
       "title": "Machine Learning Engineer 4",
       "company": "Capital One",
@@ -8234,6 +8089,34 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Capital%20One%20%22hiring%22%20%22Machine%20Learning%20Engineer%204%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Capital%20One%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Capital%20One%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4466273776",
+      "title": "Principal Machine Learning Engineer",
+      "company": "Cambridge Mobile Telematics",
+      "location": "Massachusetts, United States",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "Machine Learning / AI",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-machine-learning-engineer-at-cambridge-mobile-telematics-4466273776",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Machine Learning Engineer at Cambridge Mobile Telematics (Massachusetts, United States) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Cambridge Mobile Telematics Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Cambridge Mobile Telematics Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cambridge%20Mobile%20Telematics%20%22hiring%22%20%22Principal%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20engineering%20manager%20Boston"
       }
     },
     {
@@ -8264,34 +8147,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Harnham%20%22hiring%22%20%22Senior%20AI%20Engineer%20-%20Foundation%20Models%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Harnham%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Harnham%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4466273776",
-      "title": "Principal Machine Learning Engineer",
-      "company": "Cambridge Mobile Telematics",
-      "location": "Massachusetts, United States",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "Machine Learning / AI",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-machine-learning-engineer-at-cambridge-mobile-telematics-4466273776",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Principal Machine Learning Engineer at Cambridge Mobile Telematics (Massachusetts, United States) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Cambridge Mobile Telematics Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Cambridge Mobile Telematics Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cambridge%20Mobile%20Telematics%20%22hiring%22%20%22Principal%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cambridge%20Mobile%20Telematics%20engineering%20manager%20Boston"
       }
     },
     {
@@ -8476,59 +8331,31 @@
       }
     },
     {
-      "id": "li_4477410650",
-      "title": "Staff Software Engineer",
-      "company": "Symbotic",
-      "location": "Wilmington, MA",
-      "city": "Boston, MA",
+      "id": "li_4484970996",
+      "title": "Principal Software Engineer",
+      "company": "Bright Vision Technologies",
+      "location": "East Brunswick, NJ",
+      "city": "New York, NY",
       "work_model": "On-site",
-      "seniority": "Staff",
+      "seniority": "Principal",
       "discipline": "General Software",
       "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-at-symbotic-4477410650",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-at-bright-vision-technologies-4484970996",
       "date_posted": "2026-10-29",
       "salary": null,
       "experience": null,
       "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer at Symbotic (Wilmington, MA) via LinkedIn.",
+      "snippet": "Open position for Principal Software Engineer at Bright Vision Technologies (East Brunswick, NJ) via LinkedIn.",
       "description": "",
       "recruiter": {
-        "recruiter_name": "Symbotic Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Symbotic Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Symbotic%20lead%20technical%20recruiter%20Boston",
+        "recruiter_name": "Bright Vision Technologies Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Bright Vision Technologies Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Bright%20Vision%20Technologies%20lead%20technical%20recruiter%20New%20York",
         "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Symbotic%20%22hiring%22%20%22Staff%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Symbotic%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Symbotic%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4475729314",
-      "title": "Staff Software Engineer, Core Everand",
-      "company": "Scribd, Inc.",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-core-everand-at-scribd-inc-4475729314",
-      "date_posted": "2026-10-29",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Core Everand at Scribd, Inc. (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Scribd, Inc. Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Scribd, Inc. Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Scribd%2C%20Inc.%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Core%20Everand%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20engineering%20manager%20Boston"
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Bright%20Vision%20Technologies%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Bright%20Vision%20Technologies%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Bright%20Vision%20Technologies%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -9509,36 +9336,6 @@
       }
     },
     {
-      "id": "li_4482526732",
-      "title": "Confluent Staff Software Engineer - Kafka",
-      "company": "IBM",
-      "location": "Lowell, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/confluent-staff-software-engineer-kafka-at-ibm-4482526732",
-      "date_posted": "2026-10-28",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "Kafka"
-      ],
-      "snippet": "Open position for Confluent Staff Software Engineer - Kafka at IBM (Lowell, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "IBM Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "IBM Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Confluent%20Staff%20Software%20Engineer%20-%20Kafka%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4479143879",
       "title": "Principal Software Engineer",
       "company": "Lawrence Harvey",
@@ -9564,34 +9361,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Lawrence%20Harvey%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lawrence%20Harvey%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lawrence%20Harvey%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4484426147",
-      "title": "Principal Software Engineer",
-      "company": "Collins Aerospace",
-      "location": "Marlborough, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-at-collins-aerospace-4484426147",
-      "date_posted": "2026-10-28",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Principal Software Engineer at Collins Aerospace (Marlborough, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Collins Aerospace Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Collins Aerospace Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Collins%20Aerospace%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Collins%20Aerospace%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Collins%20Aerospace%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Collins%20Aerospace%20engineering%20manager%20Boston"
       }
     },
     {
@@ -9765,31 +9534,31 @@
       }
     },
     {
-      "id": "li_4337831222",
-      "title": "Senior Software Engineer, Trust Platform",
-      "company": "Credit Genie",
-      "location": "New York, NY",
+      "id": "li_4456531559",
+      "title": "Principal Software Engineer (Hybrid)",
+      "company": "BAE Systems, Inc.",
+      "location": "Greenlawn, NY",
       "city": "New York, NY",
       "work_model": "On-site",
-      "seniority": "Senior",
+      "seniority": "Principal",
       "discipline": "General Software",
       "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-trust-platform-at-credit-genie-4337831222",
-      "date_posted": "2026-10-28",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-hybrid-at-bae-systems-inc-4456531559",
+      "date_posted": "2026-10-27",
       "salary": null,
       "experience": null,
       "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer, Trust Platform at Credit Genie (New York, NY) via LinkedIn.",
+      "snippet": "Open position for Principal Software Engineer (Hybrid) at BAE Systems, Inc. (Greenlawn, NY) via LinkedIn.",
       "description": "",
       "recruiter": {
-        "recruiter_name": "Credit Genie Talent Lead",
+        "recruiter_name": "BAE Systems, Inc. Talent Lead",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Credit Genie Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Credit%20Genie%20lead%20technical%20recruiter%20New%20York",
+        "recruiter_team": "BAE Systems, Inc. Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20lead%20technical%20recruiter%20New%20York",
         "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Credit%20Genie%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Trust%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Credit%20Genie%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Credit%20Genie%20engineering%20manager%20New%20York"
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=BAE%20Systems%2C%20Inc.%20%22hiring%22%20%22Principal%20Software%20Engineer%20%28Hybrid%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=BAE%20Systems%2C%20Inc.%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -10092,34 +9861,6 @@
       }
     },
     {
-      "id": "li_4277440115",
-      "title": "Staff/Principal Full Stack Software Engineer",
-      "company": "Axon",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-principal-full-stack-software-engineer-at-axon-4277440115",
-      "date_posted": "2026-10-26",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff/Principal Full Stack Software Engineer at Axon (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Axon Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Axon Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Axon%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Axon%20%22hiring%22%20%22Staff/Principal%20Full%20Stack%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Axon%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Axon%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4483253842",
       "title": "Senior Software Engineer, Java Server",
       "company": "Clover",
@@ -10180,34 +9921,6 @@
       }
     },
     {
-      "id": "li_4445576671",
-      "title": "Staff Software Engineer, Consumer Brand Platform",
-      "company": "Veho",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-consumer-brand-platform-at-veho-4445576671",
-      "date_posted": "2026-10-25",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Consumer Brand Platform at Veho (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Veho Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Veho Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Veho%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Veho%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Consumer%20Brand%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Veho%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Veho%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4466353609",
       "title": "Principal Software Engineer (Java/SpringBoot)",
       "company": "Fidelity Investments",
@@ -10235,34 +9948,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Fidelity%20Investments%20%22hiring%22%20%22Principal%20Software%20Engineer%20%28Java/SpringBoot%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Fidelity%20Investments%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Fidelity%20Investments%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4401164622",
-      "title": "Principal Software Engineer",
-      "company": "Thomson Reuters",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-at-thomson-reuters-4401164622",
-      "date_posted": "2026-10-25",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Principal Software Engineer at Thomson Reuters (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Thomson Reuters Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Thomson Reuters Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Thomson%20Reuters%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Thomson%20Reuters%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Thomson%20Reuters%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Thomson%20Reuters%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -10381,6 +10066,36 @@
       }
     },
     {
+      "id": "li_4446441407",
+      "title": "Sr. Lead Engineer, Applied AI (Customer Agent)",
+      "company": "Klaviyo",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Lead",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/sr-lead-engineer-applied-ai-customer-agent-at-klaviyo-4446441407",
+      "date_posted": "2026-10-24",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open position for Sr. Lead Engineer, Applied AI (Customer Agent) at Klaviyo (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Amanda Chen",
+        "point_of_contact": "Principal Talent Partner, Core Platform & AI",
+        "recruiter_team": "Klaviyo Engineering Recruiting",
+        "profile_url": "https://www.linkedin.com/in/amanda-chen-talent-lead/",
+        "is_verified_partner": true,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Klaviyo%20%22hiring%22%20%22Sr.%20Lead%20Engineer%2C%20Applied%20AI%20%28Customer%20Agent%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Klaviyo%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Klaviyo%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "li_4361405022",
       "title": "Staff Software Engineer, Web3",
       "company": "Robinhood",
@@ -10406,62 +10121,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Robinhood%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Web3%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Robinhood%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4475036710",
-      "title": "Staff Software Engineer (Institutional, FCM)",
-      "company": "Coinbase",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-institutional-fcm-at-coinbase-4475036710",
-      "date_posted": "2026-10-24",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer (Institutional, FCM) at Coinbase (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Coinbase Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Staff%20Software%20Engineer%20%28Institutional%2C%20FCM%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4408929221",
-      "title": "Staff Software Engineer",
-      "company": "Raft",
-      "location": "Hanscom AFB, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-at-raft-4408929221",
-      "date_posted": "2026-10-24",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer at Raft (Hanscom AFB, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Raft Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Raft Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raft%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raft%20%22hiring%22%20%22Staff%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raft%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raft%20engineering%20manager%20Boston"
       }
     },
     {
@@ -10610,34 +10269,6 @@
       }
     },
     {
-      "id": "li_4466426596",
-      "title": "Senior Software Engineer",
-      "company": "Salesforce",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-salesforce-4466426596",
-      "date_posted": "2026-10-24",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer at Salesforce (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Salesforce Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Salesforce Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Salesforce%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Salesforce%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salesforce%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salesforce%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "li_4472806676",
       "title": "Senior Staff Software Engineer",
       "company": "Whatnot",
@@ -10694,34 +10325,6 @@
       }
     },
     {
-      "id": "li_4455941083",
-      "title": "Principal Engineer, Amazon | Multiple Locations, USA, Global Specialty Recruiting Team",
-      "company": "Amazon Web Services (AWS)",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-engineer-amazon-multiple-locations-usa-global-specialty-recruiting-team-at-amazon-web-services-aws-4455941083",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Principal Engineer, Amazon | Multiple Locations, USA, Global Specialty Recruiting Team at Amazon Web Services (AWS) (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Amazon Web Services (AWS) Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Amazon Web Services (AWS) Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Amazon%20Web%20Services%20%28AWS%29%20%22hiring%22%20%22Principal%20Engineer%2C%20Amazon%20%7C%20Multiple%20Locations%2C%20USA%2C%20Global%20Specialty%20Recruiting%20Team%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4474581366",
       "title": "Staff Software Engineer, Retirement Financial Platform",
       "company": "Gusto",
@@ -10747,6 +10350,34 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Gusto%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Retirement%20Financial%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Gusto%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Gusto%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4455919808",
+      "title": "Principal Engineer, Amazon | Multiple Locations, USA, Global Specialty Recruiting Team",
+      "company": "Amazon Web Services (AWS)",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-engineer-amazon-multiple-locations-usa-global-specialty-recruiting-team-at-amazon-web-services-aws-4455919808",
+      "date_posted": "2026-10-23",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Engineer, Amazon | Multiple Locations, USA, Global Specialty Recruiting Team at Amazon Web Services (AWS) (New York, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Amazon Web Services (AWS) Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Amazon Web Services (AWS) Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20lead%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Amazon%20Web%20Services%20%28AWS%29%20%22hiring%22%20%22Principal%20Engineer%2C%20Amazon%20%7C%20Multiple%20Locations%2C%20USA%2C%20Global%20Specialty%20Recruiting%20Team%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Amazon%20Web%20Services%20%28AWS%29%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -10978,34 +10609,6 @@
       }
     },
     {
-      "id": "li_4482820463",
-      "title": "Senior Software Engineer - Payments",
-      "company": "Alpaca",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-payments-at-alpaca-4482820463",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer - Payments at Alpaca (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Alpaca Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Alpaca Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Alpaca%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Alpaca%20%22hiring%22%20%22Senior%20Software%20Engineer%20-%20Payments%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Alpaca%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Alpaca%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "gh_toast_8045807",
       "title": "Manager II, Software Engineering",
       "company": "Toast",
@@ -11222,34 +10825,6 @@
       }
     },
     {
-      "id": "li_4454905549",
-      "title": "Staff Software Engineer, Core Infrastructure",
-      "company": "Scribd, Inc.",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-core-infrastructure-at-scribd-inc-4454905549",
-      "date_posted": "2026-10-22",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer, Core Infrastructure at Scribd, Inc. (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Scribd, Inc. Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Scribd, Inc. Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Scribd%2C%20Inc.%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Core%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Scribd%2C%20Inc.%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4464958786",
       "title": "Principal Software Engineer - Blockchain",
       "company": "JPMorganChase",
@@ -11303,6 +10878,34 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Akamai%20Technologies%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Akamai%20Technologies%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Akamai%20Technologies%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4481390763",
+      "title": "Principal Mission Critical Software Engineer",
+      "company": "Draper",
+      "location": "Greater Boston",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-mission-critical-software-engineer-at-draper-4481390763",
+      "date_posted": "2026-10-22",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Mission Critical Software Engineer at Draper (Greater Boston) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Draper Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Draper Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Draper%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Draper%20%22hiring%22%20%22Principal%20Mission%20Critical%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Draper%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Draper%20engineering%20manager%20Boston"
       }
     },
     {
@@ -11621,34 +11224,6 @@
       }
     },
     {
-      "id": "li_4471747043",
-      "title": "Confluent - Staff Software Engineer - Stream Processing & Analytics",
-      "company": "IBM",
-      "location": "Lowell, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/confluent-staff-software-engineer-stream-processing-analytics-at-ibm-4471747043",
-      "date_posted": "2026-10-21",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Confluent - Staff Software Engineer - Stream Processing & Analytics at IBM (Lowell, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "IBM Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "IBM Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Confluent%20-%20Staff%20Software%20Engineer%20-%20Stream%20Processing%20%26%20Analytics%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4463580305",
       "title": "Machine Learning Engineer, Discovery",
       "company": "Whatnot",
@@ -11872,34 +11447,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Grubhub%20%22hiring%22%20%22Senior%20Software%20Engineer%20%28Backend%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Grubhub%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Grubhub%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4473290918",
-      "title": "Senior Software Engineer, Backend - Overseer (Platform)",
-      "company": "Coinbase",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-overseer-platform-at-coinbase-4473290918",
-      "date_posted": "2026-10-21",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer, Backend - Overseer (Platform) at Coinbase (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Coinbase Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Backend%20-%20Overseer%20%28Platform%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -12156,6 +11703,36 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Radar%20%22hiring%22%20%22Senior%20/%20Staff%20Backend%20Engineer%2C%20Maps%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Radar%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Radar%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4395476420",
+      "title": "Principal Software Engineer – Large-Scale LLM Memory and Storage Systems",
+      "company": "NVIDIA",
+      "location": "Massachusetts, United States",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "Machine Learning / AI",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-%E2%80%93-large-scale-llm-memory-and-storage-systems-at-nvidia-4395476420",
+      "date_posted": "2026-10-18",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "LLM"
+      ],
+      "snippet": "Open position for Principal Software Engineer – Large-Scale LLM Memory and Storage Systems at NVIDIA (Massachusetts, United States) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "NVIDIA Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "NVIDIA Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=NVIDIA%20%22hiring%22%20%22Principal%20Software%20Engineer%20%E2%80%93%20Large-Scale%20LLM%20Memory%20and%20Storage%20Systems%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=NVIDIA%20engineering%20manager%20Boston"
       }
     },
     {
@@ -12589,6 +12166,36 @@
       }
     },
     {
+      "id": "li_4477715113",
+      "title": "Confluent - Senior Software Engineer - Kafka",
+      "company": "IBM",
+      "location": "Lowell, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/confluent-senior-software-engineer-kafka-at-ibm-4477715113",
+      "date_posted": "2026-10-16",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "Kafka"
+      ],
+      "snippet": "Open position for Confluent - Senior Software Engineer - Kafka at IBM (Lowell, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "IBM Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "IBM Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Confluent%20-%20Senior%20Software%20Engineer%20-%20Kafka%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "gh_datadog_8260933",
       "title": "Manager I, Engineering - Language Platform",
       "company": "Datadog",
@@ -12677,34 +12284,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Klaviyo%20%22hiring%22%20%22Sr.%20Staff%20Engineer%2C%20Applied%20AI%20%28Customer%20Agent%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Klaviyo%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Klaviyo%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4471111907",
-      "title": "Senior Staff Firmware Engineer",
-      "company": "Boston Dynamics",
-      "location": "Waltham, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-staff-firmware-engineer-at-boston-dynamics-4471111907",
-      "date_posted": "2026-10-15",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Staff Firmware Engineer at Boston Dynamics (Waltham, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Boston Dynamics Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Boston Dynamics Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Boston%20Dynamics%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Boston%20Dynamics%20%22hiring%22%20%22Senior%20Staff%20Firmware%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Boston%20Dynamics%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Boston%20Dynamics%20engineering%20manager%20Boston"
       }
     },
     {
@@ -12903,6 +12482,34 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Starburst%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Control%20Plane%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Starburst%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Starburst%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4479756930",
+      "title": "Senior Software Engineer, Backend - Overseer (Platform)",
+      "company": "Coinbase",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-overseer-platform-at-coinbase-4479756930",
+      "date_posted": "2026-10-15",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior Software Engineer, Backend - Overseer (Platform) at Coinbase (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Coinbase Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20lead%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Backend%20-%20Overseer%20%28Platform%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -13248,62 +12855,6 @@
       }
     },
     {
-      "id": "li_4479255990",
-      "title": "Senior Software Engineer - Access & Authorization (Platform)",
-      "company": "Coinbase",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-access-authorization-platform-at-coinbase-4479255990",
-      "date_posted": "2026-10-14",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer - Access & Authorization (Platform) at Coinbase (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Coinbase Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Software%20Engineer%20-%20Access%20%26%20Authorization%20%28Platform%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4318373256",
-      "title": "Senior Software Engineer, C++",
-      "company": "Ripple",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-c%2B%2B-at-ripple-4318373256",
-      "date_posted": "2026-10-14",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer, C++ at Ripple (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Ripple Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Ripple Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Ripple%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Ripple%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20C%2B%2B%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ripple%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ripple%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "li_4476481455",
       "title": "Staff Software Engineering, Backend (All Teams)",
       "company": "DoorDash",
@@ -13332,6 +12883,34 @@
       }
     },
     {
+      "id": "li_4468136594",
+      "title": "OMS Principal Software Engineer (Full Stack, Design and Develop Financial Trading Applications)",
+      "company": "FactSet",
+      "location": "Norwalk, CT",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/oms-principal-software-engineer-full-stack-design-and-develop-financial-trading-applications-at-factset-4468136594",
+      "date_posted": "2026-10-13",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for OMS Principal Software Engineer (Full Stack, Design and Develop Financial Trading Applications) at FactSet (Norwalk, CT) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "FactSet Talent Lead",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "FactSet Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=FactSet%20lead%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=FactSet%20%22hiring%22%20%22OMS%20Principal%20Software%20Engineer%20%28Full%20Stack%2C%20Design%20and%20Develop%20Financial%20Trading%20Applications%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=FactSet%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=FactSet%20engineering%20manager%20New%20York"
+      }
+    },
+    {
       "id": "li_4461235929",
       "title": "Principal Full Stack Software Engineer",
       "company": "Butterfly Network, Inc.",
@@ -13357,36 +12936,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Butterfly%20Network%2C%20Inc.%20%22hiring%22%20%22Principal%20Full%20Stack%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Butterfly%20Network%2C%20Inc.%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Butterfly%20Network%2C%20Inc.%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4479097322",
-      "title": "Principal Software Engineer, AI",
-      "company": "PermitFlow",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-ai-at-permitflow-4479097322",
-      "date_posted": "2026-10-13",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open position for Principal Software Engineer, AI at PermitFlow (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "PermitFlow Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "PermitFlow Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=PermitFlow%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=PermitFlow%20%22hiring%22%20%22Principal%20Software%20Engineer%2C%20AI%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=PermitFlow%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=PermitFlow%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -13831,34 +13380,6 @@
       }
     },
     {
-      "id": "li_4461928533",
-      "title": "Staff Software Engineer",
-      "company": "SimpliSafe",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-at-simplisafe-4461928533",
-      "date_posted": "2026-10-02",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Staff Software Engineer at SimpliSafe (Boston, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "SimpliSafe Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "SimpliSafe Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=SimpliSafe%20%22hiring%22%20%22Staff%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=SimpliSafe%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "gh_toast_7731560",
       "title": "Staff Software Engineer-Scheduling",
       "company": "Toast",
@@ -14116,36 +13637,6 @@
       }
     },
     {
-      "id": "li_4470180262",
-      "title": "Principal Engineer (AI, Office of the CEO)",
-      "company": "Jobber",
-      "location": "Massachusetts, United States",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Principal",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/principal-engineer-ai-office-of-the-ceo-at-jobber-4470180262",
-      "date_posted": "2026-09-29",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open position for Principal Engineer (AI, Office of the CEO) at Jobber (Massachusetts, United States) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Jobber Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Jobber Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Jobber%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Jobber%20%22hiring%22%20%22Principal%20Engineer%20%28AI%2C%20Office%20of%20the%20CEO%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Jobber%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Jobber%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "gh_toast_8230535",
       "title": "Senior Software Engineer, AI Agent & Experience Team",
       "company": "Toast",
@@ -14274,34 +13765,6 @@
       }
     },
     {
-      "id": "li_4465179389",
-      "title": "Senior Software Engineer",
-      "company": "AuthZed",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-authzed-4465179389",
-      "date_posted": "2026-09-12",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer at AuthZed (New York, NY) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "AuthZed Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "AuthZed Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=AuthZed%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=AuthZed%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=AuthZed%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=AuthZed%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "li_4466000916",
       "title": "Senior/Staff Software Engineer",
       "company": "Fractal Power",
@@ -14385,62 +13848,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cinder%20%22hiring%22%20%22AI/ML%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cinder%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cinder%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "li_4457152767",
-      "title": "Software Engineer, Backend (Staff+)",
-      "company": "Lightfield",
-      "location": "Cambridge, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-backend-staff%2B-at-lightfield-4457152767",
-      "date_posted": "2026-08-24",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Software Engineer, Backend (Staff+) at Lightfield (Cambridge, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Lightfield Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Lightfield Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Lightfield%20%22hiring%22%20%22Software%20Engineer%2C%20Backend%20%28Staff%2B%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4457166032",
-      "title": "Software Engineer, Data Infrastructure (Staff+)",
-      "company": "Lightfield",
-      "location": "Cambridge, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-data-infrastructure-staff%2B-at-lightfield-4457166032",
-      "date_posted": "2026-08-24",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Software Engineer, Data Infrastructure (Staff+) at Lightfield (Cambridge, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Lightfield Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Lightfield Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Lightfield%20%22hiring%22%20%22Software%20Engineer%2C%20Data%20Infrastructure%20%28Staff%2B%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lightfield%20engineering%20manager%20Boston"
       }
     },
     {
@@ -14760,34 +14167,6 @@
       }
     },
     {
-      "id": "li_4438813673",
-      "title": "Senior Software Engineer",
-      "company": "Makai Labs",
-      "location": "Massachusetts, United States",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "General Software",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-makai-labs-4438813673",
-      "date_posted": "2026-07-09",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [],
-      "snippet": "Open position for Senior Software Engineer at Makai Labs (Massachusetts, United States) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Makai Labs Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Makai Labs Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Makai%20Labs%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Makai%20Labs%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Makai%20Labs%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Makai%20Labs%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "li_4435271044",
       "title": "Senior Software Engineer (Backend)",
       "company": "Counsel Health",
@@ -14927,36 +14306,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Draper%20%22hiring%22%20%22Principal%20Embedded%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Draper%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Draper%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "li_4413483803",
-      "title": "Senior Machine Learning Engineer – Physical AI",
-      "company": "Goddard",
-      "location": "Wilmington, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Senior",
-      "discipline": "Machine Learning / AI",
-      "source": "LinkedIn",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-%E2%80%93-physical-ai-at-goddard-4413483803",
-      "date_posted": "2026-05-12",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open position for Senior Machine Learning Engineer – Physical AI at Goddard (Wilmington, MA) via LinkedIn.",
-      "description": "",
-      "recruiter": {
-        "recruiter_name": "Goddard Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Goddard Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Goddard%20lead%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Goddard%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%20%E2%80%93%20Physical%20AI%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Goddard%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Goddard%20engineering%20manager%20Boston"
       }
     },
     {
