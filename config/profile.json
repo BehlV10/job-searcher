@@ -1,0 +1,59 @@
+{
+  "user": {
+    "name": "Varun Behl",
+    "target_roles": [
+      "Staff Software Engineer",
+      "Senior Software Engineer",
+      "Lead Software Engineer",
+      "Principal Software Engineer"
+    ],
+    "target_locations": [
+      "New York, NY",
+      "Boston, MA",
+      "Cambridge, MA",
+      "Remote"
+    ],
+    "min_salary": 180000,
+    "skills": [
+      "Distributed Systems",
+      "Python",
+      "Go",
+      "Java",
+      "TypeScript",
+      "Cloud / AWS / GCP",
+      "System Architecture",
+      "Kubernetes"
+    ],
+    "outreach_template": "Hi {{recruiter_name}},\n\nI noticed {{company}} is hiring for a {{job_title}} in {{location}}. With extensive experience architecting high-scale distributed systems and leading engineering initiatives, I'm very excited about {{company}}'s mission.\n\nI've attached my resume and would love to connect for a quick 10-minute chat if you're open to it.\n\nBest regards,\n{{user_name}}"
+  },
+  "search_settings": {
+    "sources": ["linkedin", "greenhouse", "lever"],
+    "keywords": [
+      "Staff Software Engineer",
+      "Senior Software Engineer",
+      "Staff Backend Engineer",
+      "Senior Backend Engineer",
+      "Principal Software Engineer"
+    ],
+    "locations": [
+      "New York, NY",
+      "Boston, MA"
+    ],
+    "top_companies": [
+      "datadog",
+      "stripe",
+      "mongodb",
+      "figma",
+      "ramp",
+      "cockroach-labs",
+      "wayfair",
+      "toast",
+      "draftkings",
+      "hubspot",
+      "robinhood",
+      "etsy",
+      "squarespace",
+      "flatironhealth"
+    ]
+  }
+}
