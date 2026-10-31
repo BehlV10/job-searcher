@@ -1,7 +1,7 @@
 """
 Greenhouse Job Board Scraper.
-Fetches open engineering positions from top tech companies using Greenhouse.
-Greenhouse provides complete job descriptions containing mandatory NYC/MA salary disclosures and YoE.
+Fetches open engineering positions from top tech companies and unicorns using Greenhouse
+(Reddit, Stripe, Cloudflare, Anthropic, Airbnb, Pinterest, Coinbase, Datadog, Toast, Klaviyo, etc.).
 """
 
 import time
@@ -23,11 +23,31 @@ from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
+# Curated top 30+ tech giants, unicorns & employers on Greenhouse
 DEFAULT_GREENHOUSE_BOARDS = [
+    {"name": "Reddit", "token": "reddit"},
+    {"name": "Stripe", "token": "stripe"},
+    {"name": "Cloudflare", "token": "cloudflare"},
+    {"name": "Anthropic", "token": "anthropic"},
+    {"name": "Datadog", "token": "datadog"},
     {"name": "Toast", "token": "toast"},
     {"name": "Klaviyo", "token": "klaviyo"},
-    {"name": "Datadog", "token": "datadog"},
     {"name": "MongoDB", "token": "mongodb"},
+    {"name": "Airbnb", "token": "airbnb"},
+    {"name": "Pinterest", "token": "pinterest"},
+    {"name": "Coinbase", "token": "coinbase"},
+    {"name": "Affirm", "token": "affirm"},
+    {"name": "Roblox", "token": "roblox"},
+    {"name": "Scale AI", "token": "scaleai"},
+    {"name": "Twitch", "token": "twitch"},
+    {"name": "Lyft", "token": "lyft"},
+    {"name": "Twilio", "token": "twilio"},
+    {"name": "Elastic", "token": "elastic"},
+    {"name": "Asana", "token": "asana"},
+    {"name": "Figma", "token": "figma"},
+    {"name": "Vercel", "token": "vercel"},
+    {"name": "Brex", "token": "brex"},
+    {"name": "GitLab", "token": "gitlab"},
     {"name": "Braze", "token": "braze"},
     {"name": "Oscar Health", "token": "oscar"},
     {"name": "Recorded Future", "token": "recordedfuture"},
@@ -36,8 +56,7 @@ DEFAULT_GREENHOUSE_BOARDS = [
     {"name": "Starburst Data", "token": "starburst"},
     {"name": "Betterment", "token": "betterment"},
     {"name": "Squarespace", "token": "squarespace"},
-    {"name": "Flatiron Health", "token": "flatironhealth"},
-    {"name": "Cockroach Labs", "token": "cockroachlabs"}
+    {"name": "Flatiron Health", "token": "flatironhealth"}
 ]
 
 
@@ -51,7 +70,6 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
     try:
         res = requests.get(url, headers=headers, timeout=12)
         if res.status_code != 200:
-            logger.warning(f"Greenhouse [{company_name}] returned status {res.status_code}")
             return []
 
         data = res.json()
@@ -76,7 +94,7 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
                     continue
 
             title_lower = title.lower()
-            engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems engineer", "platform", "data engineer", "machine learning", "applied scientist", "ai engineer"]
+            engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "data engineer", "machine learning", "applied scientist", "ai engineer"]
             seniority_keywords = ["senior", "staff", "lead", "principal", "distinguished", "architect", "manager", "head", "director", "sr."]
 
             is_swe = any(k in title_lower for k in engineering_keywords)
@@ -121,7 +139,7 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
                 "recruiter": recruiter_info
             })
 
-        logger.info(f"Greenhouse [{company_name}]: Extracted {len(results)} matching jobs.")
+        logger.info(f"Greenhouse [{company_name}]: Found {len(results)} matching positions.")
         return results
 
     except Exception as e:
@@ -134,7 +152,7 @@ def scrape_greenhouse_all(boards: Optional[List[Dict[str, str]]] = None) -> List
     targets = boards or DEFAULT_GREENHOUSE_BOARDS
     all_jobs = []
     for b in targets:
-        time.sleep(0.3)
+        time.sleep(0.15)
         jobs = fetch_greenhouse_board(b["token"], b["name"])
         all_jobs.extend(jobs)
     return all_jobs

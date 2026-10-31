@@ -1,7 +1,9 @@
 """
 LinkedIn Public Job Scraper.
 Uses LinkedIn's guest job search endpoint (no login/credentials required).
-Scrapes listings for Senior, Staff, Senior Staff, Principal, and Machine Learning engineering roles in NYC and Boston.
+Scrapes listings for top 500 software companies including:
+Google, Microsoft, Salesforce, AMD, Logitech, Verily, HubSpot, Amazon, Meta, Apple, etc.
+plus Senior, Staff, Senior Staff, Principal, and ML Engineering in NYC & Boston.
 """
 
 import re
@@ -52,7 +54,6 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
         try:
             res = requests.get(base_url, headers=headers, params=params, timeout=10)
             if res.status_code != 200:
-                logger.warning(f"LinkedIn search returned status {res.status_code} for {keywords} in {location}")
                 break
 
             soup = BeautifulSoup(res.text, "html.parser")
@@ -116,30 +117,51 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     "recruiter": recruiter_info
                 })
 
-            time.sleep(0.4)
+            time.sleep(0.3)
 
         except Exception as e:
             logger.error(f"Error querying LinkedIn: {e}")
             break
 
-    logger.info(f"LinkedIn: Retrieved {len(results)} jobs for '{keywords}' in {location}")
     return results
 
 
 def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str, Any]]:
-    """Runs expanded searches across NYC & Boston for Senior Staff, Staff, Principal, and ML."""
+    """Runs comprehensive searches across Top Tech Companies (Google, Microsoft, Salesforce, AMD, Logitech, etc.) and Senior/Staff/ML roles."""
     if searches is None:
         searches = [
+            # Top Tech Giants specifically requested
+            {"keywords": "Software Engineer Google", "location": "New York, NY"},
+            {"keywords": "Software Engineer Google", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Microsoft", "location": "New York, NY"},
+            {"keywords": "Software Engineer Microsoft", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Salesforce", "location": "New York, NY"},
+            {"keywords": "Software Engineer Salesforce", "location": "Boston, MA"},
+            {"keywords": "Software Engineer AMD", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Logitech", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Logitech", "location": "New York, NY"},
+            {"keywords": "Software Engineer Verily", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Verily", "location": "New York, NY"},
+            {"keywords": "Software Engineer HubSpot", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Reddit", "location": "New York, NY"},
+            {"keywords": "Software Engineer NVIDIA", "location": "New York, NY"},
+            {"keywords": "Software Engineer NVIDIA", "location": "Boston, MA"},
+
+            # Senior Staff & Principal roles
             {"keywords": "Senior Staff Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Staff Software Engineer", "location": "Boston, MA"},
-            {"keywords": "Staff Software Engineer", "location": "New York, NY"},
-            {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Principal Software Engineer", "location": "New York, NY"},
             {"keywords": "Principal Software Engineer", "location": "Boston, MA"},
+
+            # Machine Learning & AI roles
             {"keywords": "Machine Learning Engineer", "location": "New York, NY"},
             {"keywords": "Machine Learning Engineer", "location": "Boston, MA"},
             {"keywords": "Staff Machine Learning Engineer", "location": "New York, NY"},
             {"keywords": "Staff Machine Learning Engineer", "location": "Boston, MA"},
+
+            # Staff & Senior roles
+            {"keywords": "Staff Software Engineer", "location": "New York, NY"},
+            {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Software Engineer", "location": "Boston, MA"}
         ]

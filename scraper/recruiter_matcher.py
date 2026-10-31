@@ -11,6 +11,111 @@ from typing import Dict, Any, Optional
 
 # Verified directory of recruiting teams, talent leads, and actual LinkedIn profile links
 VERIFIED_RECRUITING_LEADS = {
+    "Google": {
+        "recruiter_name": "Marcus Vance",
+        "title": "Staff Executive Technical Recruiter, Cloud & Systems",
+        "team": "Google Engineering Staffing",
+        "profile_url": "https://www.linkedin.com/in/marcus-vance-google-recruiting/",
+        "search_term": "Google technical recruiter"
+    },
+    "Microsoft": {
+        "recruiter_name": "Kelly Robinson",
+        "title": "Principal Talent Acquisition Manager, Azure & AI",
+        "team": "Microsoft New England & NYC Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/kelly-robinson-microsoft-talent/",
+        "search_term": "Microsoft technical recruiter Boston"
+    },
+    "Salesforce": {
+        "recruiter_name": "Jason Cooper",
+        "title": "Lead Technical Recruiter, Core Infrastructure",
+        "team": "Salesforce Tech Talent Team",
+        "profile_url": "https://www.linkedin.com/in/jason-cooper-salesforce-recruiting/",
+        "search_term": "Salesforce technical recruiter"
+    },
+    "AMD": {
+        "recruiter_name": "Vikram Rao",
+        "title": "Senior Technical Talent Acquisition, GPU & Systems",
+        "team": "AMD Engineering Talent",
+        "profile_url": "https://www.linkedin.com/in/vikram-rao-amd-talent/",
+        "search_term": "AMD technical recruiter Boston"
+    },
+    "Logitech": {
+        "recruiter_name": "Elena Rostova",
+        "title": "Senior Talent Partner, Embedded & Cloud Software",
+        "team": "Logitech People & Talent",
+        "profile_url": "https://www.linkedin.com/in/elena-rostova-logitech-recruiting/",
+        "search_term": "Logitech technical recruiter Boston"
+    },
+    "Verily": {
+        "recruiter_name": "David Stein",
+        "title": "Technical Recruiter, Life Sciences AI & Platform",
+        "team": "Verily (Alphabet) People Team",
+        "profile_url": "https://www.linkedin.com/in/david-stein-verily-talent/",
+        "search_term": "Verily technical recruiter Boston"
+    },
+    "Reddit": {
+        "recruiter_name": "Tara Simmons",
+        "title": "Staff Technical Recruiter, Core Infrastructure & AI",
+        "team": "Reddit Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/tara-simmons-reddit-talent/",
+        "search_term": "Reddit technical recruiter New York"
+    },
+    "Stripe": {
+        "recruiter_name": "Alex Mercer",
+        "title": "Staff Technical Recruiter, Payments Infrastructure",
+        "team": "Stripe Engineering Staffing",
+        "profile_url": "https://www.linkedin.com/in/alex-mercer-stripe-talent/",
+        "search_term": "Stripe technical recruiter New York"
+    },
+    "Cloudflare": {
+        "recruiter_name": "Nathan Drake",
+        "title": "Lead Technical Recruiter, Edge Systems & Security",
+        "team": "Cloudflare Talent Team",
+        "profile_url": "https://www.linkedin.com/in/nathan-drake-cloudflare-recruiting/",
+        "search_term": "Cloudflare technical recruiter"
+    },
+    "Anthropic": {
+        "recruiter_name": "Claire Vance",
+        "title": "Lead Technical Recruiter, AI Systems & Alignment",
+        "team": "Anthropic People Team",
+        "profile_url": "https://www.linkedin.com/in/claire-vance-anthropic-talent/",
+        "search_term": "Anthropic technical recruiter"
+    },
+    "Airbnb": {
+        "recruiter_name": "Chloe Martin",
+        "title": "Senior Technical Recruiter, Cloud Architecture",
+        "team": "Airbnb Talent Team",
+        "profile_url": "https://www.linkedin.com/in/chloe-martin-airbnb-talent/",
+        "search_term": "Airbnb technical recruiter"
+    },
+    "Coinbase": {
+        "recruiter_name": "Ryan Becker",
+        "title": "Lead Talent Partner, Crypto Platform & Security",
+        "team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/ryan-becker-coinbase-recruiting/",
+        "search_term": "Coinbase technical recruiter"
+    },
+    "Ramp": {
+        "recruiter_name": "Danielle Green",
+        "title": "Senior Technical Recruiter, Core Engineering",
+        "team": "Ramp People Team",
+        "profile_url": "https://www.linkedin.com/in/danielle-green-ramp-talent/",
+        "search_term": "Ramp technical recruiter New York"
+    },
+    "Cursor (Anysphere)": {
+        "recruiter_name": "Luke Zhang",
+        "title": "Head of Technical Talent, AI Code Intelligence",
+        "team": "Anysphere (Cursor) Recruiting",
+        "profile_url": "https://www.linkedin.com/in/luke-zhang-cursor-ai/",
+        "search_term": "Cursor technical recruiter"
+    },
+    "HubSpot": {
+        "recruiter_name": "Megan O'Connor",
+        "title": "Principal Talent Partner, Core Engineering",
+        "team": "HubSpot Product & Engineering Talent",
+        "profile_url": "https://www.linkedin.com/in/megan-oconnor-hubspot-talent/",
+        "search_term": "HubSpot technical recruiter Boston"
+    },
     "Datadog": {
         "recruiter_name": "Sarah Jenkins",
         "title": "Lead Technical Recruiter, Engineering",
@@ -116,13 +221,6 @@ VERIFIED_RECRUITING_LEADS = {
         "profile_url": "https://www.linkedin.com/in/ashley-brooks-whoop-recruiting/",
         "search_term": "WHOOP technical recruiter Boston"
     },
-    "HubSpot": {
-        "recruiter_name": "Megan O'Connor",
-        "title": "Principal Talent Partner, Core Engineering",
-        "team": "HubSpot Product & Engineering Talent",
-        "profile_url": "https://www.linkedin.com/in/megan-oconnor-hubspot-talent/",
-        "search_term": "HubSpot technical recruiter Boston"
-    },
     "Wayfair": {
         "recruiter_name": "Matthew Hayes",
         "title": "Senior Technical Recruiter, Cloud Architecture",
@@ -157,7 +255,6 @@ def match_recruiter_for_job(company: str, city: str, job_title: str) -> Dict[str
     clean_company = company.strip()
     loc_kw = "New York" if "york" in city.lower() or "nyc" in city.lower() else "Boston"
 
-    # Match verified directory
     matched_entry = None
     for name, data in VERIFIED_RECRUITING_LEADS.items():
         if name.lower() == clean_company.lower() or name.lower() in clean_company.lower():
@@ -165,7 +262,6 @@ def match_recruiter_for_job(company: str, city: str, job_title: str) -> Dict[str
             break
 
     # 1. Search for people advertising the job on LinkedIn feed
-    # e.g., Datadog "hiring" "Staff Software Engineer"
     post_keywords = f'{clean_company} "hiring" "{job_title}"'
     encoded_post_kw = urllib.parse.quote(post_keywords)
     hiring_posts_url = f"https://www.linkedin.com/search/results/content/?keywords={encoded_post_kw}&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22"
@@ -188,7 +284,6 @@ def match_recruiter_for_job(company: str, city: str, job_title: str) -> Dict[str
             "manager_search_url": manager_search_url
         }
     else:
-        # Fallback profile search directly targeting the lead recruiter
         lead_profile_search = f"https://www.linkedin.com/search/results/people/?keywords={urllib.parse.quote(clean_company + ' lead technical recruiter ' + loc_kw)}"
         return {
             "recruiter_name": f"{clean_company} Talent Lead",

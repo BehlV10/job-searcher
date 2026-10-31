@@ -1,8 +1,16 @@
 """
-Main Job Scraper and Aggregator Pipeline.
-Coordinates scrapers across Greenhouse, Lever, LinkedIn, and Built In (Boston & NYC).
-Deduplicates, parses, enriches with recruiter outreach intelligence,
-and outputs data/jobs.json and web/jobs.json for GitHub Pages.
+High-Scale Job Scraper and Aggregator Pipeline.
+Coordinates concurrent scrapers across:
+1. Greenhouse (Reddit, Stripe, Cloudflare, Anthropic, Datadog, Toast, Klaviyo, etc.)
+2. Ashby (Ramp, Cursor / Anysphere, Linear, Modal Labs, etc.)
+3. Lever (Palantir, Spotify, Postman)
+4. Built In (Boston & NYC multi-category)
+5. LinkedIn Public Searches (Google, Microsoft, Salesforce, AMD, Logitech, Verily, HubSpot, etc.)
+
+Uses multi-threading for blazing fast execution.
+Deduplicates, categorizes seniority (Senior, Staff, Senior Staff, Principal),
+separates Machine Learning / AI from General SWE,
+and exports data/jobs.json, web/jobs.json, and root jobs.json for GitHub Pages.
 """
 
 import os
@@ -10,9 +18,11 @@ import json
 import logging
 import datetime
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict, Any
 
 from scraper.greenhouse_scraper import scrape_greenhouse_all
+from scraper.ashby_scraper import scrape_ashby_all
 from scraper.lever_scraper import scrape_lever_all
 from scraper.linkedin_scraper import scrape_linkedin_all
 from scraper.builtin_scraper import scrape_builtin_all
@@ -76,17 +86,14 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
     nyc_count = sum(1 for j in jobs if j.get("city") == "New York, NY")
     boston_count = sum(1 for j in jobs if j.get("city") == "Boston, MA")
 
-    # Seniority counts
     senior_staff_count = sum(1 for j in jobs if j.get("seniority") == "Senior Staff")
     principal_count = sum(1 for j in jobs if j.get("seniority") == "Principal")
     staff_count = sum(1 for j in jobs if j.get("seniority") == "Staff")
     senior_count = sum(1 for j in jobs if j.get("seniority") in ["Senior", "Lead"])
 
-    # Discipline counts
     ml_count = sum(1 for j in jobs if j.get("discipline") == "Machine Learning / AI")
     general_swe_count = sum(1 for j in jobs if j.get("discipline") != "Machine Learning / AI")
 
-    # Source breakdown
     sources_summary = {}
     for j in jobs:
         src = j.get("source", "Other")
@@ -105,7 +112,7 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "senior_jobs": senior_count,
             "ml_jobs": ml_count,
             "general_swe_jobs": general_swe_count,
-            "sources": ["LinkedIn", "Greenhouse", "Lever", "Built In"],
+            "sources": ["LinkedIn", "Greenhouse", "Lever", "Ashby", "Built In"],
             "source_breakdown": sources_summary
         },
         "user_profile": user_profile,
@@ -114,57 +121,39 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
 
 
 def run_pipeline():
-    """Runs full multi-source scraping, parsing, enrichment and export pipeline."""
-    logger.info("Starting Job Searcher ingestion pipeline...")
+    """Runs full high-scale concurrent scraping, parsing, enrichment and export pipeline."""
+    logger.info("Starting High-Scale Job Searcher Pipeline...")
     config = load_config()
     user_info = config.get("user", {})
 
     collected_jobs = []
 
-    # 1. Scrape Greenhouse boards
-    logger.info("--- [1/4] Scraping Direct Greenhouse ATS Boards ---")
-    try:
-        gh_jobs = scrape_greenhouse_all()
-        logger.info(f"Greenhouse total collected: {len(gh_jobs)}")
-        collected_jobs.extend(gh_jobs)
-    except Exception as e:
-        logger.error(f"Error in Greenhouse pipeline: {e}")
+    tasks = {
+        "Greenhouse": scrape_greenhouse_all,
+        "Ashby": scrape_ashby_all,
+        "Lever": scrape_lever_all,
+        "BuiltIn": scrape_builtin_all,
+        "LinkedIn": scrape_linkedin_all
+    }
 
-    # 2. Scrape Lever boards
-    logger.info("--- [2/4] Scraping Direct Lever ATS Boards ---")
-    try:
-        lever_jobs = scrape_lever_all()
-        logger.info(f"Lever total collected: {len(lever_jobs)}")
-        collected_jobs.extend(lever_jobs)
-    except Exception as e:
-        logger.error(f"Error in Lever pipeline: {e}")
-
-    # 3. Scrape Built In Boston & Built In NYC
-    logger.info("--- [3/4] Scraping Built In Boston & Built In NYC ---")
-    try:
-        builtin_jobs = scrape_builtin_all()
-        logger.info(f"Built In total collected: {len(builtin_jobs)}")
-        collected_jobs.extend(builtin_jobs)
-    except Exception as e:
-        logger.error(f"Error in Built In pipeline: {e}")
-
-    # 4. Scrape LinkedIn public guest jobs
-    logger.info("--- [4/4] Scraping LinkedIn Public Jobs ---")
-    try:
-        li_jobs = scrape_linkedin_all()
-        logger.info(f"LinkedIn total collected: {len(li_jobs)}")
-        collected_jobs.extend(li_jobs)
-    except Exception as e:
-        logger.error(f"Error in LinkedIn pipeline: {e}")
+    # Execute scrapers concurrently
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        future_to_source = {executor.submit(fn): name for name, fn in tasks.items()}
+        for future in as_completed(future_to_source):
+            source_name = future_to_source[future]
+            try:
+                jobs = future.result()
+                logger.info(f"[{source_name}] Completed. Retrieved {len(jobs)} jobs.")
+                collected_jobs.extend(jobs)
+            except Exception as e:
+                logger.error(f"[{source_name}] Failed with error: {e}")
 
     # Deduplicate and rank
     processed_jobs = deduplicate_and_rank_jobs(collected_jobs)
     logger.info(f"Total unique jobs after deduplication: {len(processed_jobs)}")
 
-    # Enrich
     final_payload = enrich_with_metadata(processed_jobs, user_info)
 
-    # Save outputs
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     WEB_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -179,7 +168,7 @@ def run_pipeline():
     with open(root_file, "w", encoding="utf-8") as f:
         json.dump(final_payload, f, indent=2, ensure_ascii=False)
 
-    print("\n================ PIPELINE SUMMARY ================")
+    print("\n================ HIGH-SCALE PIPELINE SUMMARY ================")
     print(f"Total Active Listings: {len(processed_jobs)}")
     print(f"With Parsed Salary:   {final_payload['metadata']['with_salary_count']}")
     print(f"New York, NY:         {final_payload['metadata']['nyc_jobs']}")
@@ -191,7 +180,7 @@ def run_pipeline():
     print(f"Machine Learning / AI:{final_payload['metadata']['ml_jobs']}")
     print(f"General SWE:          {final_payload['metadata']['general_swe_jobs']}")
     print("Source Breakdown:    ", final_payload['metadata']['source_breakdown'])
-    print("==================================================\n")
+    print("=============================================================\n")
 
     return final_payload
 
