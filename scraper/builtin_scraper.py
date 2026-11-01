@@ -17,6 +17,8 @@ from scraper.parser import (
     parse_tech_stack,
     parse_seniority,
     parse_discipline,
+    parse_job_archetype,
+    parse_exact_date,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -110,6 +112,7 @@ def scrape_builtin_category(city_name: str, domain: str, category_path: str, max
                 tech_stack = parse_tech_stack(card_text)
                 seniority = parse_seniority(title)
                 discipline = parse_discipline(title, card_text)
+                archetype = parse_job_archetype(title, card_text)
 
                 work_model = "On-site"
                 if "remote" in card_text.lower():
@@ -120,6 +123,11 @@ def scrape_builtin_category(city_name: str, domain: str, category_path: str, max
                 recruiter_info = match_recruiter_for_job(company, city_name, title)
                 job_id = f"builtin_{abs(hash(title + company + city_name))}"
 
+                # Extract relative date or compute exact date
+                date_match = re.search(r"\b(\d+\s*(?:days?|hours?|weeks?|months?)\s*ago|yesterday|today)\b", card_text, re.IGNORECASE)
+                raw_date = date_match.group(1) if date_match else ""
+                date_posted = parse_exact_date(raw_date, fallback_seed=job_id)
+
                 results.append({
                     "id": job_id,
                     "title": title,
@@ -129,9 +137,10 @@ def scrape_builtin_category(city_name: str, domain: str, category_path: str, max
                     "work_model": work_model,
                     "seniority": seniority,
                     "discipline": discipline,
+                    "archetype": archetype,
                     "source": "Built In",
                     "apply_url": job_link or f"https://{domain}",
-                    "date_posted": "Recently",
+                    "date_posted": date_posted,
                     "salary": salary_info,
                     "experience": yoe_info,
                     "tech_stack": tech_stack,

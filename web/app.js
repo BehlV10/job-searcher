@@ -26,6 +26,7 @@
     filters: {
       search: '',
       discipline: 'all', // 'all' | 'General Software' | 'Machine Learning / AI'
+      archetype: 'all',
       location: 'all',
       seniority: 'all',  // 'all' | 'Senior' | 'Staff' | 'Senior Staff' | 'Principal' | 'Engineering Manager'
       minSalary: 180000,
@@ -58,6 +59,7 @@
     searchClear: document.getElementById('search-clear'),
     discButtons: document.querySelectorAll('.filter-disc-btn'),
     locButtons: document.querySelectorAll('.filter-loc-btn'),
+    archetypeSelect: document.getElementById('filter-archetype'),
     senioritySelect: document.getElementById('filter-seniority'),
     salarySelect: document.getElementById('filter-salary'),
     yoeSelect: document.getElementById('filter-yoe'),
@@ -292,10 +294,15 @@
 
   // Filter Jobs
   function applyFilters() {
-    const { search, discipline, location, seniority, minSalary, minYoE, source, sortBy } = state.filters;
+    const { search, discipline, archetype, location, seniority, minSalary, minYoE, source, sortBy } = state.filters;
     const searchLower = search.trim().toLowerCase();
 
     state.filteredJobs = state.jobs.filter(job => {
+      // 0. Role Archetype
+      if (archetype && archetype !== 'all') {
+        if ((job.archetype || '') !== archetype) return false;
+      }
+
       // 1. Discipline Filter (General SWE vs ML / AI)
       if (discipline !== 'all') {
         if (discipline === 'Machine Learning / AI') {
@@ -376,6 +383,21 @@
     renderJobsList();
   }
 
+  // Format exact date (YYYY-MM-DD -> MMM DD, YYYY)
+  function formatExactDate(isoString) {
+    if (!isoString) return 'Active Listing';
+    const parts = isoString.split('-');
+    if (parts.length === 3) {
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const year = parts[0];
+      const monthIdx = parseInt(parts[1], 10) - 1;
+      const month = months[monthIdx] || parts[1];
+      const day = parseInt(parts[2], 10);
+      return `${month} ${day}, ${year}`;
+    }
+    return isoString;
+  }
+
   // Render Job Cards
   function renderJobsList() {
     const list = state.filteredJobs;
@@ -423,6 +445,13 @@
           General SWE
         </span>
       `;
+
+      // Archetype Badge
+      const archetypeBadge = job.archetype && job.archetype !== 'General Software' ? `
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-cyan-50 text-cyan-800 dark:bg-cyan-950/70 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-800">
+          ${job.archetype}
+        </span>
+      ` : '';
 
       // Salary badge
       let salaryHtml = '';
@@ -485,6 +514,7 @@
                     ${job.seniority}
                   </span>
                   ${disciplineBadge}
+                  ${archetypeBadge}
                   <span class="px-2 py-0.5 rounded-md text-[10px] font-semibold bg-slate-100 dark:bg-slate-800/80 text-slate-500 dark:text-slate-400">
                     ${job.source}
                   </span>
@@ -500,9 +530,9 @@
                     <i data-lucide="${locIcon}" class="w-3.5 h-3.5 text-slate-400"></i>
                     ${job.city} ${job.work_model !== 'On-site' ? '• ' + job.work_model : ''}
                   </span>
-                  <span class="flex items-center gap-1">
+                  <span class="flex items-center gap-1 font-medium text-slate-600 dark:text-slate-300">
                     <i data-lucide="calendar" class="w-3.5 h-3.5 text-slate-400"></i>
-                    ${job.date_posted}
+                    ${formatExactDate(job.date_posted)}
                   </span>
                 </div>
 
@@ -709,10 +739,11 @@
 
     el.drawerCompany.textContent = job.company;
     el.drawerSource.textContent = job.source;
-    el.drawerDiscipline.textContent = job.discipline || 'General Software';
+    const archLabel = job.archetype ? ` • ${job.archetype}` : '';
+    el.drawerDiscipline.textContent = (job.discipline || 'General Software') + archLabel;
     el.drawerTitle.textContent = job.title;
     el.drawerLocation.innerHTML = `<i data-lucide="map-pin" class="w-3.5 h-3.5"></i> ${job.location || job.city}`;
-    el.drawerDate.innerHTML = `<i data-lucide="calendar" class="w-3.5 h-3.5"></i> Posted: ${job.date_posted}`;
+    el.drawerDate.innerHTML = `<i data-lucide="calendar" class="w-3.5 h-3.5"></i> Posted: ${formatExactDate(job.date_posted)}`;
 
     el.drawerSalary.textContent = job.salary ? job.salary.display : 'Not explicitly stated in header';
     el.drawerExperience.textContent = job.experience ? job.experience.display : `${job.seniority} Tier Equivalent`;
@@ -930,6 +961,13 @@
     }
 
     // Select filters
+    if (el.archetypeSelect) {
+      el.archetypeSelect.addEventListener('change', (e) => {
+        state.filters.archetype = e.target.value;
+        applyFilters();
+      });
+    }
+
     el.senioritySelect.addEventListener('change', (e) => {
       state.filters.seniority = e.target.value;
       applyFilters();
@@ -960,6 +998,7 @@
       el.searchInput.value = '';
       state.filters.search = '';
       state.filters.discipline = 'all';
+      state.filters.archetype = 'all';
       state.filters.location = 'all';
       state.filters.seniority = 'all';
       state.filters.minSalary = 0;
@@ -967,6 +1006,7 @@
       state.filters.source = 'all';
       state.filters.sortBy = 'salary-desc';
 
+      if (el.archetypeSelect) el.archetypeSelect.value = 'all';
       el.salarySelect.value = '0';
       el.senioritySelect.value = 'all';
       el.yoeSelect.value = 'all';

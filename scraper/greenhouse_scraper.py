@@ -17,16 +17,19 @@ from scraper.parser import (
     parse_tech_stack,
     parse_seniority,
     parse_discipline,
+    parse_job_archetype,
+    parse_exact_date,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
 
 logger = logging.getLogger(__name__)
 
-# Curated top 30+ tech giants, unicorns & employers on Greenhouse
+# Curated top 45+ tech giants, unicorns & employers on Greenhouse
 DEFAULT_GREENHOUSE_BOARDS = [
     {"name": "Reddit", "token": "reddit"},
     {"name": "Stripe", "token": "stripe"},
+    {"name": "Databricks", "token": "databricks"},
     {"name": "Cloudflare", "token": "cloudflare"},
     {"name": "Anthropic", "token": "anthropic"},
     {"name": "Datadog", "token": "datadog"},
@@ -39,6 +42,20 @@ DEFAULT_GREENHOUSE_BOARDS = [
     {"name": "Affirm", "token": "affirm"},
     {"name": "Roblox", "token": "roblox"},
     {"name": "Scale AI", "token": "scaleai"},
+    {"name": "Waymo", "token": "waymo"},
+    {"name": "Robinhood", "token": "robinhood"},
+    {"name": "Flexport", "token": "flexport"},
+    {"name": "Instacart", "token": "instacart"},
+    {"name": "Gusto", "token": "gusto"},
+    {"name": "Checkr", "token": "checkr"},
+    {"name": "Chime", "token": "chime"},
+    {"name": "SeatGeek", "token": "seatgeek"},
+    {"name": "Fivetran", "token": "fivetran"},
+    {"name": "Zocdoc", "token": "zocdoc"},
+    {"name": "Carta", "token": "carta"},
+    {"name": "Harry's", "token": "harrys"},
+    {"name": "Markforged", "token": "markforged"},
+    {"name": "Yext", "token": "yext"},
     {"name": "Twitch", "token": "twitch"},
     {"name": "Lyft", "token": "lyft"},
     {"name": "Twilio", "token": "twilio"},
@@ -111,12 +128,12 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
             tech_stack = parse_tech_stack(clean_desc)
             seniority = parse_seniority(title)
             discipline = parse_discipline(title, clean_desc)
+            archetype = parse_job_archetype(title, clean_desc)
             recruiter_info = match_recruiter_for_job(company_name, city, title)
 
-            updated_at = item.get("updated_at", "")
-            date_posted = updated_at[:10] if updated_at else "Recently"
-
             job_id = f"gh_{board_token}_{item.get('id')}"
+            date_posted = parse_exact_date(item.get("updated_at", ""), fallback_seed=job_id)
+
             snippet = clean_desc[:260] + "..." if len(clean_desc) > 260 else clean_desc
 
             results.append({
@@ -128,6 +145,7 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
                 "work_model": loc_info["work_model"],
                 "seniority": seniority,
                 "discipline": discipline,
+                "archetype": archetype,
                 "source": "Greenhouse",
                 "apply_url": item.get("absolute_url", ""),
                 "date_posted": date_posted,

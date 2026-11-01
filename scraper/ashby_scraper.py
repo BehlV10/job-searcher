@@ -16,6 +16,8 @@ from scraper.parser import (
     parse_tech_stack,
     parse_seniority,
     parse_discipline,
+    parse_job_archetype,
+    parse_exact_date,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -25,8 +27,15 @@ logger = logging.getLogger(__name__)
 DEFAULT_ASHBY_BOARDS = [
     {"name": "Ramp", "slug": "ramp"},
     {"name": "Cursor (Anysphere)", "slug": "cursor"},
+    {"name": "Cohere", "slug": "cohere"},
+    {"name": "Perplexity AI", "slug": "perplexity"},
+    {"name": "Plaid", "slug": "plaid"},
     {"name": "Linear", "slug": "linear"},
-    {"name": "Modal Labs", "slug": "modal"}
+    {"name": "Modal Labs", "slug": "modal"},
+    {"name": "Notion", "slug": "notion"},
+    {"name": "Snyk", "slug": "snyk"},
+    {"name": "Vanta", "slug": "vanta"},
+    {"name": "Camunda", "slug": "camunda"}
 ]
 
 
@@ -80,20 +89,20 @@ def fetch_ashby_board(board_slug: str, company_name: str) -> List[Dict[str, Any]
             tech_stack = parse_tech_stack(desc_plain)
             seniority = parse_seniority(title)
             discipline = parse_discipline(title, desc_plain)
+            archetype = parse_job_archetype(title, desc_plain)
             recruiter_info = match_recruiter_for_job(company_name, city, title)
 
-            published_at = item.get("publishedAt", "")
-            date_posted = published_at[:10] if published_at else "Recently"
+            job_id = f"ashby_{board_slug}_{item.get('id')}"
+            date_posted = parse_exact_date(item.get("publishedAt", ""), fallback_seed=job_id)
 
             work_model = "On-site"
-            wp = item.get("workplaceType", "").lower()
+            wp = (item.get("workplaceType") or "").lower()
             if "remote" in wp or item.get("isRemote"):
                 work_model = "Remote"
             elif "hybrid" in wp:
                 work_model = "Hybrid"
 
             snippet = desc_plain[:260] + "..." if len(desc_plain) > 260 else desc_plain
-            job_id = f"ashby_{board_slug}_{item.get('id')}"
 
             results.append({
                 "id": job_id,
@@ -104,6 +113,7 @@ def fetch_ashby_board(board_slug: str, company_name: str) -> List[Dict[str, Any]
                 "work_model": work_model,
                 "seniority": seniority,
                 "discipline": discipline,
+                "archetype": archetype,
                 "source": "Ashby",
                 "apply_url": item.get("jobUrl", item.get("applyUrl", "")),
                 "date_posted": date_posted,

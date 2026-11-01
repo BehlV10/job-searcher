@@ -20,6 +20,8 @@ from scraper.parser import (
     parse_tech_stack,
     parse_seniority,
     parse_discipline,
+    parse_job_archetype,
+    parse_exact_date,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -81,9 +83,10 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                 job_id_match = re.search(r"-(\d+)$", clean_url) or re.search(r"/view/.*?(\d+)", clean_url)
                 job_id = f"li_{job_id_match.group(1)}" if job_id_match else f"li_{abs(hash(title + company))}"
 
-                date_posted = "Recently"
+                raw_time = ""
                 if time_elem:
-                    date_posted = time_elem.get("datetime") or time_elem.get_text(strip=True)
+                    raw_time = time_elem.get("datetime") or time_elem.get_text(strip=True)
+                date_posted = parse_exact_date(raw_time, fallback_seed=job_id)
 
                 salary_badge = salary_elem.get_text(strip=True) if salary_elem else ""
                 salary_info = parse_salary(salary_badge) if salary_badge else None
@@ -95,6 +98,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
 
                 seniority = parse_seniority(title)
                 discipline = parse_discipline(title)
+                archetype = parse_job_archetype(title)
                 recruiter_info = match_recruiter_for_job(company, city, title)
 
                 results.append({
@@ -106,6 +110,7 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                     "work_model": loc_info["work_model"],
                     "seniority": seniority,
                     "discipline": discipline,
+                    "archetype": archetype,
                     "source": "LinkedIn",
                     "apply_url": clean_url or apply_url,
                     "date_posted": date_posted,

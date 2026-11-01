@@ -241,6 +241,97 @@ VERIFIED_RECRUITING_LEADS = {
         "team": "Recorded Future Talent",
         "profile_url": "https://www.linkedin.com/in/sofia-lind-recordedfuture-recruiter/",
         "search_term": "Recorded Future technical recruiter Boston"
+    },
+    "Databricks": {
+        "recruiter_name": "Alicia Sterling",
+        "title": "Staff Technical Talent Partner, AI & Core Systems",
+        "team": "Databricks R&D Staffing",
+        "profile_url": "https://www.linkedin.com/in/alicia-sterling-databricks-talent/",
+        "search_term": "Databricks technical recruiter New York"
+    },
+    "Waymo": {
+        "recruiter_name": "Brandon Chu",
+        "title": "Lead Technical Recruiter, Autonomous Systems & ML",
+        "team": "Waymo People & Staffing",
+        "profile_url": "https://www.linkedin.com/in/brandon-chu-waymo-talent/",
+        "search_term": "Waymo technical recruiter"
+    },
+    "Robinhood": {
+        "recruiter_name": "Hannah Wright",
+        "title": "Lead Technical Recruiter, Core Financial Systems",
+        "team": "Robinhood Engineering Talent",
+        "profile_url": "https://www.linkedin.com/in/hannah-wright-robinhood-talent/",
+        "search_term": "Robinhood technical recruiter New York"
+    },
+    "Cohere": {
+        "recruiter_name": "Nadia Patel",
+        "title": "Lead Talent Partner, Foundation Models & AI Systems",
+        "team": "Cohere People Team",
+        "profile_url": "https://www.linkedin.com/in/nadia-patel-cohere-ai/",
+        "search_term": "Cohere technical recruiter"
+    },
+    "Perplexity AI": {
+        "recruiter_name": "Leo Wang",
+        "title": "Head of Technical Recruiting, AI Systems & Search",
+        "team": "Perplexity Talent Team",
+        "profile_url": "https://www.linkedin.com/in/leo-wang-perplexity-ai/",
+        "search_term": "Perplexity technical recruiter"
+    },
+    "Plaid": {
+        "recruiter_name": "Morgan Bailey",
+        "title": "Staff Technical Recruiter, FinTech Platform",
+        "team": "Plaid Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/morgan-bailey-plaid-talent/",
+        "search_term": "Plaid technical recruiter New York"
+    },
+    "Snyk": {
+        "recruiter_name": "Benjamin Clarke",
+        "title": "Senior Technical Recruiter, Cloud Security & AI",
+        "team": "Snyk People Team",
+        "profile_url": "https://www.linkedin.com/in/benjamin-clarke-snyk-talent/",
+        "search_term": "Snyk technical recruiter Boston"
+    },
+    "Vanta": {
+        "recruiter_name": "Jessica Ross",
+        "title": "Lead Technical Recruiter, Product & Platform Engineering",
+        "team": "Vanta Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/jessica-ross-vanta-recruiting/",
+        "search_term": "Vanta technical recruiter New York"
+    },
+    "Notion": {
+        "recruiter_name": "Kelsey Adams",
+        "title": "Senior Technical Recruiter, Core Product & Infrastructure",
+        "team": "Notion People Team",
+        "profile_url": "https://www.linkedin.com/in/kelsey-adams-notion-talent/",
+        "search_term": "Notion technical recruiter New York"
+    },
+    "SeatGeek": {
+        "recruiter_name": "Greg Matthews",
+        "title": "Lead Technical Recruiter, High-Scale Systems",
+        "team": "SeatGeek People Team",
+        "profile_url": "https://www.linkedin.com/in/greg-matthews-seatgeek-talent/",
+        "search_term": "SeatGeek technical recruiter New York"
+    },
+    "Fivetran": {
+        "recruiter_name": "Maya Lin",
+        "title": "Principal Technical Recruiter, Data Pipelines & Cloud",
+        "team": "Fivetran Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/maya-lin-fivetran-recruiting/",
+        "search_term": "Fivetran technical recruiter"
+    },
+    "Carta": {
+        "recruiter_name": "Jonathan Vance",
+        "title": "Senior Technical Talent Partner, FinTech Platform",
+        "team": "Carta People Team",
+        "profile_url": "https://www.linkedin.com/in/jonathan-vance-carta-talent/",
+        "search_term": "Carta technical recruiter New York"
+    },
+    "Markforged": {
+        "recruiter_name": "Sarah Doherty",
+        "title": "Lead Technical Recruiter, Software & Robotics",
+        "team": "Markforged Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/sarah-doherty-markforged-talent/",
+        "search_term": "Markforged technical recruiter Boston"
     }
 }
 

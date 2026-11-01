@@ -95,9 +95,12 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
     general_swe_count = sum(1 for j in jobs if j.get("discipline") != "Machine Learning / AI")
 
     sources_summary = {}
+    archetypes_summary = {}
     for j in jobs:
         src = j.get("source", "Other")
         sources_summary[src] = sources_summary.get(src, 0) + 1
+        arch = j.get("archetype", "General Software")
+        archetypes_summary[arch] = archetypes_summary.get(arch, 0) + 1
 
     return {
         "metadata": {
@@ -113,7 +116,8 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "ml_jobs": ml_count,
             "general_swe_jobs": general_swe_count,
             "sources": ["LinkedIn", "Greenhouse", "Lever", "Ashby", "Built In"],
-            "source_breakdown": sources_summary
+            "source_breakdown": sources_summary,
+            "archetype_breakdown": archetypes_summary
         },
         "user_profile": user_profile,
         "jobs": jobs

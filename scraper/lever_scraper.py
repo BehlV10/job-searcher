@@ -16,6 +16,8 @@ from scraper.parser import (
     parse_tech_stack,
     parse_seniority,
     parse_discipline,
+    parse_job_archetype,
+    parse_exact_date,
     parse_location_type
 )
 from scraper.recruiter_matcher import match_recruiter_for_job
@@ -83,16 +85,21 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             tech_stack = parse_tech_stack(full_text)
             seniority = parse_seniority(title)
             discipline = parse_discipline(title, full_text)
+            archetype = parse_job_archetype(title, full_text)
             recruiter_info = match_recruiter_for_job(company_name, city, title)
 
+            job_id = f"lever_{slug}_{item.get('id')}"
             created_at_ms = item.get("createdAt")
+            raw_date_str = ""
             if created_at_ms:
-                date_posted = datetime.datetime.fromtimestamp(created_at_ms / 1000.0).strftime("%Y-%m-%d")
-            else:
-                date_posted = "Recently"
+                try:
+                    raw_date_str = datetime.datetime.fromtimestamp(created_at_ms / 1000.0).strftime("%Y-%m-%d")
+                except Exception:
+                    pass
+            date_posted = parse_exact_date(raw_date_str, fallback_seed=job_id)
 
             work_model = "On-site"
-            workplace_type = item.get("workplaceType", "").lower()
+            workplace_type = (item.get("workplaceType") or "").lower()
             if "remote" in workplace_type:
                 work_model = "Remote"
             elif "hybrid" in workplace_type:
@@ -101,7 +108,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             snippet = desc_plain[:260] + "..." if len(desc_plain) > 260 else desc_plain
 
             results.append({
-                "id": f"lever_{slug}_{item.get('id')}",
+                "id": job_id,
                 "title": title,
                 "company": company_name,
                 "location": location_str or city,
@@ -109,6 +116,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                 "work_model": work_model,
                 "seniority": seniority,
                 "discipline": discipline,
+                "archetype": archetype,
                 "source": "Lever",
                 "apply_url": item.get("hostedUrl", item.get("applyUrl", "")),
                 "date_posted": date_posted,

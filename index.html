@@ -209,8 +209,29 @@
         </div>
 
         <!-- Row 3: Granular Dropdown Selectors -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3 pt-1 text-xs">
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-1 text-xs">
           
+          <!-- Role Archetype Filter -->
+          <div class="flex flex-col gap-1">
+            <label class="font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
+              <i data-lucide="code" class="w-3.5 h-3.5 text-cyan-500"></i> Role Archetype
+            </label>
+            <select id="filter-archetype" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
+              <option value="all">All Archetypes</option>
+              <option value="Machine Learning & AI">🤖 Machine Learning & AI</option>
+              <option value="Backend & Distributed Systems">⚙️ Backend & Distributed</option>
+              <option value="Full Stack">⚡ Full Stack</option>
+              <option value="Infrastructure & Cloud / SRE">☁️ Infra & Cloud / SRE</option>
+              <option value="Data Engineering">📊 Data Engineering</option>
+              <option value="Security Engineering">🛡️ Security Engineering</option>
+              <option value="Frontend & UI">🎨 Frontend & UI</option>
+              <option value="Mobile Engineering">📱 Mobile (iOS/Android)</option>
+              <option value="Systems & Embedded">🔌 Systems & Embedded</option>
+              <option value="Engineering Leadership">👔 Engineering Leadership</option>
+              <option value="General Software">💻 General Software</option>
+            </select>
+          </div>
+
           <!-- Seniority Filter: Senior, Staff, Senior Staff, Principal -->
           <div class="flex flex-col gap-1">
             <label class="font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
@@ -261,15 +282,16 @@
             </label>
             <select id="filter-source" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
               <option value="all">All Sources</option>
-              <option value="Built In">Built In (Boston & NYC)</option>
+              <option value="Ashby">Ashby (Startups & AI)</option>
               <option value="Greenhouse">Greenhouse (Direct ATS)</option>
               <option value="Lever">Lever (Direct ATS)</option>
+              <option value="Built In">Built In (Boston & NYC)</option>
               <option value="LinkedIn">LinkedIn</option>
             </select>
           </div>
 
           <!-- Sort Option -->
-          <div class="flex flex-col gap-1 col-span-2 sm:col-span-1">
+          <div class="flex flex-col gap-1">
             <label class="font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
               <i data-lucide="arrow-up-down" class="w-3.5 h-3.5 text-amber-500"></i> Sort By
             </label>

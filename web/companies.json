@@ -6,7 +6,15 @@
     "industry": "Search, Cloud, AI & Distributed Computing",
     "careers_url": "https://www.google.com/about/careers/applications/jobs",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "Java", "Python", "Go", "Distributed Systems", "Kubernetes", "PyTorch"]
+    "tech_stack": [
+      "C++",
+      "Java",
+      "Python",
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "PyTorch"
+    ]
   },
   {
     "name": "Microsoft",
@@ -15,7 +23,14 @@
     "industry": "Cloud (Azure), Systems, AI & Developer Tools",
     "careers_url": "https://careers.microsoft.com/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C#", "C++", "Python", "TypeScript", "Azure", "Distributed Systems"]
+    "tech_stack": [
+      "C#",
+      "C++",
+      "Python",
+      "TypeScript",
+      "Azure",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Salesforce",
@@ -24,7 +39,14 @@
     "industry": "Enterprise Cloud SaaS & Agentforce AI",
     "careers_url": "https://www.salesforce.com/company/careers/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Java", "Python", "Go", "AWS", "Kubernetes", "PostgreSQL"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Go",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "AMD",
@@ -33,7 +55,14 @@
     "industry": "Semiconductors, GPU Compute & High-Performance AI",
     "careers_url": "https://careers.amd.com/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "C", "Python", "CUDA / ROCm", "Linux Kernel", "Hardware-Software Co-Design"]
+    "tech_stack": [
+      "C++",
+      "C",
+      "Python",
+      "CUDA / ROCm",
+      "Linux Kernel",
+      "Hardware-Software Co-Design"
+    ]
   },
   {
     "name": "Logitech",
@@ -42,7 +71,14 @@
     "industry": "Smart Peripherals, Embedded Systems & Video Collaboration",
     "careers_url": "https://www.logitech.com/en-us/about/careers.html",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "Python", "Go", "AWS", "Embedded Linux", "WebRTC"]
+    "tech_stack": [
+      "C++",
+      "Python",
+      "Go",
+      "AWS",
+      "Embedded Linux",
+      "WebRTC"
+    ]
   },
   {
     "name": "Verily (Alphabet)",
@@ -51,7 +87,14 @@
     "industry": "Life Sciences Platforms, Healthcare AI & Precision Health",
     "careers_url": "https://verily.com/careers/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Python", "Java", "Go", "GCP", "Kubernetes", "Machine Learning"]
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Go",
+      "GCP",
+      "Kubernetes",
+      "Machine Learning"
+    ]
   },
   {
     "name": "Reddit",
@@ -60,7 +103,14 @@
     "industry": "Community Platform, Recommendation Systems & Distributed Data",
     "careers_url": "https://www.redditinc.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Go", "PostgreSQL", "Kafka", "Cassandra", "Kubernetes"]
+    "tech_stack": [
+      "Python",
+      "Go",
+      "PostgreSQL",
+      "Kafka",
+      "Cassandra",
+      "Kubernetes"
+    ]
   },
   {
     "name": "HubSpot",
@@ -69,7 +119,14 @@
     "industry": "CRM Platform & Inbound Marketing Software",
     "careers_url": "https://www.hubspot.com/careers",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Java", "Python", "React", "Kafka", "Microservices", "AWS"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "Kafka",
+      "Microservices",
+      "AWS"
+    ]
   },
   {
     "name": "Stripe",
@@ -78,7 +135,14 @@
     "industry": "Global Payments & Economic Infrastructure",
     "careers_url": "https://stripe.com/jobs",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Ruby", "Go", "Java", "Kafka", "Distributed Systems", "AWS"]
+    "tech_stack": [
+      "Ruby",
+      "Go",
+      "Java",
+      "Kafka",
+      "Distributed Systems",
+      "AWS"
+    ]
   },
   {
     "name": "Cloudflare",
@@ -87,7 +151,14 @@
     "industry": "Edge Computing, Global CDN & Internet Security",
     "careers_url": "https://www.cloudflare.com/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Rust", "Go", "C", "Linux", "Kubernetes", "Distributed Systems"]
+    "tech_stack": [
+      "Rust",
+      "Go",
+      "C",
+      "Linux",
+      "Kubernetes",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Anthropic",
@@ -96,7 +167,13 @@
     "industry": "AI Safety & Frontier Foundation Models (Claude)",
     "careers_url": "https://www.anthropic.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Rust", "PyTorch", "Distributed GPU Training", "AWS / GCP"]
+    "tech_stack": [
+      "Python",
+      "Rust",
+      "PyTorch",
+      "Distributed GPU Training",
+      "AWS / GCP"
+    ]
   },
   {
     "name": "Ramp",
@@ -105,7 +182,14 @@
     "industry": "Corporate Cards & Financial Automation",
     "careers_url": "https://ramp.com/careers",
     "ats_board": "Ashby",
-    "tech_stack": ["Python", "Elixir", "TypeScript", "React", "PostgreSQL", "AWS"]
+    "tech_stack": [
+      "Python",
+      "Elixir",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ]
   },
   {
     "name": "Cursor (Anysphere)",
@@ -114,7 +198,13 @@
     "industry": "AI Code Generation & Developer Intelligence",
     "careers_url": "https://www.cursor.com/careers",
     "ats_board": "Ashby",
-    "tech_stack": ["TypeScript", "Rust", "Python", "LLMs", "Vector Search"]
+    "tech_stack": [
+      "TypeScript",
+      "Rust",
+      "Python",
+      "LLMs",
+      "Vector Search"
+    ]
   },
   {
     "name": "Datadog",
@@ -123,7 +213,13 @@
     "industry": "Observability & Cloud Security",
     "careers_url": "https://www.datadoghq.com/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Go", "Python", "Kubernetes", "Kafka", "Distributed Systems"]
+    "tech_stack": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "Kafka",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Toast",
@@ -132,7 +228,13 @@
     "industry": "Restaurant Tech & FinTech Platform",
     "careers_url": "https://careers.toasttab.com/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Java", "Kotlin", "AWS", "Microservices", "React"]
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "AWS",
+      "Microservices",
+      "React"
+    ]
   },
   {
     "name": "Klaviyo",
@@ -141,7 +243,13 @@
     "industry": "Marketing Automation & Customer Data Platform",
     "careers_url": "https://www.klaviyo.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Django", "PostgreSQL", "Kafka", "AWS"]
+    "tech_stack": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Kafka",
+      "AWS"
+    ]
   },
   {
     "name": "MongoDB",
@@ -150,7 +258,13 @@
     "industry": "Developer Data Platform & Database Systems",
     "careers_url": "https://www.mongodb.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["C++", "Go", "Python", "Distributed Systems", "Cloud"]
+    "tech_stack": [
+      "C++",
+      "Go",
+      "Python",
+      "Distributed Systems",
+      "Cloud"
+    ]
   },
   {
     "name": "Palantir Technologies",
@@ -159,7 +273,13 @@
     "industry": "Enterprise AI Platforms & Defense Data Systems",
     "careers_url": "https://www.palantir.com/careers/",
     "ats_board": "Lever",
-    "tech_stack": ["Java", "TypeScript", "React", "Distributed Systems", "Python"]
+    "tech_stack": [
+      "Java",
+      "TypeScript",
+      "React",
+      "Distributed Systems",
+      "Python"
+    ]
   },
   {
     "name": "Spotify",
@@ -168,7 +288,13 @@
     "industry": "Audio Streaming & Media Tech",
     "careers_url": "https://www.lifeatspotify.com/jobs",
     "ats_board": "Lever",
-    "tech_stack": ["Java", "Python", "GCP", "Kubernetes", "Big Data"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "GCP",
+      "Kubernetes",
+      "Big Data"
+    ]
   },
   {
     "name": "Airbnb",
@@ -177,7 +303,13 @@
     "industry": "Travel Tech & Marketplace Systems",
     "careers_url": "https://careers.airbnb.com/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Java", "Kotlin", "React", "Kafka", "AWS"]
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "React",
+      "Kafka",
+      "AWS"
+    ]
   },
   {
     "name": "Pinterest",
@@ -186,7 +318,13 @@
     "industry": "Visual Search, Computer Vision & Discovery Engine",
     "careers_url": "https://www.pinterestcareers.com/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Java", "C++", "PyTorch", "Kubernetes"]
+    "tech_stack": [
+      "Python",
+      "Java",
+      "C++",
+      "PyTorch",
+      "Kubernetes"
+    ]
   },
   {
     "name": "Coinbase",
@@ -195,7 +333,13 @@
     "industry": "Crypto Economy & Financial Infrastructure",
     "careers_url": "https://www.coinbase.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Go", "Ruby", "AWS", "Cryptography", "PostgreSQL"]
+    "tech_stack": [
+      "Go",
+      "Ruby",
+      "AWS",
+      "Cryptography",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "Braze",
@@ -204,7 +348,13 @@
     "industry": "Customer Engagement & Streaming Data",
     "careers_url": "https://www.braze.com/about/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Ruby", "Go", "Kafka", "MongoDB", "AWS"]
+    "tech_stack": [
+      "Ruby",
+      "Go",
+      "Kafka",
+      "MongoDB",
+      "AWS"
+    ]
   },
   {
     "name": "CarGurus",
@@ -213,7 +363,13 @@
     "industry": "Automotive Marketplace & Search Engine",
     "careers_url": "https://www.cargurus.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Java", "Python", "Kubernetes", "Elasticsearch", "React"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Kubernetes",
+      "Elasticsearch",
+      "React"
+    ]
   },
   {
     "name": "Formlabs",
@@ -222,7 +378,12 @@
     "industry": "3D Printing Systems & Embedded Software",
     "careers_url": "https://formlabs.com/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["C++", "Python", "TypeScript", "Cloud / WebGL"]
+    "tech_stack": [
+      "C++",
+      "Python",
+      "TypeScript",
+      "Cloud / WebGL"
+    ]
   },
   {
     "name": "Recorded Future",
@@ -231,7 +392,13 @@
     "industry": "Threat Intelligence & Cyber Security AI",
     "careers_url": "https://www.recordedfuture.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Java", "Elasticsearch", "AWS", "NLP"]
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Elasticsearch",
+      "AWS",
+      "NLP"
+    ]
   },
   {
     "name": "Starburst Data",
@@ -240,7 +407,13 @@
     "industry": "Distributed SQL / Trino Query Engine",
     "careers_url": "https://www.starburst.io/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Java", "Distributed Systems", "Trino", "Kubernetes", "Cloud"]
+    "tech_stack": [
+      "Java",
+      "Distributed Systems",
+      "Trino",
+      "Kubernetes",
+      "Cloud"
+    ]
   },
   {
     "name": "Squarespace",
@@ -249,7 +422,13 @@
     "industry": "Web Publishing & E-Commerce Infrastructure",
     "careers_url": "https://www.squarespace.com/about/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Java", "JavaScript", "React", "Kubernetes", "PostgreSQL"]
+    "tech_stack": [
+      "Java",
+      "JavaScript",
+      "React",
+      "Kubernetes",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "Flatiron Health",
@@ -258,7 +437,13 @@
     "industry": "HealthTech & Oncology Data Infrastructure",
     "careers_url": "https://flatiron.com/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Go", "SQL", "AWS", "Health Data"]
+    "tech_stack": [
+      "Python",
+      "Go",
+      "SQL",
+      "AWS",
+      "Health Data"
+    ]
   },
   {
     "name": "Oscar Health",
@@ -267,7 +452,13 @@
     "industry": "HealthTech & Insurance Technology",
     "careers_url": "https://www.hioscar.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Python", "Go", "React", "AWS", "Aurora"]
+    "tech_stack": [
+      "Python",
+      "Go",
+      "React",
+      "AWS",
+      "Aurora"
+    ]
   },
   {
     "name": "Betterment",
@@ -276,7 +467,13 @@
     "industry": "FinTech & Automated Investing Infrastructure",
     "careers_url": "https://www.betterment.com/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Ruby", "Java", "Python", "React", "PostgreSQL"]
+    "tech_stack": [
+      "Ruby",
+      "Java",
+      "Python",
+      "React",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "DraftKings",
@@ -285,7 +482,13 @@
     "industry": "Sports Entertainment & High-Frequency Betting Tech",
     "careers_url": "https://careers.draftkings.com/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C# / .NET", "Java", "Kafka", "AWS", "Distributed Systems"]
+    "tech_stack": [
+      "C# / .NET",
+      "Java",
+      "Kafka",
+      "AWS",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Wayfair",
@@ -294,7 +497,13 @@
     "industry": "E-Commerce Logistics & Distributed Systems",
     "careers_url": "https://www.aboutwayfair.com/careers",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Java", "Python", "Kubernetes", "GCP", "GraphQL"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Kubernetes",
+      "GCP",
+      "GraphQL"
+    ]
   },
   {
     "name": "WHOOP",
@@ -303,7 +512,13 @@
     "industry": "Wearable Biometrics & High-Volume Time-Series Data",
     "careers_url": "https://www.whoop.com/careers/",
     "ats_board": "Built In / Direct",
-    "tech_stack": ["Go", "Java", "PostgreSQL", "Kafka", "AWS"]
+    "tech_stack": [
+      "Go",
+      "Java",
+      "PostgreSQL",
+      "Kafka",
+      "AWS"
+    ]
   },
   {
     "name": "Cockroach Labs",
@@ -312,7 +527,12 @@
     "industry": "Cloud-Native Distributed SQL Database",
     "careers_url": "https://www.cockroachlabs.com/careers/",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Go", "C++", "Distributed Consensus / Raft", "Kubernetes"]
+    "tech_stack": [
+      "Go",
+      "C++",
+      "Distributed Consensus / Raft",
+      "Kubernetes"
+    ]
   },
   {
     "name": "Two Sigma",
@@ -321,7 +541,13 @@
     "industry": "Quantitative Finance & High-Performance Computing",
     "careers_url": "https://www.twosigma.com/careers/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "Java", "Python", "Distributed Systems", "Linux"]
+    "tech_stack": [
+      "C++",
+      "Java",
+      "Python",
+      "Distributed Systems",
+      "Linux"
+    ]
   },
   {
     "name": "Jane Street",
@@ -330,7 +556,12 @@
     "industry": "Quantitative Trading & Proprietary Systems",
     "careers_url": "https://www.janestreet.com/join-jane-street/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["OCaml", "C++", "Low-Latency Networks", "Linux"]
+    "tech_stack": [
+      "OCaml",
+      "C++",
+      "Low-Latency Networks",
+      "Linux"
+    ]
   },
   {
     "name": "Bloomberg LP",
@@ -339,7 +570,12 @@
     "industry": "Financial Data Infrastructure & Terminal Ecosystem",
     "careers_url": "https://www.bloomberg.com/company/careers/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "Python", "JavaScript", "Distributed Systems"]
+    "tech_stack": [
+      "C++",
+      "Python",
+      "JavaScript",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Flywire",
@@ -348,7 +584,13 @@
     "industry": "Global Payments & FinTech Infrastructure",
     "careers_url": "https://www.flywire.com/company/careers",
     "ats_board": "Greenhouse",
-    "tech_stack": ["Ruby", "Go", "AWS", "Kafka", "React"]
+    "tech_stack": [
+      "Ruby",
+      "Go",
+      "AWS",
+      "Kafka",
+      "React"
+    ]
   },
   {
     "name": "Circle",
@@ -357,7 +599,13 @@
     "industry": "Digital Currency & USDC Financial Infrastructure",
     "careers_url": "https://www.circle.com/en/careers",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Go", "Node.js", "AWS", "Cryptography", "Distributed Systems"]
+    "tech_stack": [
+      "Go",
+      "Node.js",
+      "AWS",
+      "Cryptography",
+      "Distributed Systems"
+    ]
   },
   {
     "name": "Akamai Technologies",
@@ -366,7 +614,13 @@
     "industry": "Content Delivery Network (CDN) & Edge Cloud",
     "careers_url": "https://www.akamai.com/careers",
     "ats_board": "Direct Portal",
-    "tech_stack": ["C++", "Go", "Python", "Edge Computing", "Networking"]
+    "tech_stack": [
+      "C++",
+      "Go",
+      "Python",
+      "Edge Computing",
+      "Networking"
+    ]
   },
   {
     "name": "Rapid7",
@@ -375,6 +629,217 @@
     "industry": "Cybersecurity Analytics & Cloud Detection",
     "careers_url": "https://www.rapid7.com/about/careers/",
     "ats_board": "Direct Portal",
-    "tech_stack": ["Java", "Python", "AWS", "PostgreSQL", "React"]
+    "tech_stack": [
+      "Java",
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  {
+    "name": "Databricks",
+    "metro": "New York, NY",
+    "presence": "NYC Engineering Center & Remote",
+    "industry": "Data Intelligence, Spark & Generative AI Platform",
+    "careers_url": "https://www.databricks.com/company/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Scala",
+      "Java",
+      "Python",
+      "C++",
+      "Go",
+      "Distributed Systems",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Waymo",
+    "metro": "New York, NY",
+    "presence": "NYC Engineering & Autonomous Systems Hub",
+    "industry": "Autonomous Vehicles, Computer Vision & Robotics AI",
+    "careers_url": "https://waymo.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "C++",
+      "Python",
+      "CUDA",
+      "Deep Learning",
+      "Robotics",
+      "Linux"
+    ]
+  },
+  {
+    "name": "Robinhood",
+    "metro": "New York, NY",
+    "presence": "NYC (Financial District)",
+    "industry": "Retail Investing, Crypto & Financial Infrastructure",
+    "careers_url": "https://robinhood.com/us/en/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Python",
+      "Go",
+      "Kafka",
+      "PostgreSQL",
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "metro": "New York, NY",
+    "presence": "NYC & Remote",
+    "industry": "Enterprise Foundation Models, NLP & Large Language Models",
+    "careers_url": "https://cohere.com/careers",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "Distributed Training",
+      "CUDA",
+      "Go"
+    ]
+  },
+  {
+    "name": "Perplexity AI",
+    "metro": "New York, NY",
+    "presence": "NYC Hub & Remote",
+    "industry": "Conversational Search Engine & Generative AI Systems",
+    "careers_url": "https://www.perplexity.ai/careers",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "Rust",
+      "TypeScript",
+      "Kubernetes",
+      "LLM"
+    ]
+  },
+  {
+    "name": "Plaid",
+    "metro": "New York, NY",
+    "presence": "NYC (SoHo / Union Square)",
+    "industry": "FinTech APIs & Financial Network Infrastructure",
+    "careers_url": "https://plaid.com/careers/",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "Go",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Kafka"
+    ]
+  },
+  {
+    "name": "Snyk",
+    "metro": "Boston, MA",
+    "presence": "Boston (HQ - Back Bay)",
+    "industry": "Developer Security Platform & Cloud AppSec",
+    "careers_url": "https://snyk.io/careers/",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "TypeScript",
+      "Go",
+      "Node.js",
+      "Kubernetes",
+      "AWS",
+      "Docker"
+    ]
+  },
+  {
+    "name": "Vanta",
+    "metro": "New York, NY",
+    "presence": "NYC (Midtown) & Remote",
+    "industry": "Automated Security & Continuous Compliance Platform",
+    "careers_url": "https://www.vanta.com/careers",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "AWS",
+      "GraphQL"
+    ]
+  },
+  {
+    "name": "Notion",
+    "metro": "New York, NY",
+    "presence": "NYC Engineering Center",
+    "industry": "Connected Workspace, Collaboration & AI Documents",
+    "careers_url": "https://www.notion.so/careers",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Kotlin"
+    ]
+  },
+  {
+    "name": "SeatGeek",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ - NoHo)",
+    "industry": "Live Event Ticketing & High-Concurrency Systems",
+    "careers_url": "https://seatgeek.com/jobs",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Python",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "React"
+    ]
+  },
+  {
+    "name": "Fivetran",
+    "metro": "New York, NY",
+    "presence": "NYC & Remote",
+    "industry": "Automated Data Movement & ELT Data Pipelines",
+    "careers_url": "https://www.fivetran.com/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Java",
+      "Go",
+      "Kubernetes",
+      "PostgreSQL",
+      "Snowflake",
+      "BigQuery"
+    ]
+  },
+  {
+    "name": "Carta",
+    "metro": "New York, NY",
+    "presence": "NYC Hub & Remote",
+    "industry": "Equity Management & Private Market Infrastructure",
+    "careers_url": "https://carta.com/careers/",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ]
+  },
+  {
+    "name": "Markforged",
+    "metro": "Boston, MA",
+    "presence": "Watertown / Boston (HQ)",
+    "industry": "Industrial 3D Printing, Cloud Slicing & Advanced Robotics",
+    "careers_url": "https://markforged.com/company/careers",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "C++",
+      "Python",
+      "TypeScript",
+      "AWS",
+      "WebGL",
+      "Embedded Systems"
+    ]
   }
 ]

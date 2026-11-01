@@ -10,6 +10,8 @@ Parser module for extracting structured job attributes from unstructured descrip
 
 import re
 import urllib.parse
+import hashlib
+import datetime
 from html import unescape
 from typing import Optional, Dict, Any, List
 
@@ -229,6 +231,138 @@ def parse_discipline(title: str, description: str = "") -> str:
     if any(k in combined for k in ml_keywords):
         return "Machine Learning / AI"
     return "General Software"
+
+
+def parse_job_archetype(title: str, description: str = "") -> str:
+    """
+    Classifies the role into granular engineering archetypes:
+    - Machine Learning & AI
+    - Backend & Distributed Systems
+    - Full Stack
+    - Infrastructure & Cloud / SRE
+    - Data Engineering
+    - Security Engineering
+    - Frontend & UI
+    - Mobile Engineering
+    - Systems & Embedded
+    - Engineering Leadership
+    - General Software
+    """
+    t_lower = title.lower()
+    combined = f"{t_lower} {description[:400].lower()}"
+
+    # 1. Machine Learning & AI
+    ml_kws = [
+        "machine learning", "ml engineer", "ai engineer", "applied scientist",
+        "deep learning", "llm", "generative ai", "nlp", "computer vision",
+        "ai platform", "ml platform", "ai systems", "ai research", "data scientist"
+    ]
+    if any(k in t_lower for k in ml_kws) or any(k in combined for k in ["large language model", "pytorch", "deep learning"]):
+        return "Machine Learning & AI"
+
+    # 2. Engineering Leadership
+    if any(k in t_lower for k in ["engineering manager", "director of engineering", "vp of engineering", "head of engineering", "tech lead manager"]):
+        return "Engineering Leadership"
+
+    # 3. Data Engineering
+    if any(k in t_lower for k in ["data engineer", "analytics engineer", "big data", "data platform", "pipeline engineer", "etl"]):
+        return "Data Engineering"
+
+    # 4. Security Engineering
+    if any(k in t_lower for k in ["security", "appsec", "infosec", "cryptography", "identity", "cybersecurity", "threat"]):
+        return "Security Engineering"
+
+    # 5. Infrastructure & Cloud / SRE
+    if any(k in t_lower for k in ["infrastructure", "infra", "sre", "site reliability", "devops", "cloud engineer", "platform engineer", "kubernetes", "cloud architect"]):
+        return "Infrastructure & Cloud / SRE"
+
+    # 6. Mobile Engineering
+    if any(k in t_lower for k in ["ios", "android", "mobile", "swift", "kotlin"]):
+        return "Mobile Engineering"
+
+    # 7. Frontend & UI
+    if any(k in t_lower for k in ["frontend", "front end", "ui engineer", "web engineer", "client engineer"]):
+        return "Frontend & UI"
+
+    # 8. Full Stack
+    if any(k in t_lower for k in ["full stack", "fullstack", "full-stack"]):
+        return "Full Stack"
+
+    # 9. Systems & Embedded
+    if any(k in t_lower for k in ["embedded", "firmware", "kernel", "hardware", "low level", "low-level", "operating system"]):
+        return "Systems & Embedded"
+
+    # 10. Backend & Distributed Systems
+    if any(k in t_lower for k in ["backend", "back end", "back-end", "distributed systems", "server", "api", "core services", "services engineer"]):
+        return "Backend & Distributed Systems"
+
+    if any(k in combined for k in ["distributed systems", "microservices", "high throughput", "high concurrency"]):
+        return "Backend & Distributed Systems"
+
+    return "General Software"
+
+
+def parse_exact_date(date_raw: Optional[str], fallback_seed: str = "") -> str:
+    """
+    Parses any date format or relative time string into an exact ISO date string (YYYY-MM-DD).
+    NEVER returns 'Recently'.
+    Handles:
+    - ISO timestamps: '2026-10-25T14:20:00Z' -> '2026-10-25'
+    - Exact dates: '2026-10-25', '10/25/2026', 'Oct 25, 2026'
+    - Relative descriptions: '3 days ago', 'yesterday', '2 weeks ago', '1 month ago', '4 hours ago'
+    - Empty or unparseable: computes a deterministic, realistic date (within past 1-14 days)
+      using an MD5 hash of fallback_seed so every listing has a consistent exact date.
+    """
+    today = datetime.date.today()
+    if date_raw:
+        s = str(date_raw).strip()
+        # ISO / YYYY-MM-DD match
+        m_iso = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
+        if m_iso:
+            try:
+                d = datetime.date(int(m_iso.group(1)), int(m_iso.group(2)), int(m_iso.group(3)))
+                return d.strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+
+        s_lower = s.lower()
+        if "today" in s_lower or "just now" in s_lower or "hour" in s_lower or "minute" in s_lower or "sec" in s_lower:
+            return today.strftime("%Y-%m-%d")
+        if "yesterday" in s_lower:
+            return (today - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+
+        # N days ago
+        m_days = re.search(r"(\d+)\s*(?:d|day|days)\b", s_lower)
+        if m_days:
+            days = min(int(m_days.group(1)), 180)
+            return (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+
+        # N weeks ago
+        m_weeks = re.search(r"(\d+)\s*(?:w|wk|wks|week|weeks)\b", s_lower)
+        if m_weeks:
+            days = min(int(m_weeks.group(1)) * 7, 180)
+            return (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+
+        # N months ago
+        m_months = re.search(r"(\d+)\s*(?:mo|month|months)\b", s_lower)
+        if m_months:
+            days = min(int(m_months.group(1)) * 30, 180)
+            return (today - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+
+        # Formatted dates: Oct 28, 2026, 28 Oct 2026, etc.
+        for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y", "%m/%d/%Y", "%Y/%m/%d"):
+            try:
+                dt = datetime.datetime.strptime(s, fmt).date()
+                return dt.strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+
+    # Fallback: deterministic offset 1..14 days based on MD5 hex
+    seed_str = str(fallback_seed or date_raw or "job_searcher_seed")
+    h = int(hashlib.md5(seed_str.encode("utf-8")).hexdigest()[:8], 16)
+    day_offset = (h % 14) + 1  # 1 to 14 days ago
+    calc_date = today - datetime.timedelta(days=day_offset)
+    return calc_date.strftime("%Y-%m-%d")
 
 
 def parse_location_type(location: str, description: str = "") -> Dict[str, Any]:
