@@ -815,7 +815,8 @@
     el.modalBtnManager.href = rec.manager_search_url || `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(job.company + ' engineering manager ' + job.city)}`;
 
     let note = state.userProfile.outreach_template || '';
-    const addressee = rec.recruiter_name ? rec.recruiter_name.split(' ')[0] : 'there';
+    const hasPersonalName = rec.recruiter_name && !rec.recruiter_name.includes('Team') && !rec.recruiter_name.includes('Recruiting');
+    const addressee = hasPersonalName ? rec.recruiter_name.split(' ')[0] : 'there';
     note = note.replace(/{{recruiter_name}}/g, addressee);
     note = note.replace(/{{company}}/g, job.company);
     note = note.replace(/{{job_title}}/g, job.title);
