@@ -80,13 +80,21 @@ def fetch_ashby_board(board_slug: str, company_name: str) -> List[Dict[str, Any]
                 continue
 
             title_lower = title.lower()
-            swe_terms = ["engineer", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "ai", "scientist"]
-            senior_terms = ["senior", "staff", "lead", "principal", "architect", "manager", "head", "founding"]
+            swe_terms = [
+                "software engineer", "developer", "backend", "full stack", "fullstack", "frontend",
+                "infrastructure", "systems", "platform", "machine learning", "ml engineer", "ai engineer",
+                "scientist", "sre", "reliability", "cloud", "security engineer", "devops", "embedded",
+                "firmware", "architect", "engineering manager", "lead"
+            ]
+            exclusions = [
+                "intern", "internship", "co-op", "fellowship", "student", "sales", "account executive",
+                "recruiter", "talent acquisition", "human resources", "marketing", "legal"
+            ]
 
-            is_swe = any(k in title_lower for k in swe_terms)
-            is_senior = any(k in title_lower for k in senior_terms)
+            if any(ex in title_lower for ex in exclusions):
+                continue
 
-            if not (is_swe and is_senior):
+            if not any(k in title_lower for k in swe_terms):
                 continue
 
             desc_plain = item.get("descriptionPlain", "") or clean_html(item.get("descriptionHtml", ""))

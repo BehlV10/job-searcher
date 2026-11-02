@@ -182,39 +182,49 @@ def parse_tech_stack(text: str) -> List[str]:
 def parse_seniority(title: str) -> str:
     """
     Categorizes the role into specific seniority tiers:
-    - Senior Staff
-    - Principal
-    - Staff
-    - Senior
-    - Engineering Manager
+    - Senior Staff: Senior Staff, Sr. Staff, Distinguished, Fellow, Principal Staff
+    - Principal: Principal, Enterprise / Chief Architect
+    - Staff: Staff Engineer (excluding generic 'member of technical staff')
+    - Senior: Senior, Sr., Lead, Tech Lead, Level 5/6, IC5/6
+    - Mid-Level: Software Engineer II/III, SWE 2/3, Mid-Level, Intermediate, L3/L4
+    - Software Engineer: Core SWE, Machine Learning Engineer, Backend Engineer, Applied AI, MTS
+    - Engineering Manager: Manager, Director, Head of Engineering
     """
     title_lower = title.lower()
     
-    # 1. Senior Staff check first
-    if "senior staff" in title_lower or "sr. staff" in title_lower or "sr staff" in title_lower:
+    # 1. Senior Staff & Distinguished Fellow check first
+    if any(k in title_lower for k in ["senior staff", "sr. staff", "sr staff", "distinguished", "fellow", "principal staff"]):
         return "Senior Staff"
     
-    # 2. Principal / Distinguished / Fellow
-    if "principal" in title_lower or "distinguished" in title_lower or "fellow" in title_lower:
+    # 2. Principal / Chief Architect
+    if any(k in title_lower for k in ["principal", "chief architect", "enterprise architect"]):
         return "Principal"
     
-    # 3. Staff (only if not Senior Staff)
-    if "staff" in title_lower:
+    # 3. Staff (only if not Senior Staff, and not just "Member of Technical Staff")
+    clean_staff_check = re.sub(r"\b(?:member of technical staff|technical staff)\b", "", title_lower)
+    if re.search(r"\bstaff\b", clean_staff_check):
         return "Staff"
     
-    # 4. Lead
-    if "lead" in title_lower or "tech lead" in title_lower:
-        return "Lead"
-    
-    # 5. Senior
-    if "senior" in title_lower or "sr." in title_lower or "sr " in title_lower or "level 6" in title_lower or "ic6" in title_lower:
+    # 4. Senior & Lead
+    if any(k in title_lower for k in ["senior", "sr.", "sr ", "lead", "tech lead", "software engineer iv", "level 6", "ic6", "level 5", "ic5"]):
         return "Senior"
     
-    # 6. Engineering Manager
-    if "manager" in title_lower or "director" in title_lower or "head" in title_lower:
+    # 5. Engineering Leadership
+    if any(k in title_lower for k in ["engineering manager", "manager, engineering", "director of engineering", "director, engineering", "head of engineering", "vp of engineering"]):
         return "Engineering Manager"
-        
-    return "Senior"
+    
+    # 6. Mid-Level (SWE II / III / L3 / L4)
+    if (
+        re.search(r"\b(?:ii|iii|2|3|l3|l4|ic3|ic4|mid-level|mid level|intermediate)\b", title_lower)
+        or "software engineer ii" in title_lower
+        or "engineer ii" in title_lower
+        or "swe ii" in title_lower
+        or "swe iii" in title_lower
+    ):
+        return "Mid-Level"
+    
+    # 7. Core Software Engineer / ML Engineer / Member of Technical Staff (unspecified level)
+    return "Software Engineer"
 
 
 def parse_discipline(title: str, description: str = "") -> str:

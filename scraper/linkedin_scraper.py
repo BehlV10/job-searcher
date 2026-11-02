@@ -187,6 +187,11 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
             {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Software Engineer", "location": "Boston, MA"},
+            # Mid-to-Senior & Core Roles
+            {"keywords": "Software Engineer II", "location": "New York, NY"},
+            {"keywords": "Software Engineer II", "location": "Boston, MA"},
+            {"keywords": "Software Engineer III", "location": "New York, NY"},
+            {"keywords": "Software Engineer III", "location": "Boston, MA"},
             {"keywords": "Lead Software Engineer", "location": "New York, NY"},
             {"keywords": "Lead Software Engineer", "location": "Boston, MA"},
 

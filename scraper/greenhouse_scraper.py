@@ -113,13 +113,24 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
                 continue
 
             title_lower = title.lower()
-            engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "data engineer", "machine learning", "applied scientist", "ai engineer"]
-            seniority_keywords = ["senior", "staff", "lead", "principal", "distinguished", "architect", "manager", "head", "director", "sr."]
+            engineering_keywords = [
+                "software engineer", "software developer", "swe", "backend", "full stack", "fullstack",
+                "frontend", "front end", "infrastructure", "systems engineer", "platform engineer",
+                "data engineer", "machine learning", "ml engineer", "applied scientist", "ai engineer",
+                "research engineer", "member of technical staff", "sre", "site reliability", "cloud engineer",
+                "security engineer", "devops", "embedded engineer", "firmware", "distributed systems",
+                "architect", "engineering manager", "director of engineering"
+            ]
+            exclusions = [
+                "intern", "internship", "co-op", "fellowship", "student", "sales", "account executive",
+                "recruiter", "talent acquisition", "human resources", "hr ", "marketing", "legal",
+                "customer support", "office manager"
+            ]
 
-            is_swe = any(k in title_lower for k in engineering_keywords)
-            is_senior = any(k in title_lower for k in seniority_keywords)
+            if any(ex in title_lower for ex in exclusions):
+                continue
 
-            if not (is_swe and is_senior):
+            if not any(k in title_lower for k in engineering_keywords):
                 continue
 
             raw_content = item.get("content", "")

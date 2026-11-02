@@ -62,12 +62,17 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
                 continue
 
             title_lower = title.lower()
-            swe_terms = ["software", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "data engineer", "ai engineer"]
-            senior_terms = ["senior", "staff", "lead", "principal", "architect", "manager", "head"]
+            swe_terms = [
+                "software", "developer", "backend", "full stack", "fullstack", "frontend",
+                "infrastructure", "systems", "platform", "machine learning", "data engineer",
+                "ai engineer", "sre", "cloud", "security engineer", "devops", "architect"
+            ]
+            exclusions = ["intern", "internship", "co-op", "fellowship", "sales", "recruiter", "marketing", "legal"]
 
-            is_swe = any(k in title_lower for k in swe_terms)
-            is_senior = any(k in title_lower for k in senior_terms)
-            if not (is_swe and is_senior):
+            if any(ex in title_lower for ex in exclusions):
+                continue
+
+            if not any(k in title_lower for k in swe_terms):
                 continue
 
             desc_plain = item.get("descriptionPlain", "")

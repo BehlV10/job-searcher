@@ -90,6 +90,9 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
     principal_count = sum(1 for j in jobs if j.get("seniority") == "Principal")
     staff_count = sum(1 for j in jobs if j.get("seniority") == "Staff")
     senior_count = sum(1 for j in jobs if j.get("seniority") in ["Senior", "Lead"])
+    mid_level_count = sum(1 for j in jobs if j.get("seniority") == "Mid-Level")
+    swe_count = sum(1 for j in jobs if j.get("seniority") == "Software Engineer")
+    manager_count = sum(1 for j in jobs if j.get("seniority") == "Engineering Manager")
 
     ml_count = sum(1 for j in jobs if j.get("discipline") == "Machine Learning / AI")
     general_swe_count = sum(1 for j in jobs if j.get("discipline") != "Machine Learning / AI")
@@ -113,6 +116,9 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "principal_jobs": principal_count,
             "staff_jobs": staff_count,
             "senior_jobs": senior_count,
+            "mid_level_jobs": mid_level_count,
+            "swe_jobs": swe_count,
+            "manager_jobs": manager_count,
             "ml_jobs": ml_count,
             "general_swe_jobs": general_swe_count,
             "sources": ["LinkedIn", "Greenhouse", "Lever", "Ashby", "Built In"],
@@ -181,6 +187,9 @@ def run_pipeline():
     print(f"Principal:            {final_payload['metadata']['principal_jobs']}")
     print(f"Staff:                {final_payload['metadata']['staff_jobs']}")
     print(f"Senior / Lead:        {final_payload['metadata']['senior_jobs']}")
+    print(f"Mid-Level (SWE II/III):{final_payload['metadata']['mid_level_jobs']}")
+    print(f"Software Engineer:    {final_payload['metadata']['swe_jobs']}")
+    print(f"Engineering Manager:  {final_payload['metadata']['manager_jobs']}")
     print(f"Machine Learning / AI:{final_payload['metadata']['ml_jobs']}")
     print(f"General SWE:          {final_payload['metadata']['general_swe_jobs']}")
     print("Source Breakdown:    ", final_payload['metadata']['source_breakdown'])

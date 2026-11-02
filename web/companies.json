@@ -2,7 +2,7 @@
   {
     "name": "Google",
     "metro": "New York, NY",
-    "presence": "NYC (Chelsea / St. John's) & Cambridge (Kendall Sq) (7 open roles)",
+    "presence": "NYC (6 open roles)",
     "industry": "Search, Cloud, AI & Distributed Computing",
     "careers_url": "https://www.google.com/about/careers/applications/jobs",
     "ats_board": "Direct Portal",
@@ -19,7 +19,7 @@
   {
     "name": "Microsoft",
     "metro": "Boston, MA",
-    "presence": "New England R&D Center (NERD Cambridge) & NYC Times Sq (1 open roles)",
+    "presence": "New England R&D Center (1 open roles)",
     "industry": "Cloud (Azure), Systems, AI & Developer Tools",
     "careers_url": "https://careers.microsoft.com/",
     "ats_board": "Direct Portal",
@@ -35,7 +35,7 @@
   {
     "name": "Salesforce",
     "metro": "New York, NY",
-    "presence": "NYC (Salesforce Tower) & Boston Hub (9 open roles)",
+    "presence": "NYC (9 open roles)",
     "industry": "Enterprise Cloud SaaS & Agentforce AI",
     "careers_url": "https://www.salesforce.com/company/careers/",
     "ats_board": "Direct Portal",
@@ -99,7 +99,7 @@
   {
     "name": "Reddit",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (Midtown) (58 open roles)",
+    "presence": "NYC Engineering Hub (67 open roles)",
     "industry": "Community Platform, Recommendation Systems & Distributed Data",
     "careers_url": "https://www.redditinc.com/careers",
     "ats_board": "Greenhouse",
@@ -131,7 +131,7 @@
   {
     "name": "Stripe",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (Meatpacking) (13 open roles)",
+    "presence": "NYC Engineering Hub (46 open roles)",
     "industry": "Global Payments & Economic Infrastructure",
     "careers_url": "https://stripe.com/jobs",
     "ats_board": "Greenhouse",
@@ -147,7 +147,7 @@
   {
     "name": "Cloudflare",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (6 open roles)",
+    "presence": "NYC Engineering Hub (4 open roles)",
     "industry": "Edge Computing, Global CDN & Internet Security",
     "careers_url": "https://www.cloudflare.com/careers/",
     "ats_board": "Greenhouse",
@@ -163,7 +163,7 @@
   {
     "name": "Anthropic",
     "metro": "New York, NY",
-    "presence": "NYC Applied AI Hub (86 open roles)",
+    "presence": "NYC Applied AI Hub (154 open roles)",
     "industry": "AI Safety & Frontier Foundation Models (Claude)",
     "careers_url": "https://www.anthropic.com/careers",
     "ats_board": "Greenhouse",
@@ -178,7 +178,7 @@
   {
     "name": "Ramp",
     "metro": "New York, NY",
-    "presence": "NYC (HQ - Flatiron) (11 open roles)",
+    "presence": "NYC (40 open roles)",
     "industry": "Corporate Cards & Financial Automation",
     "careers_url": "https://ramp.com/careers",
     "ats_board": "Ashby",
@@ -194,7 +194,7 @@
   {
     "name": "Cursor (Anysphere)",
     "metro": "New York, NY",
-    "presence": "NYC / Remote (5 open roles)",
+    "presence": "NYC / Remote (21 open roles)",
     "industry": "AI Code Generation & Developer Intelligence",
     "careers_url": "https://www.cursor.com/careers",
     "ats_board": "Ashby",
@@ -209,7 +209,7 @@
   {
     "name": "Datadog",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) & Boston Office (14 open roles)",
+    "presence": "NYC (14 open roles)",
     "industry": "Observability & Cloud Security",
     "careers_url": "https://www.datadoghq.com/careers/",
     "ats_board": "Greenhouse",
@@ -224,7 +224,7 @@
   {
     "name": "Toast",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ - Fenway) (23 open roles)",
+    "presence": "Boston (22 open roles)",
     "industry": "Restaurant Tech & FinTech Platform",
     "careers_url": "https://careers.toasttab.com/",
     "ats_board": "Greenhouse",
@@ -239,7 +239,7 @@
   {
     "name": "Klaviyo",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ - Downtown) (26 open roles)",
+    "presence": "Boston (32 open roles)",
     "industry": "Marketing Automation & Customer Data Platform",
     "careers_url": "https://www.klaviyo.com/careers",
     "ats_board": "Greenhouse",
@@ -254,7 +254,7 @@
   {
     "name": "MongoDB",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) & Boston Office (14 open roles)",
+    "presence": "NYC (19 open roles)",
     "industry": "Developer Data Platform & Database Systems",
     "careers_url": "https://www.mongodb.com/careers",
     "ats_board": "Greenhouse",
@@ -269,7 +269,7 @@
   {
     "name": "Palantir Technologies",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (Meatpacking) (8 open roles)",
+    "presence": "NYC Engineering Hub (4 open roles)",
     "industry": "Enterprise AI Platforms & Defense Data Systems",
     "careers_url": "https://www.palantir.com/careers/",
     "ats_board": "Lever",
@@ -284,7 +284,7 @@
   {
     "name": "Spotify",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (WTC) (5 open roles)",
+    "presence": "NYC Engineering Hub (6 open roles)",
     "industry": "Audio Streaming & Media Tech",
     "careers_url": "https://www.lifeatspotify.com/jobs",
     "ats_board": "Lever",
@@ -314,7 +314,7 @@
   {
     "name": "Pinterest",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Office (27 open roles)",
+    "presence": "NYC Engineering Office (32 open roles)",
     "industry": "Visual Search, Computer Vision & Discovery Engine",
     "careers_url": "https://www.pinterestcareers.com/",
     "ats_board": "Greenhouse",
@@ -329,7 +329,7 @@
   {
     "name": "Coinbase",
     "metro": "New York, NY",
-    "presence": "NYC Office & Remote (71 open roles)",
+    "presence": "NYC Office & Remote (82 open roles)",
     "industry": "Crypto Economy & Financial Infrastructure",
     "careers_url": "https://www.coinbase.com/careers",
     "ats_board": "Greenhouse",
@@ -344,7 +344,7 @@
   {
     "name": "Braze",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) (13 open roles)",
+    "presence": "NYC (16 open roles)",
     "industry": "Customer Engagement & Streaming Data",
     "careers_url": "https://www.braze.com/about/careers",
     "ats_board": "Greenhouse",
@@ -359,7 +359,7 @@
   {
     "name": "CarGurus",
     "metro": "Boston, MA",
-    "presence": "Cambridge / Boston (HQ) (6 open roles)",
+    "presence": "Cambridge / Boston (8 open roles)",
     "industry": "Automotive Marketplace & Search Engine",
     "careers_url": "https://www.cargurus.com/careers",
     "ats_board": "Greenhouse",
@@ -374,7 +374,7 @@
   {
     "name": "Formlabs",
     "metro": "Boston, MA",
-    "presence": "Somerville / Boston (HQ) (11 open roles)",
+    "presence": "Somerville / Boston (17 open roles)",
     "industry": "3D Printing Systems & Embedded Software",
     "careers_url": "https://formlabs.com/careers/",
     "ats_board": "Greenhouse",
@@ -388,7 +388,7 @@
   {
     "name": "Recorded Future",
     "metro": "Boston, MA",
-    "presence": "Somerville / Boston (HQ) (2 open roles)",
+    "presence": "Somerville / Boston (2 open roles)",
     "industry": "Threat Intelligence & Cyber Security AI",
     "careers_url": "https://www.recordedfuture.com/careers",
     "ats_board": "Greenhouse",
@@ -403,7 +403,7 @@
   {
     "name": "Starburst Data",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ) (4 open roles)",
+    "presence": "Boston (5 open roles)",
     "industry": "Distributed SQL / Trino Query Engine",
     "careers_url": "https://www.starburst.io/careers/",
     "ats_board": "Greenhouse",
@@ -418,7 +418,7 @@
   {
     "name": "Squarespace",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) (7 open roles)",
+    "presence": "NYC (7 open roles)",
     "industry": "Web Publishing & E-Commerce Infrastructure",
     "careers_url": "https://www.squarespace.com/about/careers",
     "ats_board": "Greenhouse",
@@ -433,7 +433,7 @@
   {
     "name": "Flatiron Health",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) (1 open roles)",
+    "presence": "NYC (1 open roles)",
     "industry": "HealthTech & Oncology Data Infrastructure",
     "careers_url": "https://flatiron.com/careers/",
     "ats_board": "Greenhouse",
@@ -448,7 +448,7 @@
   {
     "name": "Oscar Health",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) (8 open roles)",
+    "presence": "NYC (8 open roles)",
     "industry": "HealthTech & Insurance Technology",
     "careers_url": "https://www.hioscar.com/careers",
     "ats_board": "Greenhouse",
@@ -463,7 +463,7 @@
   {
     "name": "Betterment",
     "metro": "New York, NY",
-    "presence": "NYC (HQ) (4 open roles)",
+    "presence": "NYC (5 open roles)",
     "industry": "FinTech & Automated Investing Infrastructure",
     "careers_url": "https://www.betterment.com/careers",
     "ats_board": "Greenhouse",
@@ -478,7 +478,7 @@
   {
     "name": "DraftKings",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ) (4 open roles)",
+    "presence": "Boston (4 open roles)",
     "industry": "Sports Entertainment & High-Frequency Betting Tech",
     "careers_url": "https://careers.draftkings.com/",
     "ats_board": "Direct Portal",
@@ -508,7 +508,7 @@
   {
     "name": "WHOOP",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ - Fenway) (44 open roles)",
+    "presence": "Boston (45 open roles)",
     "industry": "Wearable Biometrics & High-Volume Time-Series Data",
     "careers_url": "https://www.whoop.com/careers/",
     "ats_board": "Built In / Direct",
@@ -523,7 +523,7 @@
   {
     "name": "Cockroach Labs",
     "metro": "New York, NY",
-    "presence": "NYC (HQ)",
+    "presence": "NYC (2 open roles)",
     "industry": "Cloud-Native Distributed SQL Database",
     "careers_url": "https://www.cockroachlabs.com/careers/",
     "ats_board": "Greenhouse",
@@ -595,7 +595,7 @@
   {
     "name": "Circle",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ - Seaport) (4 open roles)",
+    "presence": "Boston (5 open roles)",
     "industry": "Digital Currency & USDC Financial Infrastructure",
     "careers_url": "https://www.circle.com/en/careers",
     "ats_board": "Direct Portal",
@@ -610,7 +610,7 @@
   {
     "name": "Akamai Technologies",
     "metro": "Boston, MA",
-    "presence": "Cambridge / Boston (HQ) (5 open roles)",
+    "presence": "Cambridge / Boston (2 open roles)",
     "industry": "Content Delivery Network (CDN) & Edge Cloud",
     "careers_url": "https://www.akamai.com/careers",
     "ats_board": "Direct Portal",
@@ -640,7 +640,7 @@
   {
     "name": "Databricks",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Center & Remote (11 open roles)",
+    "presence": "NYC Engineering Center & Remote (43 open roles)",
     "industry": "Data Intelligence, Spark & Generative AI Platform",
     "careers_url": "https://www.databricks.com/company/careers",
     "ats_board": "Greenhouse",
@@ -657,7 +657,7 @@
   {
     "name": "Waymo",
     "metro": "New York, NY",
-    "presence": "NYC Engineering & Autonomous Systems Hub (11 open roles)",
+    "presence": "NYC Engineering & Autonomous Systems Hub (12 open roles)",
     "industry": "Autonomous Vehicles, Computer Vision & Robotics AI",
     "careers_url": "https://waymo.com/careers/",
     "ats_board": "Greenhouse",
@@ -673,7 +673,7 @@
   {
     "name": "Robinhood",
     "metro": "New York, NY",
-    "presence": "NYC (Financial District) (10 open roles)",
+    "presence": "NYC (12 open roles)",
     "industry": "Retail Investing, Crypto & Financial Infrastructure",
     "careers_url": "https://robinhood.com/us/en/careers/",
     "ats_board": "Greenhouse",
@@ -689,7 +689,7 @@
   {
     "name": "Cohere",
     "metro": "New York, NY",
-    "presence": "NYC & Remote (15 open roles)",
+    "presence": "NYC & Remote (13 open roles)",
     "industry": "Enterprise Foundation Models, NLP & Large Language Models",
     "careers_url": "https://cohere.com/careers",
     "ats_board": "Ashby",
@@ -721,7 +721,7 @@
   {
     "name": "Plaid",
     "metro": "New York, NY",
-    "presence": "NYC (SoHo / Union Square) (22 open roles)",
+    "presence": "NYC (27 open roles)",
     "industry": "FinTech APIs & Financial Network Infrastructure",
     "careers_url": "https://plaid.com/careers/",
     "ats_board": "Ashby",
@@ -736,7 +736,7 @@
   {
     "name": "Snyk",
     "metro": "Boston, MA",
-    "presence": "Boston (HQ - Back Bay) (2 open roles)",
+    "presence": "Boston (2 open roles)",
     "industry": "Developer Security Platform & Cloud AppSec",
     "careers_url": "https://snyk.io/careers/",
     "ats_board": "Ashby",
@@ -752,7 +752,7 @@
   {
     "name": "Vanta",
     "metro": "New York, NY",
-    "presence": "NYC (Midtown) & Remote (21 open roles)",
+    "presence": "NYC (23 open roles)",
     "industry": "Automated Security & Continuous Compliance Platform",
     "careers_url": "https://www.vanta.com/careers",
     "ats_board": "Ashby",
@@ -767,7 +767,7 @@
   {
     "name": "Notion",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Center (7 open roles)",
+    "presence": "NYC Engineering Center (17 open roles)",
     "industry": "Connected Workspace, Collaboration & AI Documents",
     "careers_url": "https://www.notion.so/careers",
     "ats_board": "Ashby",
@@ -782,7 +782,7 @@
   {
     "name": "SeatGeek",
     "metro": "New York, NY",
-    "presence": "NYC (HQ - NoHo) (5 open roles)",
+    "presence": "NYC (9 open roles)",
     "industry": "Live Event Ticketing & High-Concurrency Systems",
     "careers_url": "https://seatgeek.com/jobs",
     "ats_board": "Greenhouse",
@@ -798,7 +798,7 @@
   {
     "name": "Fivetran",
     "metro": "New York, NY",
-    "presence": "NYC & Remote (2 open roles)",
+    "presence": "NYC & Remote (7 open roles)",
     "industry": "Automated Data Movement & ELT Data Pipelines",
     "careers_url": "https://www.fivetran.com/careers",
     "ats_board": "Greenhouse",
@@ -814,7 +814,7 @@
   {
     "name": "Carta",
     "metro": "New York, NY",
-    "presence": "NYC Hub & Remote (3 open roles)",
+    "presence": "NYC Hub & Remote (4 open roles)",
     "industry": "Equity Management & Private Market Infrastructure",
     "careers_url": "https://carta.com/careers/",
     "ats_board": "Greenhouse",
@@ -845,7 +845,7 @@
   {
     "name": "Affirm",
     "metro": "Remote / US",
-    "presence": "US Remote (74 open roles)",
+    "presence": "US Remote (81 open roles)",
     "industry": "Technology & Software Development \u2022 74 active openings",
     "careers_url": "https://job-boards.greenhouse.io/affirm/jobs/7872398003",
     "ats_board": "Built In/Greenhouse/LinkedIn",
@@ -861,7 +861,7 @@
   {
     "name": "Harvey AI",
     "metro": "Remote / US",
-    "presence": "US Remote (34 open roles)",
+    "presence": "US Remote (43 open roles)",
     "industry": "Technology & Software Development \u2022 34 active openings",
     "careers_url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
     "ats_board": "Ashby",
@@ -877,7 +877,7 @@
   {
     "name": "NVIDIA",
     "metro": "Remote / US",
-    "presence": "US Remote (29 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 29 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-developer-technology-engineer-high-performance-databases-at-nvidia-4450008355",
     "ats_board": "Built In/LinkedIn",
@@ -893,7 +893,7 @@
   {
     "name": "GitLab",
     "metro": "Remote / US",
-    "presence": "US Remote (27 open roles)",
+    "presence": "US Remote (70 open roles)",
     "industry": "Technology & Software Development \u2022 27 active openings",
     "careers_url": "https://job-boards.greenhouse.io/gitlab/jobs/8883597002",
     "ats_board": "Built In/Greenhouse",
@@ -909,7 +909,7 @@
   {
     "name": "Gusto",
     "metro": "Remote / US",
-    "presence": "US Remote (20 open roles)",
+    "presence": "US Remote (19 open roles)",
     "industry": "Technology & Software Development \u2022 20 active openings",
     "careers_url": "https://job-boards.greenhouse.io/gusto/jobs/8022493",
     "ats_board": "Greenhouse",
@@ -925,7 +925,7 @@
   {
     "name": "JPMorganChase",
     "metro": "Remote / US",
-    "presence": "US Remote (19 open roles)",
+    "presence": "US Remote (18 open roles)",
     "industry": "Technology & Software Development \u2022 19 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-principal-software-engineer-java-aws-common-components-group-at-jpmorganchase-4446286136",
     "ats_board": "Built In/LinkedIn",
@@ -941,7 +941,7 @@
   {
     "name": "Instacart",
     "metro": "Remote / US",
-    "presence": "US Remote (17 open roles)",
+    "presence": "US Remote (16 open roles)",
     "industry": "Technology & Software Development \u2022 17 active openings",
     "careers_url": "https://instacart.careers/job/?gh_jid=8240305",
     "ats_board": "Greenhouse",
@@ -973,7 +973,7 @@
   {
     "name": "Scale AI",
     "metro": "Remote / US",
-    "presence": "US Remote (16 open roles)",
+    "presence": "US Remote (26 open roles)",
     "industry": "Technology & Software Development \u2022 16 active openings",
     "careers_url": "https://job-boards.greenhouse.io/scaleai/jobs/4649903005",
     "ats_board": "Greenhouse",
@@ -1005,7 +1005,7 @@
   {
     "name": "Camunda",
     "metro": "Remote / US",
-    "presence": "US Remote (14 open roles)",
+    "presence": "US Remote (10 open roles)",
     "industry": "Technology & Software Development \u2022 14 active openings",
     "careers_url": "https://jobs.ashbyhq.com/camunda/af27a3de-d3ba-40dd-976f-9767bdc1e7e8",
     "ats_board": "Ashby",
@@ -1021,7 +1021,7 @@
   {
     "name": "Figma",
     "metro": "Remote / US",
-    "presence": "US Remote (13 open roles)",
+    "presence": "US Remote (25 open roles)",
     "industry": "Technology & Software Development \u2022 13 active openings",
     "careers_url": "https://boards.greenhouse.io/figma/jobs/6235282004?gh_jid=6235282004",
     "ats_board": "Greenhouse",
@@ -1051,7 +1051,7 @@
   {
     "name": "Amazon Web Services (AWS)",
     "metro": "Remote / US",
-    "presence": "US Remote (11 open roles)",
+    "presence": "US Remote (6 open roles)",
     "industry": "Technology & Software Development \u2022 11 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-aws-elastic-block-store-ebs-data-services-at-amazon-web-services-aws-4468306797",
     "ats_board": "LinkedIn",
@@ -1062,7 +1062,7 @@
   {
     "name": "LangChain",
     "metro": "Remote / US",
-    "presence": "US Remote (10 open roles)",
+    "presence": "US Remote (15 open roles)",
     "industry": "Technology & Software Development \u2022 10 active openings",
     "careers_url": "https://jobs.ashbyhq.com/langchain/e1263bfe-b638-4019-b4d5-0aacca93b2b3",
     "ats_board": "Ashby",
@@ -1110,7 +1110,7 @@
   {
     "name": "Brex",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (12 open roles)",
     "industry": "Technology & Software Development \u2022 8 active openings",
     "careers_url": "https://www.brex.com/careers/8815476002?gh_jid=8815476002",
     "ats_board": "Greenhouse",
@@ -1126,7 +1126,7 @@
   {
     "name": "Palantir",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (45 open roles)",
     "industry": "Technology & Software Development \u2022 8 active openings",
     "careers_url": "https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a",
     "ats_board": "Lever",
@@ -1140,7 +1140,7 @@
   {
     "name": "Amazon",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 8 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-development-engineer-relationships-identity-systems-at-amazon-4455936436",
     "ats_board": "LinkedIn",
@@ -1152,7 +1152,7 @@
   {
     "name": "Twilio",
     "metro": "Remote / US",
-    "presence": "US Remote (7 open roles)",
+    "presence": "US Remote (20 open roles)",
     "industry": "Technology & Software Development \u2022 7 active openings",
     "careers_url": "https://job-boards.greenhouse.io/twilio/jobs/8258581",
     "ats_board": "Built In/Greenhouse",
@@ -1168,7 +1168,7 @@
   {
     "name": "DoorDash",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-storage-at-doordash-4431899358",
     "ats_board": "LinkedIn",
@@ -1180,7 +1180,7 @@
   {
     "name": "Etsy",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ml-enablement-at-etsy-4477868017",
     "ats_board": "LinkedIn",
@@ -1192,7 +1192,7 @@
   {
     "name": "Meta",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (17 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-leadership-infrastructure-at-meta-4438081214",
     "ats_board": "LinkedIn",
@@ -1204,7 +1204,7 @@
   {
     "name": "Collins Aerospace",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-air-traffic-solutions-onsite-at-collins-aerospace-4458714887",
     "ats_board": "LinkedIn",
@@ -1232,7 +1232,7 @@
   {
     "name": "Baseten",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (34 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-engineer-compute-and-isolation/11900089",
     "ats_board": "Ashby/Built In",
@@ -1248,7 +1248,7 @@
   {
     "name": "Atlassian",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.builtinnyc.com/job/principal-software-engineer-loom/11854469",
     "ats_board": "Built In/LinkedIn",
@@ -1263,7 +1263,7 @@
   {
     "name": "State Street",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/application-security-engineer-adr-at-state-street-4479217662",
     "ats_board": "Built In/LinkedIn",
@@ -1279,7 +1279,7 @@
   {
     "name": "Chime",
     "metro": "Remote / US",
-    "presence": "US Remote (5 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://boards.greenhouse.io/chime/jobs/8604565002?gh_jid=8604565002",
     "ats_board": "Greenhouse",
@@ -1311,7 +1311,7 @@
   {
     "name": "Goldman Sachs",
     "metro": "Remote / US",
-    "presence": "US Remote (5 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/the-core-engineering-software-engineering-associate-new-york-at-goldman-sachs-4484585527",
     "ats_board": "Built In/LinkedIn",
@@ -1343,7 +1343,7 @@
   {
     "name": "Archer",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/salesforce-crm-software-engineer-iii-consumer-community-banking-at-archer-4484830123",
     "ats_board": "LinkedIn",
@@ -1355,7 +1355,7 @@
   {
     "name": "Humana",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/ai-engineer-at-humana-4483421242",
     "ats_board": "Built In/LinkedIn",
@@ -1367,7 +1367,7 @@
   {
     "name": "IBM",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/confluent-staff-software-engineer-at-ibm-4483905630",
     "ats_board": "LinkedIn",
@@ -1417,7 +1417,7 @@
   {
     "name": "Analog Devices",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-engineer-mixed-signal-design-engineering-at-analog-devices-4388522365",
     "ats_board": "LinkedIn",
@@ -1445,7 +1445,7 @@
   {
     "name": "Verily Health",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-verily-me-at-verily-health-4461935097",
     "ats_board": "LinkedIn",
@@ -1457,7 +1457,7 @@
   {
     "name": "Modal Labs",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://jobs.ashbyhq.com/modal/7db771eb-e379-47fe-974f-765a8780dc10",
     "ats_board": "Ashby",
@@ -1473,7 +1473,7 @@
   {
     "name": "Capital One",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/ai-engineer-3-ai-foundations-at-capital-one-4469528970",
     "ats_board": "Built In/LinkedIn",
@@ -1499,7 +1499,7 @@
   {
     "name": "Rippling",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-it-product-at-rippling-4485681683",
     "ats_board": "LinkedIn",
@@ -1511,7 +1511,7 @@
   {
     "name": "Medtronic",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-ui-ux-qt-qml-at-medtronic-4483742719",
     "ats_board": "Built In/LinkedIn",
@@ -1553,7 +1553,7 @@
   {
     "name": "Alarm.com",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer-ii/11989937",
     "ats_board": "Built In/LinkedIn",
@@ -1564,7 +1564,7 @@
   {
     "name": "LG Ad Solutions",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ii-fullstack-ai-at-lg-ad-solutions-4484786862",
     "ats_board": "LinkedIn",
@@ -1588,7 +1588,7 @@
   {
     "name": "General Dynamics Mission Systems",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/rust-embedded-software-engineer-multiple-levels-cleared-at-general-dynamics-mission-systems-4484147336",
     "ats_board": "LinkedIn",
@@ -1675,7 +1675,7 @@
   {
     "name": "Raytheon",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (6 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-software-c-c%2B%2B-engineer-at-raytheon-4430938075",
     "ats_board": "LinkedIn",
@@ -1718,7 +1718,7 @@
   {
     "name": "Compass",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ii-streaming-and-durability-at-compass-4450689422",
     "ats_board": "Built In/LinkedIn",
@@ -1729,7 +1729,7 @@
   {
     "name": "Berkshire Grey",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-manipulation-at-berkshire-grey-4470326408",
     "ats_board": "LinkedIn",
@@ -1822,7 +1822,7 @@
   {
     "name": "Flexport",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://job-boards.greenhouse.io/flexport/jobs/8337256",
     "ats_board": "Greenhouse",
@@ -1846,7 +1846,7 @@
   {
     "name": "ConsenSys",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://job-boards.greenhouse.io/consensys/jobs/8334532",
     "ats_board": "Greenhouse",
@@ -1940,7 +1940,7 @@
   {
     "name": "Rise Technical",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/cloud-infrastructure-engineer-at-rise-technical-4483935358",
     "ats_board": "LinkedIn",
@@ -1978,7 +1978,7 @@
   {
     "name": "Cash App",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-analytics-engineer-ai-dx-analytics/11364331",
     "ats_board": "Built In",
@@ -1994,7 +1994,7 @@
   {
     "name": "Pearson",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-pearson-4452790005",
     "ats_board": "LinkedIn",
@@ -2031,7 +2031,7 @@
   {
     "name": "Chewy",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/consumer-insights-manager/11318813",
     "ats_board": "Built In",
@@ -2099,7 +2099,7 @@
   {
     "name": "Engine",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/sr-business-systems-engineer/11999004",
     "ats_board": "Built In/LinkedIn",
@@ -2122,7 +2122,7 @@
   {
     "name": "Whatnot",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-discovery-platform-at-whatnot-4475109294",
     "ats_board": "Built In/LinkedIn",
@@ -2198,7 +2198,7 @@
   {
     "name": "Brown Brothers Harriman",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/web-security-engineer-at-brown-brothers-harriman-4457605809",
     "ats_board": "LinkedIn",
@@ -2251,7 +2251,7 @@
   {
     "name": "Grubhub",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-at-grubhub-4482119877",
     "ats_board": "LinkedIn",
@@ -2387,7 +2387,7 @@
   {
     "name": "Vercel",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (20 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/member-technical-staff-data-platform/11217842",
     "ats_board": "Built In",
@@ -2534,7 +2534,7 @@
   {
     "name": "Boston Dynamics",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-full-stack-software-engineer-atlas/11841153",
     "ats_board": "Built In/LinkedIn",
@@ -2592,7 +2592,7 @@
   {
     "name": "OpenAI",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/full-stack-software-engineer-monetization-platform/11846474",
     "ats_board": "Built In",
@@ -2767,7 +2767,7 @@
   {
     "name": "Qualcomm",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/graphics-software-engineer-staff-at-qualcomm-4453585093",
     "ats_board": "LinkedIn",
@@ -2791,7 +2791,7 @@
   {
     "name": "Starburst",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-context-layer-at-starburst-4470036816",
     "ats_board": "LinkedIn",
@@ -2803,7 +2803,7 @@
   {
     "name": "Kensho Technologies",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-kensho-technologies-4397341016",
     "ats_board": "Built In/LinkedIn",
@@ -2843,7 +2843,7 @@
   {
     "name": "Garner Health",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineer-ii/11702016",
     "ats_board": "Built In",
@@ -2911,7 +2911,7 @@
   {
     "name": "Pragmatike",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-founding-product-engineer-at-pragmatike-4454587291",
     "ats_board": "LinkedIn",
@@ -2935,7 +2935,7 @@
   {
     "name": "Counsel Health",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-counsel-health-4435271044",
     "ats_board": "LinkedIn",
@@ -2974,7 +2974,7 @@
   {
     "name": "Twitch",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://job-boards.greenhouse.io/twitch/jobs/8847086002",
     "ats_board": "Greenhouse",
@@ -3085,7 +3085,7 @@
   {
     "name": "CVS Health",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-net-python-at-cvs-health-4485605116",
     "ats_board": "LinkedIn",
@@ -3181,7 +3181,7 @@
   {
     "name": "Reddit, Inc.",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-infrastructure-engineering-at-reddit-inc-4484901443",
     "ats_board": "LinkedIn",
@@ -3476,7 +3476,7 @@
   {
     "name": "Alpaca",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-clearing-at-alpaca-4471492428",
     "ats_board": "LinkedIn",
@@ -3801,7 +3801,7 @@
   {
     "name": "Legora",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/engineering-manager/11965207",
     "ats_board": "Built In",
@@ -4013,7 +4013,7 @@
   {
     "name": "ElevenLabs",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (9 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://jobs.ashbyhq.com/elevenlabs/27e92957-374f-409a-b787-166b10e0f042",
     "ats_board": "Ashby",
@@ -4246,7 +4246,7 @@
   {
     "name": "Confido",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineering-manager/11400018",
     "ats_board": "Built In",
@@ -6995,7 +6995,7 @@
   {
     "name": "Warp",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (6 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://jobs.ashbyhq.com/warp/1670f730-5ed7-4462-b2b8-0d0494758360",
     "ats_board": "Ashby",
@@ -7090,7 +7090,7 @@
   {
     "name": "Cognition AI",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://jobs.ashbyhq.com/cognition/ca40e489-d1cb-4a8a-b761-ec3a67c8fda6",
     "ats_board": "Ashby",
@@ -7098,6 +7098,379 @@
       "AWS",
       "Go",
       "Rust"
+    ]
+  },
+  {
+    "name": "Lyft",
+    "metro": "Remote / US",
+    "presence": "US Remote (3 open roles)",
+    "industry": "Technology & Software Development \u2022 3 active openings",
+    "careers_url": "https://app.careerpuck.com/job-board/lyft/job/8921760002?gh_jid=8921760002",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "PyTorch",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Intercom",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://job-boards.greenhouse.io/intercom/jobs/8123007",
+    "ats_board": "Greenhouse",
+    "tech_stack": [
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Crosby",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/member-of-technical-staff-security-engineer-at-crosby-4396158894",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Twenty-Six Defense",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-twenty-six-defense-4483581769",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "BlinkRx",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-site-reliability-engineer-ii-at-blinkrx-4475955785",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Barclays",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-site-reliability-engineer-sre-vp-at-barclays-4483404895",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Apple Industries, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-back-end-developer-at-apple-industries-inc-4475470428",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "T. Rowe Price",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-ai-software-engineer-%E2%80%94-t-rowe-price-labs-at-t-rowe-price-4483042776",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Attentive",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-machine-learning-at-attentive-4484479187",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Dataminr",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ai-research-at-dataminr-4482545176",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Perplexity",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/member-of-technical-staff-site-reliability-engineer-cloud-infrastructure-at-perplexity-4483844469",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Brown and Caldwell",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-cyber-security-engineer-at-brown-and-caldwell-4482959189",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "FanDuel",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-enterprise-security-engineer-at-fanduel-4481463352",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Veho",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-consumer-brand-platform-at-veho-4445576671",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "HarbourVest Partners",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/junior-quantitative-developer-core-platform-at-harbourvest-partners-4446925769",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "EY",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/cloud-engineer-and-site-reliability-sme-senior-manager-at-ey-4479454974",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Lutron Electronics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/experienced-application-software-engineer-at-lutron-electronics-4478642361",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "evoke",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-applied-ai-engineer-series-a-ai-startup-at-evoke-4481735463",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Taptap Send",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-engineer-security-at-taptap-send-4473205917",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Cape",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/security-engineer-product-security-at-cape-4480730588",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Cambridge Mobile Telematics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-cambridge-mobile-telematics-4478634241",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Tubi",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-staff-principal-at-tubi-4399488937",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "FactSet",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/principal-site-reliability-engineer-kubernetes-required-hybrid-at-factset-4469793509",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Confluent, an IBM Company",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/distributed-systems-software-engineer-warpstream-at-confluent-an-ibm-company-4443540048",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "K Health",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-security-engineer-application-security-at-k-health-4479099285",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Epic Hire",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/application-developer-at-epic-hire-4475804957",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "HIFI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/security-software-engineer-at-hifi-4474608434",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Trunk Tools",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/sr-ii-ml-engineer-at-trunk-tools-4421894959",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Replit",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://jobs.ashbyhq.com/replit/999e1432-3edd-453b-b598-ab4b26e1bc5c",
+    "ats_board": "Ashby",
+    "tech_stack": [
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Merciv",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-ml-ai-engineer-agentic-intelligence-at-merciv-4380520387",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Mighty",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-ai-software-engineer-at-mighty-4367475774",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
     ]
   }
 ]
