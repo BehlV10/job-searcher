@@ -185,10 +185,15 @@ def parse_seniority(title: str) -> str:
     - Senior Staff: Senior Staff, Sr. Staff, Distinguished, Fellow, Principal Staff
     - Principal: Principal, Enterprise / Chief Architect
     - Staff: Staff Engineer (excluding generic 'member of technical staff')
-    - Senior: Senior, Sr., Lead, Tech Lead, Level 5/6, IC5/6
+    - Senior Director: Senior Director of Engineering, VP
+    - Director: Director of Engineering, Head of Engineering
+    - Senior Engineering Manager: Senior Engineering Manager, Senior Manager
+    - Engineering Manager: Engineering Manager, Tech Lead Manager
+    - Senior ML Engineer: Senior Machine Learning / AI / Applied Scientist
+    - Senior Software Engineer: Senior Software Engineer, Lead, Tech Lead, IC5/6
     - Mid-Level: Software Engineer II/III, SWE 2/3, Mid-Level, Intermediate, L3/L4
-    - Software Engineer: Core SWE, Machine Learning Engineer, Backend Engineer, Applied AI, MTS
-    - Engineering Manager: Manager, Director, Head of Engineering
+    - Machine Learning Engineer: Core / Mid ML Engineer, AI Engineer
+    - Software Engineer: Core SWE, Backend Engineer, Member of Technical Staff
     """
     title_lower = title.lower()
     
@@ -205,15 +210,34 @@ def parse_seniority(title: str) -> str:
     if re.search(r"\bstaff\b", clean_staff_check):
         return "Staff"
     
-    # 4. Senior & Lead
-    if any(k in title_lower for k in ["senior", "sr.", "sr ", "lead", "tech lead", "software engineer iv", "level 6", "ic6", "level 5", "ic5"]):
-        return "Senior"
-    
-    # 5. Engineering Leadership
-    if any(k in title_lower for k in ["engineering manager", "manager, engineering", "director of engineering", "director, engineering", "head of engineering", "vp of engineering"]):
+    # 4. Senior Director & Director (Executive Leadership - evaluated BEFORE Senior SWE)
+    if any(k in title_lower for k in ["director", "vp", "vice president", "head of engineering", "head of software", "head of ai"]):
+        if any(sd in title_lower for sd in ["senior director", "sr. director", "sr director", "vp", "vice president"]):
+            return "Senior Director"
+        return "Director"
+
+    # 5. Engineering Management (Senior Engineering Manager vs. Engineering Manager)
+    if any(k in title_lower for k in ["engineering manager", "manager, engineering", "manager of engineering", "software manager", "tech lead manager", "tlm"]):
+        if any(sm in title_lower for sm in ["senior", "sr.", "sr ", "lead manager", "manager ii", "manager 2"]):
+            return "Senior Engineering Manager"
         return "Engineering Manager"
-    
-    # 6. Mid-Level (SWE II / III / L3 / L4)
+    if "manager" in title_lower and any(tech in title_lower for tech in ["software", "engineering", "platform", "systems", "cloud", "data", "ml", "ai"]):
+        if any(sm in title_lower for sm in ["senior", "sr.", "sr "]):
+            return "Senior Engineering Manager"
+        return "Engineering Manager"
+
+    # 6. Senior Machine Learning & AI Engineer vs. Senior Software Engineer
+    ml_keywords = ["machine learning", "ml ", "ml,", "ai ", "ai,", "applied scientist", "deep learning", "computer vision", "nlp", "llm", "foundation model"]
+    is_ml = any(k in title_lower for k in ml_keywords)
+    is_senior = any(k in title_lower for k in ["senior", "sr.", "sr ", "lead", "tech lead", "software engineer iv", "level 6", "ic6", "level 5", "ic5"])
+
+    if is_ml and is_senior:
+        return "Senior ML Engineer"
+
+    if is_senior:
+        return "Senior Software Engineer"
+
+    # 7. Mid-Level (SWE II / III / L3 / L4)
     if (
         re.search(r"\b(?:ii|iii|2|3|l3|l4|ic3|ic4|mid-level|mid level|intermediate)\b", title_lower)
         or "software engineer ii" in title_lower
@@ -223,7 +247,11 @@ def parse_seniority(title: str) -> str:
     ):
         return "Mid-Level"
     
-    # 7. Core Software Engineer / ML Engineer / Member of Technical Staff (unspecified level)
+    # 8. Core Machine Learning Engineer (unspecified / mid level)
+    if is_ml:
+        return "Machine Learning Engineer"
+
+    # 9. Core Software Engineer / Member of Technical Staff (unspecified level)
     return "Software Engineer"
 
 

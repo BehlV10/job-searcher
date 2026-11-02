@@ -90,9 +90,14 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
     senior_staff_count = sum(1 for j in jobs if j.get("seniority") == "Senior Staff")
     principal_count = sum(1 for j in jobs if j.get("seniority") == "Principal")
     staff_count = sum(1 for j in jobs if j.get("seniority") == "Staff")
-    senior_count = sum(1 for j in jobs if j.get("seniority") in ["Senior", "Lead"])
+    senior_swe_count = sum(1 for j in jobs if j.get("seniority") in ["Senior Software Engineer", "Senior", "Lead"])
+    senior_ml_count = sum(1 for j in jobs if j.get("seniority") == "Senior ML Engineer")
     mid_level_count = sum(1 for j in jobs if j.get("seniority") == "Mid-Level")
     swe_count = sum(1 for j in jobs if j.get("seniority") == "Software Engineer")
+    ml_eng_count = sum(1 for j in jobs if j.get("seniority") == "Machine Learning Engineer")
+    senior_dir_count = sum(1 for j in jobs if j.get("seniority") == "Senior Director")
+    director_count = sum(1 for j in jobs if j.get("seniority") == "Director")
+    senior_mgr_count = sum(1 for j in jobs if j.get("seniority") == "Senior Engineering Manager")
     manager_count = sum(1 for j in jobs if j.get("seniority") == "Engineering Manager")
 
     ml_count = sum(1 for j in jobs if j.get("discipline") == "Machine Learning / AI")
@@ -116,9 +121,14 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "senior_staff_jobs": senior_staff_count,
             "principal_jobs": principal_count,
             "staff_jobs": staff_count,
-            "senior_jobs": senior_count,
+            "senior_swe_jobs": senior_swe_count,
+            "senior_ml_jobs": senior_ml_count,
             "mid_level_jobs": mid_level_count,
             "swe_jobs": swe_count,
+            "ml_engineer_jobs": ml_eng_count,
+            "senior_director_jobs": senior_dir_count,
+            "director_jobs": director_count,
+            "senior_manager_jobs": senior_mgr_count,
             "manager_jobs": manager_count,
             "ml_jobs": ml_count,
             "general_swe_jobs": general_swe_count,
@@ -193,20 +203,25 @@ def run_pipeline():
         json.dump(final_payload, f, indent=2, ensure_ascii=False)
 
     print("\n================ HIGH-SCALE PIPELINE SUMMARY ================")
-    print(f"Total Active Listings: {len(processed_jobs)}")
-    print(f"With Parsed Salary:   {final_payload['metadata']['with_salary_count']}")
-    print(f"New York, NY:         {final_payload['metadata']['nyc_jobs']}")
-    print(f"Boston, MA:           {final_payload['metadata']['boston_jobs']}")
-    print(f"Senior Staff:         {final_payload['metadata']['senior_staff_jobs']}")
-    print(f"Principal:            {final_payload['metadata']['principal_jobs']}")
-    print(f"Staff:                {final_payload['metadata']['staff_jobs']}")
-    print(f"Senior / Lead:        {final_payload['metadata']['senior_jobs']}")
-    print(f"Mid-Level (SWE II/III):{final_payload['metadata']['mid_level_jobs']}")
-    print(f"Software Engineer:    {final_payload['metadata']['swe_jobs']}")
-    print(f"Engineering Manager:  {final_payload['metadata']['manager_jobs']}")
-    print(f"Machine Learning / AI:{final_payload['metadata']['ml_jobs']}")
-    print(f"General SWE:          {final_payload['metadata']['general_swe_jobs']}")
-    print("Source Breakdown:    ", final_payload['metadata']['source_breakdown'])
+    print(f"Total Active Listings:     {len(processed_jobs)}")
+    print(f"With Parsed Salary:       {final_payload['metadata']['with_salary_count']}")
+    print(f"New York, NY:             {final_payload['metadata']['nyc_jobs']}")
+    print(f"Boston, MA:               {final_payload['metadata']['boston_jobs']}")
+    print(f"Senior Staff:             {final_payload['metadata']['senior_staff_jobs']}")
+    print(f"Principal:                {final_payload['metadata']['principal_jobs']}")
+    print(f"Staff:                    {final_payload['metadata']['staff_jobs']}")
+    print(f"Senior Software Engineer: {final_payload['metadata']['senior_swe_jobs']}")
+    print(f"Senior ML Engineer:       {final_payload['metadata']['senior_ml_jobs']}")
+    print(f"Mid-Level (SWE II/III):   {final_payload['metadata']['mid_level_jobs']}")
+    print(f"Software Engineer (Core): {final_payload['metadata']['swe_jobs']}")
+    print(f"ML Engineer (Core):       {final_payload['metadata']['ml_engineer_jobs']}")
+    print(f"Senior Director:          {final_payload['metadata']['senior_director_jobs']}")
+    print(f"Director:                 {final_payload['metadata']['director_jobs']}")
+    print(f"Senior Engineering Mgr:   {final_payload['metadata']['senior_manager_jobs']}")
+    print(f"Engineering Manager:      {final_payload['metadata']['manager_jobs']}")
+    print(f"Machine Learning / AI:    {final_payload['metadata']['ml_jobs']}")
+    print(f"General SWE:              {final_payload['metadata']['general_swe_jobs']}")
+    print("Source Breakdown:        ", final_payload['metadata']['source_breakdown'])
     print("=============================================================\n")
 
     return final_payload

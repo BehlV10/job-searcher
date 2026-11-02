@@ -330,22 +330,36 @@
         }
       }
 
-      // 4. Granular Seniority: Senior Staff, Principal, Staff, Senior, Mid-Level, Software Engineer, Engineering Manager
+      // 4. Granular Seniority: Senior Staff, Principal, Staff, Senior SWE, Senior ML, Leadership, etc.
       if (seniority !== 'all') {
-        if (seniority === 'Senior Staff') {
+        if (seniority === 'leadership_all') {
+          if (!['Senior Director', 'Director', 'Senior Engineering Manager', 'Engineering Manager'].includes(job.seniority)) return false;
+        } else if (seniority === 'Senior Staff') {
           if (job.seniority !== 'Senior Staff') return false;
         } else if (seniority === 'Principal') {
           if (job.seniority !== 'Principal') return false;
         } else if (seniority === 'Staff') {
           if (job.seniority !== 'Staff') return false;
-        } else if (seniority === 'Senior') {
-          if (!['Senior', 'Lead'].includes(job.seniority)) return false;
+        } else if (seniority === 'Senior Software Engineer' || seniority === 'Senior') {
+          if (!['Senior Software Engineer', 'Senior', 'Lead'].includes(job.seniority)) return false;
+        } else if (seniority === 'Senior ML Engineer') {
+          if (job.seniority !== 'Senior ML Engineer') return false;
+        } else if (seniority === 'Machine Learning Engineer') {
+          if (job.seniority !== 'Machine Learning Engineer') return false;
+        } else if (seniority === 'Senior Director') {
+          if (job.seniority !== 'Senior Director') return false;
+        } else if (seniority === 'Director') {
+          if (job.seniority !== 'Director') return false;
+        } else if (seniority === 'Senior Engineering Manager') {
+          if (job.seniority !== 'Senior Engineering Manager') return false;
+        } else if (seniority === 'Engineering Manager') {
+          if (job.seniority !== 'Engineering Manager') return false;
         } else if (seniority === 'Mid-Level') {
           if (job.seniority !== 'Mid-Level') return false;
         } else if (seniority === 'Software Engineer') {
           if (job.seniority !== 'Software Engineer') return false;
-        } else if (seniority === 'Engineering Manager') {
-          if (job.seniority !== 'Engineering Manager') return false;
+        } else if (job.seniority !== seniority) {
+          return false;
         }
       }
 
@@ -434,14 +448,20 @@
         seniorityBadgeClass = 'bg-purple-100 text-purple-900 dark:bg-purple-950/70 dark:text-purple-300 border-purple-300 dark:border-purple-800 font-bold';
       } else if (job.seniority === 'Staff') {
         seniorityBadgeClass = 'bg-indigo-100 text-indigo-900 dark:bg-indigo-950/70 dark:text-indigo-300 border-indigo-300 dark:border-indigo-800 font-bold';
-      } else if (job.seniority === 'Senior' || job.seniority === 'Lead') {
+      } else if (job.seniority === 'Senior Software Engineer' || job.seniority === 'Senior' || job.seniority === 'Lead') {
         seniorityBadgeClass = 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-900 font-semibold';
+      } else if (job.seniority === 'Senior ML Engineer') {
+        seniorityBadgeClass = 'bg-fuchsia-100 text-fuchsia-900 dark:bg-fuchsia-950/70 dark:text-fuchsia-300 border-fuchsia-300 dark:border-fuchsia-800 font-bold';
+      } else if (job.seniority === 'Machine Learning Engineer') {
+        seniorityBadgeClass = 'bg-violet-50 text-violet-700 dark:bg-violet-950/60 dark:text-violet-300 border-violet-200 dark:border-violet-800 font-semibold';
+      } else if (job.seniority === 'Senior Director' || job.seniority === 'Director') {
+        seniorityBadgeClass = 'bg-rose-100 text-rose-900 dark:bg-rose-950/70 dark:text-rose-300 border-rose-300 dark:border-rose-800 font-bold';
+      } else if (job.seniority === 'Senior Engineering Manager' || job.seniority === 'Engineering Manager') {
+        seniorityBadgeClass = 'bg-orange-50 text-orange-700 dark:bg-orange-950/60 dark:text-orange-300 border-orange-200 dark:border-orange-800 font-semibold';
       } else if (job.seniority === 'Mid-Level') {
         seniorityBadgeClass = 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800 font-semibold';
       } else if (job.seniority === 'Software Engineer') {
         seniorityBadgeClass = 'bg-teal-50 text-teal-700 dark:bg-teal-950/60 dark:text-teal-300 border-teal-200 dark:border-teal-800 font-semibold';
-      } else if (job.seniority === 'Engineering Manager') {
-        seniorityBadgeClass = 'bg-rose-50 text-rose-700 dark:bg-rose-950/60 dark:text-rose-300 border-rose-200 dark:border-rose-800 font-semibold';
       }
 
       // Discipline Badge

@@ -121,7 +121,7 @@
           Senior, Staff, Principal, Mid-Level & ML Engineering in <span class="text-brand-300 underline decoration-brand-400/50">NYC</span> & <span class="text-indigo-300 underline decoration-indigo-400/50">Boston</span>
         </h1>
         <p class="mt-2 text-slate-300 text-sm sm:text-base leading-relaxed">
-          Filter cleanly by <strong>Senior Staff</strong>, <strong>Principal</strong>, <strong>Staff</strong>, <strong>Senior & Lead</strong>, <strong>Mid-Level (SWE II/III)</strong>, or separate <strong>Machine Learning / AI</strong>. Every role is matched with an active LinkedIn recruiter profile and live hiring posts!
+          Filter cleanly by <strong>Senior Staff</strong>, <strong>Principal</strong>, <strong>Staff</strong>, <strong>Senior SWE</strong>, <strong>Senior ML</strong>, <strong>Mid-Level</strong>, or <strong>Engineering Leadership</strong> (Director & Manager). Every role is matched with an active LinkedIn recruiter profile and live hiring posts!
         </p>
 
         <!-- Stats Bar -->
@@ -239,13 +239,23 @@
             </label>
             <select id="filter-seniority" class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl px-2.5 py-2 font-medium text-slate-800 dark:text-slate-200 focus:ring-1 focus:ring-brand-500">
               <option value="all">All Seniority Levels</option>
-              <option value="Senior Staff">Senior Staff / Distinguished</option>
-              <option value="Principal">Principal Engineer</option>
-              <option value="Staff">Staff Engineer</option>
-              <option value="Senior">Senior & Lead</option>
-              <option value="Mid-Level">Mid-Level (SWE II / III)</option>
-              <option value="Software Engineer">Software Engineer (Core / Mid)</option>
-              <option value="Engineering Manager">Engineering Manager</option>
+              <optgroup label="── Individual Contributor ──">
+                <option value="Senior Staff">Senior Staff / Distinguished</option>
+                <option value="Principal">Principal Engineer</option>
+                <option value="Staff">Staff Engineer</option>
+                <option value="Senior Software Engineer">Senior Software Engineer</option>
+                <option value="Senior ML Engineer">Senior ML / AI Engineer</option>
+                <option value="Mid-Level">Mid-Level (SWE II / III)</option>
+                <option value="Software Engineer">Software Engineer (Core / IC)</option>
+                <option value="Machine Learning Engineer">Machine Learning Engineer (Core / IC)</option>
+              </optgroup>
+              <optgroup label="── Engineering Leadership ──">
+                <option value="leadership_all">All Management & Leadership</option>
+                <option value="Senior Director">Senior Director / VP</option>
+                <option value="Director">Director / Head of Eng</option>
+                <option value="Senior Engineering Manager">Senior Engineering Manager</option>
+                <option value="Engineering Manager">Engineering Manager</option>
+              </optgroup>
             </select>
           </div>
 
