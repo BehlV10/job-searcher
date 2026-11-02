@@ -59,13 +59,7 @@ def fetch_lever_company(slug: str, company_name: str) -> List[Dict[str, Any]]:
             city = loc_info["city"]
 
             if city not in ["New York, NY", "Boston, MA", "Remote"]:
-                loc_lower = combined_loc.lower()
-                if "new york" in loc_lower or "nyc" in loc_lower or "manhattan" in loc_lower:
-                    city = "New York, NY"
-                elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower:
-                    city = "Boston, MA"
-                else:
-                    continue
+                continue
 
             title_lower = title.lower()
             swe_terms = ["software", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "data engineer", "ai engineer"]

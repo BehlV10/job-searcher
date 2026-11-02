@@ -98,17 +98,11 @@ def fetch_greenhouse_board(board_token: str, company_name: str, target_locations
             loc_obj = item.get("location", {})
             location_str = loc_obj.get("name", "") if isinstance(loc_obj, dict) else str(loc_obj)
 
-            loc_info = parse_location_type(location_str, item.get("content", ""))
+            loc_info = parse_location_type(location_str)
             city = loc_info["city"]
 
             if city not in ["New York, NY", "Boston, MA", "Remote"]:
-                loc_lower = location_str.lower()
-                if "new york" in loc_lower or "nyc" in loc_lower or "manhattan" in loc_lower:
-                    city = "New York, NY"
-                elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower or "somerville" in loc_lower:
-                    city = "Boston, MA"
-                else:
-                    continue
+                continue
 
             title_lower = title.lower()
             engineering_keywords = ["software engineer", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "data engineer", "machine learning", "applied scientist", "ai engineer"]

@@ -94,6 +94,9 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
                 loc_info = parse_location_type(loc_str)
                 city = loc_info["city"]
                 if city == "Other":
+                    non_target = re.search(r"\b(?:san francisco|san mateo|san jose|los angeles|seattle|austin|chicago|london|sunnyvale|mountain view|toronto|vancouver)\b", loc_str, re.IGNORECASE)
+                    if non_target:
+                        continue
                     city = "New York, NY" if "york" in location.lower() else "Boston, MA"
 
                 seniority = parse_seniority(title)

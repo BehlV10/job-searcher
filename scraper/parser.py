@@ -365,22 +365,46 @@ def parse_exact_date(date_raw: Optional[str], fallback_seed: str = "") -> str:
     return calc_date.strftime("%Y-%m-%d")
 
 
+NYC_LOCATION_PATTERN = re.compile(
+    r"\b(?:new york|nyc|manhattan|brooklyn|queens|long island city|jersey city|hoboken)\b|,\s*ny\b|\bny\s*,\s*usa?\b",
+    re.IGNORECASE
+)
+
+BOSTON_LOCATION_PATTERN = re.compile(
+    r"\b(?:boston|cambridge|somerville|waltham|burlington|needham|newton|watertown|quincy|lexington|bedford|framingham|marlborough|massachusetts)\b|,\s*ma\b|\bma\s*,\s*usa?\b",
+    re.IGNORECASE
+)
+
+REMOTE_LOCATION_PATTERN = re.compile(
+    r"\b(?:remote|work from home|telecommute|virtual|anywhere)\b",
+    re.IGNORECASE
+)
+
+
 def parse_location_type(location: str, description: str = "") -> Dict[str, Any]:
-    """Determines location city (NYC, Boston) and workplace type (Remote, Hybrid, On-site)."""
-    combined = f"{location} {description}".lower()
+    """
+    Determines location city (New York, NY, Boston, MA, Remote, or Other) and workplace type.
+    Uses precise regex word boundaries on the location string to avoid substring collisions
+    (e.g., 'San Mateo' containing 'ma', or 'information' in description containing 'ma').
+    """
+    loc_clean = (location or "").strip()
 
     city = "Other"
-    if any(k in combined for k in ["new york", "nyc", "manhattan", "brooklyn"]):
+    if NYC_LOCATION_PATTERN.search(loc_clean):
         city = "New York, NY"
-    elif any(k in combined for k in ["boston", "cambridge", "somerville", "massachusetts", "ma"]):
+    elif BOSTON_LOCATION_PATTERN.search(loc_clean):
         city = "Boston, MA"
-    elif "remote" in location.lower():
+    elif REMOTE_LOCATION_PATTERN.search(loc_clean):
         city = "Remote"
 
+    # Workplace Type (Remote, Hybrid, On-site)
     work_model = "On-site"
-    if "remote" in combined:
+    desc_start = (description or "")[:400].lower()
+    loc_lower = loc_clean.lower()
+
+    if REMOTE_LOCATION_PATTERN.search(loc_clean) or "remote" in desc_start or city == "Remote":
         work_model = "Remote"
-    elif "hybrid" in combined:
+    elif "hybrid" in loc_lower or "hybrid" in desc_start:
         work_model = "Hybrid"
 
     return {

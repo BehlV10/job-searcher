@@ -61,17 +61,11 @@ def fetch_ashby_board(board_slug: str, company_name: str) -> List[Dict[str, Any]
             secondary_locs = [s.get("location", "") for s in item.get("secondaryLocations", []) if isinstance(s, dict)]
             combined_loc = f"{loc_str} {' '.join(secondary_locs)}"
 
-            loc_info = parse_location_type(combined_loc, item.get("descriptionPlain", ""))
+            loc_info = parse_location_type(combined_loc)
             city = loc_info["city"]
 
             if city not in ["New York, NY", "Boston, MA", "Remote"]:
-                loc_lower = combined_loc.lower()
-                if "new york" in loc_lower or "nyc" in loc_lower or "manhattan" in loc_lower:
-                    city = "New York, NY"
-                elif "boston" in loc_lower or "cambridge" in loc_lower or "massachusetts" in loc_lower:
-                    city = "Boston, MA"
-                else:
-                    continue
+                continue
 
             title_lower = title.lower()
             swe_terms = ["engineer", "backend", "full stack", "frontend", "infrastructure", "systems", "platform", "machine learning", "ai", "scientist"]
