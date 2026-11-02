@@ -38,7 +38,13 @@ BUILTIN_SITES = [
             "/jobs/dev-engineering/machine-learning",
             "/jobs/dev-engineering/backend",
             "/jobs/dev-engineering/full-stack",
-            "/jobs/dev-engineering/cloud-infrastructure"
+            "/jobs/dev-engineering/cloud-infrastructure",
+            "/jobs/dev-engineering/devops",
+            "/jobs/dev-engineering/security",
+            "/jobs/dev-engineering/data-engineer",
+            "/jobs/dev-engineering/mobile",
+            "/jobs/dev-engineering/architecture",
+            "/jobs/data-analytics/data-science"
         ]
     },
     {
@@ -51,13 +57,19 @@ BUILTIN_SITES = [
             "/jobs/dev-engineering/machine-learning",
             "/jobs/dev-engineering/backend",
             "/jobs/dev-engineering/full-stack",
-            "/jobs/dev-engineering/cloud-infrastructure"
+            "/jobs/dev-engineering/cloud-infrastructure",
+            "/jobs/dev-engineering/devops",
+            "/jobs/dev-engineering/security",
+            "/jobs/dev-engineering/data-engineer",
+            "/jobs/dev-engineering/mobile",
+            "/jobs/dev-engineering/architecture",
+            "/jobs/data-analytics/data-science"
         ]
     }
 ]
 
 
-def scrape_builtin_category(city_name: str, domain: str, category_path: str, max_pages: int = 8) -> List[Dict[str, Any]]:
+def scrape_builtin_category(city_name: str, domain: str, category_path: str, max_pages: int = 10) -> List[Dict[str, Any]]:
     """Scrapes job listings for a specific category from Built In."""
     base_url = f"https://{domain}{category_path}"
     headers = {

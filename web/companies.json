@@ -35,7 +35,7 @@
   {
     "name": "Salesforce",
     "metro": "New York, NY",
-    "presence": "NYC (9 open roles)",
+    "presence": "NYC (2 open roles)",
     "industry": "Enterprise Cloud SaaS & Agentforce AI",
     "careers_url": "https://www.salesforce.com/company/careers/",
     "ats_board": "Direct Portal",
@@ -147,7 +147,7 @@
   {
     "name": "Cloudflare",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (4 open roles)",
+    "presence": "NYC Engineering Hub (5 open roles)",
     "industry": "Edge Computing, Global CDN & Internet Security",
     "careers_url": "https://www.cloudflare.com/careers/",
     "ats_board": "Greenhouse",
@@ -163,7 +163,7 @@
   {
     "name": "Anthropic",
     "metro": "New York, NY",
-    "presence": "NYC Applied AI Hub (154 open roles)",
+    "presence": "NYC Applied AI Hub (156 open roles)",
     "industry": "AI Safety & Frontier Foundation Models (Claude)",
     "careers_url": "https://www.anthropic.com/careers",
     "ats_board": "Greenhouse",
@@ -239,7 +239,7 @@
   {
     "name": "Klaviyo",
     "metro": "Boston, MA",
-    "presence": "Boston (32 open roles)",
+    "presence": "Boston (33 open roles)",
     "industry": "Marketing Automation & Customer Data Platform",
     "careers_url": "https://www.klaviyo.com/careers",
     "ats_board": "Greenhouse",
@@ -254,7 +254,7 @@
   {
     "name": "MongoDB",
     "metro": "New York, NY",
-    "presence": "NYC (19 open roles)",
+    "presence": "NYC (18 open roles)",
     "industry": "Developer Data Platform & Database Systems",
     "careers_url": "https://www.mongodb.com/careers",
     "ats_board": "Greenhouse",
@@ -299,7 +299,7 @@
   {
     "name": "Airbnb",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (12 open roles)",
+    "presence": "NYC Engineering Hub (13 open roles)",
     "industry": "Travel Tech & Marketplace Systems",
     "careers_url": "https://careers.airbnb.com/",
     "ats_board": "Greenhouse",
@@ -508,7 +508,7 @@
   {
     "name": "WHOOP",
     "metro": "Boston, MA",
-    "presence": "Boston (45 open roles)",
+    "presence": "Boston (43 open roles)",
     "industry": "Wearable Biometrics & High-Volume Time-Series Data",
     "careers_url": "https://www.whoop.com/careers/",
     "ats_board": "Built In / Direct",
@@ -610,7 +610,7 @@
   {
     "name": "Akamai Technologies",
     "metro": "Boston, MA",
-    "presence": "Cambridge / Boston (2 open roles)",
+    "presence": "Cambridge / Boston (1 open roles)",
     "industry": "Content Delivery Network (CDN) & Edge Cloud",
     "careers_url": "https://www.akamai.com/careers",
     "ats_board": "Direct Portal",
@@ -689,7 +689,7 @@
   {
     "name": "Cohere",
     "metro": "New York, NY",
-    "presence": "NYC & Remote (13 open roles)",
+    "presence": "NYC & Remote (12 open roles)",
     "industry": "Enterprise Foundation Models, NLP & Large Language Models",
     "careers_url": "https://cohere.com/careers",
     "ats_board": "Ashby",
@@ -877,7 +877,7 @@
   {
     "name": "NVIDIA",
     "metro": "Remote / US",
-    "presence": "US Remote (7 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 29 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-developer-technology-engineer-high-performance-databases-at-nvidia-4450008355",
     "ats_board": "Built In/LinkedIn",
@@ -893,7 +893,7 @@
   {
     "name": "GitLab",
     "metro": "Remote / US",
-    "presence": "US Remote (70 open roles)",
+    "presence": "US Remote (71 open roles)",
     "industry": "Technology & Software Development \u2022 27 active openings",
     "careers_url": "https://job-boards.greenhouse.io/gitlab/jobs/8883597002",
     "ats_board": "Built In/Greenhouse",
@@ -925,7 +925,7 @@
   {
     "name": "JPMorganChase",
     "metro": "Remote / US",
-    "presence": "US Remote (18 open roles)",
+    "presence": "US Remote (19 open roles)",
     "industry": "Technology & Software Development \u2022 19 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-principal-software-engineer-java-aws-common-components-group-at-jpmorganchase-4446286136",
     "ats_board": "Built In/LinkedIn",
@@ -1051,7 +1051,7 @@
   {
     "name": "Amazon Web Services (AWS)",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 11 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-aws-elastic-block-store-ebs-data-services-at-amazon-web-services-aws-4468306797",
     "ats_board": "LinkedIn",
@@ -1216,7 +1216,7 @@
   {
     "name": "PwC",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (12 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.builtinnyc.com/job/bank-platform-transformation-solution-architect-sr-associate/10516772",
     "ats_board": "Built In",
@@ -1263,7 +1263,7 @@
   {
     "name": "State Street",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/application-security-engineer-adr-at-state-street-4479217662",
     "ats_board": "Built In/LinkedIn",
@@ -1311,7 +1311,7 @@
   {
     "name": "Goldman Sachs",
     "metro": "Remote / US",
-    "presence": "US Remote (7 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/the-core-engineering-software-engineering-associate-new-york-at-goldman-sachs-4484585527",
     "ats_board": "Built In/LinkedIn",
@@ -1327,7 +1327,7 @@
   {
     "name": "Clear Street",
     "metro": "Remote / US",
-    "presence": "US Remote (5 open roles)",
+    "presence": "US Remote (6 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-staff-front-end-engineer/11378023",
     "ats_board": "Built In",
@@ -1343,7 +1343,7 @@
   {
     "name": "Archer",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/salesforce-crm-software-engineer-iii-consumer-community-banking-at-archer-4484830123",
     "ats_board": "LinkedIn",
@@ -1367,7 +1367,7 @@
   {
     "name": "IBM",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/confluent-staff-software-engineer-at-ibm-4483905630",
     "ats_board": "LinkedIn",
@@ -1473,7 +1473,7 @@
   {
     "name": "Capital One",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/ai-engineer-3-ai-foundations-at-capital-one-4469528970",
     "ats_board": "Built In/LinkedIn",
@@ -1488,7 +1488,7 @@
   {
     "name": "CLEAR",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-at-clear-4441242438",
     "ats_board": "LinkedIn",
@@ -1499,7 +1499,7 @@
   {
     "name": "Rippling",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-it-product-at-rippling-4485681683",
     "ats_board": "LinkedIn",
@@ -1646,7 +1646,7 @@
   {
     "name": "Tempus AI",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (6 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinboston.com/job/data-scientist-ii-outcomes-research/9524266",
     "ats_board": "Built In",
@@ -1718,7 +1718,7 @@
   {
     "name": "Compass",
     "metro": "Remote / US",
-    "presence": "US Remote (5 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ii-streaming-and-durability-at-compass-4450689422",
     "ats_board": "Built In/LinkedIn",
@@ -1794,7 +1794,7 @@
   {
     "name": "DigitalOcean",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-engineer-i-compute/11621913",
     "ats_board": "Built In/LinkedIn",
@@ -1952,7 +1952,7 @@
   {
     "name": "Cisco",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-splunk-analytics-and-search-at-cisco-4446744629",
     "ats_board": "LinkedIn",
@@ -1978,7 +1978,7 @@
   {
     "name": "Cash App",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-analytics-engineer-ai-dx-analytics/11364331",
     "ats_board": "Built In",
@@ -2031,7 +2031,7 @@
   {
     "name": "Chewy",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/consumer-insights-manager/11318813",
     "ats_board": "Built In",
@@ -2045,7 +2045,7 @@
   {
     "name": "Formation Bio",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-data-engineer/11254149",
     "ats_board": "Built In",
@@ -2251,7 +2251,7 @@
   {
     "name": "Grubhub",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-at-grubhub-4482119877",
     "ats_board": "LinkedIn",
@@ -2263,7 +2263,7 @@
   {
     "name": "Clover",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-server-at-clover-4483253842",
     "ats_board": "LinkedIn",
@@ -2286,7 +2286,7 @@
   {
     "name": "Morgan Stanley",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/vice-president-software-engineer-backend/11887141",
     "ats_board": "Built In",
@@ -2466,7 +2466,7 @@
   {
     "name": "Radar",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-staff-product-engineer-backend-at-radar-4473803341",
     "ats_board": "Built In/LinkedIn",
@@ -2482,7 +2482,7 @@
   {
     "name": "Thomson Reuters",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-%E2%80%93-nlp-llm-at-thomson-reuters-4473817939",
     "ats_board": "LinkedIn",
@@ -2580,7 +2580,7 @@
   {
     "name": "Ahold Delhaize USA",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/data-engineer-iii/11848455",
     "ats_board": "Built In",
@@ -2592,7 +2592,7 @@
   {
     "name": "OpenAI",
     "metro": "Remote / US",
-    "presence": "US Remote (5 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/full-stack-software-engineer-monetization-platform/11846474",
     "ats_board": "Built In",
@@ -2791,7 +2791,7 @@
   {
     "name": "Starburst",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-context-layer-at-starburst-4470036816",
     "ats_board": "LinkedIn",
@@ -2830,7 +2830,7 @@
   {
     "name": "Wonder",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-back-end-at-wonder-4479213543",
     "ats_board": "Built In/LinkedIn",
@@ -2843,7 +2843,7 @@
   {
     "name": "Garner Health",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineer-ii/11702016",
     "ats_board": "Built In",
@@ -2911,7 +2911,7 @@
   {
     "name": "Pragmatike",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-founding-product-engineer-at-pragmatike-4454587291",
     "ats_board": "LinkedIn",
@@ -3476,7 +3476,7 @@
   {
     "name": "Alpaca",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-clearing-at-alpaca-4471492428",
     "ats_board": "LinkedIn",
@@ -3801,7 +3801,7 @@
   {
     "name": "Legora",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/engineering-manager/11965207",
     "ats_board": "Built In",
@@ -4137,7 +4137,7 @@
   {
     "name": "Xperteez Technology",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/gpu-programming-software-engineer-remote-contract/11578523",
     "ats_board": "Built In",
@@ -4246,7 +4246,7 @@
   {
     "name": "Confido",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineering-manager/11400018",
     "ats_board": "Built In",
@@ -4476,7 +4476,7 @@
   {
     "name": "Weekday, Inc.",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer/11872422",
     "ats_board": "Built In",
@@ -4701,7 +4701,7 @@
   {
     "name": "Wells Fargo",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/lead-protocol-engineer-go-cryptography/11455258",
     "ats_board": "Built In",
@@ -7467,6 +7467,1173 @@
     "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-ai-software-engineer-at-mighty-4367475774",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "FusionAuth",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49928755",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Java",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Buoyant",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49996914",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Kubernetes",
+      "Rust"
+    ]
+  },
+  {
+    "name": "SerpApi",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49929200",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "React",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Enveritas",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925489",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Python"
+    ]
+  },
+  {
+    "name": "Jerry",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinboston.com/job/associate-data-scientist/11899614",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Oscilar.com",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49980976",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Java"
+    ]
+  },
+  {
+    "name": "Octane",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925526",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Tivly",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49937789",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Java"
+    ]
+  },
+  {
+    "name": "Paramark",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925497",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "PrairieLearn",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49922584",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "RINSE",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49927692",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Chronograph",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50033036",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Prophet Town LLC",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49940381",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Python",
+      "React",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Discord",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925063",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Early-stage Startup",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49971729",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Python"
+    ]
+  },
+  {
+    "name": "City Detect",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49924016",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Seeq",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49929522",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "Postscript",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49926951",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Rust"
+    ]
+  },
+  {
+    "name": "KSC Trading",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49926811",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "NeuralFrame",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50095921",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Brilliant.org",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49923870",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Footprint",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49956481",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Middesk",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49937835",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "NeverBlink",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49924869",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Close",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49967489",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "AssumeAI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49961551",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Wipro",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/developer-l3-at-wipro-4484852346",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Air",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-distributed-systems-file-sync-at-air-4485639708",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "name": "Quantum Minds",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49979600",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "C++",
+      "Python"
+    ]
+  },
+  {
+    "name": "depproof",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49982803",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Preferred Travel Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist-i/11769113",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "CVector",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49929264",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "OneChronos",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50012248",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Distributed Systems",
+      "Python",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Allstate",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist-senior-consultant-remote/11997348",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Varonis",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/applied-data-scientist/11979585",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Credit Genie",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-trust-platform-at-credit-genie-4337831222",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Rust"
+    ]
+  },
+  {
+    "name": "Higharc",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-structural-at-higharc-4456546919",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "EggAI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49931362",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Wipro.com",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49935587",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Mastra",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49995549",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Kraken Tech",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49945738",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Axmed",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49963332",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Python"
+    ]
+  },
+  {
+    "name": "SingleStore",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49962002",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "meetyogi.com",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49935441",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Ophelia",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist/11485680",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Experian",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/expert-data-scientist-fraud-risk-detection/11954651",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Talener",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-at-talener-4484220424",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "All Gravy",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49928066",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Flexibits",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49922803",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "C++"
+    ]
+  },
+  {
+    "name": "Arrangr",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49922970",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "name": "Bitsight Technologies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/staff-data-scientist/11943535",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Tilt (formerly Empower)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/staff-data-scientist-methodologies/11945307",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "PyTorch"
+    ]
+  },
+  {
+    "name": "Mainmatter",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49922899",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "BILL",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/credit-risk-strategy-data-scientist/11926229",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Root",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/staff-data-scientist-ltv/11464745",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Relevant Healthcare",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49923964",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Descartes - Finale Inventory",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925469",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "C++",
+      "Java",
+      "React"
+    ]
+  },
+  {
+    "name": "GovStar",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50090302",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Sourcegraph",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49927984",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Vola Dynamics",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49937058",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "C++",
+      "Java",
+      "Python"
+    ]
+  },
+  {
+    "name": "InfoHawk",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49963906",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "sciemo",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist/11889852",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Ojin",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50004401",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Go",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "StartupHakk",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50059584",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "React"
+    ]
+  },
+  {
+    "name": "Sumble",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49927319",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Apparatus Contractor Services, LLC",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/associate-data-scientist/10958626",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Skylight Digital",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/senior-staff-data-scientist-acf/11854185",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Radar Labs",
+    "metro": "New York, NY",
+    "presence": "New York City Metro (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49929235",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Python",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "HRS Systems",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49928023",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "WEX Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/sr-credit-data-scientist/11729637",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "CareSource",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist-i/11472553",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "HIFI Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49933969",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "ParadeDB",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49974107",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "JUPUS",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49931051",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Significance Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist-navy/11792853",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "The Lunar Solar Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist/11781477",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Strategy & Transformation Consulting",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49925098",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Enclave",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49930568",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Rust"
+    ]
+  },
+  {
+    "name": "Avision GmbH",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49933038",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Java",
+      "Kubernetes",
+      "React"
+    ]
+  },
+  {
+    "name": "Hebrew SeniorLife",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist-i-roslindale-24-hours/11771964",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "GiveDirectly",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49929056",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Tech Startup",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49945634",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "React",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Trackerbot",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49926228",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "AWS",
+      "Java"
+    ]
+  },
+  {
+    "name": "Perry Street Software",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=49939047",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "React"
+    ]
+  },
+  {
+    "name": "ChainSecurity",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://news.ycombinator.com/item?id=50003866",
+    "ats_board": "Hacker News",
+    "tech_stack": [
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Tomorrow.io",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/meteorological-data-scientist/11725929",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Ripple",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-c%2B%2B-at-ripple-4318373256",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "C++"
+    ]
+  },
+  {
+    "name": "RA Capital Management",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/ai-engineer-at-ra-capital-management-4422826143",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Blue Cross Blue Shield of Massachusetts",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist/11676484",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "SYSO",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/data-scientist/11638401",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "SimpliSafe",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-at-simplisafe-4461928533",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Talkspace",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-tech-lead-at-talkspace-4472950829",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "AuthZed",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-authzed-4465179389",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Videa",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-at-videa-4428766353",
     "ats_board": "LinkedIn",
     "tech_stack": [
       "Software Engineering",

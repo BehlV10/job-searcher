@@ -135,46 +135,10 @@ def search_linkedin_jobs(keywords: str, location: str, max_pages: int = 2) -> Li
 
 
 def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str, Any]]:
-    """Runs comprehensive searches across Top Tech Companies (Google, Microsoft, Salesforce, AMD, Logitech, etc.) and Senior/Staff/ML roles."""
+    """Runs pure universal role-based searches across all tech companies in NYC and Boston."""
     if searches is None:
         searches = [
-            # Top Tech Giants specifically requested
-            {"keywords": "Software Engineer Google", "location": "New York, NY"},
-            {"keywords": "Software Engineer Google", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Microsoft", "location": "New York, NY"},
-            {"keywords": "Software Engineer Microsoft", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Salesforce", "location": "New York, NY"},
-            {"keywords": "Software Engineer Salesforce", "location": "Boston, MA"},
-            {"keywords": "Software Engineer AMD", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Logitech", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Logitech", "location": "New York, NY"},
-            {"keywords": "Software Engineer Verily", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Verily", "location": "New York, NY"},
-            {"keywords": "Software Engineer HubSpot", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Reddit", "location": "New York, NY"},
-            {"keywords": "Software Engineer NVIDIA", "location": "New York, NY"},
-            {"keywords": "Software Engineer NVIDIA", "location": "Boston, MA"},
-
-            # Major Boston & NYC Tech Employers
-            {"keywords": "Software Engineer Wayfair", "location": "Boston, MA"},
-            {"keywords": "Software Engineer DraftKings", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Chewy", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Akamai", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Rapid7", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Datadog", "location": "New York, NY"},
-            {"keywords": "Software Engineer MongoDB", "location": "New York, NY"},
-            {"keywords": "Software Engineer Bloomberg", "location": "New York, NY"},
-            {"keywords": "Software Engineer Etsy", "location": "New York, NY"},
-            {"keywords": "Software Engineer Cockroach Labs", "location": "New York, NY"},
-            {"keywords": "Software Engineer Apple", "location": "New York, NY"},
-            {"keywords": "Software Engineer Apple", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Amazon", "location": "Boston, MA"},
-            {"keywords": "Software Engineer Amazon", "location": "New York, NY"},
-            {"keywords": "Software Engineer Meta", "location": "New York, NY"},
-            {"keywords": "Software Engineer Meta", "location": "Boston, MA"},
-
-            # Universal Role-Keyword Searches (Queries across ALL companies in NYC & Boston)
-            # Senior Staff & Principal roles
+            # Senior Staff & Principal & Distinguished
             {"keywords": "Senior Staff Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Principal Software Engineer", "location": "New York, NY"},
@@ -182,20 +146,23 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
             {"keywords": "Distinguished Engineer", "location": "New York, NY"},
             {"keywords": "Distinguished Engineer", "location": "Boston, MA"},
 
-            # Staff & Senior roles (all tech companies)
+            # Staff & Senior & Lead roles
             {"keywords": "Staff Software Engineer", "location": "New York, NY"},
             {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Software Engineer", "location": "Boston, MA"},
-            # Mid-to-Senior & Core Roles
+            {"keywords": "Lead Software Engineer", "location": "New York, NY"},
+            {"keywords": "Lead Software Engineer", "location": "Boston, MA"},
+
+            # Core & Mid-Level Engineering (SWE II / III / General SWE)
             {"keywords": "Software Engineer II", "location": "New York, NY"},
             {"keywords": "Software Engineer II", "location": "Boston, MA"},
             {"keywords": "Software Engineer III", "location": "New York, NY"},
             {"keywords": "Software Engineer III", "location": "Boston, MA"},
-            {"keywords": "Lead Software Engineer", "location": "New York, NY"},
-            {"keywords": "Lead Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Software Engineer", "location": "New York, NY"},
+            {"keywords": "Software Engineer", "location": "Boston, MA"},
 
-            # Machine Learning & AI roles
+            # Machine Learning & AI
             {"keywords": "Machine Learning Engineer", "location": "New York, NY"},
             {"keywords": "Machine Learning Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Machine Learning Engineer", "location": "New York, NY"},
@@ -206,12 +173,18 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
             {"keywords": "AI Engineer", "location": "Boston, MA"},
             {"keywords": "Senior AI Engineer", "location": "New York, NY"},
             {"keywords": "Senior AI Engineer", "location": "Boston, MA"},
+            {"keywords": "Applied Scientist", "location": "New York, NY"},
+            {"keywords": "Applied Scientist", "location": "Boston, MA"},
 
-            # Core Engineering Disciplines (Distributed Systems, Backend, Infra, Data)
+            # Core Engineering Disciplines (Distributed Systems, Backend, Infra, Data, SRE)
             {"keywords": "Distributed Systems Engineer", "location": "New York, NY"},
             {"keywords": "Distributed Systems Engineer", "location": "Boston, MA"},
+            {"keywords": "Backend Engineer", "location": "New York, NY"},
+            {"keywords": "Backend Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Backend Engineer", "location": "New York, NY"},
             {"keywords": "Senior Backend Engineer", "location": "Boston, MA"},
+            {"keywords": "Staff Backend Engineer", "location": "New York, NY"},
+            {"keywords": "Staff Backend Engineer", "location": "Boston, MA"},
             {"keywords": "Infrastructure Engineer", "location": "New York, NY"},
             {"keywords": "Infrastructure Engineer", "location": "Boston, MA"},
             {"keywords": "Site Reliability Engineer", "location": "New York, NY"},
@@ -220,17 +193,32 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
             {"keywords": "Platform Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Data Engineer", "location": "New York, NY"},
             {"keywords": "Senior Data Engineer", "location": "Boston, MA"},
+            {"keywords": "Full Stack Engineer", "location": "New York, NY"},
+            {"keywords": "Full Stack Engineer", "location": "Boston, MA"},
             {"keywords": "Senior Full Stack Engineer", "location": "New York, NY"},
             {"keywords": "Senior Full Stack Engineer", "location": "Boston, MA"},
             {"keywords": "Security Engineer", "location": "New York, NY"},
             {"keywords": "Security Engineer", "location": "Boston, MA"},
-            {"keywords": "Systems Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Cloud Engineer", "location": "New York, NY"},
+            {"keywords": "Cloud Engineer", "location": "Boston, MA"},
             {"keywords": "Engineering Manager", "location": "New York, NY"},
             {"keywords": "Engineering Manager", "location": "Boston, MA"}
         ]
 
     all_jobs = []
-    for s in searches:
-        jobs = search_linkedin_jobs(s["keywords"], s["location"], max_pages=2)
-        all_jobs.extend(jobs)
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def _do_search(s):
+        return search_linkedin_jobs(s["keywords"], s["location"], max_pages=2)
+
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        future_to_search = {executor.submit(_do_search, s): s for s in searches}
+        for future in as_completed(future_to_search):
+            try:
+                jobs = future.result()
+                all_jobs.extend(jobs)
+            except Exception as e:
+                logger.error(f"Error in search: {e}")
+
+    logger.info(f"[LinkedIn] Completed. Retrieved {len(all_jobs)} jobs across all companies.")
     return all_jobs

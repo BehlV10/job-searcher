@@ -26,6 +26,7 @@ from scraper.ashby_scraper import scrape_ashby_all
 from scraper.lever_scraper import scrape_lever_all
 from scraper.linkedin_scraper import scrape_linkedin_all
 from scraper.builtin_scraper import scrape_builtin_all
+from scraper.hn_scraper import scrape_hn_whoishiring
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("job_pipeline")
@@ -121,7 +122,7 @@ def enrich_with_metadata(jobs: List[Dict[str, Any]], user_profile: Dict[str, Any
             "manager_jobs": manager_count,
             "ml_jobs": ml_count,
             "general_swe_jobs": general_swe_count,
-            "sources": ["LinkedIn", "Greenhouse", "Lever", "Ashby", "Built In"],
+            "sources": ["LinkedIn", "Greenhouse", "Lever", "Ashby", "Built In", "Hacker News"],
             "source_breakdown": sources_summary,
             "archetype_breakdown": archetypes_summary
         },
@@ -143,11 +144,12 @@ def run_pipeline():
         "Ashby": scrape_ashby_all,
         "Lever": scrape_lever_all,
         "BuiltIn": scrape_builtin_all,
-        "LinkedIn": scrape_linkedin_all
+        "LinkedIn": scrape_linkedin_all,
+        "HackerNews": scrape_hn_whoishiring
     }
 
     # Execute scrapers concurrently
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         future_to_source = {executor.submit(fn): name for name, fn in tasks.items()}
         for future in as_completed(future_to_source):
             source_name = future_to_source[future]
