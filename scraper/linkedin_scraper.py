@@ -138,6 +138,23 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
     """Runs pure universal role-based searches across all tech companies in NYC and Boston."""
     if searches is None:
         searches = [
+            # High-Priority Tech Leaders (Guaranteed ingestion for top employers)
+            {"keywords": "Software Engineer Google", "location": "New York, NY"},
+            {"keywords": "Software Engineer Google", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Microsoft", "location": "New York, NY"},
+            {"keywords": "Software Engineer Microsoft", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Meta", "location": "New York, NY"},
+            {"keywords": "Software Engineer Meta", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Apple", "location": "New York, NY"},
+            {"keywords": "Software Engineer Apple", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Amazon", "location": "New York, NY"},
+            {"keywords": "Software Engineer Amazon", "location": "Boston, MA"},
+            {"keywords": "Software Engineer NVIDIA", "location": "New York, NY"},
+            {"keywords": "Software Engineer NVIDIA", "location": "Boston, MA"},
+            {"keywords": "Software Engineer Bloomberg", "location": "New York, NY"},
+            {"keywords": "Software Engineer DoorDash", "location": "New York, NY"},
+            {"keywords": "Software Engineer Etsy", "location": "New York, NY"},
+
             # Senior Staff & Principal & Distinguished
             {"keywords": "Senior Staff Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Staff Software Engineer", "location": "Boston, MA"},

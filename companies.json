@@ -19,7 +19,7 @@
   {
     "name": "Microsoft",
     "metro": "Boston, MA",
-    "presence": "New England R&D Center (1 open roles)",
+    "presence": "New England R&D Center (7 open roles)",
     "industry": "Cloud (Azure), Systems, AI & Developer Tools",
     "careers_url": "https://careers.microsoft.com/",
     "ats_board": "Direct Portal",
@@ -35,7 +35,7 @@
   {
     "name": "Salesforce",
     "metro": "New York, NY",
-    "presence": "NYC (2 open roles)",
+    "presence": "NYC (10 open roles)",
     "industry": "Enterprise Cloud SaaS & Agentforce AI",
     "careers_url": "https://www.salesforce.com/company/careers/",
     "ats_board": "Direct Portal",
@@ -147,7 +147,7 @@
   {
     "name": "Cloudflare",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (5 open roles)",
+    "presence": "NYC Engineering Hub (6 open roles)",
     "industry": "Edge Computing, Global CDN & Internet Security",
     "careers_url": "https://www.cloudflare.com/careers/",
     "ats_board": "Greenhouse",
@@ -163,7 +163,7 @@
   {
     "name": "Anthropic",
     "metro": "New York, NY",
-    "presence": "NYC Applied AI Hub (156 open roles)",
+    "presence": "NYC Applied AI Hub (158 open roles)",
     "industry": "AI Safety & Frontier Foundation Models (Claude)",
     "careers_url": "https://www.anthropic.com/careers",
     "ats_board": "Greenhouse",
@@ -239,7 +239,7 @@
   {
     "name": "Klaviyo",
     "metro": "Boston, MA",
-    "presence": "Boston (33 open roles)",
+    "presence": "Boston (34 open roles)",
     "industry": "Marketing Automation & Customer Data Platform",
     "careers_url": "https://www.klaviyo.com/careers",
     "ats_board": "Greenhouse",
@@ -254,7 +254,7 @@
   {
     "name": "MongoDB",
     "metro": "New York, NY",
-    "presence": "NYC (18 open roles)",
+    "presence": "NYC (19 open roles)",
     "industry": "Developer Data Platform & Database Systems",
     "careers_url": "https://www.mongodb.com/careers",
     "ats_board": "Greenhouse",
@@ -269,7 +269,7 @@
   {
     "name": "Palantir Technologies",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (4 open roles)",
+    "presence": "NYC Engineering Hub (5 open roles)",
     "industry": "Enterprise AI Platforms & Defense Data Systems",
     "careers_url": "https://www.palantir.com/careers/",
     "ats_board": "Lever",
@@ -284,7 +284,7 @@
   {
     "name": "Spotify",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (6 open roles)",
+    "presence": "NYC Engineering Hub (7 open roles)",
     "industry": "Audio Streaming & Media Tech",
     "careers_url": "https://www.lifeatspotify.com/jobs",
     "ats_board": "Lever",
@@ -299,7 +299,7 @@
   {
     "name": "Airbnb",
     "metro": "New York, NY",
-    "presence": "NYC Engineering Hub (13 open roles)",
+    "presence": "NYC Engineering Hub (14 open roles)",
     "industry": "Travel Tech & Marketplace Systems",
     "careers_url": "https://careers.airbnb.com/",
     "ats_board": "Greenhouse",
@@ -433,7 +433,7 @@
   {
     "name": "Flatiron Health",
     "metro": "New York, NY",
-    "presence": "NYC (1 open roles)",
+    "presence": "NYC (2 open roles)",
     "industry": "HealthTech & Oncology Data Infrastructure",
     "careers_url": "https://flatiron.com/careers/",
     "ats_board": "Greenhouse",
@@ -508,7 +508,7 @@
   {
     "name": "WHOOP",
     "metro": "Boston, MA",
-    "presence": "Boston (43 open roles)",
+    "presence": "Boston (46 open roles)",
     "industry": "Wearable Biometrics & High-Volume Time-Series Data",
     "careers_url": "https://www.whoop.com/careers/",
     "ats_board": "Built In / Direct",
@@ -610,7 +610,7 @@
   {
     "name": "Akamai Technologies",
     "metro": "Boston, MA",
-    "presence": "Cambridge / Boston (1 open roles)",
+    "presence": "Cambridge / Boston (4 open roles)",
     "industry": "Content Delivery Network (CDN) & Edge Cloud",
     "careers_url": "https://www.akamai.com/careers",
     "ats_board": "Direct Portal",
@@ -689,7 +689,7 @@
   {
     "name": "Cohere",
     "metro": "New York, NY",
-    "presence": "NYC & Remote (12 open roles)",
+    "presence": "NYC & Remote (13 open roles)",
     "industry": "Enterprise Foundation Models, NLP & Large Language Models",
     "careers_url": "https://cohere.com/careers",
     "ats_board": "Ashby",
@@ -877,7 +877,7 @@
   {
     "name": "NVIDIA",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (11 open roles)",
     "industry": "Technology & Software Development \u2022 29 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-developer-technology-engineer-high-performance-databases-at-nvidia-4450008355",
     "ats_board": "Built In/LinkedIn",
@@ -925,7 +925,7 @@
   {
     "name": "JPMorganChase",
     "metro": "Remote / US",
-    "presence": "US Remote (19 open roles)",
+    "presence": "US Remote (29 open roles)",
     "industry": "Technology & Software Development \u2022 19 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-principal-software-engineer-java-aws-common-components-group-at-jpmorganchase-4446286136",
     "ats_board": "Built In/LinkedIn",
@@ -957,7 +957,7 @@
   {
     "name": "Justworks",
     "metro": "Remote / US",
-    "presence": "US Remote (17 open roles)",
+    "presence": "US Remote (18 open roles)",
     "industry": "Technology & Software Development \u2022 17 active openings",
     "careers_url": "https://boards.greenhouse.io/justworks/jobs/8125531?gh_jid=8125531",
     "ats_board": "Built In/Greenhouse",
@@ -1035,7 +1035,7 @@
   {
     "name": "Zocdoc",
     "metro": "Remote / US",
-    "presence": "US Remote (13 open roles)",
+    "presence": "US Remote (14 open roles)",
     "industry": "Technology & Software Development \u2022 13 active openings",
     "careers_url": "https://job-boards.greenhouse.io/zocdoc/jobs/7994223",
     "ats_board": "Greenhouse",
@@ -1051,7 +1051,7 @@
   {
     "name": "Amazon Web Services (AWS)",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (10 open roles)",
     "industry": "Technology & Software Development \u2022 11 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-iii-aws-elastic-block-store-ebs-data-services-at-amazon-web-services-aws-4468306797",
     "ats_board": "LinkedIn",
@@ -1094,7 +1094,7 @@
   {
     "name": "Snap Inc.",
     "metro": "Remote / US",
-    "presence": "US Remote (9 open roles)",
+    "presence": "US Remote (11 open roles)",
     "industry": "Technology & Software Development \u2022 9 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-engineer-backend-level-5/11474051",
     "ats_board": "Built In",
@@ -1140,7 +1140,7 @@
   {
     "name": "Amazon",
     "metro": "Remote / US",
-    "presence": "US Remote (7 open roles)",
+    "presence": "US Remote (11 open roles)",
     "industry": "Technology & Software Development \u2022 8 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-development-engineer-relationships-identity-systems-at-amazon-4455936436",
     "ats_board": "LinkedIn",
@@ -1192,7 +1192,7 @@
   {
     "name": "Meta",
     "metro": "Remote / US",
-    "presence": "US Remote (17 open roles)",
+    "presence": "US Remote (21 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-leadership-infrastructure-at-meta-4438081214",
     "ats_board": "LinkedIn",
@@ -1216,7 +1216,7 @@
   {
     "name": "PwC",
     "metro": "Remote / US",
-    "presence": "US Remote (12 open roles)",
+    "presence": "US Remote (15 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.builtinnyc.com/job/bank-platform-transformation-solution-architect-sr-associate/10516772",
     "ats_board": "Built In",
@@ -1263,7 +1263,7 @@
   {
     "name": "State Street",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 6 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/application-security-engineer-adr-at-state-street-4479217662",
     "ats_board": "Built In/LinkedIn",
@@ -1311,7 +1311,7 @@
   {
     "name": "Goldman Sachs",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/the-core-engineering-software-engineering-associate-new-york-at-goldman-sachs-4484585527",
     "ats_board": "Built In/LinkedIn",
@@ -1327,7 +1327,7 @@
   {
     "name": "Clear Street",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 5 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-staff-front-end-engineer/11378023",
     "ats_board": "Built In",
@@ -1343,7 +1343,7 @@
   {
     "name": "Archer",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/salesforce-crm-software-engineer-iii-consumer-community-banking-at-archer-4484830123",
     "ats_board": "LinkedIn",
@@ -1367,7 +1367,7 @@
   {
     "name": "IBM",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/confluent-staff-software-engineer-at-ibm-4483905630",
     "ats_board": "LinkedIn",
@@ -1378,7 +1378,7 @@
   {
     "name": "Citadel",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.builtinnyc.com/job/java-software-engineer/12002303",
     "ats_board": "Built In",
@@ -1429,7 +1429,7 @@
   {
     "name": "CoreWeave",
     "metro": "Remote / US",
-    "presence": "US Remote (4 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 4 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-engineer/11147110",
     "ats_board": "Built In",
@@ -1473,7 +1473,7 @@
   {
     "name": "Capital One",
     "metro": "Remote / US",
-    "presence": "US Remote (8 open roles)",
+    "presence": "US Remote (33 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/ai-engineer-3-ai-foundations-at-capital-one-4469528970",
     "ats_board": "Built In/LinkedIn",
@@ -1511,7 +1511,7 @@
   {
     "name": "Medtronic",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-ui-ux-qt-qml-at-medtronic-4483742719",
     "ats_board": "Built In/LinkedIn",
@@ -1540,7 +1540,7 @@
   {
     "name": "Raydar",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinnyc.com/job/full-stack-software-engineer/12002577",
     "ats_board": "Built In",
@@ -1576,7 +1576,7 @@
   {
     "name": "Mastercard",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-principal-ai-engineer-ai-center-of-excellence-at-mastercard-4474484678",
     "ats_board": "Built In/LinkedIn",
@@ -1588,7 +1588,7 @@
   {
     "name": "General Dynamics Mission Systems",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/rust-embedded-software-engineer-multiple-levels-cleared-at-general-dynamics-mission-systems-4484147336",
     "ats_board": "LinkedIn",
@@ -1599,7 +1599,7 @@
   {
     "name": "CrowdStrike",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinnyc.com/job/sr-analytics-engineer-product-insights/10527457",
     "ats_board": "Built In",
@@ -1646,7 +1646,7 @@
   {
     "name": "Tempus AI",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinboston.com/job/data-scientist-ii-outcomes-research/9524266",
     "ats_board": "Built In",
@@ -1675,7 +1675,7 @@
   {
     "name": "Raytheon",
     "metro": "Remote / US",
-    "presence": "US Remote (6 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-software-c-c%2B%2B-engineer-at-raytheon-4430938075",
     "ats_board": "LinkedIn",
@@ -1718,7 +1718,7 @@
   {
     "name": "Compass",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ii-streaming-and-durability-at-compass-4450689422",
     "ats_board": "Built In/LinkedIn",
@@ -1794,7 +1794,7 @@
   {
     "name": "DigitalOcean",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 3 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-engineer-i-compute/11621913",
     "ats_board": "Built In/LinkedIn",
@@ -1878,7 +1878,7 @@
   {
     "name": "EliseAI",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-full-stack-and-mobile-at-eliseai-4374796501",
     "ats_board": "Built In/LinkedIn",
@@ -1952,7 +1952,7 @@
   {
     "name": "Cisco",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-splunk-analytics-and-search-at-cisco-4446744629",
     "ats_board": "LinkedIn",
@@ -1964,7 +1964,7 @@
   {
     "name": "CDW",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-consulting-data-engineer-snowflake/11816465",
     "ats_board": "Built In",
@@ -1978,7 +1978,7 @@
   {
     "name": "Cash App",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-analytics-engineer-ai-dx-analytics/11364331",
     "ats_board": "Built In",
@@ -2006,7 +2006,7 @@
   {
     "name": "Major League Baseball (MLB)",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-fan-identity-at-major-league-baseball-mlb-4483063445",
     "ats_board": "LinkedIn",
@@ -2018,7 +2018,7 @@
   {
     "name": "Headway",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/staff-software-engineer-provider/11997418",
     "ats_board": "Built In",
@@ -2031,7 +2031,7 @@
   {
     "name": "Chewy",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/consumer-insights-manager/11318813",
     "ats_board": "Built In",
@@ -2110,7 +2110,7 @@
   {
     "name": "S&P Global",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-developer/11996527",
     "ats_board": "Built In/LinkedIn",
@@ -2122,7 +2122,7 @@
   {
     "name": "Whatnot",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-discovery-platform-at-whatnot-4475109294",
     "ats_board": "Built In/LinkedIn",
@@ -2158,7 +2158,7 @@
   {
     "name": "Dscout",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-forward-deployed-engineer-full-stack/11974391",
     "ats_board": "Built In",
@@ -2172,7 +2172,7 @@
   {
     "name": "Nourish",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/staff-software-engineer/8781602",
     "ats_board": "Built In",
@@ -2210,7 +2210,7 @@
   {
     "name": "Superhuman",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer-back-end-mail-us/11930280",
     "ats_board": "Built In",
@@ -2236,7 +2236,7 @@
   {
     "name": "NBCUniversal",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/engineering-manager-geospatial-pipeline/11930128",
     "ats_board": "Built In",
@@ -2251,7 +2251,7 @@
   {
     "name": "Grubhub",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-at-grubhub-4482119877",
     "ats_board": "LinkedIn",
@@ -2286,7 +2286,7 @@
   {
     "name": "Morgan Stanley",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (8 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/vice-president-software-engineer-backend/11887141",
     "ats_board": "Built In",
@@ -2362,7 +2362,7 @@
   {
     "name": "Fetch",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-ios-software-engineer-i/11894453",
     "ats_board": "Built In",
@@ -2466,7 +2466,7 @@
   {
     "name": "Radar",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-staff-product-engineer-backend-at-radar-4473803341",
     "ats_board": "Built In/LinkedIn",
@@ -2592,7 +2592,7 @@
   {
     "name": "OpenAI",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/full-stack-software-engineer-monetization-platform/11846474",
     "ats_board": "Built In",
@@ -2647,7 +2647,7 @@
   {
     "name": "Elastic",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer-ii-control-plane-hosted-foundations-applications/11803341",
     "ats_board": "Built In",
@@ -2779,7 +2779,7 @@
   {
     "name": "Audible",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-development-engineer-consumer-domains-at-audible-4472204970",
     "ats_board": "LinkedIn",
@@ -2830,7 +2830,7 @@
   {
     "name": "Wonder",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-back-end-at-wonder-4479213543",
     "ats_board": "Built In/LinkedIn",
@@ -2843,7 +2843,7 @@
   {
     "name": "Garner Health",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 2 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineer-ii/11702016",
     "ats_board": "Built In",
@@ -3085,7 +3085,7 @@
   {
     "name": "CVS Health",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/software-engineer-net-python-at-cvs-health-4485605116",
     "ats_board": "LinkedIn",
@@ -3155,7 +3155,7 @@
   {
     "name": "NYC Parks Arsenal West",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (7 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/appian-software-developer/12002389",
     "ats_board": "Built In",
@@ -3215,7 +3215,7 @@
   {
     "name": "Motion Recruitment",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/cloud-security-engineer-boston-ma-at-motion-recruitment-4485237841",
     "ats_board": "LinkedIn",
@@ -3269,7 +3269,7 @@
   {
     "name": "Peraton",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/cobol-software-developer/11996979",
     "ats_board": "Built In",
@@ -3440,7 +3440,7 @@
   {
     "name": "Bloomberg",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-rdf-infrastructure-at-bloomberg-4472639790",
     "ats_board": "LinkedIn",
@@ -3476,7 +3476,7 @@
   {
     "name": "Alpaca",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (12 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-clearing-at-alpaca-4471492428",
     "ats_board": "LinkedIn",
@@ -3573,7 +3573,7 @@
   {
     "name": "Jackpocket",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer-december-2026-grads/11966345",
     "ats_board": "Built In",
@@ -3665,7 +3665,7 @@
   {
     "name": "Liftoff",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/lead-data-analyst/11950247",
     "ats_board": "Built In",
@@ -3676,7 +3676,7 @@
   {
     "name": "Runpod",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/head-analytics-and-business-intelligence/11243286",
     "ats_board": "Built In",
@@ -3801,7 +3801,7 @@
   {
     "name": "Legora",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/engineering-manager/11965207",
     "ats_board": "Built In",
@@ -3879,7 +3879,7 @@
   {
     "name": "Fairarena",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/founding-software-engineer-backend-cloud-infrastructure/11936469",
     "ats_board": "Built In",
@@ -4137,7 +4137,7 @@
   {
     "name": "Xperteez Technology",
     "metro": "Remote / US",
-    "presence": "US Remote (3 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/gpu-programming-software-engineer-remote-contract/11578523",
     "ats_board": "Built In",
@@ -4163,7 +4163,7 @@
   {
     "name": "New York Life",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-associate-software-engineer-investment-technology/11927754",
     "ats_board": "Built In",
@@ -4194,7 +4194,7 @@
   {
     "name": "Crypto.com",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-engineer-prediction-markets-platform/11914106",
     "ats_board": "Built In",
@@ -4246,7 +4246,7 @@
   {
     "name": "Confido",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/data-engineering-manager/11400018",
     "ats_board": "Built In",
@@ -4386,7 +4386,7 @@
   {
     "name": "Telnyx",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer-elixir-telephony/11887309",
     "ats_board": "Built In",
@@ -4476,7 +4476,7 @@
   {
     "name": "Weekday, Inc.",
     "metro": "Remote / US",
-    "presence": "US Remote (2 open roles)",
+    "presence": "US Remote (4 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/software-engineer/11872422",
     "ats_board": "Built In",
@@ -4641,7 +4641,7 @@
   {
     "name": "Duolingo",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-ii-android-at-duolingo-4475023379",
     "ats_board": "LinkedIn",
@@ -4736,7 +4736,7 @@
   {
     "name": "Fiserv",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-fiserv-4481959682",
     "ats_board": "LinkedIn",
@@ -5209,7 +5209,7 @@
   {
     "name": "Taskrabbit",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/staff-software-architect/11221073",
     "ats_board": "Built In",
@@ -5315,7 +5315,7 @@
   {
     "name": "SailPoint",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-data-engineer/11393682",
     "ats_board": "Built In",
@@ -5397,7 +5397,7 @@
   {
     "name": "MITRE",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (5 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-embedded-software-engineer-at-mitre-4395361496",
     "ats_board": "LinkedIn",
@@ -5460,7 +5460,7 @@
   {
     "name": "Metropolis Technologies",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-staff-software-engineer-recognition-platform/10878062",
     "ats_board": "Built In",
@@ -5490,7 +5490,7 @@
   {
     "name": "Patreon",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/software-engineer-backend/11771002",
     "ats_board": "Built In",
@@ -5545,7 +5545,7 @@
   {
     "name": "MetLife",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/principal-data-analytics-lead/11067522",
     "ats_board": "Built In",
@@ -5573,7 +5573,7 @@
   {
     "name": "Flex",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/sr-staff-analytics-engineer/11749540",
     "ats_board": "Built In",
@@ -5843,7 +5843,7 @@
   {
     "name": "Valence",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-platform-at-valence-4479273554",
     "ats_board": "LinkedIn",
@@ -5985,7 +5985,7 @@
   {
     "name": "Symbotic",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/manager-of-mechanical-engineering-at-symbotic-4414648053",
     "ats_board": "LinkedIn",
@@ -6236,7 +6236,7 @@
   {
     "name": "DFIN",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-software-engineer/11606209",
     "ats_board": "Built In",
@@ -6260,7 +6260,7 @@
   {
     "name": "Hinge",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/manager-service-delivery-analytics-planning/11607750",
     "ats_board": "Built In",
@@ -6468,7 +6468,7 @@
   {
     "name": "Alloy",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/senior-analytics-engineer/10087118",
     "ats_board": "Built In",
@@ -6647,7 +6647,7 @@
   {
     "name": "Octus",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinnyc.com/job/principal-data-engineer/10834670",
     "ats_board": "Built In",
@@ -7202,7 +7202,7 @@
   {
     "name": "Attentive",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/staff-software-engineer-machine-learning-at-attentive-4484479187",
     "ats_board": "LinkedIn",
@@ -7452,7 +7452,7 @@
   {
     "name": "Merciv",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-ml-ai-engineer-agentic-intelligence-at-merciv-4380520387",
     "ats_board": "LinkedIn",
@@ -7909,7 +7909,7 @@
   {
     "name": "Varonis",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/applied-data-scientist/11979585",
     "ats_board": "Built In",
@@ -8041,7 +8041,7 @@
   {
     "name": "Experian",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/expert-data-scientist-fraud-risk-detection/11954651",
     "ats_board": "Built In",
@@ -8102,7 +8102,7 @@
   {
     "name": "Bitsight Technologies",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/staff-data-scientist/11943535",
     "ats_board": "Built In",
@@ -8115,7 +8115,7 @@
   {
     "name": "Tilt (formerly Empower)",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/staff-data-scientist-methodologies/11945307",
     "ats_board": "Built In",
@@ -8151,7 +8151,7 @@
   {
     "name": "Root",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/staff-data-scientist-ltv/11464745",
     "ats_board": "Built In",
@@ -8302,7 +8302,7 @@
   {
     "name": "Skylight Digital",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (3 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.builtinboston.com/job/senior-staff-data-scientist-acf/11854185",
     "ats_board": "Built In",
@@ -8474,7 +8474,7 @@
   {
     "name": "GiveDirectly",
     "metro": "Remote / US",
-    "presence": "US Remote (1 open roles)",
+    "presence": "US Remote (2 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://news.ycombinator.com/item?id=49929056",
     "ats_board": "Hacker News",
@@ -8634,6 +8634,3212 @@
     "presence": "US Remote (1 open roles)",
     "industry": "Technology & Software Development \u2022 1 active openings",
     "careers_url": "https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-at-videa-4428766353",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Socure",
+    "metro": "Remote / US",
+    "presence": "US Remote (4 open roles)",
+    "industry": "Technology & Software Development \u2022 4 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-data-scientist-watchlist/11344745",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "General Dynamics Information Technology",
+    "metro": "Remote / US",
+    "presence": "US Remote (3 open roles)",
+    "industry": "Technology & Software Development \u2022 3 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-principal/11057720",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "PingWind",
+    "metro": "Remote / US",
+    "presence": "US Remote (3 open roles)",
+    "industry": "Technology & Software Development \u2022 3 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-i/11422088",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Five9",
+    "metro": "Remote / US",
+    "presence": "US Remote (3 open roles)",
+    "industry": "Technology & Software Development \u2022 3 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-openstack-devops-engineer/10139087",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Mode Mobile",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-mobile-engineer-upcoming-apps-portfolio-android-ios-remote/11215732",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "RevenueCat",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-sdk-engineer/11420516",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python"
+    ]
+  },
+  {
+    "name": "Via",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-data-scientist/11959677",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Keeper Security, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-architect-security-platform/11940339",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "C++",
+      "Distributed Systems",
+      "Go",
+      "Java",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Affinity Solutions",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/principal-data-scientist-64-2026-3/11937281",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Vantor",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11188448",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "Zip Co",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist-ii/11940189",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Photon",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-onsite-sunnyvale-california/11924132",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Origami Risk",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-platform/11893853",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "Wealthfront",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/backend-engineer/11893394",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "Motorola Solutions",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/command-center-solutions-services-ccss-engineering-organization-software-engineer-at-motorola-solutions-4482148944",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Truelogic Software",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-platform-engineer-wealth-management-fintech/11291854",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "InMarket",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-data-scientist-measurement/11732492",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Guidehouse",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/fraud-ai-ml-data-scientist/11732208",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "Mark43",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11665864",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Invisible Technologies",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11638318",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "SoFi",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-enterprise-security-engineer/11584259",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "SGNL",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/4468518",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "C++",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Plenful",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/10408596",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Sonoma Consulting Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (2 open roles)",
+    "industry": "Technology & Software Development \u2022 2 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-developer-puppet/10120163",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Wysh",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/infrastructure-engineer-devops/11113760",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Twenty",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-staff-devops-engineer/11405486",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Utility",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-mobile-engineer-react-native/11337261",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "fomo Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-frontend-engineer/11217627",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Forward Financing",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/principal-data-scientist/11287887",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Vectra AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/senior-security-engineer-federal/11380163",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Shiprapidcargo",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/12001269",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "ServiceTitan",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/principal-software-engineer-platform-devex/12000971",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "General Motors",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-security-software-engineer/11979376",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "C++",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Foodsmart",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11994171",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Sparq",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-azure-devops-engineer/11987719",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Adapty",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11987654",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Turing",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-infrastructure-engineer/11978341",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Duetto",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-devops-engineer/11492802",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "Slingshot Aerospace",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11290562",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Jamf",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/digital-success-engineer/11262742",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Simpson Thacher & Bartlett LLP",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11378275",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "Jefferies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-equity-research/11331961",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Sunbit",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer/11968576",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Arize AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11286828",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Spin Master",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/backend-platform-engineer-hapiko/11967106",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Veeva",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11971236",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Karoo Health",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist-sde/11698355",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Northbeam",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11439321",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Sphinx Defense",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11631049",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "EverOps",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/lead-devops-engineer/11944886",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Ziventra AI Ventures",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11933407",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Pikkit, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/integrations-engineer/11942528",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Tea for Women",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/head-engineering/11933139",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Go"
+    ]
+  },
+  {
+    "name": "Rare Candy",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/go-backend-developer/11357022",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Richmond University Medical Center",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11941362",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "MoonPay",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-pricing-data-scientist/11813363",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "6sense",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-data-scientist-forward-deployed/11945270",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Livecareer",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist-product-analytics/11942044",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Acrobat Genomics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11935796",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "The Zebra",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11931888",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Bonfire Analytics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-data-scientist/11290174",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "ABC Legal Services",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11927789",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "AHEAD",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11926698",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Higginbotham",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11490505",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "NewtonX",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11923824",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Nagarro",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/associate-staff-engineer-devops/6195672",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Ntrepid",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-16-devop16/11207892",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Zafran Security",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-nyc/11120481",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "StubHub",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/engineering-manager-fintech/11900590",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Java",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "Life360",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-ii/11928497",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "June",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11902236",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Brown & Brown Insurance",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11903313",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Lila Sciences",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/principal-engineer-ai-security/11884561",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Grant Thornton Gibraltar",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinboston.com/job/cyber-offensive-security-senior-associate/11883898",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Paradigm Information Services, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11899152",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Mind Computing",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-remote-opportunity/11895764",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Data Intellect",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11870415",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "TopDog Law",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer/11898353",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Demandbase",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-devops-engineer-developer-experience-devex/11884347",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Caldera",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-infrastructure-engineer-devops/10187613",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Wycliffe Bible Translators USA",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11447621",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Cyware",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer-remote/11424745",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Fastly",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-manager-engineering-platform-security/11899309",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "airpay payment services",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer/9904554",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "OneSignal",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-software-engineer-core-services/11878049",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "C++",
+      "Distributed Systems",
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Birda",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/product-engineer/10461946",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Laurel",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-analytics-engineer-data-scientist/11899084",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "TripleLift",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11873067",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "PyTorch",
+      "Python"
+    ]
+  },
+  {
+    "name": "Datafold",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-migration-intelligence/11490695",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-boundary-traffic-management-at-warner-bros-discovery-4446942234",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "Wilson Sonsini Goodrich & Rosati",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-infrastructure-devops-engineer/11491415",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "ITGoals",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-automation-engineer/9749984",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Hybridizer",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-infrastructure-engineer-hpc-gpu/11266303",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Valley Bank",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/10337062",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Petra Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11426584",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Fabletics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-ii/11855627",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "EasyLabs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/platform-architect-devops-engineer/9907029",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Swarm Aero",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11587005",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "HCSS",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11473523",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Ema Unlimited",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-us/11392407",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Modern Campus",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11490066",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Danaher Corporation",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-devops-automation-engineer-usa-remote/11191528",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Pindrop",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-platform-core/10143478",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Nomad AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/founding-engineer/11200565",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "LightFeather",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11851272",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "VIATEQ Corporation",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/mid-level-microsoft-devops-engineer-remote/11850821",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "DigiCert",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11849667",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "AmeriSave Mortgage Corporation",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11074877",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Prelim",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11217305",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Thatch (thatch.ai)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-product/11841903",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "The Carlyle Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/investment-data-scientist/11828992",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "BetterUp",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11824851",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "General Intuition & Medal",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-business-product/11416339",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Katmai",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11820278",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Synergy",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11817758",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "SandboxAQ",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11821265",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Clair",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11162975",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Campspot",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/principal-devops-engineer/11169733",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Citizen",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/ios-engineer-applied-ai/11362685",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "SimilarWeb",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/product-data-scientist-data-labs/11258350",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Dili",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11181031",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Upwind Security",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-us-east-coast-central/11787496",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Recharge",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11800206",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "CopilotIQ",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-est-only/11066281",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Bellese Technologies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-engineer-devops/11316324",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Customer.io",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-software-engineer-product/11361202",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "name": "Berry Street",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist-growth/11800975",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Surge AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11444421",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Voyager Technologies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-mid-senior-level/11770102",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "BetterHelp",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/10355372",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "WeightWatchers",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-manager-backend/11767161",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Go"
+    ]
+  },
+  {
+    "name": "ZipRecruiter",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/software-engineer-big-data/11255729",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Extend",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist-revenue-risk-analytics/11769883",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Launch Potato",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/lead-data-scientist-adtech/11764076",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Rushdown Studios",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11746397",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Cooperdyne Tech",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-azure-devops-engineer/9726251",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Circana",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/ai-devops-engineer-hybrid-chicago-il-or-nyc-ny/11372770",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Zeely \u2013 AI Admaker",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-infrastructure/11742558",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Qodo",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11178674",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "inKind",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer/11121236",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go"
+    ]
+  },
+  {
+    "name": "Dockwa",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer/11317575",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "name": "Calyxo",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-remote-usa/11753731",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "PEMCO",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-actuarial/11744278",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Lightning AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11248617",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "CirrusNorth",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-principal-devops-engineer-contractor/11311682",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Citizens",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/principal-security-engineer-ai-data-protection/10768291",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Terminal3",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-azure-contractor/11036594",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Stash",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-fullstack-engineer/11735956",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Octave Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/d-veloppeur-euse-mobile-staff-staff-mobile-developer-ios-react-native/11642459",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "15Five",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11725742",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/software-engineer-iii-amrs-linear-rates-technology-team/10986663",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "C++",
+      "Go",
+      "Java",
+      "Python"
+    ]
+  },
+  {
+    "name": "Prove",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-knowledge-graph/11725728",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "Acorns",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-martech-engineer-mobile/11726627",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Fractal",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11728608",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Prime Video & Amazon MGM Studios",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/software-dev-engineer-ii-control-plane-orchestration-prime-video-at-prime-video-amazon-mgm-studios-4470646327",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "FalconX",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-trading-systems-devops-engineer/11707602",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "SHI International Corp.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/solutions-engineer-cloud-devops/11707439",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "IMG Academy",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-site-reliability-engineer/11656321",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "NetBox Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/security-architect/11684096",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Larder AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/founding-engineer/10789098",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "OptionMetrics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/cloud-infrastructure-devops-engineer/11665712",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Guild Mortgage",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11626379",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Nebius",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-product-plg-analyst-full-stack-data-scientist/11463365",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Namespace Labs Inc",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-us/11613814",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Nectar Social",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/founding-data-scientist/11511322",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Westport Properties, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/associate-data-scientist/11623958",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Pursuit Aerospace",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11607317",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Magnet Forensics",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sre-devops-engineer/11593493",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Hearst Magazines International",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-ii/10950743",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Hearst",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-ii/10471067",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Ivanti",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/full-stack-web-developer/11600730",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Love Mobile",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/growth-martech-engineer/11267466",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Jellyfish",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-security-engineer/11581786",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "C++",
+      "Go",
+      "Java",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "DuckDuckGo",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-data-scientist/11579726",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Penn Mutual",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/11548857",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Distributed Systems",
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "name": "Vida Health",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/backend-software-engineer-ii-data-platform/11552448",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Qadr AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/react-native-developer/9706092",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Zepz",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-marketing-data-scientist/11562726",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Planet Reimagined",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/machine-learning-engineer-data-scientist-climate-and-energy-policy/11535234",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "The Athletic",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist-remote/11517250",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Netlify",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-staff-data-scientist/11515797",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Solace (solace.health)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/data-scientist/11515477",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "MIT Lincoln Laboratory",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/associate-staff-signal-processing-software-engineer-at-mit-lincoln-laboratory-4468858554",
+    "ats_board": "LinkedIn",
+    "tech_stack": [
+      "Software Engineering",
+      "Systems"
+    ]
+  },
+  {
+    "name": "G2i",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/10955301",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "ClassWallet",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/9766218",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "High 5 Games",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/11003513",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "ION Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/lead-devops-engineer-new-york/10969988",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "TechBlocks",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-gcp/10893501",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Particle41",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/lead-devops-engineer/11003611",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Knock (knock.app)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/9246582",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Resonance Companies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-mid-senior-level/6926886",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Tria Federal",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/lead-devops-engineer/8452021",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Modus",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/9503573",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Loti",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/web3-infrastructure-devops-engineer/7582526",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Espresso Systems",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/7313148",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Calliere",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer-cloud-infrastructure/10767335",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Skan AI",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer/10927980",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "EPRO Services, Inc.",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/10164714",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Superstate",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-staff-devops-engineer/6493063",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Rust"
+    ]
+  },
+  {
+    "name": "WalkMe",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/8669454",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "MaintainX",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/10644529",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "ClickUp",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/gtm-devops-engineer/9675064",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "SinglePlatform",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/10438757",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Metabase",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-sredevops-engineer/2269161",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "WME Group, LLC (d.b.a. WME)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-applications/9962863",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Encord",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/10257151",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "PyTorch",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "WME Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-applications/10252465",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Stellar Cyber",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-site-reliability-engineer/9573290",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Blenderbox",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-contract-remote/7332763",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Zingtree",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-platform-reliability-engineer/9300514",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Pivotal Solutions",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer-aws/10386071",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Atria Group LLC",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/aws-engineer-devops-position/9808055",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python"
+    ]
+  },
+  {
+    "name": "Galaxy Ventures",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-sre-qa-security/10723226",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Solidus Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-sre/9744199",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Lyra Health",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer/10699207",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "ProDev US",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/4008844",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "Caris Life Sciences",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-staff-devops-engineer/9870586",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "TurbineOne",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-staff-software-engineer-devops/10675430",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Scribe",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-devops/6885244",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Ellipsis Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/staff-infrastructure-engineer/4470760",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "C++",
+      "Go",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Bilt",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/forward-deployed-engineer/10882787",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "Siro",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-backend/7201111",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Brigit",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/software-engineer-fullstack/10029572",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Kubernetes",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "ARB Interactive",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/fullstack-software-engineer/7608393",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Guppy Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/founding-software-engineer/10823085",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Match Group",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/android-engineer-iii/10805663",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "name": "Flowcode",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-fullstack-experiences-software-engineer/9289260",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "name": "Avaak",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/product-engineer/9900271",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Python",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Branch (branch.gg)",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-unity-engineer-contract/3796500",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Avochato",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/frontend-developer/9080975",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Ocra",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/director-technology/10738813",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Distributed Systems",
+      "Go"
+    ]
+  },
+  {
+    "name": "Skimmer",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/manager-software-engineering-payments/8699289",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Tavily",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/8879086",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go",
+      "Kubernetes"
+    ]
+  },
+  {
+    "name": "BrightEdge",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/2128176",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Python"
+    ]
+  },
+  {
+    "name": "Teravision Technologies",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/devops-engineer/7260106",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Code and Theory",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-engineer-devops-us/10069438",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Entefy",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/sr-devops-engineer-remote-position/2321413",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Huzzle Ltd",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/10122606",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "KODE Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-devops-engineer/9402403",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Python"
+    ]
+  },
+  {
+    "name": "Granted",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/founding-ai-engineer/7253881",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Lirvana Labs",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/solutions-architect/10109128",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go",
+      "Java",
+      "Python",
+      "Rust"
+    ]
+  },
+  {
+    "name": "Scopely",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer-gaming-backend-wwe-champions/10547593",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "AWS",
+      "Go"
+    ]
+  },
+  {
+    "name": "Cordial",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.builtinnyc.com/job/senior-software-engineer/10128965",
+    "ats_board": "Built In",
+    "tech_stack": [
+      "Go"
+    ]
+  },
+  {
+    "name": "Applecart",
+    "metro": "Remote / US",
+    "presence": "US Remote (1 open roles)",
+    "industry": "Technology & Software Development \u2022 1 active openings",
+    "careers_url": "https://www.linkedin.com/jobs/view/senior-full-stack-software-engineer-at-applecart-4319353345",
     "ats_board": "LinkedIn",
     "tech_stack": [
       "Software Engineering",

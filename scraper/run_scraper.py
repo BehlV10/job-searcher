@@ -160,18 +160,30 @@ def run_pipeline():
             except Exception as e:
                 logger.error(f"[{source_name}] Failed with error: {e}")
 
-    # Deduplicate and rank
-    processed_jobs = deduplicate_and_rank_jobs(collected_jobs)
-    logger.info(f"Total unique jobs after deduplication: {len(processed_jobs)}")
-
-    final_payload = enrich_with_metadata(processed_jobs, user_info)
-
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     WEB_DIR.mkdir(parents=True, exist_ok=True)
 
     data_file = DATA_DIR / "jobs.json"
     web_file = WEB_DIR / "jobs.json"
     root_file = BASE_DIR / "jobs.json"
+
+    # Load existing active jobs so no companies or listings are lost across runs
+    existing_jobs = []
+    if data_file.exists():
+        try:
+            with open(data_file, "r", encoding="utf-8") as f:
+                prev_payload = json.load(f)
+                existing_jobs = prev_payload.get("jobs", [])
+                logger.info(f"Loaded {len(existing_jobs)} existing active jobs from previous runs.")
+        except Exception as e:
+            logger.warning(f"Could not load previous jobs: {e}")
+
+    # Deduplicate and rank combined dataset (new scrapes update/enrich existing ones)
+    all_combined = existing_jobs + collected_jobs
+    processed_jobs = deduplicate_and_rank_jobs(all_combined)
+    logger.info(f"Total unique jobs after cumulative merge & deduplication: {len(processed_jobs)}")
+
+    final_payload = enrich_with_metadata(processed_jobs, user_info)
 
     with open(data_file, "w", encoding="utf-8") as f:
         json.dump(final_payload, f, indent=2, ensure_ascii=False)
