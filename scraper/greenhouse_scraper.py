@@ -73,7 +73,15 @@ DEFAULT_GREENHOUSE_BOARDS = [
     {"name": "Starburst Data", "token": "starburst"},
     {"name": "Betterment", "token": "betterment"},
     {"name": "Squarespace", "token": "squarespace"},
-    {"name": "Flatiron Health", "token": "flatironhealth"}
+    {"name": "Flatiron Health", "token": "flatironhealth"},
+    {"name": "Cockroach Labs", "token": "cockroachlabs"},
+    {"name": "Peloton", "token": "peloton"},
+    {"name": "Riskified", "token": "riskified"},
+    {"name": "Justworks", "token": "justworks"},
+    {"name": "ConsenSys", "token": "consensys"},
+    {"name": "Greenhouse", "token": "greenhouse"},
+    {"name": "TripAdvisor", "token": "tripadvisor"},
+    {"name": "Intercom", "token": "intercom"}
 ]
 
 

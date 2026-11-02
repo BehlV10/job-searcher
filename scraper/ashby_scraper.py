@@ -35,7 +35,19 @@ DEFAULT_ASHBY_BOARDS = [
     {"name": "Notion", "slug": "notion"},
     {"name": "Snyk", "slug": "snyk"},
     {"name": "Vanta", "slug": "vanta"},
-    {"name": "Camunda", "slug": "camunda"}
+    {"name": "Camunda", "slug": "camunda"},
+    {"name": "WHOOP", "slug": "whoop"},
+    {"name": "Circle", "slug": "circle"},
+    {"name": "ElevenLabs", "slug": "elevenlabs"},
+    {"name": "Warp", "slug": "warp"},
+    {"name": "LangChain", "slug": "langchain"},
+    {"name": "Cognition AI", "slug": "cognition"},
+    {"name": "Harvey AI", "slug": "harvey"},
+    {"name": "Baseten", "slug": "baseten"},
+    {"name": "Deepgram", "slug": "deepgram"},
+    {"name": "Fireworks AI", "slug": "fireworks"},
+    {"name": "Replit", "slug": "replit"},
+    {"name": "Anyscale", "slug": "anyscale"}
 ]
 
 

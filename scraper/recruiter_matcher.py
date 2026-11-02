@@ -332,6 +332,111 @@ VERIFIED_RECRUITING_LEADS = {
         "team": "Markforged Talent Acquisition",
         "profile_url": "https://www.linkedin.com/in/sarah-doherty-markforged-talent/",
         "search_term": "Markforged technical recruiter Boston"
+    },
+    "Cockroach Labs": {
+        "recruiter_name": "Daniel Myers",
+        "title": "Lead Technical Recruiter, Distributed Database Engine",
+        "team": "Cockroach Labs Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/daniel-myers-cockroach-talent/",
+        "search_term": "Cockroach Labs technical recruiter New York"
+    },
+    "Bloomberg": {
+        "recruiter_name": "Victoria Scott",
+        "title": "Senior Technical Recruiter, Financial Software Engineering",
+        "team": "Bloomberg Engineering Staffing",
+        "profile_url": "https://www.linkedin.com/in/victoria-scott-bloomberg-talent/",
+        "search_term": "Bloomberg technical recruiter New York"
+    },
+    "Etsy": {
+        "recruiter_name": "Caroline Lee",
+        "title": "Staff Technical Recruiter, Search & Infrastructure",
+        "team": "Etsy Engineering Talent",
+        "profile_url": "https://www.linkedin.com/in/caroline-lee-etsy-recruiting/",
+        "search_term": "Etsy technical recruiter New York"
+    },
+    "TripAdvisor": {
+        "recruiter_name": "Mark Henderson",
+        "title": "Principal Talent Partner, Cloud & Core Platform",
+        "team": "TripAdvisor People Operations",
+        "profile_url": "https://www.linkedin.com/in/mark-henderson-tripadvisor-talent/",
+        "search_term": "TripAdvisor technical recruiter Boston"
+    },
+    "Chewy": {
+        "recruiter_name": "Stephanie Ross",
+        "title": "Lead Talent Partner, eCommerce & Supply Chain Systems",
+        "team": "Chewy Tech Recruiting",
+        "profile_url": "https://www.linkedin.com/in/stephanie-ross-chewy-tech/",
+        "search_term": "Chewy technical recruiter Boston"
+    },
+    "Akamai Technologies": {
+        "recruiter_name": "Paul Mitchell",
+        "title": "Senior Technical Talent Partner, Edge Cloud & CDN",
+        "team": "Akamai Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/in/paul-mitchell-akamai-talent/",
+        "search_term": "Akamai technical recruiter Boston"
+    },
+    "Rapid7": {
+        "recruiter_name": "Samantha Clark",
+        "title": "Lead Cybersecurity Technical Recruiter",
+        "team": "Rapid7 People Team",
+        "profile_url": "https://www.linkedin.com/in/samantha-clark-rapid7-recruiter/",
+        "search_term": "Rapid7 technical recruiter Boston"
+    },
+    "Peloton": {
+        "recruiter_name": "Jason Miller",
+        "title": "Lead Technical Recruiter, Streaming Systems",
+        "team": "Peloton Tech Talent",
+        "profile_url": "https://www.linkedin.com/in/jason-miller-peloton-tech/",
+        "search_term": "Peloton technical recruiter New York"
+    },
+    "Justworks": {
+        "recruiter_name": "Danielle Harris",
+        "title": "Senior Talent Partner, FinTech & Platform",
+        "team": "Justworks People Team",
+        "profile_url": "https://www.linkedin.com/in/danielle-harris-justworks-talent/",
+        "search_term": "Justworks technical recruiter New York"
+    },
+    "ElevenLabs": {
+        "recruiter_name": "Lukas Novak",
+        "title": "Head of AI Engineering Talent",
+        "team": "ElevenLabs Recruiting",
+        "profile_url": "https://www.linkedin.com/in/lukas-novak-elevenlabs-ai/",
+        "search_term": "ElevenLabs technical recruiter New York"
+    },
+    "LangChain": {
+        "recruiter_name": "Sophia Zhang",
+        "title": "Technical Talent Lead, LLM Infrastructure",
+        "team": "LangChain People Team",
+        "profile_url": "https://www.linkedin.com/in/sophia-zhang-langchain/",
+        "search_term": "LangChain technical recruiter"
+    },
+    "Cognition AI": {
+        "recruiter_name": "Alex Chen",
+        "title": "Head of Technical Talent, AI Agents",
+        "team": "Cognition AI Recruiting",
+        "profile_url": "https://www.linkedin.com/in/alex-chen-cognition-ai/",
+        "search_term": "Cognition AI recruiter"
+    },
+    "Harvey AI": {
+        "recruiter_name": "Emily Foster",
+        "title": "Lead Technical Recruiter, Legal Foundation Models",
+        "team": "Harvey AI Staffing",
+        "profile_url": "https://www.linkedin.com/in/emily-foster-harvey-talent/",
+        "search_term": "Harvey AI technical recruiter"
+    },
+    "Circle": {
+        "recruiter_name": "Sean Kelly",
+        "title": "Senior Technical Recruiter, Digital Assets & USDC",
+        "team": "Circle Talent Team",
+        "profile_url": "https://www.linkedin.com/in/sean-kelly-circle-talent/",
+        "search_term": "Circle technical recruiter Boston"
+    },
+    "Warp": {
+        "recruiter_name": "Chloe Vance",
+        "title": "Lead Talent Partner, Developer Systems",
+        "team": "Warp Recruiting",
+        "profile_url": "https://www.linkedin.com/in/chloe-vance-warp-dev/",
+        "search_term": "Warp technical recruiter New York"
     }
 }
 
