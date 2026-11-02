@@ -173,23 +173,55 @@ def scrape_linkedin_all(searches: List[Dict[str, str]] = None) -> List[Dict[str,
             {"keywords": "Software Engineer Meta", "location": "New York, NY"},
             {"keywords": "Software Engineer Meta", "location": "Boston, MA"},
 
+            # Universal Role-Keyword Searches (Queries across ALL companies in NYC & Boston)
             # Senior Staff & Principal roles
             {"keywords": "Senior Staff Software Engineer", "location": "New York, NY"},
             {"keywords": "Senior Staff Software Engineer", "location": "Boston, MA"},
             {"keywords": "Principal Software Engineer", "location": "New York, NY"},
             {"keywords": "Principal Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Distinguished Engineer", "location": "New York, NY"},
+            {"keywords": "Distinguished Engineer", "location": "Boston, MA"},
+
+            # Staff & Senior roles (all tech companies)
+            {"keywords": "Staff Software Engineer", "location": "New York, NY"},
+            {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Software Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Lead Software Engineer", "location": "New York, NY"},
+            {"keywords": "Lead Software Engineer", "location": "Boston, MA"},
 
             # Machine Learning & AI roles
             {"keywords": "Machine Learning Engineer", "location": "New York, NY"},
             {"keywords": "Machine Learning Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Machine Learning Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Machine Learning Engineer", "location": "Boston, MA"},
             {"keywords": "Staff Machine Learning Engineer", "location": "New York, NY"},
             {"keywords": "Staff Machine Learning Engineer", "location": "Boston, MA"},
+            {"keywords": "AI Engineer", "location": "New York, NY"},
+            {"keywords": "AI Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior AI Engineer", "location": "New York, NY"},
+            {"keywords": "Senior AI Engineer", "location": "Boston, MA"},
 
-            # Staff & Senior roles
-            {"keywords": "Staff Software Engineer", "location": "New York, NY"},
-            {"keywords": "Staff Software Engineer", "location": "Boston, MA"},
-            {"keywords": "Senior Software Engineer", "location": "New York, NY"},
-            {"keywords": "Senior Software Engineer", "location": "Boston, MA"}
+            # Core Engineering Disciplines (Distributed Systems, Backend, Infra, Data)
+            {"keywords": "Distributed Systems Engineer", "location": "New York, NY"},
+            {"keywords": "Distributed Systems Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Backend Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Backend Engineer", "location": "Boston, MA"},
+            {"keywords": "Infrastructure Engineer", "location": "New York, NY"},
+            {"keywords": "Infrastructure Engineer", "location": "Boston, MA"},
+            {"keywords": "Site Reliability Engineer", "location": "New York, NY"},
+            {"keywords": "Site Reliability Engineer", "location": "Boston, MA"},
+            {"keywords": "Platform Engineer", "location": "New York, NY"},
+            {"keywords": "Platform Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Data Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Data Engineer", "location": "Boston, MA"},
+            {"keywords": "Senior Full Stack Engineer", "location": "New York, NY"},
+            {"keywords": "Senior Full Stack Engineer", "location": "Boston, MA"},
+            {"keywords": "Security Engineer", "location": "New York, NY"},
+            {"keywords": "Security Engineer", "location": "Boston, MA"},
+            {"keywords": "Systems Software Engineer", "location": "Boston, MA"},
+            {"keywords": "Engineering Manager", "location": "New York, NY"},
+            {"keywords": "Engineering Manager", "location": "Boston, MA"}
         ]
 
     all_jobs = []
