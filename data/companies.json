@@ -841,5 +841,20 @@
       "WebGL",
       "Embedded Systems"
     ]
+  },
+  {
+    "name": "Sola",
+    "metro": "New York, NY",
+    "presence": "NYC (HQ)",
+    "industry": "Artificial Intelligence & Process Automation",
+    "careers_url": "https://www.builtinnyc.com/company/sola",
+    "ats_board": "Built In NYC",
+    "tech_stack": [
+      "Python",
+      "AI",
+      "Machine Learning",
+      "Automation",
+      "Distributed Systems"
+    ]
   }
 ]

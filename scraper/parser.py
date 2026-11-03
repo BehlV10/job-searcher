@@ -49,11 +49,11 @@ def parse_salary(text: str) -> Optional[Dict[str, Any]]:
 
     cleaned = text.replace("&mdash;", "—").replace("&ndash;", "–")
 
-    # Pattern 1: Standard Range with optional k/K: $180,000 - $240,000 or $180k - $240k
+    # Pattern 1: Standard Range with optional $ and k/K: $180,000 - $240,000, $180k - $240k, or 150K-300K Annually
     range_pattern = re.compile(
-        r"\$\s*(\d{1,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s*[kK])"
+        r"\$?\s*(\d{1,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s*[kK])"
         r"\s*(?:[-—–/]|to)\s*"
-        r"\$\s*(\d{1,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s*[kK])"
+        r"\$?\s*(\d{1,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s*[kK])"
         r"(?:\s*(?:USD|per year|/yr|a year|annually))?",
         re.IGNORECASE
     )
