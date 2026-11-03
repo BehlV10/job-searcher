@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "last_updated": "2026-11-03 05:07:25 UTC",
-    "total_jobs": 2653,
-    "with_salary_count": 962,
-    "nyc_jobs": 1551,
+    "last_updated": "2026-11-03 05:07:57 UTC",
+    "total_jobs": 2647,
+    "with_salary_count": 956,
+    "nyc_jobs": 1546,
     "boston_jobs": 450,
     "senior_staff_jobs": 51,
     "principal_jobs": 82,
-    "staff_jobs": 375,
+    "staff_jobs": 374,
     "senior_swe_jobs": 786,
     "senior_ml_jobs": 79,
     "mid_level_jobs": 142,
-    "swe_jobs": 819,
-    "ml_engineer_jobs": 100,
+    "swe_jobs": 816,
+    "ml_engineer_jobs": 98,
     "senior_director_jobs": 17,
     "director_jobs": 26,
     "senior_manager_jobs": 42,
     "manager_jobs": 134,
-    "ml_jobs": 738,
-    "general_swe_jobs": 1915,
+    "ml_jobs": 737,
+    "general_swe_jobs": 1910,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -33,19 +33,19 @@
       "Hacker News": 68,
       "Lever": 51,
       "LinkedIn": 284,
-      "Built In": 916
+      "Built In": 910
     },
     "archetype_breakdown": {
       "Engineering Leadership": 96,
       "Frontend & UI": 45,
-      "Machine Learning & AI": 387,
-      "General Software": 1124,
+      "Machine Learning & AI": 386,
+      "General Software": 1120,
       "Security Engineering": 203,
       "Mobile Engineering": 54,
       "Data Engineering": 79,
       "Infrastructure & Cloud / SRE": 323,
       "Full Stack": 116,
-      "Backend & Distributed Systems": 209,
+      "Backend & Distributed Systems": 208,
       "Systems & Embedded": 17
     }
   },
@@ -99350,253 +99350,6 @@
       ],
       "snippet": "Open Machine Learning Engineer role at Sola in Remote via Built In NYC.",
       "description": "Sola is an AI process automation platform in NYC. Sola Software Engineer, Windows AI Automation Reposted 2 Months Ago Saved Remote USA 160K-300K Annually Mid level 160K-300K Annually Mid level Artificial Intelligence • Information Technology • Software • Automation Sola seeks a Software Engineer for Desktop Automation to own and enhance their execution platform, focusing on reliability and integrating with AI pipelines. Top Skills: Appium Kubernetes Python Rdp Rfb Tailscale Temporal Typescript Vnc",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Software%20Engineer%2C%20Windows%20AI%20Automation%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "builtin_sola_8060684428846539705",
-      "title": "Forward Deployed Engineer",
-      "company": "Sola",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Onsite",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/forward-deployed-engineer/11851179",
-      "date_posted": "2026-10-23",
-      "salary": {
-        "min": 120000,
-        "max": 200000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$120,000 - $200,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Python",
-        "AI",
-        "Machine Learning",
-        "Distributed Systems"
-      ],
-      "snippet": "Open Software Engineer role at Sola in New York, NY via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Forward Deployed Engineer 11 Days Ago Saved In-Office New York City, NY, USA 120K-200K Annually Entry level 120K-200K Annually Entry level Artificial Intelligence • Information Technology • Software • Automation Investigate customer workflow failures using logs, browser tools, APIs, and code; implement and verify fixes; build custom integrations and production software; support customer onboarding; and translate technical issues into clear explanations. The role combines software engineering with customer-facing problem solving, occasional travel, and collaboration with Customer Success. Candidates should have strong programming foundations, web technology knowledge, adaptability across complex systems, curiosity, and excellent communication skills. Top Skills: APIs Browser Tools Desktop Systems Legacy Systems Web Technologies",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Forward%20Deployed%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_sola_3213031765312000582",
-      "title": "Founding Solutions Engineer",
-      "company": "Sola",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Onsite",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/founding-solutions-engineer/11753387",
-      "date_posted": "2026-10-19",
-      "salary": {
-        "min": 225000,
-        "max": 300000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$225,000 - $300,000 / yr"
-      },
-      "experience": {
-        "min_years": 4,
-        "max_years": null,
-        "display": "4+ years"
-      },
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open Software Engineer role at Sola in New York, NY via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Founding Solutions Engineer 15 Days Ago Saved In-Office New York City, NY, USA 225K-300K Annually Senior level 225K-300K Annually Senior level Artificial Intelligence • Information Technology • Software • Automation Own the enterprise sales cycle as a founding Solutions Engineer, supporting account executives in complex six- and seven-figure deals. Establish customer relationships, demonstrate AI automation value, expand accounts, and help enterprise leaders adopt transformative technology. Partner with the CRO and founders to develop sales positioning, processes, go-to-market strategy, team standards, and organizational culture. Top Skills: AI Enterprise Automation Enterprise Saas Robotic Process Automation (Rpa)",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Founding%20Solutions%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_sola_3313757201317590857",
-      "title": "Software Engineer, Backend",
-      "company": "Sola",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Onsite",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Backend & Distributed Systems",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer-backend/8308178",
-      "date_posted": "2026-09-04",
-      "salary": {
-        "min": 150000,
-        "max": 300000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$150,000 - $300,000 / yr"
-      },
-      "experience": {
-        "min_years": 4,
-        "max_years": null,
-        "display": "4+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "Kubernetes",
-        "Python",
-        "TypeScript"
-      ],
-      "snippet": "Open Software Engineer role at Sola in New York, NY via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Software Engineer, Backend Reposted 2 Months Ago Saved In-Office New York City, NY, USA 150K-300K Annually Senior level 150K-300K Annually Senior level Artificial Intelligence • Information Technology • Software • Automation As a Senior Backend Engineer, you will architect and scale backend infrastructure, automate repetitive tasks, and integrate AI workflows. You will collaborate closely with ML research partners and ensure the reliability and performance of services in production. Top Skills: Kubernetes Python Typescript",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Software%20Engineer%2C%20Backend%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_sola_3538685754838531515",
-      "title": "Staff Product Manager",
-      "company": "Sola",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Onsite",
-      "seniority": "Staff",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/founding-product-manager/10076148",
-      "date_posted": "2026-08-05",
-      "salary": {
-        "min": 160000,
-        "max": 300000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$160,000 - $300,000 / yr"
-      },
-      "experience": {
-        "min_years": 4,
-        "max_years": null,
-        "display": "4+ years"
-      },
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open Staff role at Sola in New York, NY via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Staff Product Manager Reposted 3 Months Ago Saved In-Office New York City, NY, USA 160K-300K Annually Senior level 160K-300K Annually Senior level Artificial Intelligence • Information Technology • Software • Automation As the first dedicated product hire, you will set product strategy, own the roadmap, and drive features end-to-end. Partner with CEO, design, and engineering, talk to users, and translate customer problems into shipped product. Focus on creating elegant, reliable enterprise AI automation UIs that scale and balance human oversight with autonomous agent execution.",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Staff%20Product%20Manager%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_sola_1948501020500202611",
-      "title": "Software Engineer, ML Platform",
-      "company": "Sola",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Onsite",
-      "seniority": "Machine Learning Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Machine Learning & AI",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/software-engineer-ml-platform/8871965",
-      "date_posted": "2026-08-05",
-      "salary": {
-        "min": 150000,
-        "max": 350000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$150,000 - $350,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI",
-        "Kubernetes",
-        "PyTorch",
-        "Python",
-        "TypeScript"
-      ],
-      "snippet": "Open Machine Learning Engineer role at Sola in New York, NY via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Software Engineer, ML Platform Reposted 3 Months Ago Saved In-Office New York City, NY, USA 150K-350K Annually Mid level 150K-350K Annually Mid level Artificial Intelligence • Information Technology • Software • Automation As a Software Engineer focusing on ML Platform at Sola, you'll turn AI research into production features, build observability systems, and collaborate with the CTO, taking ownership of AI functionalities end-to-end. Top Skills: Dspy Huggingface Kubernetes Python PyTorch Temporal Tensorrt Typescript Vllm",
-      "recruiter": {
-        "recruiter_name": "Sola Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Sola Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Sola%20%22hiring%22%20%22Software%20Engineer%2C%20ML%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sola%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_sola_1342283057340641899",
-      "title": "Software Engineer, Windows AI Automation",
-      "company": "Sola",
-      "location": "Remote",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Machine Learning Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/software-engineer-desktop-automation/8995400",
-      "date_posted": "2026-09-04",
-      "salary": {
-        "min": 160000,
-        "max": 300000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$160,000 - $300,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI",
-        "Kubernetes",
-        "Python",
-        "TypeScript"
-      ],
-      "snippet": "Open Machine Learning Engineer role at Sola in Remote via Built In.",
-      "description": "Sola (Artificial Intelligence & Process Automation): Sola Software Engineer, Windows AI Automation Reposted 2 Months Ago Saved Remote USA 160K-300K Annually Mid level 160K-300K Annually Mid level Artificial Intelligence • Information Technology • Software • Automation Sola seeks a Software Engineer for Desktop Automation to own and enhance their execution platform, focusing on reliability and integrating with AI pipelines. Top Skills: Appium Kubernetes Python Rdp Rfb Tailscale Temporal Typescript Vnc",
       "recruiter": {
         "recruiter_name": "Sola Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
