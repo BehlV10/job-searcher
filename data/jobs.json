@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "last_updated": "2026-11-07 12:38:29 UTC",
-    "total_jobs": 3469,
-    "with_salary_count": 2024,
-    "nyc_jobs": 1930,
-    "boston_jobs": 746,
+    "last_updated": "2026-11-07 21:34:43 UTC",
+    "total_jobs": 3485,
+    "with_salary_count": 2028,
+    "nyc_jobs": 1933,
+    "boston_jobs": 759,
     "senior_staff_jobs": 62,
-    "principal_jobs": 154,
-    "staff_jobs": 447,
-    "senior_swe_jobs": 1052,
+    "principal_jobs": 162,
+    "staff_jobs": 448,
+    "senior_swe_jobs": 1057,
     "senior_ml_jobs": 116,
     "mid_level_jobs": 203,
-    "swe_jobs": 1041,
+    "swe_jobs": 1043,
     "ml_engineer_jobs": 125,
     "senior_director_jobs": 33,
     "director_jobs": 36,
     "senior_manager_jobs": 50,
     "manager_jobs": 150,
     "ml_jobs": 953,
-    "general_swe_jobs": 2516,
+    "general_swe_jobs": 2532,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -28,25 +28,25 @@
       "Hacker News"
     ],
     "source_breakdown": {
-      "Built In": 1313,
+      "Built In": 1316,
       "Greenhouse": 1037,
       "Ashby": 403,
       "Lever": 55,
       "Hacker News": 130,
-      "LinkedIn": 531
+      "LinkedIn": 544
     },
     "archetype_breakdown": {
-      "General Software": 1515,
+      "General Software": 1523,
       "Backend & Distributed Systems": 262,
       "Data Engineering": 97,
-      "Full Stack": 176,
+      "Full Stack": 177,
       "Frontend & UI": 57,
+      "Security Engineering": 230,
       "Machine Learning & AI": 526,
       "Mobile Engineering": 76,
-      "Security Engineering": 228,
-      "Infrastructure & Cloud / SRE": 402,
+      "Infrastructure & Cloud / SRE": 405,
       "Engineering Leadership": 106,
-      "Systems & Embedded": 24
+      "Systems & Embedded": 26
     }
   },
   "user_profile": {
@@ -78,7 +78,7 @@
   },
   "jobs": [
     {
-      "id": "builtin_7849677466661066460",
+      "id": "builtin_2746664305856914320",
       "title": "Senior Member of Technical Staff, Product Engineering",
       "company": "Pallet",
       "location": "New York, NY",
@@ -106,7 +106,7 @@
         "TypeScript"
       ],
       "snippet": "Open Senior Software Engineer role at Pallet in New York, NY via Built In.",
-      "description": "Pallet Senior Member of Technical Staff, Product Engineering 3 Hours Ago Saved In-Office New York, NY, USA 175K-265K Annually Senior level 175K-265K Annually Senior level Artificial Intelligence • Logistics • Transportation Build and own core product features powering AI agents for logistics, translate customer needs into scalable software, design backend systems and data pipelines, and ship end-to-end SaaS features. The role involves architectural ownership, reliability and performance focus, customer collaboration, and helping define product engineering practices in an early-stage startup. Top Skills: Anthropic Encore Google Cloud Platform Google Foundation Models GraphQL Node.js Openai Playwright Postgres React Typescript Vercel",
+      "description": "Pallet Senior Member of Technical Staff, Product Engineering 12 Hours Ago Saved In-Office New York, NY, USA 175K-265K Annually Senior level 175K-265K Annually Senior level Artificial Intelligence • Logistics • Transportation Build and own core product features powering AI agents for logistics, translate customer needs into scalable software, design backend systems and data pipelines, and ship end-to-end SaaS features. The role involves architectural ownership, reliability and performance focus, customer collaboration, and helping define product engineering practices in an early-stage startup. Top Skills: Anthropic Encore Google Cloud Platform Google Foundation Models GraphQL Node.js Openai Playwright Postgres React Typescript Vercel",
       "recruiter": {
         "recruiter_name": "Pallet Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "builtin_8248875747923750997",
+      "id": "builtin_2808280273284846521",
       "title": "C++ Software Engineer",
       "company": "Citadel",
       "location": "New York, NY",
@@ -145,7 +145,7 @@
         "Distributed Systems"
       ],
       "snippet": "Open Software Engineer role at Citadel in New York, NY via Built In.",
-      "description": "Citadel C++ Software Engineer Reposted 9 Hours Ago Saved In-Office New York, NY, USA 200K-300K Annually Expert/Leader 200K-300K Annually Expert/Leader Information Technology • Software • Financial Services • Big Data Analytics Design, develop, test, deploy, and maintain high-performance C++ systems, services, libraries, and platforms. Solve complex challenges involving performance, latency, concurrency, scalability, and distributed systems. Collaborate with engineers and investment professionals, build new systems, optimize production platforms, contribute to architecture and developer tooling, and own technology throughout its lifecycle. Top Skills: C++ Ci/Cd Linux",
+      "description": "Citadel C++ Software Engineer Reposted 18 Hours Ago Saved In-Office New York, NY, USA 200K-300K Annually Expert/Leader 200K-300K Annually Expert/Leader Information Technology • Software • Financial Services • Big Data Analytics Design, develop, test, deploy, and maintain high-performance C++ systems, services, libraries, and platforms. Solve complex challenges involving performance, latency, concurrency, scalability, and distributed systems. Collaborate with engineers and investment professionals, build new systems, optimize production platforms, contribute to architecture and developer tooling, and own technology throughout its lifecycle. Top Skills: C++ Ci/Cd Linux",
       "recruiter": {
         "recruiter_name": "Citadel Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "builtin_7685176448756027657",
+      "id": "builtin_4866315050698798038",
       "title": "Java Software Engineer",
       "company": "Citadel",
       "location": "New York, NY",
@@ -184,7 +184,7 @@
         "Java"
       ],
       "snippet": "Open Software Engineer role at Citadel in New York, NY via Built In.",
-      "description": "Citadel Java Software Engineer Reposted 9 Hours Ago Saved In-Office New York, NY, USA 200K-300K Annually Entry level 200K-300K Annually Entry level Information Technology • Software • Financial Services • Big Data Analytics Design, develop, test, deploy, and maintain scalable Java applications, services, and platforms supporting investment and business workflows. Build distributed systems, APIs, data platforms, and event-driven architectures; modernize existing technology; improve performance, reliability, and scalability; and contribute to architecture and technical strategy. Partner with users and engineering teams throughout the software development lifecycle to deliver production-quality solutions. Top Skills: APIs Build Systems Ci/Cd Cloud Infrastructure Containerized Environments Distributed Databases Java Messaging Technologies Relational Databases Source Control SQL",
+      "description": "Citadel Java Software Engineer Reposted 18 Hours Ago Saved In-Office New York, NY, USA 200K-300K Annually Entry level 200K-300K Annually Entry level Information Technology • Software • Financial Services • Big Data Analytics Design, develop, test, deploy, and maintain scalable Java applications, services, and platforms supporting investment and business workflows. Build distributed systems, APIs, data platforms, and event-driven architectures; modernize existing technology; improve performance, reliability, and scalability; and contribute to architecture and technical strategy. Partner with users and engineering teams throughout the software development lifecycle to deliver production-quality solutions. Top Skills: APIs Build Systems Ci/Cd Cloud Infrastructure Containerized Environments Distributed Databases Java Messaging Technologies Relational Databases Source Control SQL",
       "recruiter": {
         "recruiter_name": "Citadel Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -281,7 +281,7 @@
       }
     },
     {
-      "id": "builtin_7104263903399812196",
+      "id": "builtin_803815847831053902",
       "title": "Forward Deployed Software Engineer-Palantir Foundry-Experienced Associate",
       "company": "PwC",
       "location": "Boston, MA",
@@ -307,7 +307,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at PwC in Boston, MA via Built In.",
-      "description": "PwC Forward Deployed Software Engineer-Palantir Foundry-Experienced Associate Reposted 4 Hours Ago Saved Hybrid Boston, MA, USA 63K-140K Annually Junior 63K-140K Annually Junior Artificial Intelligence • Professional Services • Business Intelligence • Consulting • Cybersecurity • Generative AI Develop and deploy data solutions using Palantir Foundry and AIP for client engagements. Lead technical teams, coach team members, analyze system interactions, build applications with large datasets, and apply data engineering and analytics to deliver client outcomes. The role also includes managing client relationships, planning and executing projects, encouraging technology adoption, resolving stakeholder conflicts, and driving continuous improvement. Top Skills: Artificial Intelligence Machine Learning Palantir Aip Palantir Foundry Python Typescript",
+      "description": "PwC Forward Deployed Software Engineer-Palantir Foundry-Experienced Associate Reposted 13 Hours Ago Saved Hybrid Boston, MA, USA 63K-140K Annually Junior 63K-140K Annually Junior Artificial Intelligence • Professional Services • Business Intelligence • Consulting • Cybersecurity • Generative AI Develop and deploy data solutions using Palantir Foundry and AIP for client engagements. Lead technical teams, coach team members, analyze system interactions, build applications with large datasets, and apply data engineering and analytics to deliver client outcomes. The role also includes managing client relationships, planning and executing projects, encouraging technology adoption, resolving stakeholder conflicts, and driving continuous improvement. Top Skills: Artificial Intelligence Machine Learning Palantir Aip Palantir Foundry Python Typescript",
       "recruiter": {
         "recruiter_name": "PwC Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -439,7 +439,7 @@
       }
     },
     {
-      "id": "builtin_2918742202000456825",
+      "id": "builtin_7242667242459626973",
       "title": "Software Engineer - GTM Engineering",
       "company": "Engine",
       "location": "Remote",
@@ -466,7 +466,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Engine in Remote via Built In.",
-      "description": "Engine Software Engineer - GTM Engineering 6 Hours Ago Saved Easy Apply Remote United States Easy Apply 106K-125K Annually Junior 106K-125K Annually Junior Artificial Intelligence • Fintech • Software • Travel Build and maintain internal AI-powered tools and automations for sales, customer success, and revenue operations. Implement features, automate lead routing and pipeline workflows, troubleshoot integrations, monitor tools, fix bugs, and evaluate AI platforms. Collaborate with nontechnical stakeholders to gather requirements and deliver reliable, documented code using APIs, scripting languages, and database systems. Top Skills: Ai Tools APIs Clay Databases Gong Hubspot JavaScript Make N8N Python Salesforce Typescript Workato Zapier",
+      "description": "Engine Software Engineer - GTM Engineering 15 Hours Ago Saved Easy Apply Remote United States Easy Apply 106K-125K Annually Junior 106K-125K Annually Junior Artificial Intelligence • Fintech • Software • Travel Build and maintain internal AI-powered tools and automations for sales, customer success, and revenue operations. Implement features, automate lead routing and pipeline workflows, troubleshoot integrations, monitor tools, fix bugs, and evaluate AI platforms. Collaborate with nontechnical stakeholders to gather requirements and deliver reliable, documented code using APIs, scripting languages, and database systems. Top Skills: Ai Tools APIs Clay Databases Gong Hubspot JavaScript Make N8N Python Salesforce Typescript Workato Zapier",
       "recruiter": {
         "recruiter_name": "Engine Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -479,7 +479,7 @@
       }
     },
     {
-      "id": "builtin_6580561577519686849",
+      "id": "builtin_2174483131811126131",
       "title": "Software Engineer II, Fullstack",
       "company": "PathAI",
       "location": "Boston, MA",
@@ -508,7 +508,7 @@
         "REST"
       ],
       "snippet": "Open Mid-Level role at PathAI in Boston, MA via Built In.",
-      "description": "PathAI Software Engineer II, Fullstack 9 Hours Ago Saved Hybrid Boston, MA 109K-167K Annually Mid level 109K-167K Annually Mid level Artificial Intelligence • Healthtech • Machine Learning • Software • Biotech Build and maintain full-stack software for a SaaS platform supporting clinical trial workflows. Responsibilities include developing Python-based applications, creating features, refactoring systems, contributing to architecture, collaborating with product, design, machine learning, infrastructure, clinical, QA, and regulatory teams, and upholding engineering quality, reliability, data integrity, compliance, testing, and inspection readiness. The role also involves mentoring teammates and working across frontend, backend, cloud, and infrastructure technologies. Top Skills: Amazon Eks Amazon Rds Amazon S3 Amazon Sqs Apache Kafka AWS Django Django Rest Framework Docker Fastapi Gitlab Ci Infrastructure As Code Kubernetes Postgres Python Vue",
+      "description": "PathAI Software Engineer II, Fullstack 18 Hours Ago Saved Hybrid Boston, MA 109K-167K Annually Mid level 109K-167K Annually Mid level Artificial Intelligence • Healthtech • Machine Learning • Software • Biotech Build and maintain full-stack software for a SaaS platform supporting clinical trial workflows. Responsibilities include developing Python-based applications, creating features, refactoring systems, contributing to architecture, collaborating with product, design, machine learning, infrastructure, clinical, QA, and regulatory teams, and upholding engineering quality, reliability, data integrity, compliance, testing, and inspection readiness. The role also involves mentoring teammates and working across frontend, backend, cloud, and infrastructure technologies. Top Skills: Amazon Eks Amazon Rds Amazon S3 Amazon Sqs Apache Kafka AWS Django Django Rest Framework Docker Fastapi Gitlab Ci Infrastructure As Code Kubernetes Postgres Python Vue",
       "recruiter": {
         "recruiter_name": "PathAI Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -598,7 +598,7 @@
       }
     },
     {
-      "id": "builtin_6121975332589961392",
+      "id": "builtin_6003494821625364207",
       "title": "Senior Full Stack Software Engineer",
       "company": "BetterHelp",
       "location": "New York, NY",
@@ -625,7 +625,7 @@
         "Redis"
       ],
       "snippet": "Open Senior Software Engineer role at BetterHelp in New York, NY via Built In.",
-      "description": "BetterHelp Senior Full Stack Software Engineer 7 Hours Ago Saved Remote New York, NY 130K-185K Annually Senior level 130K-185K Annually Senior level Healthtech • Other • Telehealth Develop and launch scalable full-stack web applications using PHP, Laravel, SQL, JavaScript, React, and related technologies. Responsibilities include building APIs, designing database schemas, optimizing queries and code, implementing secure and maintainable software, collaborating cross-functionally, mentoring junior developers, and owning features through production in an agile continuous-deployment environment. Top Skills: Bootstrap 3 CSS3 Git HTML5 JavaScript Jquery Lamp Laravel Lemp Linux MySQL Next.Js Nginx PHP React Redis Sass SQL Twig",
+      "description": "BetterHelp Senior Full Stack Software Engineer 16 Hours Ago Saved Remote New York, NY 130K-185K Annually Senior level 130K-185K Annually Senior level Healthtech • Other • Telehealth Develop and launch scalable full-stack web applications using PHP, Laravel, SQL, JavaScript, React, and related technologies. Responsibilities include building APIs, designing database schemas, optimizing queries and code, implementing secure and maintainable software, collaborating cross-functionally, mentoring junior developers, and owning features through production in an agile continuous-deployment environment. Top Skills: Bootstrap 3 CSS3 Git HTML5 JavaScript Jquery Lamp Laravel Lemp Linux MySQL Next.Js Nginx PHP React Redis Sass SQL Twig",
       "recruiter": {
         "recruiter_name": "BetterHelp Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -638,7 +638,7 @@
       }
     },
     {
-      "id": "builtin_1584237015587831689",
+      "id": "builtin_4819343845830483486",
       "title": "Software Developer",
       "company": "Boldyn Networks",
       "location": "New York, NY",
@@ -670,7 +670,7 @@
         "Terraform"
       ],
       "snippet": "Open Software Engineer role at Boldyn Networks in New York, NY via Built In.",
-      "description": "Boldyn Networks Software Developer 8 Hours Ago Saved In-Office or Remote New York, NY 110K-130K Annually Mid level 110K-130K Annually Mid level Information Technology • Consulting Develop and support software solutions for higher education customers, including ERP/SIS integrations, custom web applications, identity and provisioning automation, and managed hosting monitoring. Build CI/CD pipelines and infrastructure as code across AWS, OCI, Azure, and Kubernetes environments. Troubleshoot and enhance applications throughout the software development lifecycle while using AI-assisted development tools. The role is remote in the United States and requires strong programming, cloud, automation, and software engineering experience. Top Skills: Ai-Assisted Software Development Tools AWS Aws Cdk Azure Bash Ci/Cd CloudFormation Ellucian Banner Erp Git Infrastructure As Code Java Kubernetes Oracle Cloud Infrastructure Powershell Python React Sis SQL Terraform",
+      "description": "Boldyn Networks Software Developer 17 Hours Ago Saved In-Office or Remote New York, NY 110K-130K Annually Mid level 110K-130K Annually Mid level Information Technology • Consulting Develop and support software solutions for higher education customers, including ERP/SIS integrations, custom web applications, identity and provisioning automation, and managed hosting monitoring. Build CI/CD pipelines and infrastructure as code across AWS, OCI, Azure, and Kubernetes environments. Troubleshoot and enhance applications throughout the software development lifecycle while using AI-assisted development tools. The role is remote in the United States and requires strong programming, cloud, automation, and software engineering experience. Top Skills: Ai-Assisted Software Development Tools AWS Aws Cdk Azure Bash Ci/Cd CloudFormation Ellucian Banner Erp Git Infrastructure As Code Java Kubernetes Oracle Cloud Infrastructure Powershell Python React Sis SQL Terraform",
       "recruiter": {
         "recruiter_name": "Boldyn Networks Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -683,7 +683,7 @@
       }
     },
     {
-      "id": "builtin_8111418807987029843",
+      "id": "builtin_4401264722172499543",
       "title": "Backend Software Engineer (Node.js) | LabArchives",
       "company": "Dotmatics",
       "location": "New York, NY",
@@ -710,7 +710,7 @@
         "React"
       ],
       "snippet": "Open Software Engineer role at Dotmatics in New York, NY via Built In.",
-      "description": "Dotmatics Backend Software Engineer (Node.js) | LabArchives 9 Hours Ago Saved Remote New York, NY 103K-140K Annually Expert/Leader 103K-140K Annually Expert/Leader Software Develop and maintain backend services and APIs for LabArchives ELN, inventory, and scheduler products. Build primarily with Node.js while contributing to Ruby on Rails code, database development, testing automation, security reviews, and performance evaluations. Collaborate with product, operations, support, and frontend teams to plan, develop, test, and release scalable features. The role requires strong backend and database expertise, API design knowledge, and cross-functional communication. Top Skills: Angular Ci/Cd Javascript Es6+ Node.js React Restful Apis Ruby Ruby On Rails Vue",
+      "description": "Dotmatics Backend Software Engineer (Node.js) | LabArchives 18 Hours Ago Saved Remote New York, NY 103K-140K Annually Expert/Leader 103K-140K Annually Expert/Leader Software Develop and maintain backend services and APIs for LabArchives ELN, inventory, and scheduler products. Build primarily with Node.js while contributing to Ruby on Rails code, database development, testing automation, security reviews, and performance evaluations. Collaborate with product, operations, support, and frontend teams to plan, develop, test, and release scalable features. The role requires strong backend and database expertise, API design knowledge, and cross-functional communication. Top Skills: Angular Ci/Cd Javascript Es6+ Node.js React Restful Apis Ruby Ruby On Rails Vue",
       "recruiter": {
         "recruiter_name": "Dotmatics Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -723,7 +723,7 @@
       }
     },
     {
-      "id": "builtin_1178428121310018410",
+      "id": "builtin_6672531773014499902",
       "title": "Software Engineer II",
       "company": "Octane",
       "location": "New York, NY",
@@ -760,7 +760,7 @@
         "Terraform"
       ],
       "snippet": "Open Mid-Level role at Octane in New York, NY via Built In.",
-      "description": "Octane Software Engineer II 9 Hours Ago Saved Remote or Hybrid New York, NY 105K-135K Annually Mid level 105K-135K Annually Mid level Fintech • Software Build and maintain full-stack capabilities for Octane’s loan servicing ecosystem using Python, Django, PostgreSQL, and React. Design scalable APIs, data-integrity safeguards, and user interfaces; write automated tests; troubleshoot complex bugs; optimize performance; participate in code reviews; collaborate cross-functionally; and mentor junior engineers while using AI-assisted development tools. Top Skills: AWS Azure Azure Devops Bitbucket C# Db2 Django Docker GCP Git Git Java JavaScript Kubernetes MySQL Node.js Oracle Postgres Python React SQL Terraform",
+      "description": "Octane Software Engineer II 18 Hours Ago Saved Remote or Hybrid New York, NY 105K-135K Annually Mid level 105K-135K Annually Mid level Fintech • Software Build and maintain full-stack capabilities for Octane’s loan servicing ecosystem using Python, Django, PostgreSQL, and React. Design scalable APIs, data-integrity safeguards, and user interfaces; write automated tests; troubleshoot complex bugs; optimize performance; participate in code reviews; collaborate cross-functionally; and mentor junior engineers while using AI-assisted development tools. Top Skills: AWS Azure Azure Devops Bitbucket C# Db2 Django Docker GCP Git Git Java JavaScript Kubernetes MySQL Node.js Oracle Postgres Python React SQL Terraform",
       "recruiter": {
         "recruiter_name": "Octane Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -850,7 +850,7 @@
       }
     },
     {
-      "id": "builtin_6593787531801608428",
+      "id": "builtin_9213241973587674073",
       "title": "Lead Systems Analyst",
       "company": "Wellington Management",
       "location": "Boston, MA",
@@ -880,7 +880,7 @@
         "Snowflake"
       ],
       "snippet": "Open Senior Software Engineer role at Wellington Management in Boston, MA via Built In.",
-      "description": "Wellington Management Lead Systems Analyst 7 Hours Ago Saved In-Office Boston, MA 90K-180K Annually Senior level 90K-180K Annually Senior level Financial Services Leads technical analysis, design, delivery, and production support for investment data domains and enterprise data-platform capabilities. Owns quarterly roadmaps, data modeling, stakeholder coordination, platform enhancements, deployment and disaster recovery initiatives, testing, automation, incident escalation, documentation, and AI-assisted tooling. Investigates data and platform issues using SQL, Python, APIs, and cloud logs while mentoring analysts and guiding delivery across business and technology teams. Top Skills: Amazon Athena Amazon Cloudwatch Aws S3 Ci/Cd Claude Code Git Github Copilot GraphQL Microsoft Fabric Non-Relational Databases Opensearch Python Relational Databases Rest Api Snowflake Sourcetree SQL Tableau",
+      "description": "Wellington Management Lead Systems Analyst 16 Hours Ago Saved In-Office Boston, MA 90K-180K Annually Senior level 90K-180K Annually Senior level Financial Services Leads technical analysis, design, delivery, and production support for investment data domains and enterprise data-platform capabilities. Owns quarterly roadmaps, data modeling, stakeholder coordination, platform enhancements, deployment and disaster recovery initiatives, testing, automation, incident escalation, documentation, and AI-assisted tooling. Investigates data and platform issues using SQL, Python, APIs, and cloud logs while mentoring analysts and guiding delivery across business and technology teams. Top Skills: Amazon Athena Amazon Cloudwatch Aws S3 Ci/Cd Claude Code Git Github Copilot GraphQL Microsoft Fabric Non-Relational Databases Opensearch Python Relational Databases Rest Api Snowflake Sourcetree SQL Tableau",
       "recruiter": {
         "recruiter_name": "Wellington Management Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -893,7 +893,7 @@
       }
     },
     {
-      "id": "builtin_4764185471321960722",
+      "id": "builtin_6519229027078704511",
       "title": "Forward Deployed Engineer, Senior - Data & Analytics",
       "company": "Humana",
       "location": "Boston, MA",
@@ -921,7 +921,7 @@
         "Spark"
       ],
       "snippet": "Open Senior Software Engineer role at Humana in Boston, MA via Built In.",
-      "description": "Humana Forward Deployed Engineer, Senior - Data & Analytics 9 Hours Ago Saved In-Office Boston, MA 118K-162K Annually Senior level 118K-162K Annually Senior level Healthtech Build scalable cloud-native data and machine learning solutions using Databricks, Spark, PySpark, and SQL. Develop batch and real-time healthcare data pipelines, enterprise data models, Lakehouse architectures, semantic layers, and AI-assisted analytics workflows. Partner directly with business and clinical stakeholders to discover requirements, prototype solutions, deliver demos, drive adoption, and provide technical leadership. Ensure HIPAA-compliant security, governance, lineage, auditability, and regulatory readiness. Top Skills: Airflow Spark Azure Data Factory Azure Devops Databricks Databricks Genie Databricks Notebook Databricks Runtime Ml Delta Lake Event Hubs Fhir Github Actions Hl7 Kafka Lakehouse Mlflow Postgres Pyspark Python SQL",
+      "description": "Humana Forward Deployed Engineer, Senior - Data & Analytics 18 Hours Ago Saved In-Office Boston, MA 118K-162K Annually Senior level 118K-162K Annually Senior level Healthtech Build scalable cloud-native data and machine learning solutions using Databricks, Spark, PySpark, and SQL. Develop batch and real-time healthcare data pipelines, enterprise data models, Lakehouse architectures, semantic layers, and AI-assisted analytics workflows. Partner directly with business and clinical stakeholders to discover requirements, prototype solutions, deliver demos, drive adoption, and provide technical leadership. Ensure HIPAA-compliant security, governance, lineage, auditability, and regulatory readiness. Top Skills: Airflow Spark Azure Data Factory Azure Devops Databricks Databricks Genie Databricks Notebook Databricks Runtime Ml Delta Lake Event Hubs Fhir Github Actions Hl7 Kafka Lakehouse Mlflow Postgres Pyspark Python SQL",
       "recruiter": {
         "recruiter_name": "Humana Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1056,7 +1056,7 @@
       }
     },
     {
-      "id": "builtin_1359136132045796387",
+      "id": "builtin_5409611582204287037",
       "title": "Senior Manager, Full-stack Engineer",
       "company": "Capital One",
       "location": "Boston, MA",
@@ -1094,7 +1094,7 @@
         "TypeScript"
       ],
       "snippet": "Open Senior Software Engineer role at Capital One in Boston, MA via Built In.",
-      "description": "Capital One Senior Manager, Full-stack Engineer 9 Hours Ago Saved Hybrid Cambridge, MA, USA 209K-262K Annually Senior level 209K-262K Annually Senior level Fintech • Machine Learning • Payments • Software • Financial Services Leads full-stack engineering teams, technology portfolios, and large-scale cloud-native initiatives. Responsibilities include setting technical strategy, mentoring engineering leaders, guiding architectural decisions, managing roadmaps and investment priorities, delivering distributed systems, and aligning engineering execution with enterprise goals. The role involves collaboration with product and platform leaders, oversight of Agile programs, succession planning, and occasional coding or code evaluation using modern cloud, database, container, and programming technologies. Top Skills: Ai Coding Tools Automated Testing Frameworks AWS Azure Bitbucket C# Ci/Cd Docker GCP Git Git Go Ide Copilots Infrastructure As Code Java JavaScript Kubernetes Node.js NoSQL Python Rdbms Rust Scala Typescript",
+      "description": "Capital One Senior Manager, Full-stack Engineer 18 Hours Ago Saved Hybrid Cambridge, MA, USA 209K-262K Annually Senior level 209K-262K Annually Senior level Fintech • Machine Learning • Payments • Software • Financial Services Leads full-stack engineering teams, technology portfolios, and large-scale cloud-native initiatives. Responsibilities include setting technical strategy, mentoring engineering leaders, guiding architectural decisions, managing roadmaps and investment priorities, delivering distributed systems, and aligning engineering execution with enterprise goals. The role involves collaboration with product and platform leaders, oversight of Agile programs, succession planning, and occasional coding or code evaluation using modern cloud, database, container, and programming technologies. Top Skills: Ai Coding Tools Automated Testing Frameworks AWS Azure Bitbucket C# Ci/Cd Docker GCP Git Git Go Ide Copilots Infrastructure As Code Java JavaScript Kubernetes Node.js NoSQL Python Rdbms Rust Scala Typescript",
       "recruiter": {
         "recruiter_name": "Capital One Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1107,7 +1107,7 @@
       }
     },
     {
-      "id": "builtin_1892091231400558633",
+      "id": "builtin_7751904857846976757",
       "title": "Principal Mission Engineer - Full Stack (Secret Clearance Required)",
       "company": "STR",
       "location": "Remote",
@@ -1133,7 +1133,7 @@
         "TypeScript"
       ],
       "snippet": "Open Principal role at STR in Remote via Built In.",
-      "description": "STR Principal Mission Engineer - Full Stack (Secret Clearance Required) 9 Hours Ago Saved Easy Apply Remote USA Easy Apply 240K-290K Annually Senior level 240K-290K Annually Senior level Machine Learning • Security • Software • Analytics • Defense Leads software teams developing, integrating, deploying, and maintaining full-stack mission applications for DoD and intelligence customers. Builds prototypes, scales applications, develops responsive frontend features, integrates systems, collaborates with government operators, and conducts deployment and field testing in secure environments. The role requires customer relationship management, technical leadership, software engineering expertise, and active security clearance. Top Skills: Api Integration DevOps Frontend Development Full-Stack Software Development Platform Engineering Python React Typescript",
+      "description": "STR Principal Mission Engineer - Full Stack (Secret Clearance Required) 18 Hours Ago Saved Easy Apply Remote USA Easy Apply 240K-290K Annually Senior level 240K-290K Annually Senior level Machine Learning • Security • Software • Analytics • Defense Leads software teams developing, integrating, deploying, and maintaining full-stack mission applications for DoD and intelligence customers. Builds prototypes, scales applications, develops responsive frontend features, integrates systems, collaborates with government operators, and conducts deployment and field testing in secure environments. The role requires customer relationship management, technical leadership, software engineering expertise, and active security clearance. Top Skills: Api Integration DevOps Frontend Development Full-Stack Software Development Platform Engineering Python React Typescript",
       "recruiter": {
         "recruiter_name": "STR Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1146,7 +1146,7 @@
       }
     },
     {
-      "id": "builtin_5151839094697333054",
+      "id": "builtin_6960089264909811138",
       "title": "Applied Forward Deployed Engineer (Post-Sales)",
       "company": "Monte Carlo",
       "location": "Remote",
@@ -1173,7 +1173,7 @@
         "Snowflake"
       ],
       "snippet": "Open Software Engineer role at Monte Carlo in Remote via Built In.",
-      "description": "Monte Carlo Applied Forward Deployed Engineer (Post-Sales) 8 Hours Ago Saved Remote US 140K-180K Annually Senior level 140K-180K Annually Senior level Big Data • Cloud • Software • Generative AI • Big Data Analytics Own post-sale technical deployments for enterprise customers, configuring monitors, alerts, and integrations in Snowflake and Databricks environments. Write production Python, SQL, and API integrations, drive customer adoption and measurable value, expand usage across teams and use cases, and provide feedback to Product and Engineering. Help establish the forward-deployed engineering playbook while advising data engineering teams and executives. Top Skills: Airflow Databricks Dbt Fivetran Looker Python Rest Apis Snowflake SQL",
+      "description": "Monte Carlo Applied Forward Deployed Engineer (Post-Sales) 17 Hours Ago Saved Remote US 140K-180K Annually Senior level 140K-180K Annually Senior level Big Data • Cloud • Software • Generative AI • Big Data Analytics Own post-sale technical deployments for enterprise customers, configuring monitors, alerts, and integrations in Snowflake and Databricks environments. Write production Python, SQL, and API integrations, drive customer adoption and measurable value, expand usage across teams and use cases, and provide feedback to Product and Engineering. Help establish the forward-deployed engineering playbook while advising data engineering teams and executives. Top Skills: Airflow Databricks Dbt Fivetran Looker Python Rest Apis Snowflake SQL",
       "recruiter": {
         "recruiter_name": "Monte Carlo Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1186,7 +1186,7 @@
       }
     },
     {
-      "id": "builtin_4553312956916297267",
+      "id": "builtin_2151001935681165864",
       "title": "Software Engineer, Back-End - Go (NY)",
       "company": "Superhuman",
       "location": "New York, NY",
@@ -1215,7 +1215,7 @@
         "Go"
       ],
       "snippet": "Open Software Engineer role at Superhuman in New York, NY via Built In.",
-      "description": "Superhuman Software Engineer, Back-End - Go (NY) 5 Hours Ago Saved Hybrid New York, NY, USA 154K-258K Annually Senior level 154K-258K Annually Senior level Artificial Intelligence • Information Technology • Machine Learning • Natural Language Processing • Productivity • Software • Generative AI Build and operate high-throughput backend services for AI agent orchestration, real-time infrastructure, data pipelines, scheduling, session history, APIs, and enterprise controls. Design highly available cloud infrastructure, collaborate with AI, product, and frontend teams, and contribute to testing, documentation, reliability, and mentoring junior engineers. Top Skills: APIs AWS Azure Ci/Cd Claude Code Cursor Event-Driven Architecture GCP Github Copilot Go Infrastructure As Code Real-Time Systems",
+      "description": "Superhuman Software Engineer, Back-End - Go (NY) 14 Hours Ago Saved Hybrid New York, NY, USA 154K-258K Annually Senior level 154K-258K Annually Senior level Artificial Intelligence • Information Technology • Machine Learning • Natural Language Processing • Productivity • Software • Generative AI Build and operate high-throughput backend services for AI agent orchestration, real-time infrastructure, data pipelines, scheduling, session history, APIs, and enterprise controls. Design highly available cloud infrastructure, collaborate with AI, product, and frontend teams, and contribute to testing, documentation, reliability, and mentoring junior engineers. Top Skills: APIs AWS Azure Ci/Cd Claude Code Cursor Event-Driven Architecture GCP Github Copilot Go Infrastructure As Code Real-Time Systems",
       "recruiter": {
         "recruiter_name": "Superhuman Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1228,7 +1228,7 @@
       }
     },
     {
-      "id": "builtin_783931397799263160",
+      "id": "builtin_3260502275224392891",
       "title": "Software Engineer, Front-End (New York)",
       "company": "Superhuman",
       "location": "New York, NY",
@@ -1255,7 +1255,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Superhuman in New York, NY via Built In.",
-      "description": "Superhuman Software Engineer, Front-End (New York) 5 Hours Ago Saved Hybrid New York, NY, USA 164K-235K Annually Senior level 164K-235K Annually Senior level Artificial Intelligence • Information Technology • Machine Learning • Natural Language Processing • Productivity • Software • Generative AI Build polished, responsive front-end interfaces for AI-powered products, including chat, document editing, inline agent suggestions, and agent builder tools. Develop with React and TypeScript across web, desktop, and browser-extension surfaces. Solve streaming, state-management, and cross-platform interaction challenges; collaborate with Product, Design, and AI teams; maintain testing, documentation, availability, and user experience standards; and mentor junior engineers. Top Skills: Chrome Extensions Claude Code Continuous Delivery Continuous Integration Copilot CSS Cursor HTML JavaScript React Typescript",
+      "description": "Superhuman Software Engineer, Front-End (New York) 14 Hours Ago Saved Hybrid New York, NY, USA 164K-235K Annually Senior level 164K-235K Annually Senior level Artificial Intelligence • Information Technology • Machine Learning • Natural Language Processing • Productivity • Software • Generative AI Build polished, responsive front-end interfaces for AI-powered products, including chat, document editing, inline agent suggestions, and agent builder tools. Develop with React and TypeScript across web, desktop, and browser-extension surfaces. Solve streaming, state-management, and cross-platform interaction challenges; collaborate with Product, Design, and AI teams; maintain testing, documentation, availability, and user experience standards; and mentor junior engineers. Top Skills: Chrome Extensions Claude Code Continuous Delivery Continuous Integration Copilot CSS Cursor HTML JavaScript React Typescript",
       "recruiter": {
         "recruiter_name": "Superhuman Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1268,7 +1268,7 @@
       }
     },
     {
-      "id": "builtin_4859005628800894918",
+      "id": "builtin_1682154954571734551",
       "title": "Associate - Full-Stack Software Developer",
       "company": "New York Life",
       "location": "New York, NY",
@@ -1300,7 +1300,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at New York Life in New York, NY via Built In.",
-      "description": "New York Life Associate - Full-Stack Software Developer 7 Hours Ago Saved Hybrid New York, NY, USA 81K-116K Annually Junior 81K-116K Annually Junior Artificial Intelligence • Cloud • Fintech • Information Technology • Insurance • Financial Services • Big Data Analytics Develop and support full-stack cloud applications using React, TypeScript, Vite, AWS services, REST APIs, and Varicent ICM. Build reusable frontend components and backend services, write unit and integration tests, troubleshoot issues, participate in code reviews and Agile ceremonies, and follow GitHub and CI/CD practices. Collaborate with engineering, QA, product, and technology teams to deliver secure, scalable, maintainable solutions. Top Skills: Amazon Api Gateway Amazon Cloudwatch Amazon Dynamodb Amazon Ec2 Amazon Ecr Amazon Route 53 Amazon S3 Aws Iam Aws Lambda Ci/Cd Docker Git Git JavaScript Python React Rest Apis Terraform Typescript Varicent Icm Vite",
+      "description": "New York Life Associate - Full-Stack Software Developer 16 Hours Ago Saved Hybrid New York, NY, USA 81K-116K Annually Junior 81K-116K Annually Junior Artificial Intelligence • Cloud • Fintech • Information Technology • Insurance • Financial Services • Big Data Analytics Develop and support full-stack cloud applications using React, TypeScript, Vite, AWS services, REST APIs, and Varicent ICM. Build reusable frontend components and backend services, write unit and integration tests, troubleshoot issues, participate in code reviews and Agile ceremonies, and follow GitHub and CI/CD practices. Collaborate with engineering, QA, product, and technology teams to deliver secure, scalable, maintainable solutions. Top Skills: Amazon Api Gateway Amazon Cloudwatch Amazon Dynamodb Amazon Ec2 Amazon Ecr Amazon Route 53 Amazon S3 Aws Iam Aws Lambda Ci/Cd Docker Git Git JavaScript Python React Rest Apis Terraform Typescript Varicent Icm Vite",
       "recruiter": {
         "recruiter_name": "New York Life Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1392,7 +1392,7 @@
       }
     },
     {
-      "id": "builtin_2229308676609753296",
+      "id": "builtin_8927180121445841003",
       "title": "Lead Analyst, Data Operations",
       "company": "T-Mobile",
       "location": "New York, NY",
@@ -1423,7 +1423,7 @@
         "Spark"
       ],
       "snippet": "Open Senior Software Engineer role at T-Mobile in New York, NY via Built In.",
-      "description": "T-Mobile Lead Analyst, Data Operations 9 Hours Ago Saved In-Office New York, NY 98K-226K Annually Expert/Leader 98K-226K Annually Expert/Leader Other • Utilities Leads enterprise data operations, integration, pipeline automation, governance, and data quality across on-premises and multi-cloud environments. Serves as the senior technical escalation point, manages vendor and data partner relationships, drives process automation and self-service reporting, supports international data expansion, and mentors analysts. The role requires advanced SQL, analytics, visualization, big data architecture, ETL/ELT, cloud platform, API integration, governance, and stakeholder communication expertise. Top Skills: Airflow Amazon S3 AWS Aws Lambda Azure Dbt GCP GraphQL Hadoop Hive Kafka Power BI Rest Apis Snowflake Spark SQL Streamlit Tableau",
+      "description": "T-Mobile Lead Analyst, Data Operations 18 Hours Ago Saved In-Office New York, NY 98K-226K Annually Expert/Leader 98K-226K Annually Expert/Leader Other • Utilities Leads enterprise data operations, integration, pipeline automation, governance, and data quality across on-premises and multi-cloud environments. Serves as the senior technical escalation point, manages vendor and data partner relationships, drives process automation and self-service reporting, supports international data expansion, and mentors analysts. The role requires advanced SQL, analytics, visualization, big data architecture, ETL/ELT, cloud platform, API integration, governance, and stakeholder communication expertise. Top Skills: Airflow Amazon S3 AWS Aws Lambda Azure Dbt GCP GraphQL Hadoop Hive Kafka Power BI Rest Apis Snowflake Spark SQL Streamlit Tableau",
       "recruiter": {
         "recruiter_name": "T-Mobile Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1436,7 +1436,7 @@
       }
     },
     {
-      "id": "builtin_5578267606700101365",
+      "id": "builtin_846943946223654200",
       "title": "Director, Engineering - Graphing and Visualization",
       "company": "Datadog",
       "location": "New York, NY",
@@ -1460,7 +1460,7 @@
         "AI"
       ],
       "snippet": "Open Director role at Datadog in New York, NY via Built In.",
-      "description": "Datadog Director, Engineering - Graphing and Visualization 9 Hours Ago Saved Easy Apply Hybrid New York, NY, USA Easy Apply 296K-370K Annually Entry level 296K-370K Annually Entry level Artificial Intelligence • Cloud • Security • Software • Cybersecurity Leads Datadog’s global Graphing and Data Visualization engineering organization, setting technical and organizational strategy across graphing, dashboards, notebooks, search, and AI-powered interfaces. The role develops engineering leaders, partners with Product and Design, guides performant visualization platforms, and advances agent-based experiences for creating and exploring complex data. Top Skills: Artificial Intelligence Business Intelligence Dashboards Data Visualization Notebooks Search Interfaces",
+      "description": "Datadog Director, Engineering - Graphing and Visualization 18 Hours Ago Saved Easy Apply Hybrid New York, NY, USA Easy Apply 296K-370K Annually Entry level 296K-370K Annually Entry level Artificial Intelligence • Cloud • Security • Software • Cybersecurity Leads Datadog’s global Graphing and Data Visualization engineering organization, setting technical and organizational strategy across graphing, dashboards, notebooks, search, and AI-powered interfaces. The role develops engineering leaders, partners with Product and Design, guides performant visualization platforms, and advances agent-based experiences for creating and exploring complex data. Top Skills: Artificial Intelligence Business Intelligence Dashboards Data Visualization Notebooks Search Interfaces",
       "recruiter": {
         "recruiter_name": "Datadog Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1473,7 +1473,7 @@
       }
     },
     {
-      "id": "builtin_4021628219659189468",
+      "id": "builtin_910773648620653381",
       "title": "Equities Engineering | Product Frontend Engineer | New York",
       "company": "Citadel",
       "location": "New York, NY",
@@ -1498,7 +1498,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Citadel in New York, NY via Built In.",
-      "description": "Citadel Equities Engineering | Product Frontend Engineer | New York Reposted 9 Hours Ago Saved In-Office New York, NY, USA 105K-300K Annually Mid level 105K-300K Annually Mid level Information Technology • Software • Financial Services • Big Data Analytics Develop and evolve investor-facing equity products from discovery through launch and iteration. Build high-performance, data-intensive interfaces using React and TypeScript for research, risk, portfolio, and investment workflows. Collaborate with investors, product managers, UX designers, and engineers to identify opportunities, shape product strategy, prototype solutions, and deliver maintainable, well-tested software with strong commercial impact. Top Skills: React Typescript",
+      "description": "Citadel Equities Engineering | Product Frontend Engineer | New York Reposted 18 Hours Ago Saved In-Office New York, NY, USA 105K-300K Annually Mid level 105K-300K Annually Mid level Information Technology • Software • Financial Services • Big Data Analytics Develop and evolve investor-facing equity products from discovery through launch and iteration. Build high-performance, data-intensive interfaces using React and TypeScript for research, risk, portfolio, and investment workflows. Collaborate with investors, product managers, UX designers, and engineers to identify opportunities, shape product strategy, prototype solutions, and deliver maintainable, well-tested software with strong commercial impact. Top Skills: React Typescript",
       "recruiter": {
         "recruiter_name": "Citadel Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -1593,6 +1593,158 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Granted%20%22hiring%22%20%22Product%20Engineer%2C%20Full-Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Granted%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Granted%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_7031154455482360685",
+      "title": "Analytics Lead, Full Stack",
+      "company": "Affirm",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/analytics-lead-full-stack/12127661",
+      "date_posted": "2026-11-07",
+      "salary": {
+        "min": 145000,
+        "max": 205000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$145,000 - $205,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Python"
+      ],
+      "snippet": "Open Senior Software Engineer role at Affirm in New York, NY via Built In.",
+      "description": "Affirm Analytics Lead, Full Stack 17 Hours Ago Saved Easy Apply Remote New York, NY Easy Apply 145K-205K Annually Senior level 145K-205K Annually Senior level Big Data • Fintech • Mobile • Payments • Financial Services Lead marketplace analytics for Affirm’s two-sided ecosystem by optimizing monetization, supply, demand, pricing, profitability, and user experience. Build KPI dashboards, analyze marketplace and affiliate performance, conduct experiments, evaluate incentives and placement, and perform loan-level profitability analyses. Partner cross-functionally with Product, Engineering, Sales, Client Success, and Marketing to improve merchant value, consumer engagement, conversion, and sustainable GMV growth. Top Skills: Dbt ETL Python Sigma SQL",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_8625409478034478099",
+      "title": "Backend Software Engineer",
+      "company": "Raydar",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Backend & Distributed Systems",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/backend-software-engineer/12131554",
+      "date_posted": "2026-11-07",
+      "salary": {
+        "min": 170000,
+        "max": 220000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$170,000 - $220,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open Software Engineer role at Raydar in New York, NY via Built In.",
+      "description": "Raydar Backend Software Engineer 15 Hours Ago Saved In-Office New York, NY 170K-220K Annually Junior 170K-220K Annually Junior Professional Services • Consulting Build and maintain backend services powering AI agents for finance workflows. Own a product module from design through production, develop prompts, tools, evaluation suites, and safety controls, and collaborate with accounting professionals to automate their workflows. Contribute to front-end development when needed. The role is full-time, on-site in New York City five days per week. Top Skills: Ai Agents Backend Services Evaluation Suites Prompt Engineering Safety Controls",
+      "recruiter": {
+        "recruiter_name": "Raydar Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Raydar Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Backend%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_affirm_8035736003",
+      "title": "Senior Security Engineer - Insider Threat",
+      "company": "Affirm",
+      "location": "Remote Canada",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Security Engineering",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8035736003",
+      "date_posted": "2026-11-07",
+      "salary": {
+        "min": 153000,
+        "max": 213000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$153,000 - $213,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "LLM",
+        "Python",
+        "REST"
+      ],
+      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the InfoSec team The InfoSec team protects Affirm’s systems and data from e...",
+      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the InfoSec team The InfoSec team protects Affirm’s systems and data from evolving threats. We manage security risk, monitor vulnerabilities, and enforce protective controls across the company. The team leads incident response, compliance, identity and access management, and employee training. Our goal is to ensure that security is built into every system and decision at Affirm. We maintain a secure, trustworthy environment so the business can operate and grow with confidence. About the role In this role, you'll help mature Affirm's insider threat program. You'll build out the controls, detection use cases, and investigative practices that make it work day to day, support insider risk investigations, and partner with Legal, HR, Privacy, and Compliance to keep the program effective, proportionate, and trusted by Affirmers. What you’ll do Lead the build-out of key insider threat workstreams, from initial design through to day-to-day operation Build out the program's operating mechanics, including investigative standards, playbooks, and the metrics and reporting that show whether the program is working Support insider risk investigations alongside SIRT, bringing insider threat expertise, telemetry and evidence analysis, and written findings and risk recommendations Partner with Legal, HR/Employee Relations, Privacy, and Compliance on case handling and escalation criteria, helping ensure the program respects employee privacy and meets legal and regulatory obligations Threat model Affirm's highest-risk data and systems for insider risk, and partner with detection engineers to turn the results into production detections Own and improve the controls that reduce insider risk, including data loss prevention, endpoint monitoring, secure browser and contractor access controls, SaaS posture management, and access governance, working with system owners to close gap Automate the program's operational load with workflow automation platforms and Python, covering evidence collection, case routing, and reporting Build and expand agentic automations that assist with insider risk triage and investigation, and define which decisions stay with a human What we look for Deep expertise in security engineering, security operations, insider risk, or digital forensics Track record of standing up new security capabilities where little existed before Experience running investigations end to end, including evidence handling, log and endpoint forensics, timeline reconstruction, and written findings suitable for Legal and HR audiences Ability to write and evaluate detection logic against endpoint, identity, cloud, and SaaS telemetry in a SIEM (Splunk, Elastic, Panther, Chronicle, or similar) Hands-on experience with insider risk tooling such as DLP, UEBA, endpoint detection and response, CASB, and access governance, with a practical sense of their strengths and limits Working knowledge of Python for security tooling and automation Experience building and maintaining production workflows in automation platforms such as Tines, Torq, or similar Experience building and running agentic automations in production that assist with alert triage and investigation, such as LLM-driven enrichment, summarization, or first-pass analysis, with a clear view of where human review stays in the loop Discretion and sound judgment handling sensitive investigations, and comfort navigating the privacy, legal, and employee-relations considerations that insider work carries Clear written and verbal communication skills, with the ability to work across Security, Engineering, Legal, HR, Privacy, and Compliance Experience in regulated or financial services environments (SOC 2, PCI DSS, GLBA) is a plus Base Pay Grade - N Equity Grade - Canada 6 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year: $153,000 - $213,000 $CAD. This remote role is open only to candidates residing in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan. #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Senior%20Security%20Engineer%20-%20Insider%20Threat%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_6620878642207295750",
+      "title": "Senior Full Stack Software Engineer",
+      "company": "Raydar",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-full-stack-software-engineer/12134047",
+      "date_posted": "2026-11-07",
+      "salary": {
+        "min": 175000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$175,000 - $225,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "JavaScript",
+        "Node.js"
+      ],
+      "snippet": "Open Senior Software Engineer role at Raydar in New York, NY via Built In.",
+      "description": "Raydar Senior Full Stack Software Engineer 3 Hours Ago Saved In-Office New York, NY 175K-225K Annually Senior level 175K-225K Annually Senior level Professional Services • Consulting Build and ship full-stack features for a payments-focused web platform. Responsibilities include scoping ambiguous product problems, making architectural decisions, developing JavaScript front-end and Node.js back-end functionality, translating operational processes into software, collaborating with non-technical stakeholders, and using AI tools and automation in development. Top Skills: JavaScript Node.js",
+      "recruiter": {
+        "recruiter_name": "Raydar Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Raydar Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Senior%20Full%20Stack%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -2910,49 +3062,6 @@
       }
     },
     {
-      "id": "gh_affirm_8011130003",
-      "title": "Analytics Lead, Full Stack",
-      "company": "Affirm",
-      "location": "Remote US",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8011130003",
-      "date_posted": "2026-11-06",
-      "salary": {
-        "min": 145000,
-        "max": 205000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$145,000 - $205,000 / yr"
-      },
-      "experience": {
-        "min_years": 7,
-        "max_years": null,
-        "display": "7+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "Python",
-        "REST"
-      ],
-      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and transparent, giving consu...",
-      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and transparent, giving consumers flexible ways to pay without hidden fees or compounding interest. After building a market-leading BNPL network with 30M+ customers, $50B+ GMV and 500k merchants, we’re entering our next ambitious chapter: transforming DTC shopping. At the center of this vision is the Affirm Marketplace, a rapidly scaling, high-leverage platform that connects consumers with merchants in a dynamic, two-sided ecosystem. About the Team The Risk & Analytics team makes crucial decisions that direct Affirm’s business strategy. Our team designs and runs experiments to decide which product features to launch and which marketing campaigns to fund. We analyze performance not just to report on it, but to determine where to invest resources for maximum impact through building tools and analytical frameworks. We take ownership of the entire analytical lifecycle, from initial question to final business decision, ensuring Affirm grows efficiently and intelligently. After building a market-leading BNPL network, we’re entering our next ambitious chapter: transforming DTC shopping. At the center of this vision is the Affirm Marketplace, a rapidly scaling, high-leverage platform that connects consumers with merchants in a dynamic, two-sided ecosystem. We’re looking for a Marketplace Analytics Lead to help architect and optimize the economic engine of our marketplace, balancing supply, demand, pricing, and user experience to drive sustainable growth. This is a high-impact IC role at the intersection of product, growth, and marketplace strategy. What You’ll Do Own marketplace monetization and economics, balancing merchant supply, consumer demand, and pricing to drive engagement, conversion, and profitability Monitor marketplace performance and adjust strategies based on engagement, relevance, merchant outcomes, LTV, and overall health Build and maintain dashboards and reporting to track key Marketplace KPIs and enable data-driven decisions Partner with Sales, Client Success, and Marketing to grow marketplace partners and increase merchant value Collaborate with Product and Engineering to improve the effectiveness, competitiveness, and relevance of Marketplace inventory and offers Analyze supply-side dynamics, including incentives, pricing, and placement, to understand elasticity and drive incremental GMV Lead analyses and experiments to test and refine new placements and optimize marketplace performance Conduct loan-level profitability analyses to ensure offers align with credit and financial goals while balancing consumer and merchant value Evaluate affiliate portfolio performance by integrating network data, identifying trends, and assessing the incremental impact of merchant-funded incentives What We’re Looking For 7+ years in analytics, with experience in marketplaces, ads/affiliate ecosystems, or two-sided platforms Strong intuition for supply-demand dynamics, pricing, and marketplace tradeoffs Experience with data tools such as SQL, Python, DBT, Sigma; comfortable managing ETLs and working with engineering teams to optimize data pipelines Strong curiosity and bias toward leveraging AI tools to accelerate analysis, automate workflows, and increase personal and team productivity Experience working cross-functionally with Product, GTM, and Engineering High ownership, strong judgment, and a bias toward action Pay Grade - M Equity Grade - 5 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year: $145,000 - $205,000 Additional benefits include: • Type of employment: Contract of Employment • Flexible Spending Wallets for tech, food and lifestyle • Away Days - wellness days to take off work and recharge • Learning & Development programs • Parental benefits • Employee Resource & Community Groups • This role is eligible for creative tax benefits, subject to applicable law and company policy Location - Remote Canada This remote role is open only to candidates residing in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan. LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
-      "recruiter": {
-        "recruiter_name": "Affirm Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "gh_mongodb_8274765",
       "title": "Senior Software Engineer (SRE), Infrastructure Security",
       "company": "MongoDB",
@@ -3154,6 +3263,53 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Riskified%20%22hiring%22%20%22Data%20Integrations%20Team%20Lead%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_coinbase_8347602",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior ML Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Machine Learning & AI",
+      "source": "Greenhouse",
+      "apply_url": "https://www.coinbase.com/careers/positions/8347602?gh_jid=8347602",
+      "date_posted": "2026-11-06",
+      "salary": {
+        "min": 213750,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$213,750 - $225,000 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Go",
+        "Kafka",
+        "LLM",
+        "PyTorch",
+        "Python",
+        "Spark"
+      ],
+      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
+      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The ML & Discovery team in Consumer Growth builds the machine learning systems that help millions of customers discover what to trade and engage with next across crypto, equities, derivatives, and prediction markets. Our models and platforms power personalized feed and asset ranking, intelligent notification orchestration, and LLM-driven market insights across the Coinbase app. As a Senior Machine Learning Engineer (L5) you will own end-to-end initiatives across the ML lifecycle, from problem formulation, feature engineering, and modeling to production serving and online A/B experimentation. Partnering closely with Product, Data Science, and Engineering in a high-velocity, data-driven environment, you will shape our team's roadmap, raise our engineering quality bar, and use AI-native workflows to deliver measurable business impact. What you’ll do: Own end-to-end machine learning initiatives from problem formulation and offline evaluation to production deployment and online A/B testing, driving measurable lifts in user engagement, retention, and trading activity. Build and iterate on multi-stage recommendation, retrieval, and contextual bandit models that serve personalized experiences to millions of users across crypto, equities, derivatives, and prediction markets. Design intelligent notification orchestration, candidate ranking, and targeting systems that match users with timely, high-value alerts while avoiding fatigue and improving user experience. Develop production LLM pipelines, grounding workflows, and automated evaluation loops that generate accurate, real-time market insights and personalized financial content. Architect resilient, low-latency model serving services and real-time feature pipelines, eliminating technical debt, leading incident response, and raising our operational reliability bar. Partner with Product, Data Science, and Engineering to shape the team roadmap, mentor L3-L4 engineers, and build AI-native workflows and automation that multiply team velocity. Required Skills and Experience: 5+ years of experience in machine learning engineering and software development, with a track record of shipping production ML systems that move customer and business metrics. Proven track record in one or more relevant domains: recommendation systems, multi-stage ranking and retrieval, contextual bandits, notification targeting, or production LLM applications. Strong software engineering and data skills in a backend language like Python or Go, with hands-on proficiency in modern ML and data stacks (such as PyTorch, GBDTs, Spark/Databricks, Ray, Kafka, and/or Tecton). Deep practical knowledge of offline model evaluation, training-serving skew mitigation, and design/interpretation of online A/B experiments tied to business metrics. Demonstrated ability to drive complex projects end-to-end, make pragmatic architectural trade-offs, and mentor junior engineers. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. P77866 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $213,750 — $225,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
+      "recruiter": {
+        "recruiter_name": "Coinbase Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -6897,7 +7053,7 @@
       }
     },
     {
-      "id": "builtin_297445480969790016",
+      "id": "builtin_1578989293799260421",
       "title": "Software Engineer, Frontend",
       "company": "Ramp",
       "location": "New York, NY",
@@ -13972,7 +14128,7 @@
       }
     },
     {
-      "id": "builtin_5283182028657013922",
+      "id": "builtin_1513287670933669877",
       "title": "Staff Software Engineer (Backend, Business Systems)",
       "company": "WHOOP",
       "location": "Boston, MA",
@@ -29065,7 +29221,7 @@
       }
     },
     {
-      "id": "builtin_5168895086769519950",
+      "id": "builtin_4909840687719861089",
       "title": "Senior Software Engineer, Shared Services",
       "company": "Justworks",
       "location": "New York, NY",
@@ -29101,6 +29257,50 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Justworks%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Shared%20Services%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Justworks%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Justworks%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_affirm_7916080003",
+      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+      "company": "Affirm",
+      "location": "Remote Spain",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Mid-Level",
+      "discipline": "General Software",
+      "archetype": "Data Engineering",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7916080003",
+      "date_posted": "2026-10-30",
+      "salary": {
+        "min": 63000,
+        "max": 99000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$63,000 - $99,000 / yr"
+      },
+      "experience": {
+        "min_years": 3,
+        "max_years": null,
+        "display": "3+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Python",
+        "REST",
+        "Snowflake"
+      ],
+      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics te...",
+      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Analyst at Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data governance, laying the foundation for reliable AI. The ideal candidate combines strong technical and analytical skills with the ability to turn ambiguous business questions into durable, well-tested data infrastructure. What you'll do Develop dbt data models, dashboards, metrics, and automation processes for the revenue field team and revenue analysts Build and maintain critical reporting data models that power external merchant reporting Build the semantic, metadata, and context layers that allow AI systems to accurately understand Revenue data, metrics, and business definitions Partner with Business Systems, engineering, and business stakeholders to translate requirements into durable, well-tested data products Contribute to the team’s best practices in version control, code review, documentation, and release hygiene (GitHub-based workflows) Develop processes, governance, and foundations to scale the impact of analytics within Revenue. What we look for 3+ years of work experience in an analytics engineering or business intelligence role Strong working knowledge of SQL, dbt, Python, data modeling, and data visualization Hands-on experience with BI tools (Sigma/Looker/Tableau), Databricks, and cloud data warehouses (Snowflake) Understanding of the data foundations required for reliable AI, including semantic layers, metadata, evals, metric definitions, documentation, and data quality Demonstrated experience integrating AI tools into day-to-day analytics engineering workflows to improve development speed, quality, and scalability Familiarity with Salesforce and experience supporting commercial areas of the business Ability to identify user needs and translate them into robust, scalable data products Ability to start with an ambiguous problem, deconstruct it into tangible steps, and work toward an impactful solution Ability to communicate findings and recommendations clearly to both technical and non-technical audiences. Compensation and Benefits Base Pay Grade - K Equity Grade - 3 Employees new to Affirm typically come in at the start of the pay range . Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents ). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). We are able to offer visa sponsorship for this role, but do require that someone is based in Spain for the role. ESP base pay range per year: 63,000 - 99,000 EUR Additional benefits include: Type of employment: Contract of Employment Flexible Spending Wallets for tech, food and lifestyle Away Days - wellness days to take off work and recharge Learning & Development programs Parental benefits Employee Resource & Community Groups This role is eligible for creative tax benefits, subject to applicable law and company policy Location - Remote Spain The majority of our roles can be located anywhere in Spain. **This job description is not a contractual document, and is not intended to have binding force.** #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Engineer%20II%2C%20Full%20Stack%20%28Revenue%20Analytics%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
       }
     },
     {
@@ -37876,7 +38076,7 @@
       }
     },
     {
-      "id": "builtin_2805532116919843345",
+      "id": "builtin_615218166392933415",
       "title": "Senior Software Engineer, Product Foundations",
       "company": "Justworks",
       "location": "New York, NY",
@@ -37922,7 +38122,7 @@
       }
     },
     {
-      "id": "builtin_3197726073683636635",
+      "id": "builtin_6601040687587034340",
       "title": "Senior Software Engineer, Workforce Payments",
       "company": "Justworks",
       "location": "New York, NY",
@@ -51280,43 +51480,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Clear%20Street%20%22hiring%22%20%22Senior%20/%20Staff%20Software%20Engineer%20%E2%80%94%20Algorithmic%20Execution%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Clear%20Street%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Clear%20Street%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_7561800678590247980",
-      "title": "Backend Software Engineer",
-      "company": "Raydar",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Backend & Distributed Systems",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/backend-software-engineer/11824717",
-      "date_posted": "2026-10-22",
-      "salary": {
-        "min": 185000,
-        "max": 250000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$185,000 - $250,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open Software Engineer role at Raydar in New York, NY via Built In.",
-      "description": "Raydar Backend Software Engineer 12 Days Ago Saved In-Office New York, NY 185K-250K Annually Mid level 185K-250K Annually Mid level Professional Services • Consulting Build and own backend services and core platform features while contributing to product management, UX, user research, and customer onboarding. Research and ship applied AI capabilities, reduce technical debt, and work directly with senior leadership on product direction. The role requires strong ownership, product judgment, customer engagement, and the ability to work independently in a fast-paced healthcare technology startup. Top Skills: Ai Tooling Backend Software",
-      "recruiter": {
-        "recruiter_name": "Raydar Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Raydar Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Backend%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -85093,7 +85256,7 @@
       }
     },
     {
-      "id": "builtin_2874106978544409187",
+      "id": "builtin_4185879812067426108",
       "title": "Senior Full Stack Software Engineer",
       "company": "Seamless.AI",
       "location": "New York, NY",
@@ -85116,7 +85279,7 @@
         "React"
       ],
       "snippet": "Open Senior Software Engineer role at Seamless.AI in New York, NY via Built In.",
-      "description": "Seamless.AI Senior Full Stack Software Engineer 7 Hours Ago Saved Remote New York, NY Senior level Senior level Artificial Intelligence • Information Technology • Machine Learning • Marketing Tech • Sales • Software • Database Own end-to-end full-stack development across web applications, Chrome extensions, mobile platforms, and backend services. Build scalable React interfaces and Node.js microservices handling large datasets and concurrent requests. Translate customer needs into technical solutions, integrate APIs, create workflows and schemas, and deliver iterative, high-quality features. Collaborate autonomously with product and remote engineering teams while supporting post-launch improvements. Top Skills: Amazon Athena Amazon S3 AWS Chrome Extensions Claude CSS Cursor Es6/7 Express HTML JavaScript JSON Node.js Opensearch Postgres React React Hooks SQL Webpack",
+      "description": "Seamless.AI Senior Full Stack Software Engineer 15 Hours Ago Saved Remote New York, NY Senior level Senior level Artificial Intelligence • Information Technology • Machine Learning • Marketing Tech • Sales • Software • Database Own end-to-end full-stack development across web applications, Chrome extensions, mobile platforms, and backend services. Build scalable React interfaces and Node.js microservices handling large datasets and concurrent requests. Translate customer needs into technical solutions, integrate APIs, create workflows and schemas, and deliver iterative, high-quality features. Collaborate autonomously with product and remote engineering teams while supporting post-launch improvements. Top Skills: Amazon Athena Amazon S3 AWS Chrome Extensions Claude CSS Cursor Es6/7 Express HTML JavaScript JSON Node.js Opensearch Postgres React React Hooks SQL Webpack",
       "recruiter": {
         "recruiter_name": "Seamless.AI Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -85129,7 +85292,7 @@
       }
     },
     {
-      "id": "builtin_5499022691404402541",
+      "id": "builtin_7951260345050567641",
       "title": "Associate Software Engineer",
       "company": "Keyfactor",
       "location": "New York, NY",
@@ -85145,7 +85308,7 @@
       "experience": null,
       "tech_stack": [],
       "snippet": "Open Software Engineer role at Keyfactor in New York, NY via Built In.",
-      "description": "Keyfactor Associate Software Engineer 7 Hours Ago Saved Remote New York, NY Junior Junior Cloud • Information Technology • Internet of Things Assists with designing, implementing, debugging, and maintaining software code. Participates in code reviews, QA efforts, documentation, Agile ceremonies, and collaborative problem-solving while developing foundational software engineering skills. Top Skills: Agile",
+      "description": "Keyfactor Associate Software Engineer 16 Hours Ago Saved Remote New York, NY Junior Junior Cloud • Information Technology • Internet of Things Assists with designing, implementing, debugging, and maintaining software code. Participates in code reviews, QA efforts, documentation, Agile ceremonies, and collaborative problem-solving while developing foundational software engineering skills. Top Skills: Agile",
       "recruiter": {
         "recruiter_name": "Keyfactor Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -85158,7 +85321,7 @@
       }
     },
     {
-      "id": "builtin_6301378476680667281",
+      "id": "builtin_1146506468096822706",
       "title": "Senior Bioinformatics Software Engineer",
       "company": "Baylor Genetics",
       "location": "New York, NY",
@@ -85186,7 +85349,7 @@
         "Python"
       ],
       "snippet": "Open Senior Software Engineer role at Baylor Genetics in New York, NY via Built In.",
-      "description": "Baylor Genetics Senior Bioinformatics Software Engineer 9 Hours Ago Saved Remote New York, NY Senior level Senior level Biotech Designs, develops, tests, documents, and maintains scalable software and bioinformatics pipelines. Builds data models, ETL processes, APIs, microservices, databases, dashboards, and workflow integrations supporting genomic analysis such as assembly, mapping, variant calling, and annotation. Collaborates with analysts, scientists, clinical reviewers, laboratory staff, and developers to translate requirements into production-ready solutions. Optimizes queries and performance, applies CI/CD and testing practices, and ensures maintainable, well-documented software. Top Skills: Airflow APIs Azure Azure Pipelines Bash C++ Conda Docker Doctest Elasticsearch Git Google Cloud Platform Groovy Hpc Java Kubernetes Linux Microservices Microsoft Teams MongoDB MySQL Nextflow NoSQL Perl Pip Power Automate Pytest Python R Singularity Slurm Snakemake SQL SQL Server",
+      "description": "Baylor Genetics Senior Bioinformatics Software Engineer 18 Hours Ago Saved Remote New York, NY Senior level Senior level Biotech Designs, develops, tests, documents, and maintains scalable software and bioinformatics pipelines. Builds data models, ETL processes, APIs, microservices, databases, dashboards, and workflow integrations supporting genomic analysis such as assembly, mapping, variant calling, and annotation. Collaborates with analysts, scientists, clinical reviewers, laboratory staff, and developers to translate requirements into production-ready solutions. Optimizes queries and performance, applies CI/CD and testing practices, and ensures maintainable, well-documented software. Top Skills: Airflow APIs Azure Azure Pipelines Bash C++ Conda Docker Doctest Elasticsearch Git Google Cloud Platform Groovy Hpc Java Kubernetes Linux Microservices Microsoft Teams MongoDB MySQL Nextflow NoSQL Perl Pip Power Automate Pytest Python R Singularity Slurm Snakemake SQL SQL Server",
       "recruiter": {
         "recruiter_name": "Baylor Genetics Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -85301,7 +85464,7 @@
       }
     },
     {
-      "id": "builtin_599762503679071107",
+      "id": "builtin_6876796218966234211",
       "title": "Sr Director, Analytics and Insights",
       "company": "ROI Solutions",
       "location": "Boston, MA",
@@ -85317,7 +85480,7 @@
       "experience": null,
       "tech_stack": [],
       "snippet": "Open Senior Director role at ROI Solutions in Boston, MA via Built In.",
-      "description": "ROI Solutions Sr Director, Analytics and Insights 9 Hours Ago Saved In-Office or Remote Boston, MA Senior level Senior level Enterprise Web • Social Impact • Software • Analytics Leads ROI’s analytics services as general manager, overseeing delivery quality, client experience, growth, retention, revenue expansion, and development of new analytics offerings. Sets long-term strategy, annual goals, budgets, product and go-to-market plans, and performance standards for modeling and benchmarking services. Partners with Product, Technology, Client Services, Sales, and senior leadership while managing, coaching, and mentoring staff. Top Skills: Data Modeling Machine Learning Microsoft Office 365",
+      "description": "ROI Solutions Sr Director, Analytics and Insights 18 Hours Ago Saved In-Office or Remote Boston, MA Senior level Senior level Enterprise Web • Social Impact • Software • Analytics Leads ROI’s analytics services as general manager, overseeing delivery quality, client experience, growth, retention, revenue expansion, and development of new analytics offerings. Sets long-term strategy, annual goals, budgets, product and go-to-market plans, and performance standards for modeling and benchmarking services. Partners with Product, Technology, Client Services, Sales, and senior leadership while managing, coaching, and mentoring staff. Top Skills: Data Modeling Machine Learning Microsoft Office 365",
       "recruiter": {
         "recruiter_name": "ROI Solutions Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -85394,6 +85557,35 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=JPMorganChase%20%22hiring%22%20%22Sales%20And%20Marketing%20Analytics%20Lead-Vice%20President%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=JPMorganChase%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=JPMorganChase%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4460764322",
+      "title": "Confluent - Senior Software Engineer II - Fleet Management Unified Deployment",
+      "company": "IBM",
+      "location": "Lowell, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/confluent-senior-software-engineer-ii-fleet-management-unified-deployment-at-ibm-4460764322",
+      "date_posted": "2026-11-07",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Confluent - Senior Software Engineer II - Fleet Management Unified Deployment at IBM (Lowell, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "IBM Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "IBM Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Confluent%20-%20Senior%20Software%20Engineer%20II%20-%20Fleet%20Management%20Unified%20Deployment%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston"
       }
     },
     {
@@ -89713,6 +89905,35 @@
       }
     },
     {
+      "id": "builtin_5700279868910760270",
+      "title": "Software Engineer  & Product",
+      "company": "OneHealth Tech Corp",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Remote",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer-product/12134504",
+      "date_posted": "2026-11-03",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open Software Engineer role at OneHealth Tech Corp in New York, NY via Built In.",
+      "description": "OneHealth Tech Corp Software Engineer  & Product An Hour Ago Saved Remote New York, NY Entry level Entry level Artificial Intelligence • Healthtech Build and test features for patients and care teams, translate user needs into product requirements, design information workflows, develop prototypes, gather feedback, and improve a healthcare platform through clinical testing.",
+      "recruiter": {
+        "recruiter_name": "OneHealth Tech Corp Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "OneHealth Tech Corp Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=OneHealth%20Tech%20Corp%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=OneHealth%20Tech%20Corp%20%22hiring%22%20%22Software%20Engineer%20%20%26%20Product%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=OneHealth%20Tech%20Corp%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=OneHealth%20Tech%20Corp%20engineering%20manager%20New%20York"
+      }
+    },
+    {
       "id": "gh_braze_8289921",
       "title": "Senior Software Engineer II, Decisioning Studio Integrations Team",
       "company": "Braze",
@@ -93197,41 +93418,32 @@
       }
     },
     {
-      "id": "gh_affirm_7813362003",
-      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
-      "company": "Affirm",
-      "location": "Remote Poland",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Mid-Level",
+      "id": "li_4410155854",
+      "title": "Principal Engineer Software - Storage (Chronosphere)",
+      "company": "Palo Alto Networks",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
       "discipline": "General Software",
-      "archetype": "Data Engineering",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
-      "date_posted": "2026-10-30",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-engineer-software-storage-chronosphere-at-palo-alto-networks-4410155854",
+      "date_posted": "2026-10-31",
       "salary": null,
-      "experience": {
-        "min_years": 3,
-        "max_years": null,
-        "display": "3+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "Python",
-        "REST",
-        "Snowflake"
-      ],
-      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics te...",
-      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Senior Analyst, Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data governance, laying the foundation for reliable AI. The ideal candidate combines strong technical and analytical skills with the ability to turn ambiguous business questions into durable, well-tested data infrastructure. What you'll do Develop dbt data models, dashboards, metrics, and automation processes for the revenue field team and revenue analysts Build and maintain critical reporting data models that power external merchant reporting Build the semantic, metadata, and context layers that allow AI systems to accurately understand Revenue data, metrics, and business definitions Partner with Business Systems, engineering, and business stakeholders to translate requirements into durable, well-tested data products Contribute to the team’s best practices in version control, code review, documentation, and release hygiene (GitHub-based workflows) Develop processes, governance, and foundations to scale the impact of analytics within Revenue. What we look for 3+ years of work experience in an analytics engineering or business intelligence role Strong working knowledge of SQL, dbt, Python, data modeling, and data visualization Hands-on experience with BI tools (Sigma/Looker/Tableau), Databricks, and cloud data warehouses (Snowflake) Understanding of the data foundations required for reliable AI, including semantic layers, metadata, evals, metric definitions, documentation, and data quality Demonstrated experience integrating AI tools into day-to-day analytics engineering workflows to improve development speed, quality, and scalability Familiarity with Salesforce and experience supporting commercial areas of the business Ability to identify user needs and translate them into robust, scalable data products Ability to start with an ambiguous problem, deconstruct it into tangible steps, and work toward an impactful solution Ability to communicate findings and recommendations clearly to both technical and non-technical audiences. Total rewards We believe the people building honest financial products at Affirm should share in its success. That's why our total rewards are designed to support your health, growth, financial well-being, and future. In service of our mission, we reward employees through a combination of base pay, equity (from parent company), and comprehensive benefits. Base Pay Grade - K 226 000 zł - 346 000 zł Base pay ranges and placement within those ranges are determined based on several factors, including role, experience, and job-related skills. In addition to base pay, all employees in this role are eligible to receive equity from the parent company each year. This means as Affirm’s parent company grows, employees have the opportunity to share in that growth financially. Equity Grade - 2 (awarded in US Dollars) Affirm Holdings, Inc. Equity Grade example Equity grade: 2 New hire equity: $16,000-$24,000 Annual Refresh: $5,000 Reward equity: $0-$75,000 Affirm also provides flexible spending wallets to all employees for technology and wellbeing related needs, which are reimbursable up to 1390 zł per month. In addition to your compensation, our comprehensive benefits are designed to support you and the people who matter most. Benefits include: Competitive paid time off, paid public holidays, and additional paid Away Days to rest and recharge. Comprehensive private healthcare through Lux Med's Platinum package. A MultiSport card to support your health and well-being. Learning and development programs to help you grow professionally. Family healthcare support through Maven and parental leave support through Parentaly. Mental well-being support through Lyra, including up to 12 confidential counseling or coaching sessions each year for you and your household members. Financial well-being support through Northstar, with unlimited access to Certified Financial Advisors and planning tools at no cost to you. Employee Resource Groups (ERGs) that foster connection and inclusion. Eligibility for creative tax benefits, subject to applicable law, role, and company policy. Location - Remote Poland The majority of our roles can be located anywhere in Poland. **This job description is not a contractual document, and is not intended to have binding force.** #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Engineer Software - Storage (Chronosphere) at Palo Alto Networks (Boston, MA) via LinkedIn.",
+      "description": "",
       "recruiter": {
-        "recruiter_name": "Affirm Recruiting Team",
+        "recruiter_name": "Palo Alto Networks Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "recruiter_team": "Palo Alto Networks Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20technical%20recruiter%20Boston",
         "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Engineer%20II%2C%20Full%20Stack%20%28Revenue%20Analytics%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Palo%20Alto%20Networks%20%22hiring%22%20%22Principal%20Engineer%20Software%20-%20Storage%20%28Chronosphere%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20engineering%20manager%20Boston"
       }
     },
     {
@@ -93592,46 +93804,6 @@
         "profile_url": "https://www.linkedin.com/in/ryan-becker-coinbase-recruiting/",
         "is_verified_partner": true,
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Engineering%20Manager%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "gh_coinbase_7739592",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Coinbase",
-      "location": "Remote - India",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior ML Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Machine Learning & AI",
-      "source": "Greenhouse",
-      "apply_url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": {
-        "min_years": 5,
-        "max_years": null,
-        "display": "5+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "AWS",
-        "Computer Vision",
-        "LLM",
-        "NLP",
-        "Python"
-      ],
-      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
-      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
-      "recruiter": {
-        "recruiter_name": "Coinbase Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
@@ -99960,6 +100132,35 @@
       }
     },
     {
+      "id": "li_4483084865",
+      "title": "Confluent - Principal Software Developer",
+      "company": "IBM",
+      "location": "Lowell, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/confluent-principal-software-developer-at-ibm-4483084865",
+      "date_posted": "2026-10-29",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Confluent - Principal Software Developer at IBM (Lowell, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "IBM Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "IBM Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Confluent%20-%20Principal%20Software%20Developer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_perplexity_886f4ab3-e691-45ed-b2db-069edf6f5413",
       "title": "Member of Technical Staff (Software Engineer, GPU Cluster Infrastructure)",
       "company": "Perplexity AI",
@@ -103554,6 +103755,35 @@
       }
     },
     {
+      "id": "li_4476167162",
+      "title": "Principal Firmware Engineer",
+      "company": "SharkNinja",
+      "location": "Needham, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "Systems & Embedded",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-firmware-engineer-at-sharkninja-4476167162",
+      "date_posted": "2026-10-27",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Firmware Engineer at SharkNinja (Needham, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "SharkNinja Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "SharkNinja Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=SharkNinja%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=SharkNinja%20%22hiring%22%20%22Principal%20Firmware%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=SharkNinja%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=SharkNinja%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_ramp_1e3b5c1e-28aa-4a8b-9af6-785df4aacd5f",
       "title": "KYB Operations Lead, UK",
       "company": "Ramp",
@@ -105157,6 +105387,35 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Baseten%20%22hiring%22%20%22Software%20Engineer%20-%20Compute%20%26%20Isolation%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Baseten%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Baseten%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4417236830",
+      "title": "Sr. Principal Electrical Engineer",
+      "company": "MKS Inc.",
+      "location": "Andover, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/sr-principal-electrical-engineer-at-mks-inc-4417236830",
+      "date_posted": "2026-10-26",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Sr. Principal Electrical Engineer at MKS Inc. (Andover, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "MKS Inc. Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "MKS Inc. Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=MKS%20Inc.%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=MKS%20Inc.%20%22hiring%22%20%22Sr.%20Principal%20Electrical%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=MKS%20Inc.%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=MKS%20Inc.%20engineering%20manager%20Boston"
       }
     },
     {
@@ -113953,6 +114212,37 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Lendbuzz%20%22hiring%22%20%22Machine%20Learning%20Scientist%20%28Financial%20Scoring%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lendbuzz%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lendbuzz%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4481779534",
+      "title": "Principal Embedded Firmware Engineer — AI/HPC Networking Silicon",
+      "company": "Cornelis Networks",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "Systems & Embedded",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-embedded-firmware-engineer-%E2%80%94-ai-hpc-networking-silicon-at-cornelis-networks-4481779534",
+      "date_posted": "2026-10-20",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open position for Principal Embedded Firmware Engineer — AI/HPC Networking Silicon at Cornelis Networks (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Cornelis Networks Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Cornelis Networks Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cornelis%20Networks%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cornelis%20Networks%20%22hiring%22%20%22Principal%20Embedded%20Firmware%20Engineer%20%E2%80%94%20AI/HPC%20Networking%20Silicon%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cornelis%20Networks%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cornelis%20Networks%20engineering%20manager%20Boston"
       }
     },
     {
@@ -122924,6 +123214,35 @@
       }
     },
     {
+      "id": "li_4465213949",
+      "title": "Senior Software Engineer, Cloud Engineering",
+      "company": "Arrowstreet Capital, Limited Partnership",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Infrastructure & Cloud / SRE",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-cloud-engineering-at-arrowstreet-capital-limited-partnership-4465213949",
+      "date_posted": "2026-09-14",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior Software Engineer, Cloud Engineering at Arrowstreet Capital, Limited Partnership (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Arrowstreet Capital, Limited Partnership Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Arrowstreet Capital, Limited Partnership Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Cloud%20Engineering%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_plaid_361c4725-ab72-4895-a3aa-9b642f4927a9",
       "title": "Data Scientist - Fraud",
       "company": "Plaid",
@@ -124267,6 +124586,35 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Camunda%20%22hiring%22%20%22Engineering%20Manager%20-%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Camunda%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Camunda%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4385419764",
+      "title": "Principal Cloud Software Engineer",
+      "company": "MathWorks",
+      "location": "Natick, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-cloud-software-engineer-at-mathworks-4385419764",
+      "date_posted": "2026-09-03",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Cloud Software Engineer at MathWorks (Natick, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "MathWorks Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "MathWorks Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=MathWorks%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=MathWorks%20%22hiring%22%20%22Principal%20Cloud%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=MathWorks%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=MathWorks%20engineering%20manager%20Boston"
       }
     },
     {
@@ -127212,6 +127560,35 @@
       }
     },
     {
+      "id": "li_4446397657",
+      "title": "Principal Cryptography Engineer",
+      "company": "MITRE",
+      "location": "Bedford, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "Security Engineering",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-cryptography-engineer-at-mitre-4446397657",
+      "date_posted": "2026-08-10",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Principal Cryptography Engineer at MITRE (Bedford, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "MITRE Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "MITRE Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=MITRE%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=MITRE%20%22hiring%22%20%22Principal%20Cryptography%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=MITRE%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=MITRE%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "li_4449983019",
       "title": "Member of Technical Staff - Backend/Distributed Systems",
       "company": "Emerald AI",
@@ -129006,6 +129383,35 @@
       }
     },
     {
+      "id": "li_4435026363",
+      "title": "Infrastructure Engineer",
+      "company": "Counsel Health",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Infrastructure & Cloud / SRE",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/infrastructure-engineer-at-counsel-health-4435026363",
+      "date_posted": "2026-07-02",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Infrastructure Engineer at Counsel Health (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Counsel Health Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Counsel Health Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Counsel%20Health%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Counsel%20Health%20%22hiring%22%20%22Infrastructure%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Counsel%20Health%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Counsel%20Health%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_ramp_42527ca9-03b9-499e-a5c4-18e4245af138",
       "title": "Software Engineer, Developer API",
       "company": "Ramp",
@@ -129916,6 +130322,37 @@
       }
     },
     {
+      "id": "li_4418809338",
+      "title": "Principal Software Engineer (AI/ML Architect)",
+      "company": "UKG",
+      "location": "Lowell, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/principal-software-engineer-ai-ml-architect-at-ukg-4418809338",
+      "date_posted": "2026-05-27",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open position for Principal Software Engineer (AI/ML Architect) at UKG (Lowell, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "UKG Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "UKG Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=UKG%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=UKG%20%22hiring%22%20%22Principal%20Software%20Engineer%20%28AI/ML%20Architect%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=UKG%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=UKG%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_cohere_6aa3cb2b-ee8b-4c92-b505-3a7509f80d7f",
       "title": "Software Engineer, Data Infrastructure",
       "company": "Cohere",
@@ -129947,6 +130384,35 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cohere%20%22hiring%22%20%22Software%20Engineer%2C%20Data%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4411501918",
+      "title": "Senior Engineer, Investment Technology Platform",
+      "company": "Arrowstreet Capital, Limited Partnership",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-engineer-investment-technology-platform-at-arrowstreet-capital-limited-partnership-4411501918",
+      "date_posted": "2026-05-14",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior Engineer, Investment Technology Platform at Arrowstreet Capital, Limited Partnership (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Arrowstreet Capital, Limited Partnership Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Arrowstreet Capital, Limited Partnership Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20%22hiring%22%20%22Senior%20Engineer%2C%20Investment%20Technology%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Arrowstreet%20Capital%2C%20Limited%20Partnership%20engineering%20manager%20Boston"
       }
     },
     {
@@ -132112,6 +132578,35 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cohere%20%22hiring%22%20%22Staff%20Software%20Engineer%2C%20Inference%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4359639227",
+      "title": "Senior or Staff Software Engineer, Infrastructure",
+      "company": "AcuityMD",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Staff",
+      "discipline": "General Software",
+      "archetype": "Infrastructure & Cloud / SRE",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-or-staff-software-engineer-infrastructure-at-acuitymd-4359639227",
+      "date_posted": "2026-01-09",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Senior or Staff Software Engineer, Infrastructure at AcuityMD (Boston, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "AcuityMD Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "AcuityMD Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=AcuityMD%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=AcuityMD%20%22hiring%22%20%22Senior%20or%20Staff%20Software%20Engineer%2C%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=AcuityMD%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=AcuityMD%20engineering%20manager%20Boston"
       }
     },
     {
