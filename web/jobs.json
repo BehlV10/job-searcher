@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-08 12:55:59 UTC",
-    "total_jobs": 3493,
-    "with_salary_count": 2033,
+    "last_updated": "2026-11-08 21:49:00 UTC",
+    "total_jobs": 3494,
+    "with_salary_count": 2031,
     "nyc_jobs": 1937,
     "boston_jobs": 763,
     "senior_staff_jobs": 62,
@@ -11,13 +11,13 @@
     "senior_swe_jobs": 1061,
     "senior_ml_jobs": 116,
     "mid_level_jobs": 203,
-    "swe_jobs": 1045,
+    "swe_jobs": 1046,
     "ml_engineer_jobs": 125,
     "senior_director_jobs": 33,
     "director_jobs": 37,
     "senior_manager_jobs": 50,
     "manager_jobs": 150,
-    "ml_jobs": 956,
+    "ml_jobs": 957,
     "general_swe_jobs": 2537,
     "sources": [
       "LinkedIn",
@@ -28,8 +28,8 @@
       "Hacker News"
     ],
     "source_breakdown": {
-      "Built In": 1322,
-      "Greenhouse": 1037,
+      "Built In": 1321,
+      "Greenhouse": 1039,
       "Ashby": 403,
       "Lever": 55,
       "Hacker News": 130,
@@ -40,10 +40,10 @@
       "General Software": 1527,
       "Full Stack": 180,
       "Infrastructure & Cloud / SRE": 406,
+      "Security Engineering": 231,
       "Backend & Distributed Systems": 262,
       "Data Engineering": 97,
       "Frontend & UI": 57,
-      "Security Engineering": 230,
       "Machine Learning & AI": 526,
       "Mobile Engineering": 76,
       "Systems & Embedded": 26
@@ -236,6 +236,44 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Nordic%20Semiconductor%20%22hiring%22%20%22Platform%20Engineer%2C%20nRF%20Cloud%20-%20Boston%2C%20MA%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nordic%20Semiconductor%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nordic%20Semiconductor%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_anthropic_5459191008",
+      "title": "Research Engineer, Cybersecurity RL",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Security Engineering",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
+      "date_posted": "2026-11-08",
+      "salary": {
+        "min": 500000,
+        "max": 850000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$500,000 - $850,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "LLM"
+      ],
+      "snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy e...",
+      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About Horizons The Horizons team leads Anthropic's reinforcement learning (RL) research and development, playing a critical role in advancing our AI systems. We've contributed to every Claude release, with significant impact on the autonomy, coding, and reasoning capabilities of Anthropic's models. About the role We're hiring for the Cybersecurity RL team within Horizons. As a Research Engineer, you'll help to safely advance the capabilities of our models in secure coding, vulnerability remediation, and other areas of defensive cybersecurity. This role blends research and engineering, requiring you to both develop novel approaches and realize them in code. Your work will include designing and implementing RL environments, conducting experiments and evaluations, delivering your work into production training runs, and collaborating with other researchers, engineers, and cybersecurity specialists across and outside Anthropic. The role requires domain expertise in cybersecurity paired with interest or experience in training safe AI models. For example, you might be a white hat hacker who's curious about how LLMs could augment or transform your work, a security engineer interested in how AI could help harden systems at scale, or a detection and response professional wondering how models could enhance defensive workflows. You may be a good fit if you: Have experience in cybersecurity research. Have experience with machine learning. Have strong software engineering skills. Can balance research exploration with engineering implementation. Are passionate about AI's potential and committed to developing safe and beneficial systems. Strong candidates may also have: Professional experience in security engineering, fuzzing, detection and response, or other applied defensive work. Experience participating in or building CTF competitions and cyber ranges. Academic research experience in cybersecurity. Familiarity with RL techniques and environments. Familiarity with LLM training methodologies. The annual compensation range for this role is listed below. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role. Annual Salary: $500,000 — $850,000 USD Logistics Minimum education: Bachelor’s degree or an equivalent combination of education, training, and/or experience Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience Minimum years of experience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices. Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this. For roles performing work in California: We will consider for employment all qualified applicants, including those with arrest or conviction records or criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the San Francisco Fair Chance Ordinance, the City of Los Angeles’ Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team. Your safety matters to us. To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit anthropic.com/careers directly for confirmed position openings. How we're different We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills. The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences. Come work with us! Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. Guidance on Candidates' AI Usage: Learn about our policy for using AI in our application process.",
+      "recruiter": {
+        "recruiter_name": "Anthropic Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Anthropic People & Staffing",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Anthropic%20%22hiring%22%20%22Research%20Engineer%2C%20Cybersecurity%20RL%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -1754,43 +1792,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Granted%20%22hiring%22%20%22Product%20Engineer%2C%20Full-Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Granted%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Granted%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_5199749159115619653",
-      "title": "Analytics Lead, Full Stack",
-      "company": "Affirm",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/analytics-lead-full-stack/12127661",
-      "date_posted": "2026-11-07",
-      "salary": {
-        "min": 145000,
-        "max": 205000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$145,000 - $205,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Python"
-      ],
-      "snippet": "Open Senior Software Engineer role at Affirm in New York, NY via Built In.",
-      "description": "Affirm Analytics Lead, Full Stack Yesterday Saved Easy Apply Remote New York, NY Easy Apply 145K-205K Annually Senior level 145K-205K Annually Senior level Big Data • Fintech • Mobile • Payments • Financial Services Lead marketplace analytics for Affirm’s two-sided ecosystem by optimizing monetization, supply, demand, pricing, profitability, and user experience. Build KPI dashboards, analyze marketplace and affiliate performance, conduct experiments, evaluate incentives and placement, and perform loan-level profitability analyses. Partner cross-functionally with Product, Engineering, Sales, Client Success, and Marketing to improve merchant value, consumer engagement, conversion, and sustainable GMV growth. Top Skills: Dbt ETL Python Sigma SQL",
-      "recruiter": {
-        "recruiter_name": "Affirm Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -3561,53 +3562,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Riskified%20%22hiring%22%20%22Data%20Integrations%20Team%20Lead%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "gh_coinbase_8347602",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Coinbase",
-      "location": "Remote - USA",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior ML Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Machine Learning & AI",
-      "source": "Greenhouse",
-      "apply_url": "https://www.coinbase.com/careers/positions/8347602?gh_jid=8347602",
-      "date_posted": "2026-11-06",
-      "salary": {
-        "min": 213750,
-        "max": 225000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$213,750 - $225,000 / yr"
-      },
-      "experience": {
-        "min_years": 5,
-        "max_years": null,
-        "display": "5+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "Go",
-        "Kafka",
-        "LLM",
-        "PyTorch",
-        "Python",
-        "Spark"
-      ],
-      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
-      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The ML & Discovery team in Consumer Growth builds the machine learning systems that help millions of customers discover what to trade and engage with next across crypto, equities, derivatives, and prediction markets. Our models and platforms power personalized feed and asset ranking, intelligent notification orchestration, and LLM-driven market insights across the Coinbase app. As a Senior Machine Learning Engineer (L5) you will own end-to-end initiatives across the ML lifecycle, from problem formulation, feature engineering, and modeling to production serving and online A/B experimentation. Partnering closely with Product, Data Science, and Engineering in a high-velocity, data-driven environment, you will shape our team's roadmap, raise our engineering quality bar, and use AI-native workflows to deliver measurable business impact. What you’ll do: Own end-to-end machine learning initiatives from problem formulation and offline evaluation to production deployment and online A/B testing, driving measurable lifts in user engagement, retention, and trading activity. Build and iterate on multi-stage recommendation, retrieval, and contextual bandit models that serve personalized experiences to millions of users across crypto, equities, derivatives, and prediction markets. Design intelligent notification orchestration, candidate ranking, and targeting systems that match users with timely, high-value alerts while avoiding fatigue and improving user experience. Develop production LLM pipelines, grounding workflows, and automated evaluation loops that generate accurate, real-time market insights and personalized financial content. Architect resilient, low-latency model serving services and real-time feature pipelines, eliminating technical debt, leading incident response, and raising our operational reliability bar. Partner with Product, Data Science, and Engineering to shape the team roadmap, mentor L3-L4 engineers, and build AI-native workflows and automation that multiply team velocity. Required Skills and Experience: 5+ years of experience in machine learning engineering and software development, with a track record of shipping production ML systems that move customer and business metrics. Proven track record in one or more relevant domains: recommendation systems, multi-stage ranking and retrieval, contextual bandits, notification targeting, or production LLM applications. Strong software engineering and data skills in a backend language like Python or Go, with hands-on proficiency in modern ML and data stacks (such as PyTorch, GBDTs, Spark/Databricks, Ray, Kafka, and/or Tecton). Deep practical knowledge of offline model evaluation, training-serving skew mitigation, and design/interpretation of online A/B experiments tied to business metrics. Demonstrated ability to drive complex projects end-to-end, make pragmatic architectural trade-offs, and mentor junior engineers. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. P77866 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $213,750 — $225,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
-      "recruiter": {
-        "recruiter_name": "Coinbase Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -7351,7 +7305,7 @@
       }
     },
     {
-      "id": "builtin_2150654815920228743",
+      "id": "builtin_8677069635358652835",
       "title": "Software Engineer, Frontend",
       "company": "Ramp",
       "location": "New York, NY",
@@ -14466,7 +14420,7 @@
       }
     },
     {
-      "id": "builtin_2488537948631225",
+      "id": "builtin_425341779480147955",
       "title": "Staff Software Engineer (Backend, Business Systems)",
       "company": "WHOOP",
       "location": "Boston, MA",
@@ -16886,6 +16840,49 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Penn%20Mutual%20%22hiring%22%20%22Senior%20DevOps%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Penn%20Mutual%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Penn%20Mutual%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_affirm_8003170003",
+      "title": "Analytics Lead, Full Stack",
+      "company": "Affirm",
+      "location": "Remote Canada",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8003170003",
+      "date_posted": "2026-10-30",
+      "salary": {
+        "min": 145000,
+        "max": 205000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$145,000 - $205,000 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Python",
+        "REST"
+      ],
+      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a highly motivated and analytical individual to join our Growth An...",
+      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a highly motivated and analytical individual to join our Growth Analytics International team. This team plays a crucial role in conducting research, monitoring performance, and running experiments to develop exceptional products for both consumers and merchants while driving long-term growth for the business. As Affirm continues expanding into new international markets, this role will be instrumental in establishing the operational analytics framework for new launches, beginning with Australia and expanding into future international markets. The ideal candidate will possess strong analytical and problem-solving abilities, a collaborative mindset, an eagerness to learn, and the patience to tackle complex challenges. Our team takes an end-to-end business analytics perspective, partnering across the organization to develop recommendations and solutions that enable the business to successfully execute its growth and profitability strategies. This role requires someone who can combine analytical rigor with business acumen to influence decisions and drive measurable outcomes. What you’ll do Establish and evolve the operational analytics framework for new international markets, ensuring scalable measurement, reporting, and decision-making capabilities as we expand globally. Operate with a business owner mindset by proactively identifying opportunities through analysis and product sense to enhance user experience, growth, and profitability. Own business problems from end to end by translating analytical insights into recommendations and optimization strategies that support business growth, profitability, and operational excellence. Take ownership of the end-to-end analytics process: define success metrics, generate insights and hypotheses, track performance, and create intuitive dashboards and reports that can be easily shared across the organization. Develop scalable analytics solutions and data models. Tackle ambiguous problems by identifying the core hypotheses and designing actionable experiments to validate product-market fit and economic viability. Translate analytical findings into clear and compelling narratives and business cases for leadership to inform decision-making. Spearhead weekly cross-functional metric reviews, collaborating with partners to conduct deep dives into significant metric shifts and suggest actionable steps. Partner effectively across Product, Risk, Finance, Commercial, and Operations to align strategies and execute against business objectives. Foster strong cross-functional relationships and establish yourself as a trusted advisor to team members. Mentor and guide junior analysts to deliver high-impact work that drives business results. What we look for: Passion to redefine the lending and financial industry for the better. Strong understanding of the consumer lending and credit industry, including lending economics, portfolio performance, and credit metrics. Experience supporting international lending markets, particularly Europe and/or APAC, is highly desirable. Demonstrated ability to balance growth objectives with profitability and develop data-driven growth strategies. Bachelor's or Master's degree in a quantitatively rigorous subject area such as statistics, mathematics, finance, or economics. 5+ years of proven success in a cross-functional analytical role. Practical and theoretical knowledge of A/B testing. Experience with SQL and performing statistical analysis using Python. Experience simultaneously balancing multiple workstreams and prioritizing an analytics roadmap. Demonstrated curiosity and a growth mindset, with hands-on experience using AI-powered tools such as Cursor, Claude, or similar assistants to accelerate analysis, automate workflows, enhance problem-solving, and advocate for AI adoption across analytical workflows. Strong interpersonal and communication skills, with the ability to influence both technical and non-technical audiences. Comfortable partnering across multiple cross-functional teams, particularly Product, Risk, Commercial, Finance, and Operations. Ability to think creatively and critically while thriving in a fast-paced, dynamic, and often ambiguous work environment. Willingness to go out of your way to help teammates, with humility and a team-first mindset. Previous experience mentoring and guiding junior analysts. Compensation & Benefits Base Pay Grade - M Equity Grade - 5 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year: $145,000 - $205,000 #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
       }
     },
     {
@@ -29559,7 +29556,7 @@
       }
     },
     {
-      "id": "builtin_815067083422895681",
+      "id": "builtin_7146072385387383877",
       "title": "Senior Software Engineer, Shared Services",
       "company": "Justworks",
       "location": "New York, NY",
@@ -29595,50 +29592,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Justworks%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Shared%20Services%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Justworks%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Justworks%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "gh_affirm_7916080003",
-      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
-      "company": "Affirm",
-      "location": "Remote Spain",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Mid-Level",
-      "discipline": "General Software",
-      "archetype": "Data Engineering",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7916080003",
-      "date_posted": "2026-10-30",
-      "salary": {
-        "min": 63000,
-        "max": 99000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$63,000 - $99,000 / yr"
-      },
-      "experience": {
-        "min_years": 3,
-        "max_years": null,
-        "display": "3+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "Python",
-        "REST",
-        "Snowflake"
-      ],
-      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics te...",
-      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Analyst at Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data governance, laying the foundation for reliable AI. The ideal candidate combines strong technical and analytical skills with the ability to turn ambiguous business questions into durable, well-tested data infrastructure. What you'll do Develop dbt data models, dashboards, metrics, and automation processes for the revenue field team and revenue analysts Build and maintain critical reporting data models that power external merchant reporting Build the semantic, metadata, and context layers that allow AI systems to accurately understand Revenue data, metrics, and business definitions Partner with Business Systems, engineering, and business stakeholders to translate requirements into durable, well-tested data products Contribute to the team’s best practices in version control, code review, documentation, and release hygiene (GitHub-based workflows) Develop processes, governance, and foundations to scale the impact of analytics within Revenue. What we look for 3+ years of work experience in an analytics engineering or business intelligence role Strong working knowledge of SQL, dbt, Python, data modeling, and data visualization Hands-on experience with BI tools (Sigma/Looker/Tableau), Databricks, and cloud data warehouses (Snowflake) Understanding of the data foundations required for reliable AI, including semantic layers, metadata, evals, metric definitions, documentation, and data quality Demonstrated experience integrating AI tools into day-to-day analytics engineering workflows to improve development speed, quality, and scalability Familiarity with Salesforce and experience supporting commercial areas of the business Ability to identify user needs and translate them into robust, scalable data products Ability to start with an ambiguous problem, deconstruct it into tangible steps, and work toward an impactful solution Ability to communicate findings and recommendations clearly to both technical and non-technical audiences. Compensation and Benefits Base Pay Grade - K Equity Grade - 3 Employees new to Affirm typically come in at the start of the pay range . Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents ). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). We are able to offer visa sponsorship for this role, but do require that someone is based in Spain for the role. ESP base pay range per year: 63,000 - 99,000 EUR Additional benefits include: Type of employment: Contract of Employment Flexible Spending Wallets for tech, food and lifestyle Away Days - wellness days to take off work and recharge Learning & Development programs Parental benefits Employee Resource & Community Groups This role is eligible for creative tax benefits, subject to applicable law and company policy Location - Remote Spain The majority of our roles can be located anywhere in Spain. **This job description is not a contractual document, and is not intended to have binding force.** #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
-      "recruiter": {
-        "recruiter_name": "Affirm Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Engineer%20II%2C%20Full%20Stack%20%28Revenue%20Analytics%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
       }
     },
     {
@@ -38453,7 +38406,7 @@
       }
     },
     {
-      "id": "builtin_7473442556574351666",
+      "id": "builtin_1266430349784675412",
       "title": "Senior Software Engineer, Product Foundations",
       "company": "Justworks",
       "location": "New York, NY",
@@ -38499,7 +38452,7 @@
       }
     },
     {
-      "id": "builtin_996349008385078520",
+      "id": "builtin_7309297305991414971",
       "title": "Senior Software Engineer, Workforce Payments",
       "company": "Justworks",
       "location": "New York, NY",
@@ -57668,44 +57621,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Root%20%22hiring%22%20%22Lead%20Data%20Scientist%2C%20Telematics%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Root%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Root%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "gh_anthropic_5025624008",
-      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
-      "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Software Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Security Engineering",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
-      "date_posted": "2026-10-20",
-      "salary": {
-        "min": 500000,
-        "max": 850000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$500,000 - $850,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI",
-        "LLM"
-      ],
-      "snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy e...",
-      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About Horizons The Horizons team leads Anthropic's reinforcement learning (RL) research and development, playing a critical role in advancing our AI systems. We've contributed to every Claude release, with significant impact on the autonomy, coding, and reasoning capabilities of Anthropic's models. About the role We're hiring for the Cybersecurity RL team within Horizons. As a Research Engineer, you'll help to safely advance the capabilities of our models in secure coding, vulnerability remediation, and other areas of defensive cybersecurity. This role blends research and engineering, requiring you to both develop novel approaches and realize them in code. Your work will include designing and implementing RL environments, conducting experiments and evaluations, delivering your work into production training runs, and collaborating with other researchers, engineers, and cybersecurity specialists across and outside Anthropic. The role requires domain expertise in cybersecurity paired with interest or experience in training safe AI models. For example, you might be a white hat hacker who's curious about how LLMs could augment or transform your work, a security engineer interested in how AI could help harden systems at scale, or a detection and response professional wondering how models could enhance defensive workflows. You may be a good fit if you: Have experience in cybersecurity research. Have experience with machine learning. Have strong software engineering skills. Can balance research exploration with engineering implementation. Are passionate about AI's potential and committed to developing safe and beneficial systems. Strong candidates may also have: Professional experience in security engineering, fuzzing, detection and response, or other applied defensive work. Experience participating in or building CTF competitions and cyber ranges. Academic research experience in cybersecurity. Familiarity with RL techniques and environments. Familiarity with LLM training methodologies. The annual compensation range for this role is listed below. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role. Annual Salary: $500,000 — $850,000 USD Logistics Minimum education: Bachelor’s degree or an equivalent combination of education, training, and/or experience Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience Minimum years of experience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices. Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this. For roles performing work in California: We will consider for employment all qualified applicants, including those with arrest or conviction records or criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the San Francisco Fair Chance Ordinance, the City of Los Angeles’ Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team. Your safety matters to us. To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit anthropic.com/careers directly for confirmed position openings. How we're different We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills. The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences. Come work with us! Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. Guidance on Candidates' AI Usage: Learn about our policy for using AI in our application process.",
-      "recruiter": {
-        "recruiter_name": "Anthropic Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Anthropic People & Staffing",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Anthropic%20%22hiring%22%20%22Research%20Engineer%2C%20Cybersecurity%20RL%20%28Reinforcement%20Learning%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -85935,6 +85850,38 @@
       }
     },
     {
+      "id": "gh_anthropic_5463598008",
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Security Engineering",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008",
+      "date_posted": "2026-11-06",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "LLM"
+      ],
+      "snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy e...",
+      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Team The Security team protects Anthropic's AI systems and maintains the trust of our users and society. About the Role At Anthropic, we are pioneering new frontiers in AI that have the potential to greatly benefit society. However, developing advanced AI also comes with risks if not properly safeguarded. As a Research Engineer, you'll help to safely advance the capabilities of our models in incident response, security analysis, vulnerability remediation, and other areas of defensive cybersecurity. This role blends research and engineering, requiring you to both develop novel approaches and realize them in code. Your work will include designing and implementing RL environments, conducting experiments and evaluations, delivering your work into production training runs, and collaborating with other researchers, engineers, and cybersecurity specialists across and outside Anthropic. This role requires ML experience combined with domain expertise in cybersecurity. You might be an ML researcher with a history of cybersecurity work, or a security professional with a background in ML. Responsibilities Partner with researchers and safety teams across Anthropic to understand their analytical needs and build solutions Develop agentic integrations that allow AI systems to autonomously investigate and act on analytical findings Contribute to the strategic direction of the team, including decisions about what to build, what to partner on, and where to invest This role may require participation in an on-call rotation. You may be a good fit if you Have experience with machine learning. Have experience in cybersecurity research. Have strong software engineering skills. Can balance research exploration with engineering implementation. Are passionate about AI's potential and committed to developing safe and beneficial systems. Strong candidates may also have Professional experience in security engineering, fuzzing, detection and response, or other applied defensive work. Experience participating in or building CTF competitions and cyber ranges. Academic research experience in cybersecurity or other experimental & research background. Familiarity with RL techniques and environments. Familiarity with LLM training methodologies. The annual compensation range for this role is listed below. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role. Annual Salary: $1 — $2 USD Logistics Minimum education: Bachelor’s degree or an equivalent combination of education, training, and/or experience Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience Minimum years of experience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices. Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this. For roles performing work in California: We will consider for employment all qualified applicants, including those with arrest or conviction records or criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the San Francisco Fair Chance Ordinance, the City of Los Angeles’ Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team. Your safety matters to us. To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit anthropic.com/careers directly for confirmed position openings. How we're different We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills. The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences. Come work with us! Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. Guidance on Candidates' AI Usage: Learn about our policy for using AI in our application process.",
+      "recruiter": {
+        "recruiter_name": "Anthropic Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Anthropic People & Staffing",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Anthropic%20%22hiring%22%20%22Research%20Engineer%2C%20Cybersecurity%20RL%20%28Reinforcement%20Learning%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20engineering%20manager%20New%20York"
+      }
+    },
+    {
       "id": "li_4486956989",
       "title": "Forward Deployed Engineer III, Generative AI, Google Cloud",
       "company": "Google",
@@ -93790,6 +93737,84 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Palo%20Alto%20Networks%20%22hiring%22%20%22Principal%20Engineer%20Software%20-%20Storage%20%28Chronosphere%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_coinbase_7739592",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Coinbase",
+      "location": "Remote - India",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior ML Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Machine Learning & AI",
+      "source": "Greenhouse",
+      "apply_url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "AWS",
+        "Computer Vision",
+        "LLM",
+        "NLP",
+        "Python"
+      ],
+      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
+      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
+      "recruiter": {
+        "recruiter_name": "Coinbase Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_affirm_7813362003",
+      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+      "company": "Affirm",
+      "location": "Remote Poland",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Mid-Level",
+      "discipline": "General Software",
+      "archetype": "Data Engineering",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
+      "date_posted": "2026-10-30",
+      "salary": null,
+      "experience": {
+        "min_years": 3,
+        "max_years": null,
+        "display": "3+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Python",
+        "REST",
+        "Snowflake"
+      ],
+      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics te...",
+      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Senior Analyst, Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data governance, laying the foundation for reliable AI. The ideal candidate combines strong technical and analytical skills with the ability to turn ambiguous business questions into durable, well-tested data infrastructure. What you'll do Develop dbt data models, dashboards, metrics, and automation processes for the revenue field team and revenue analysts Build and maintain critical reporting data models that power external merchant reporting Build the semantic, metadata, and context layers that allow AI systems to accurately understand Revenue data, metrics, and business definitions Partner with Business Systems, engineering, and business stakeholders to translate requirements into durable, well-tested data products Contribute to the team’s best practices in version control, code review, documentation, and release hygiene (GitHub-based workflows) Develop processes, governance, and foundations to scale the impact of analytics within Revenue. What we look for 3+ years of work experience in an analytics engineering or business intelligence role Strong working knowledge of SQL, dbt, Python, data modeling, and data visualization Hands-on experience with BI tools (Sigma/Looker/Tableau), Databricks, and cloud data warehouses (Snowflake) Understanding of the data foundations required for reliable AI, including semantic layers, metadata, evals, metric definitions, documentation, and data quality Demonstrated experience integrating AI tools into day-to-day analytics engineering workflows to improve development speed, quality, and scalability Familiarity with Salesforce and experience supporting commercial areas of the business Ability to identify user needs and translate them into robust, scalable data products Ability to start with an ambiguous problem, deconstruct it into tangible steps, and work toward an impactful solution Ability to communicate findings and recommendations clearly to both technical and non-technical audiences. Total rewards We believe the people building honest financial products at Affirm should share in its success. That's why our total rewards are designed to support your health, growth, financial well-being, and future. In service of our mission, we reward employees through a combination of base pay, equity (from parent company), and comprehensive benefits. Base Pay Grade - K 226 000 zł - 346 000 zł Base pay ranges and placement within those ranges are determined based on several factors, including role, experience, and job-related skills. In addition to base pay, all employees in this role are eligible to receive equity from the parent company each year. This means as Affirm’s parent company grows, employees have the opportunity to share in that growth financially. Equity Grade - 2 (awarded in US Dollars) Affirm Holdings, Inc. Equity Grade example Equity grade: 2 New hire equity: $16,000-$24,000 Annual Refresh: $5,000 Reward equity: $0-$75,000 Affirm also provides flexible spending wallets to all employees for technology and wellbeing related needs, which are reimbursable up to 1390 zł per month. In addition to your compensation, our comprehensive benefits are designed to support you and the people who matter most. Benefits include: Competitive paid time off, paid public holidays, and additional paid Away Days to rest and recharge. Comprehensive private healthcare through Lux Med's Platinum package. A MultiSport card to support your health and well-being. Learning and development programs to help you grow professionally. Family healthcare support through Maven and parental leave support through Parentaly. Mental well-being support through Lyra, including up to 12 confidential counseling or coaching sessions each year for you and your household members. Financial well-being support through Northstar, with unlimited access to Certified Financial Advisors and planning tools at no cost to you. Employee Resource Groups (ERGs) that foster connection and inclusion. Eligibility for creative tax benefits, subject to applicable law, role, and company policy. Location - Remote Poland The majority of our roles can be located anywhere in Poland. **This job description is not a contractual document, and is not intended to have binding force.** #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Engineer%20II%2C%20Full%20Stack%20%28Revenue%20Analytics%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
       }
     },
     {
