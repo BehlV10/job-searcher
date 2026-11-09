@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "last_updated": "2026-11-08 21:49:00 UTC",
-    "total_jobs": 3494,
-    "with_salary_count": 2031,
-    "nyc_jobs": 1937,
-    "boston_jobs": 763,
+    "last_updated": "2026-11-09 15:30:18 UTC",
+    "total_jobs": 3505,
+    "with_salary_count": 2044,
+    "nyc_jobs": 1945,
+    "boston_jobs": 764,
     "senior_staff_jobs": 62,
     "principal_jobs": 163,
-    "staff_jobs": 448,
-    "senior_swe_jobs": 1061,
+    "staff_jobs": 449,
+    "senior_swe_jobs": 1063,
     "senior_ml_jobs": 116,
     "mid_level_jobs": 203,
-    "swe_jobs": 1046,
-    "ml_engineer_jobs": 125,
+    "swe_jobs": 1053,
+    "ml_engineer_jobs": 126,
     "senior_director_jobs": 33,
     "director_jobs": 37,
     "senior_manager_jobs": 50,
     "manager_jobs": 150,
-    "ml_jobs": 957,
-    "general_swe_jobs": 2537,
+    "ml_jobs": 958,
+    "general_swe_jobs": 2547,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -28,22 +28,22 @@
       "Hacker News"
     ],
     "source_breakdown": {
-      "Built In": 1321,
+      "Built In": 1330,
       "Greenhouse": 1039,
+      "Hacker News": 132,
       "Ashby": 403,
       "Lever": 55,
-      "Hacker News": 130,
       "LinkedIn": 546
     },
     "archetype_breakdown": {
+      "General Software": 1532,
+      "Full Stack": 182,
+      "Backend & Distributed Systems": 264,
+      "Infrastructure & Cloud / SRE": 407,
+      "Frontend & UI": 58,
       "Engineering Leadership": 106,
-      "General Software": 1527,
-      "Full Stack": 180,
-      "Infrastructure & Cloud / SRE": 406,
       "Security Engineering": 231,
-      "Backend & Distributed Systems": 262,
       "Data Engineering": 97,
-      "Frontend & UI": 57,
       "Machine Learning & AI": 526,
       "Mobile Engineering": 76,
       "Systems & Embedded": 26
@@ -77,6 +77,617 @@
     "outreach_template": "Hi {{recruiter_name}},\n\nI noticed {{company}} is hiring for a {{job_title}} in {{location}}. With extensive experience architecting high-scale distributed systems and leading engineering initiatives, I'm very excited about {{company}}'s mission.\n\nI've attached my resume and would love to connect for a quick 10-minute chat if you're open to it.\n\nBest regards,\n{{user_name}}"
   },
   "jobs": [
+    {
+      "id": "builtin_2462791041862096320",
+      "title": "Senior Software Engineer",
+      "company": "INTOO",
+      "location": "Remote",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/senior-software-engineer/10893936",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 130000,
+        "max": 170000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$130,000 - $170,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AWS",
+        "CI/CD",
+        "JavaScript",
+        "MySQL",
+        "React",
+        "Redis"
+      ],
+      "snippet": "Open Senior Software Engineer role at INTOO in Remote via Built In.",
+      "description": "INTOO Senior Software Engineer Reposted 15 Hours Ago Saved Remote or Hybrid 14 Locations 130K-170K Annually Senior level 130K-170K Annually Senior level Other • Professional Services Own complex software systems and critical workflows end-to-end while ensuring reliability, performance, security, and maintainability. Lead architectural decisions, mentor engineers, manage incident response, improve system health, and communicate effectively with technical and non-technical stakeholders. The role requires extensive Ruby on Rails, AWS or equivalent cloud infrastructure, Linux production operations, frontend development, relational databases, testing, CI/CD, and observability experience. Top Skills: AWS Ci/Cd Iso 27001 JavaScript JIRA Linux MySQL Nginx Nist Oauth React Redis Ruby On Rails SAML Scrum Soc 2 Stimulus",
+      "recruiter": {
+        "recruiter_name": "INTOO Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "INTOO Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=INTOO%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_7496299290858732854",
+      "title": "Senior Full-Stack Engineer",
+      "company": "Salve, Inc.",
+      "location": "Remote",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/senior-full-stack-engineer/9546746",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 110000,
+        "max": 130000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$110,000 - $130,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "MySQL",
+        "Python",
+        "REST",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Senior Software Engineer role at Salve, Inc. in Remote via Built In.",
+      "description": "Salve, Inc. Senior Full-Stack Engineer Reposted 15 Hours Ago Saved Remote United States 110K-130K Annually Senior level 110K-130K Annually Senior level Big Data • Cannabis • eCommerce • Logistics • Database • Business Intelligence • Big Data Analytics The Senior Full-Stack Engineer will manage client relationships, design integration solutions, and ensure seamless delivery and optimization of technical workflows, while leveraging AI for efficiency. Top Skills: Edi Elt ETL Laravel MySQL PHP Postgres Python React Rest Apis Typescript Vue Webhooks",
+      "recruiter": {
+        "recruiter_name": "Salve, Inc. Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Salve, Inc. Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Salve%2C%20Inc.%20%22hiring%22%20%22Senior%20Full-Stack%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_5127443241830029449",
+      "title": "Founding Software Engineer, Product",
+      "company": "Peerbound",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Hybrid",
+      "seniority": "Software Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/founding-software-engineer-product/10545766",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 180000,
+        "max": 220000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$180,000 - $220,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "GraphQL",
+        "Python",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Peerbound in New York, NY via Built In.",
+      "description": "Peerbound Founding Software Engineer, Product Reposted 15 Hours Ago Saved Hybrid New York, NY, USA 180K-220K Annually Senior level 180K-220K Annually Senior level Artificial Intelligence • Machine Learning • Marketing Tech • Natural Language Processing • Sales • Software Own product features end-to-end across web app, GraphQL API, and embeddable components. Design schemas and APIs, build backend and frontend, write tests, monitor real-user behavior, and ship weekly. Establish shared component library, design system, and testing patterns. Optimize performance and leverage AI tooling to accelerate engineering and product collaboration. Top Skills: Fastapi Figma GraphQL Postgres Python React Storybook Strawberry Graphql Tailwind Typescript",
+      "recruiter": {
+        "recruiter_name": "Peerbound Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Peerbound Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Peerbound%20%22hiring%22%20%22Founding%20Software%20Engineer%2C%20Product%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_433734073186852556",
+      "title": "Software Engineer",
+      "company": "Airgoods",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer/9691914",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 120000,
+        "max": 220000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$120,000 - $220,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Node.js",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Airgoods in New York, NY via Built In.",
+      "description": "Airgoods Software Engineer Reposted 15 Hours Ago Saved New York, NY 120K-220K Annually Mid level 120K-220K Annually Mid level eCommerce • Fintech • Food • Logistics Full-stack engineer responsible for end-to-end product development from ideation to launch. Build and ship web and mobile apps, prioritize product quality and speed, collaborate with founders and engineering team, and work in-person at the NYC office using a TypeScript/React/Node.js/Postgres stack. Top Skills: Express Next.Js Node.js Postgres React React Native Redux Tailwind Css Turborepo Typescript",
+      "recruiter": {
+        "recruiter_name": "Airgoods Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Airgoods Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Airgoods%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_2963027088320951080",
+      "title": "Senior Full Stack Developer",
+      "company": "Too Lost",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Hybrid",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-full-stack-developer/9379447",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 130000,
+        "max": 140000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$130,000 - $140,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "JavaScript"
+      ],
+      "snippet": "Open Senior Software Engineer role at Too Lost in New York, NY via Built In.",
+      "description": "Too Lost Senior Full Stack Developer Reposted 15 Hours Ago Saved Hybrid New York City, NY, USA 130K-140K Annually Senior level 130K-140K Annually Senior level Music • News + Entertainment The Senior Full Stack Developer will lead full stack development, mentor engineers, refactor services, and uphold system performance and security standards in a hybrid work environment. Top Skills: JavaScript Laravel Relational Databases Vue",
+      "recruiter": {
+        "recruiter_name": "Too Lost Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Too Lost Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Too%20Lost%20%22hiring%22%20%22Senior%20Full%20Stack%20Developer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_2688815530794903122",
+      "title": "Senior Full-Stack Engineer",
+      "company": "Eon",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer/8604551",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 145000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$145,000 - $180,000 / yr"
+      },
+      "experience": {
+        "min_years": 7,
+        "max_years": null,
+        "display": "7+ years"
+      },
+      "tech_stack": [
+        "AWS",
+        "Go",
+        "Python",
+        "REST",
+        "React"
+      ],
+      "snippet": "Open Senior Software Engineer role at Eon in New York, NY via Built In.",
+      "description": "Eon Senior Full-Stack Engineer Reposted 15 Hours Ago Saved In-Office New York City, NY, USA 145K-180K Annually Senior level 145K-180K Annually Senior level Transportation • Travel Seeking a Senior Software Engineer with 7+ years of experience, proficient in Rails and Python, to develop applications and shape engineering culture. Top Skills: AWS Go Postgres Python Ruby on Rails React Native React Native Web Rest",
+      "recruiter": {
+        "recruiter_name": "Eon Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Eon Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Eon%20%22hiring%22%20%22Senior%20Full-Stack%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_3668038585296221602",
+      "title": "Senior Software Engineer",
+      "company": "Healthtek Solutions",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer/10938923",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 170000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$170,000 - $180,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Azure",
+        "CI/CD",
+        "Terraform",
+        "TypeScript"
+      ],
+      "snippet": "Open Senior Software Engineer role at Healthtek Solutions in New York, NY via Built In.",
+      "description": "Healthtek Solutions Senior Software Engineer Reposted 15 Hours Ago Saved In-Office Brooklyn, New York, NY, USA 170K-180K Annually Senior level 170K-180K Annually Senior level Healthtech • Social Impact • Software Design and maintain scalable full-stack applications using C#, .NET, SQL Server, Angular, and Azure. Build serverless ETL and event-driven workflows with Azure Functions and messaging services. Lead architecture discussions, promote testing, CI/CD, observability, and infrastructure-as-code, and collaborate with product, data, RPA, and business teams. Participate in code reviews and incident response while mentoring junior developers and ensuring reliability, security, and performance. Top Skills: .Net Angular Azure Azure Api Management Azure Event Grid Azure Functions Azure Queue Storage Azure Service Bus Azure Sql Database Bicep C# Ci/Cd Infrastructure As Code Microsoft Entra SQL Server Terraform Typescript",
+      "recruiter": {
+        "recruiter_name": "Healthtek Solutions Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Healthtek Solutions Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Healthtek%20Solutions%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_1804444538694183030",
+      "title": "Software Engineer, Platform",
+      "company": "Elios",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Remote",
+      "seniority": "Software Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer-platform/9599997",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 140000,
+        "max": 175000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$140,000 - $175,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Python",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Elios in New York, NY via Built In.",
+      "description": "Elios Software Engineer, Platform Reposted 15 Hours Ago Saved Remote New York, NY 140K-175K Annually Mid level 140K-175K Annually Mid level Artificial Intelligence • HR Tech • Information Technology • Machine Learning • Professional Services • Software • Consulting The Software Engineer will build and own features for the AI-driven matching and screening platform, focusing on data structuring and full-stack development. Collaboration with users and maintaining high quality through testing is essential. Top Skills: AWS Azure GCP Python Typescript",
+      "recruiter": {
+        "recruiter_name": "Elios Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Elios Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Elios%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Elios%20%22hiring%22%20%22Software%20Engineer%2C%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Elios%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Elios%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_2742801894602029517",
+      "title": "Staff Software Engineer",
+      "company": "Conga",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "Hybrid",
+      "seniority": "Staff",
+      "discipline": "General Software",
+      "archetype": "Backend & Distributed Systems",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/staff-software-engineer/12137344",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 144000,
+        "max": 230000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$144,000 - $230,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Azure",
+        "Cassandra",
+        "Distributed Systems",
+        "Docker",
+        "Elasticsearch",
+        "Java",
+        "Kubernetes",
+        "Microservices",
+        "REST",
+        "Redis"
+      ],
+      "snippet": "Open Staff role at Conga in Boston, MA via Built In.",
+      "description": "Conga Staff Software Engineer 3 Hours Ago Saved Hybrid Boston, MA 144K-230K Annually Senior level 144K-230K Annually Senior level Cloud • eCommerce • Information Technology • Payments • Software Design and develop scalable Java backend services for Conga’s cloud-native, microservices-based real-time pricing platform. Build distributed, event-driven capabilities using Cassandra, Redis, Azure, and related technologies. Contribute to architecture, testing, deployments, troubleshooting, documentation, and engineering process improvements. Collaborate with product, architecture, DevOps, and international engineering teams while mentoring junior engineers and promoting clean code, resiliency, performance, and operational reliability. Top Skills: Aks Azure Azure Service Bus Bdd Cassandra Chatgpt Confluence Distributed Systems Docker Elasticsearch Event-Driven Architecture Git Github Actions Github Copilot Helm Java Java 21 Jenkins JIRA Kanban Kubernetes Microservices NoSQL Opensearch Redis Redis Streams Rest Apis Scrum SQL Tdd",
+      "recruiter": {
+        "recruiter_name": "Conga Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Conga Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Conga%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Conga%20%22hiring%22%20%22Staff%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Conga%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Conga%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_112512376339424818",
+      "title": "Full Stack Software Engineer, Compute",
+      "company": "Nominal",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/full-stack-software-engineer-compute/12137392",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 179000,
+        "max": 310000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$179,000 - $310,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Nominal in New York, NY via Built In.",
+      "description": "Nominal Full Stack Software Engineer, Compute 3 Hours Ago Saved In-Office New York, NY 179K-310K Annually Mid level 179K-310K Annually Mid level Software Build and own Nominal’s shared frontend compute and data layer for high-throughput live and historical hardware data. Develop streaming, caching, WebSocket, web worker, and columnar-data capabilities; optimize browser memory, rendering, and runtime performance; and ensure data correctness. Partner with product, design, and backend teams to shape workflows, expose compute features, and simplify complex technical experiences for users monitoring mission-critical systems. Top Skills: Apache Arrow Canvas React Typescript Web Workers Webgl Webgpu Websockets",
+      "recruiter": {
+        "recruiter_name": "Nominal Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Nominal Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Nominal%20%22hiring%22%20%22Full%20Stack%20Software%20Engineer%2C%20Compute%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_5716653120799348174",
+      "title": "Software Engineer, Runtime Infrastructure",
+      "company": "Nominal",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Infrastructure & Cloud / SRE",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer-runtime-infrastructure/12137384",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 179000,
+        "max": 310000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$179,000 - $310,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Distributed Systems",
+        "Java",
+        "React",
+        "Rust",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Nominal in New York, NY via Built In.",
+      "description": "Nominal Software Engineer, Runtime Infrastructure 3 Hours Ago Saved In-Office New York, NY 179K-310K Annually Mid level 179K-310K Annually Mid level Software Build runtime infrastructure, service frameworks, shared libraries, and APIs supporting reliable, observable, secure Nominal services. Investigate and improve concurrency, memory usage, latency, and resilience through profiling, metrics, and load testing. Design observability, auditability, and communication standards used by other engineers. Collaborate across product, frontend, platform, and deployment teams while owning systems from design through production operation. Top Skills: APIs Datadog Distributed Systems Java Opentelemetry Prometheus React Rpc Rust Tokio Typescript",
+      "recruiter": {
+        "recruiter_name": "Nominal Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Nominal Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Nominal%20%22hiring%22%20%22Software%20Engineer%2C%20Runtime%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_5043530604509813868",
+      "title": "Software Engineer, Growth",
+      "company": "Garage",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer-growth/12137061",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 150000,
+        "max": 250000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$150,000 - $250,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open Software Engineer role at Garage in New York, NY via Built In.",
+      "description": "Garage Software Engineer, Growth 7 Hours Ago Saved In-Office New York, NY 150K-250K Annually Junior 150K-250K Annually Junior eCommerce • Retail • Software Build growth systems including prospect data pipelines, sales enablement tools, AI-powered workflows, and autonomous agents. The role involves designing scalable databases and APIs, transforming fragmented real-world data into sales signals, and partnering with sales teams and industry customers in a fast-paced startup environment. Top Skills: AI APIs Apollo Clay Hubspot Llms Salesforce Scalable Databases",
+      "recruiter": {
+        "recruiter_name": "Garage Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Garage Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Garage%20%22hiring%22%20%22Software%20Engineer%2C%20Growth%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_524438367413526365",
+      "title": "Software Engineer, Design",
+      "company": "Garage",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer-design/12137059",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 150000,
+        "max": 250000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$150,000 - $250,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Garage in New York, NY via Built In.",
+      "description": "Garage Software Engineer, Design 7 Hours Ago Saved In-Office New York, NY 150K-250K Annually Mid level 150K-250K Annually Mid level eCommerce • Retail • Software Build polished, production-quality user interfaces across core products and a mobile app using React, Next.js, TypeScript, and Tailwind CSS. Develop responsive layouts, motion, micro-interactions, shared UI components, and design tokens while optimizing performance, accessibility, and maintainability. Collaborate closely with design, product, customers, and engineering, and help establish frontend coding and design standards. Top Skills: CSS Next.Js React Tailwind Css Typescript",
+      "recruiter": {
+        "recruiter_name": "Garage Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Garage Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Garage%20%22hiring%22%20%22Software%20Engineer%2C%20Design%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Garage%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_5062784121540222730",
+      "title": "Senior Frontend Software Engineer",
+      "company": "Raydar",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Frontend & UI",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-frontend-software-engineer/12136787",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 160000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$160,000 - $225,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Senior Software Engineer role at Raydar in New York, NY via Built In.",
+      "description": "Raydar Senior Frontend Software Engineer 13 Hours Ago Saved In-Office New York, NY 160K-225K Annually Senior level 160K-225K Annually Senior level Professional Services • Consulting Build and refine user-facing web applications, shared component libraries, and frontend architecture. Partner with product and operations to scope problems, shape user experiences, propose solutions, improve frontend tooling, and deliver production features independently. The role requires strong React skills, preferably TypeScript, startup experience, clear communication, and prior frontend engineering experience at a recognized technology company. Top Skills: JavaScript React Storybook Typescript",
+      "recruiter": {
+        "recruiter_name": "Raydar Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Raydar Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Senior%20Frontend%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_4635128486720996065",
+      "title": "Software Engineer",
+      "company": "Chariot",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Hybrid",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineer/10938019",
+      "date_posted": "2026-11-09",
+      "salary": {
+        "min": 180000,
+        "max": 230000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$180,000 - $230,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AWS",
+        "Docker",
+        "Go",
+        "Kubernetes",
+        "Node.js",
+        "REST",
+        "Terraform",
+        "gRPC"
+      ],
+      "snippet": "Open Software Engineer role at Chariot in New York, NY via Built In.",
+      "description": "Chariot Software Engineer Reposted 15 Hours Ago Saved Hybrid New York, NY 180K-230K Annually Mid level 180K-230K Annually Mid level Fintech • Payments • Social Impact • Software Build and maintain backend applications and components powering Chariot’s identity and payment platform. Design APIs and scalable systems, establish engineering standards, improve monitoring and alerting, generate technology initiatives, and collaborate directly with founders and product teams. Own projects from inception through delivery within an Agile/Scrum environment while contributing to product decisions and maintaining secure, high-quality systems. Top Skills: Agile AWS Docker Go Grpc Kubernetes Node.js Postgres Rest Apis Scrum Terraform",
+      "recruiter": {
+        "recruiter_name": "Chariot Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Chariot Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Chariot%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Chariot%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chariot%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chariot%20engineering%20manager%20New%20York"
+      }
+    },
     {
       "id": "builtin_1530423958712981957",
       "title": "Engineering Manager, Cloud Platform – nRF Cloud",
@@ -1910,7 +2521,7 @@
       }
     },
     {
-      "id": "builtin_6006962038498179220",
+      "id": "builtin_6392116305323306020",
       "title": "Director, Full-Stack Engineer - AML (Anti Money Laundering)",
       "company": "Capital One",
       "location": "Boston, MA",
@@ -1944,7 +2555,7 @@
         "TypeScript"
       ],
       "snippet": "Open Director role at Capital One in Boston, MA via Built In.",
-      "description": "Capital One Director, Full-Stack Engineer - AML (Anti Money Laundering) Yesterday Saved Hybrid Cambridge, MA, USA 269K-335K Annually Expert/Leader 269K-335K Annually Expert/Leader Fintech • Machine Learning • Payments • Software • Financial Services Leads multiple software engineering teams responsible for AML technology, including detection, investigation, and reporting platforms. Drives engineering strategy, architecture, cloud deployment, modernization from monoliths to microservices, system resilience, scalability, and operational excellence. Partners with product and executive leaders, mentors engineers and managers, oversees talent strategy, and advances generative and agentic AI innovation across full-stack development. Top Skills: Agentic Ai AWS C# Databases Distributed Hpc Generative Ai Go GCP Java JavaScript Microservices Azure Ml Systems Python Rust Scala Spa Frameworks Typescript Virtualization Technologies",
+      "description": "Capital One Director, Full-Stack Engineer - AML (Anti Money Laundering) 2 Days Ago Saved Hybrid Cambridge, MA, USA 269K-335K Annually Expert/Leader 269K-335K Annually Expert/Leader Fintech • Machine Learning • Payments • Software • Financial Services Leads multiple software engineering teams responsible for AML technology, including detection, investigation, and reporting platforms. Drives engineering strategy, architecture, cloud deployment, modernization from monoliths to microservices, system resilience, scalability, and operational excellence. Partners with product and executive leaders, mentors engineers and managers, oversees talent strategy, and advances generative and agentic AI innovation across full-stack development. Top Skills: Agentic Ai AWS C# Databases Distributed Hpc Generative Ai Go GCP Java JavaScript Microservices Azure Ml Systems Python Rust Scala Spa Frameworks Typescript Virtualization Technologies",
       "recruiter": {
         "recruiter_name": "Capital One Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1957,7 +2568,7 @@
       }
     },
     {
-      "id": "builtin_6189048885975131197",
+      "id": "builtin_1583610054240267013",
       "title": "Senior Data Analyst - Emerging Payments & AirKey",
       "company": "Capital One",
       "location": "New York, NY",
@@ -1984,7 +2595,7 @@
         "Spark"
       ],
       "snippet": "Open Senior Software Engineer role at Capital One in New York, NY via Built In.",
-      "description": "Capital One Senior Data Analyst - Emerging Payments & AirKey Yesterday Saved Hybrid New York, NY 111K-138K Annually Senior level 111K-138K Annually Senior level Fintech • Machine Learning • Payments • Software • Financial Services Performs data analysis, business intelligence, data management, and data quality work for Emerging Payments and AirKey. Builds data solutions, dashboards, metrics, and self-service tools; analyzes complex structured and unstructured data; partners with business and technology teams; and supports metadata, lineage, data governance, security, access controls, and data quality monitoring using Python, R, Spark, SQL, Snowflake, and AWS. Top Skills: AWS Informatica Dq Python R Snowflake Spark SQL",
+      "description": "Capital One Senior Data Analyst - Emerging Payments & AirKey 2 Days Ago Saved Hybrid New York, NY 111K-138K Annually Senior level 111K-138K Annually Senior level Fintech • Machine Learning • Payments • Software • Financial Services Performs data analysis, business intelligence, data management, and data quality work for Emerging Payments and AirKey. Builds data solutions, dashboards, metrics, and self-service tools; analyzes complex structured and unstructured data; partners with business and technology teams; and supports metadata, lineage, data governance, security, access controls, and data quality monitoring using Python, R, Spark, SQL, Snowflake, and AWS. Top Skills: AWS Informatica Dq Python R Snowflake Spark SQL",
       "recruiter": {
         "recruiter_name": "Capital One Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -3562,6 +4173,99 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Riskified%20%22hiring%22%20%22Data%20Integrations%20Team%20Lead%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Riskified%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_coinbase_8347602",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior ML Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Machine Learning & AI",
+      "source": "Greenhouse",
+      "apply_url": "https://www.coinbase.com/careers/positions/8347602?gh_jid=8347602",
+      "date_posted": "2026-11-06",
+      "salary": {
+        "min": 213750,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$213,750 - $225,000 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Go",
+        "Kafka",
+        "LLM",
+        "PyTorch",
+        "Python",
+        "Spark"
+      ],
+      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
+      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The ML & Discovery team in Consumer Growth builds the machine learning systems that help millions of customers discover what to trade and engage with next across crypto, equities, derivatives, and prediction markets. Our models and platforms power personalized feed and asset ranking, intelligent notification orchestration, and LLM-driven market insights across the Coinbase app. As a Senior Machine Learning Engineer (L5) you will own end-to-end initiatives across the ML lifecycle, from problem formulation, feature engineering, and modeling to production serving and online A/B experimentation. Partnering closely with Product, Data Science, and Engineering in a high-velocity, data-driven environment, you will shape our team's roadmap, raise our engineering quality bar, and use AI-native workflows to deliver measurable business impact. What you’ll do: Own end-to-end machine learning initiatives from problem formulation and offline evaluation to production deployment and online A/B testing, driving measurable lifts in user engagement, retention, and trading activity. Build and iterate on multi-stage recommendation, retrieval, and contextual bandit models that serve personalized experiences to millions of users across crypto, equities, derivatives, and prediction markets. Design intelligent notification orchestration, candidate ranking, and targeting systems that match users with timely, high-value alerts while avoiding fatigue and improving user experience. Develop production LLM pipelines, grounding workflows, and automated evaluation loops that generate accurate, real-time market insights and personalized financial content. Architect resilient, low-latency model serving services and real-time feature pipelines, eliminating technical debt, leading incident response, and raising our operational reliability bar. Partner with Product, Data Science, and Engineering to shape the team roadmap, mentor L3-L4 engineers, and build AI-native workflows and automation that multiply team velocity. Required Skills and Experience: 5+ years of experience in machine learning engineering and software development, with a track record of shipping production ML systems that move customer and business metrics. Proven track record in one or more relevant domains: recommendation systems, multi-stage ranking and retrieval, contextual bandits, notification targeting, or production LLM applications. Strong software engineering and data skills in a backend language like Python or Go, with hands-on proficiency in modern ML and data stacks (such as PyTorch, GBDTs, Spark/Databricks, Ray, Kafka, and/or Tecton). Deep practical knowledge of offline model evaluation, training-serving skew mitigation, and design/interpretation of online A/B experiments tied to business metrics. Demonstrated ability to drive complex projects end-to-end, make pragmatic architectural trade-offs, and mentor junior engineers. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. P77866 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $213,750 — $225,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
+      "recruiter": {
+        "recruiter_name": "Coinbase Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "hn_50420399_0",
+      "title": "Backend Engineer, AI Coding Task Design",
+      "company": "OpenTrain AI",
+      "location": "Remote (Remote)",
+      "city": "Remote",
+      "location_type": "Remote",
+      "work_model": "Remote",
+      "date_posted": "2026-11-06",
+      "apply_url": "https://news.ycombinator.com/item?id=50420399",
+      "url": "https://news.ycombinator.com/item?id=50420399",
+      "salary": {
+        "min": 62400,
+        "max": 208000,
+        "currency": "USD",
+        "period": "hourly",
+        "display": "$30 - $100 / hr ($62,400 - $208,000/yr)"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "C++",
+        "Go",
+        "Java",
+        "Node.js",
+        "Python",
+        "Rust",
+        "TypeScript"
+      ],
+      "seniority": "Machine Learning Engineer",
+      "discipline": "General Software",
+      "archetype": "Backend & Distributed Systems",
+      "source": "Hacker News",
+      "description": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role. - $30–$100 per hour equivalent, paid per accepted task - 100% remote, United States - About 15 hours/week; choose your schedule We need backend engineers to design realistic coding tasks for AI systems, write deterministic verifiers, assess correctness and code quality, and apply secure coding and security review where relevant. This work helps improve AI systems that write software. Ideal background - Strong professional backend experience with Python, Java, Node.js, Go, Rust, TypeScript, C++ or similar - Scalable APIs/services, complex features, debugging, bottleneck resolution and code review - Strong analytical, problem-solving and technical communication skills; professional English - Helpful: application security, secure coding, vulnerability assessment, penetration testing, OWASP/CWE or security-focused code review - No AI experience needed; structured task-design guidelines and verification criteria are provided Independent contractor; pay is per accepted task. Fully remote and flexible, with no fixed shifts. Apply on OpenTrain (resume upload): https://app.opentrain.ai/api/out/cmu9linxg000o0bgm9xiw33b9?c... Then complete a short application on the hiring platform. Shortlisted applicants take a short AI interview.",
+      "snippet": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role. - $30–$100 per hour equivalent, paid per accepted ...",
+      "recruiter": {
+        "recruiter_name": "OpenTrain AI Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "OpenTrain AI Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=OpenTrain%20AI%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=OpenTrain%20AI%20%22hiring%22%20%22Backend%20Engineer%2C%20AI%20Coding%20Task%20Design%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=OpenTrain%20AI%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=OpenTrain%20AI%20engineering%20manager%20Boston"
       }
     },
     {
@@ -7305,7 +8009,7 @@
       }
     },
     {
-      "id": "builtin_8677069635358652835",
+      "id": "builtin_8877920900336861843",
       "title": "Software Engineer, Frontend",
       "company": "Ramp",
       "location": "New York, NY",
@@ -7331,7 +8035,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Ramp in New York, NY via Built In.",
-      "description": "Ramp Software Engineer, Frontend 4 Days Ago Saved Remote or Hybrid New York, NY 200K-310K Annually Senior level 200K-310K Annually Senior level Fintech • Financial Services Build performant, beautiful, and usable frontend interfaces using JavaScript, React, TypeScript, Vite, and Ryu. Lead complex projects, influence technical vision, improve engineering processes, uphold high UX standards, and collaborate across teams. The role includes recruiting, interviewing, mentoring engineers and interns, and translating business and product ideas into scalable engineering solutions. Top Skills: JavaScript React Ryu Typescript Vite",
+      "description": "Ramp Software Engineer, Frontend 5 Days Ago Saved Remote or Hybrid New York, NY 200K-310K Annually Senior level 200K-310K Annually Senior level Fintech • Financial Services Build performant, beautiful, and usable frontend interfaces using JavaScript, React, TypeScript, Vite, and Ryu. Lead complex projects, influence technical vision, improve engineering processes, uphold high UX standards, and collaborate across teams. The role includes recruiting, interviewing, mentoring engineers and interns, and translating business and product ideas into scalable engineering solutions. Top Skills: JavaScript React Ryu Typescript Vite",
       "recruiter": {
         "recruiter_name": "Ramp Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -10790,6 +11494,43 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Citigroup%20%22hiring%22%20%22Senior%20Security%20Engineer%20%E2%80%93%20Digital%20Assets%20Platform%20-%20VP%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Citigroup%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Citigroup%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_5190093199630132761",
+      "title": "Sr. Director, Data & Integrations Engineering",
+      "company": "Cedar",
+      "location": "Remote",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Director",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/sr-director-data-integrations-engineering/11605736",
+      "date_posted": "2026-11-03",
+      "salary": {
+        "min": 281000,
+        "max": 330000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$281,000 - $330,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open Senior Director role at Cedar in Remote via Built In.",
+      "description": "Cedar Sr. Director, Data & Integrations Engineering One Month Ago Saved Easy Apply Remote United States Easy Apply 281K-330K Annually Senior level 281K-330K Annually Senior level Artificial Intelligence • Fintech • Healthtech • Software Leads approximately 35 engineers across data engineering, integration engineering, and integration support. Owns delivery predictability, manager development, operational reliability, SLA performance, data platform modernization, integration scalability, and organizational clarity. Partners with product, data science, commercial, and delivery teams while overseeing healthcare integrations with EHR systems, enterprise data infrastructure, incident management, and client-facing reliability commitments. Top Skills: Ai/Ml Athena Cerner Ehr Elt Epic ETL Fhir Hl7 Medallion Architecture",
+      "recruiter": {
+        "recruiter_name": "Cedar Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Cedar Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cedar%20%22hiring%22%20%22Sr.%20Director%2C%20Data%20%26%20Integrations%20Engineering%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20engineering%20manager%20Boston"
       }
     },
     {
@@ -14420,7 +15161,7 @@
       }
     },
     {
-      "id": "builtin_425341779480147955",
+      "id": "builtin_5879714979123380009",
       "title": "Staff Software Engineer (Backend, Business Systems)",
       "company": "WHOOP",
       "location": "Boston, MA",
@@ -14451,7 +15192,7 @@
         "Python"
       ],
       "snippet": "Open Staff role at WHOOP in Boston, MA via Built In.",
-      "description": "WHOOP Staff Software Engineer (Backend, Business Systems) 7 Days Ago Saved Hybrid Boston, MA 170K-230K Annually Senior level 170K-230K Annually Senior level Fitness • Hardware • Healthtech • Sports • Wearables Lead architecture and development of backend services, APIs, integrations, and internal tools supporting supply planning, inventory, orders, fulfillment, logistics, and membership operations. Set technical direction, deliver complex initiatives, improve system security and resilience, partner cross-functionally, and mentor engineers. The role requires designing scalable distributed systems, integrating enterprise platforms and cloud services, managing data consistency and recovery, and translating ambiguous business needs into reliable technical solutions. Top Skills: Ai Tools APIs AWS Azure Cloud Infrastructure Distributed Systems GCP Go Java Python Relational Databases",
+      "description": "WHOOP Staff Software Engineer (Backend, Business Systems) 8 Days Ago Saved Hybrid Boston, MA 170K-230K Annually Senior level 170K-230K Annually Senior level Fitness • Hardware • Healthtech • Sports • Wearables Lead architecture and development of backend services, APIs, integrations, and internal tools supporting supply planning, inventory, orders, fulfillment, logistics, and membership operations. Set technical direction, deliver complex initiatives, improve system security and resilience, partner cross-functionally, and mentor engineers. The role requires designing scalable distributed systems, integrating enterprise platforms and cloud services, managing data consistency and recovery, and translating ambiguous business needs into reliable technical solutions. Top Skills: Ai Tools APIs AWS Azure Cloud Infrastructure Distributed Systems GCP Go Java Python Relational Databases",
       "recruiter": {
         "recruiter_name": "WHOOP Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -27669,7 +28410,7 @@
       }
     },
     {
-      "id": "builtin_2509656736181721412",
+      "id": "builtin_1060922845515542968",
       "title": "Software Engineer II",
       "company": "Alarm.com",
       "location": "Boston, MA",
@@ -27691,7 +28432,7 @@
       "experience": null,
       "tech_stack": [],
       "snippet": "Open Mid-Level role at Alarm.com in Boston, MA via Built In.",
-      "description": "Alarm.com Software Engineer II 4 Days Ago Saved In-Office Boston, MA 100K-120K Annually Junior 100K-120K Annually Junior Internet of Things • Software Develop and test full-stack software features for smart home and commercial technology products. Responsibilities include improving platforms, analyzing requirements, integrating technologies, owning projects, collaborating with QA on test plans, and working with product, device engineering, and quality teams. The role spans web, mobile, wireless, IoT, automation, video, and database technologies. Top Skills: Bluetooth C# Cloud Computing Energy Monitoring Gsm Hvac Automation Iot Lighting Automation Microsoft .Net Mobile Applications Rf SQL Server Video Analysis Web Applications Z-Wave Zigbee",
+      "description": "Alarm.com Software Engineer II 10 Days Ago Saved In-Office Boston, MA 100K-120K Annually Junior 100K-120K Annually Junior Internet of Things • Software Develop and test full-stack software features for smart home and commercial technology products. Responsibilities include improving platforms, analyzing requirements, integrating technologies, owning projects, collaborating with QA on test plans, and working with product, device engineering, and quality teams. The role spans web, mobile, wireless, IoT, automation, video, and database technologies. Top Skills: Bluetooth C# Cloud Computing Energy Monitoring Gsm Hvac Automation Iot Lighting Automation Microsoft .Net Mobile Applications Rf SQL Server Video Analysis Web Applications Z-Wave Zigbee",
       "recruiter": {
         "recruiter_name": "Alarm.com Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -27704,7 +28445,7 @@
       }
     },
     {
-      "id": "builtin_883121036582993610",
+      "id": "builtin_5043694441642380605",
       "title": "Software Engineer",
       "company": "VeeFriends",
       "location": "New York, NY",
@@ -27740,7 +28481,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at VeeFriends in New York, NY via Built In.",
-      "description": "VeeFriends Software Engineer 4 Days Ago Saved In-Office New York, NY 100K-130K Annually Mid level 100K-130K Annually Mid level Information Technology • News + Entertainment Develop and maintain backend services, APIs, integrations, and business applications. Translate requirements into reliable technical solutions, troubleshoot production and cloud issues, improve performance and data quality, and support testing, deployments, documentation, and code reviews. The role emphasizes backend development, cloud platforms, AI coding tools, REST APIs, databases, authentication, third-party integrations, and reliable event-driven workflows. Top Skills: Automated Testing AWS Azure Application Insights Azure Container Apps Azure Cosmos Db Azure Service Bus Azure Storage C#/.Net Ci/Cd Claude Code Docker Git Git Github Actions GCP GraphQL Java JavaScript Message Queues Azure Microsoft Orleans Next.Js Node.js Openai Codex Postgres React Rest Apis Shopify SQL Typescript Webhooks",
+      "description": "VeeFriends Software Engineer 10 Days Ago Saved In-Office New York, NY 100K-130K Annually Mid level 100K-130K Annually Mid level Information Technology • News + Entertainment Develop and maintain backend services, APIs, integrations, and business applications. Translate requirements into reliable technical solutions, troubleshoot production and cloud issues, improve performance and data quality, and support testing, deployments, documentation, and code reviews. The role emphasizes backend development, cloud platforms, AI coding tools, REST APIs, databases, authentication, third-party integrations, and reliable event-driven workflows. Top Skills: Automated Testing AWS Azure Application Insights Azure Container Apps Azure Cosmos Db Azure Service Bus Azure Storage C#/.Net Ci/Cd Claude Code Docker Git Git Github Actions GCP GraphQL Java JavaScript Message Queues Azure Microsoft Orleans Next.Js Node.js Openai Codex Postgres React Rest Apis Shopify SQL Typescript Webhooks",
       "recruiter": {
         "recruiter_name": "VeeFriends Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -27954,7 +28695,7 @@
       }
     },
     {
-      "id": "builtin_5873055030209442489",
+      "id": "builtin_660912919169618015",
       "title": "Software Engineer (PDLC Tooling + Automation)",
       "company": "Bloomerang",
       "location": "Boston, MA",
@@ -27982,7 +28723,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Bloomerang in Boston, MA via Built In.",
-      "description": "Bloomerang Software Engineer (PDLC Tooling + Automation) 4 Days Ago Saved Remote Boston, MA 101K-168K Annually Entry level 101K-168K Annually Entry level Financial Services Build internal web applications, APIs, integrations, AI-assisted workflows, knowledge repositories, dashboards, Slack bots, and PDLC automations. Connect tools such as Jira, GitHub, Notion, and data platforms with go-to-market systems. Prototype rapidly, collaborate across Product, Engineering, Program Management, Analytics, and commercial teams, and ensure secure, documented, auditable solutions. Top Skills: Authentication BigQuery Claude Code Databricks Figma Gainsight Git Git Intercom JavaScript JIRA Llms Mcp Servers Notion Pendo Python Replit Rest Apis Salesforce Slack SQL Typescript Webhooks",
+      "description": "Bloomerang Software Engineer (PDLC Tooling + Automation) 10 Days Ago Saved Remote Boston, MA 101K-168K Annually Entry level 101K-168K Annually Entry level Financial Services Build internal web applications, APIs, integrations, AI-assisted workflows, knowledge repositories, dashboards, Slack bots, and PDLC automations. Connect tools such as Jira, GitHub, Notion, and data platforms with go-to-market systems. Prototype rapidly, collaborate across Product, Engineering, Program Management, Analytics, and commercial teams, and ensure secure, documented, auditable solutions. Top Skills: Authentication BigQuery Claude Code Databricks Figma Gainsight Git Git Intercom JavaScript JIRA Llms Mcp Servers Notion Pendo Python Replit Rest Apis Salesforce Slack SQL Typescript Webhooks",
       "recruiter": {
         "recruiter_name": "Bloomerang Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -28117,7 +28858,7 @@
       }
     },
     {
-      "id": "builtin_3000599521936371250",
+      "id": "builtin_8746708983473963977",
       "title": "Director, Software Engineering",
       "company": "Ellevation Education",
       "location": "Remote",
@@ -28141,7 +28882,7 @@
         "CI/CD"
       ],
       "snippet": "Open Director role at Ellevation Education in Remote via Built In.",
-      "description": "Ellevation Education Director, Software Engineering 4 Days Ago Saved In-Office or Remote 2 Locations 200K-250K Annually Expert/Leader 200K-250K Annually Expert/Leader Edtech • Social Impact • Software Leads cross-cutting engineering initiatives across eight product squads, including platform modernization, authentication, dependency health, and security. Manages and grows Staff Engineers, prioritizes shared technical work, evaluates tradeoffs, and influences R&D planning. Owns Ellevation’s security practice and relationship with the parent company’s central security organization, coordinating compliance, incident response, scanning, remediation, reporting, and security KPIs. Requires strong software engineering leadership, modern web and cloud expertise, security experience, and executive communication skills. Top Skills: Application Security Authentication Ci/Cd Cloud Infrastructure Cloud Security Compliance Dependency Scanning Incident Response Modern Web Applications Sast Sca Threat Modeling",
+      "description": "Ellevation Education Director, Software Engineering 10 Days Ago Saved In-Office or Remote 2 Locations 200K-250K Annually Expert/Leader 200K-250K Annually Expert/Leader Edtech • Social Impact • Software Leads cross-cutting engineering initiatives across eight product squads, including platform modernization, authentication, dependency health, and security. Manages and grows Staff Engineers, prioritizes shared technical work, evaluates tradeoffs, and influences R&D planning. Owns Ellevation’s security practice and relationship with the parent company’s central security organization, coordinating compliance, incident response, scanning, remediation, reporting, and security KPIs. Requires strong software engineering leadership, modern web and cloud expertise, security experience, and executive communication skills. Top Skills: Application Security Authentication Ci/Cd Cloud Infrastructure Cloud Security Compliance Dependency Scanning Incident Response Modern Web Applications Sast Sca Threat Modeling",
       "recruiter": {
         "recruiter_name": "Ellevation Education Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -28267,7 +29008,7 @@
       }
     },
     {
-      "id": "builtin_6091292758454420926",
+      "id": "builtin_2475371936962048499",
       "title": "Sr Manager , MarTech (Marketing Tech Enablement)",
       "company": "CDW",
       "location": "Remote",
@@ -28296,7 +29037,7 @@
         "Python"
       ],
       "snippet": "Open Senior Software Engineer role at CDW in Remote via Built In.",
-      "description": "CDW Sr Manager , MarTech (Marketing Tech Enablement) 4 Days Ago Saved Remote or Hybrid US 143K-200K Annually Senior level 143K-200K Annually Senior level Information Technology Leads marketing technology architecture, integrations, platform governance, and technical enablement. Designs cloud-native, API-driven solutions across Adobe, Salesforce, CDP, CRM, analytics, and AI platforms; oversees data models, identity resolution, observability, security, and operational health. Manages roadmap prioritization, budgets, vendors, implementations, and a technical team. Establishes AI governance and enables responsible use of generative, predictive, and agentic capabilities across marketing and customer engagement workflows. Top Skills: Adobe Experience Platform Adobe Target Aep Ai Governance Api Governance AWS Aws Bedrock Azure Azure Ai Cdp Cloud-Native Integrations CRM Cvent Data Modeling Event-Driven Architecture HTTP Identity Resolution JavaScript JSON Marketo Monday.Com Node.js On24 Python Restful Apis Rtcdp Salesforce CRM Salesforce Marketing Cloud",
+      "description": "CDW Sr Manager , MarTech (Marketing Tech Enablement) 10 Days Ago Saved Remote or Hybrid US 143K-200K Annually Senior level 143K-200K Annually Senior level Information Technology Leads marketing technology architecture, integrations, platform governance, and technical enablement. Designs cloud-native, API-driven solutions across Adobe, Salesforce, CDP, CRM, analytics, and AI platforms; oversees data models, identity resolution, observability, security, and operational health. Manages roadmap prioritization, budgets, vendors, implementations, and a technical team. Establishes AI governance and enables responsible use of generative, predictive, and agentic capabilities across marketing and customer engagement workflows. Top Skills: Adobe Experience Platform Adobe Target Aep Ai Governance Api Governance AWS Aws Bedrock Azure Azure Ai Cdp Cloud-Native Integrations CRM Cvent Data Modeling Event-Driven Architecture HTTP Identity Resolution JavaScript JSON Marketo Monday.Com Node.js On24 Python Restful Apis Rtcdp Salesforce CRM Salesforce Marketing Cloud",
       "recruiter": {
         "recruiter_name": "CDW Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -28309,7 +29050,7 @@
       }
     },
     {
-      "id": "builtin_8002645871509169318",
+      "id": "builtin_3640528426258985658",
       "title": "Senior Software Engineer",
       "company": "Flatiron Health",
       "location": "New York, NY",
@@ -28335,7 +29076,7 @@
         "React"
       ],
       "snippet": "Open Senior Software Engineer role at Flatiron Health in New York, NY via Built In.",
-      "description": "Flatiron Health Senior Software Engineer 4 Days Ago Saved Hybrid New York, NY, USA 152K-209K Annually Senior level 152K-209K Annually Senior level Healthtech • Software • Biotech • Pharmaceutical Lead the technical design and delivery of electronic prescribing modernization for OncoEMR. Build and review full-stack software using C#, VB.NET, React, and .NET services; modernize legacy WebForms workflows; develop safety-critical prescribing features; partner with product, QA, design, clinical, and vendor teams; manage complex projects from planning through rollout; and mentor engineers through code reviews, pairing, and design guidance. Top Skills: .Net Ai Agents C# Claude Code Cursor Llms React Relational Databases Rest Apis Vb.Net Webforms",
+      "description": "Flatiron Health Senior Software Engineer 10 Days Ago Saved Hybrid New York, NY, USA 152K-209K Annually Senior level 152K-209K Annually Senior level Healthtech • Software • Biotech • Pharmaceutical Lead the technical design and delivery of electronic prescribing modernization for OncoEMR. Build and review full-stack software using C#, VB.NET, React, and .NET services; modernize legacy WebForms workflows; develop safety-critical prescribing features; partner with product, QA, design, clinical, and vendor teams; manage complex projects from planning through rollout; and mentor engineers through code reviews, pairing, and design guidance. Top Skills: .Net Ai Agents C# Claude Code Cursor Llms React Relational Databases Rest Apis Vb.Net Webforms",
       "recruiter": {
         "recruiter_name": "Flatiron Health Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28348,7 +29089,7 @@
       }
     },
     {
-      "id": "builtin_3042871708535364744",
+      "id": "builtin_5446992286341960257",
       "title": "Software Engineer - Database",
       "company": "MotherDuck",
       "location": "New York, NY",
@@ -28375,7 +29116,7 @@
         "Rust"
       ],
       "snippet": "Open Software Engineer role at MotherDuck in New York, NY via Built In.",
-      "description": "MotherDuck Software Engineer - Database 4 Days Ago Saved Hybrid New York, NY 180K-260K Annually Entry level 180K-260K Annually Entry level Database • Analytics Build and improve MotherDuck’s cloud-connected DuckDB database systems, including dual execution, dynamic resource assignment, distributed execution, performance, and reliability. Lead cross-functional projects, debug production issues, collaborate with DuckDB Labs, mentor teammates, document expertise, and help shape embedded database architecture and user experience. Top Skills: C++ Cloud Infrastructure Distributed Systems Duckdb Java Networking Rust",
+      "description": "MotherDuck Software Engineer - Database 10 Days Ago Saved Hybrid New York, NY 180K-260K Annually Entry level 180K-260K Annually Entry level Database • Analytics Build and improve MotherDuck’s cloud-connected DuckDB database systems, including dual execution, dynamic resource assignment, distributed execution, performance, and reliability. Lead cross-functional projects, debug production issues, collaborate with DuckDB Labs, mentor teammates, document expertise, and help shape embedded database architecture and user experience. Top Skills: C++ Cloud Infrastructure Distributed Systems Duckdb Java Networking Rust",
       "recruiter": {
         "recruiter_name": "MotherDuck Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28388,7 +29129,7 @@
       }
     },
     {
-      "id": "builtin_6149054980407946827",
+      "id": "builtin_5053471701596839824",
       "title": "Senior Forward Deployed Software Engineer",
       "company": "PhysicsX",
       "location": "New York, NY",
@@ -28418,7 +29159,7 @@
         "Terraform"
       ],
       "snippet": "Open Senior Software Engineer role at PhysicsX in New York, NY via Built In.",
-      "description": "PhysicsX Senior Forward Deployed Software Engineer Reposted 4 Days Ago Saved In-Office New York, NY 150K-250K Annually Senior level 150K-250K Annually Senior level Machine Learning • Software The Senior Forward Deployed Software Engineer will work with customers to build and deploy applications using physics AI models, collaborate with cross-functional teams, and maintain RESTful APIs and microservices in Python, focusing on impactful solutions for engineering challenges. Top Skills: AWS Azure Fastapi Helm Kubernetes Python Terraform",
+      "description": "PhysicsX Senior Forward Deployed Software Engineer Reposted 10 Days Ago Saved In-Office New York, NY 150K-250K Annually Senior level 150K-250K Annually Senior level Machine Learning • Software The Senior Forward Deployed Software Engineer will work with customers to build and deploy applications using physics AI models, collaborate with cross-functional teams, and maintain RESTful APIs and microservices in Python, focusing on impactful solutions for engineering challenges. Top Skills: AWS Azure Fastapi Helm Kubernetes Python Terraform",
       "recruiter": {
         "recruiter_name": "PhysicsX Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28431,7 +29172,7 @@
       }
     },
     {
-      "id": "builtin_1273735830760573895",
+      "id": "builtin_2024527031003702730",
       "title": "Director Software Engineer for BRCC Inbound Communication (Hybrid - Newark, NJ or NYC)",
       "company": "Broadridge",
       "location": "New York, NY",
@@ -28457,7 +29198,7 @@
         "Microservices"
       ],
       "snippet": "Open Director role at Broadridge in New York, NY via Built In.",
-      "description": "Broadridge Director Software Engineer for BRCC Inbound Communication (Hybrid - Newark, NJ or NYC) 4 Days Ago Saved Hybrid New York, NY 165K-175K Annually Expert/Leader 165K-175K Annually Expert/Leader Fintech • Financial Services Leads the architecture, engineering delivery, modernization, and operations of a multichannel inbound communications platform. Oversees document capture, imaging, OCR, workflow automation, AI-enabled classification and extraction, integrations, security, scalability, and reliability. Establishes technology strategy, standards, APIs, roadmaps, and engineering practices while leading architecture, software, platform, quality, and AI/data teams. Partners with product, operations, sales, security, implementation, and client stakeholders to deliver scalable solutions and reduce technical debt. Top Skills: APIs Artificial Intelligence Ci/Cd Cloud-Native Platforms Cybersecurity Devsecops Document Intelligence Event-Driven Architecture Kofax Capture Machine Learning Microservices Natural Language Processing Observability Ocr Tungsten Totalagility Workflow Automation",
+      "description": "Broadridge Director Software Engineer for BRCC Inbound Communication (Hybrid - Newark, NJ or NYC) 10 Days Ago Saved Hybrid New York, NY 165K-175K Annually Expert/Leader 165K-175K Annually Expert/Leader Fintech • Financial Services Leads the architecture, engineering delivery, modernization, and operations of a multichannel inbound communications platform. Oversees document capture, imaging, OCR, workflow automation, AI-enabled classification and extraction, integrations, security, scalability, and reliability. Establishes technology strategy, standards, APIs, roadmaps, and engineering practices while leading architecture, software, platform, quality, and AI/data teams. Partners with product, operations, sales, security, implementation, and client stakeholders to deliver scalable solutions and reduce technical debt. Top Skills: APIs Artificial Intelligence Ci/Cd Cloud-Native Platforms Cybersecurity Devsecops Document Intelligence Event-Driven Architecture Kofax Capture Machine Learning Microservices Natural Language Processing Observability Ocr Tungsten Totalagility Workflow Automation",
       "recruiter": {
         "recruiter_name": "Broadridge Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28508,7 +29249,7 @@
       }
     },
     {
-      "id": "builtin_7025064472930995077",
+      "id": "builtin_6342983662675776830",
       "title": "Lead Data & Software Engineer",
       "company": "Ovative Group",
       "location": "New York, NY",
@@ -28536,7 +29277,7 @@
         "Python"
       ],
       "snippet": "Open Senior Software Engineer role at Ovative Group in New York, NY via Built In.",
-      "description": "Ovative Group Lead Data & Software Engineer 4 Days Ago Saved In-Office New York, NY 125K-175K Annually Senior level 125K-175K Annually Senior level Digital Media Lead technical strategy and architecture for a client delivery data platform. Own platform priorities, integrations, reliability, engineering standards, proofs of concept, and system-level fixes. Partner with Product and senior stakeholders, mentor engineers, handle technical escalations, evaluate emerging tools and AI practices, and write code for critical work. The role requires expert SQL and Python, scalable data platform experience, cloud expertise, and hands-on LLM orchestration experience. Top Skills: Ai Agents Azure Dagster Data Pipelines Data Platforms Databricks GCP Llm Orchestration Python SQL",
+      "description": "Ovative Group Lead Data & Software Engineer 10 Days Ago Saved In-Office New York, NY 125K-175K Annually Senior level 125K-175K Annually Senior level Digital Media Lead technical strategy and architecture for a client delivery data platform. Own platform priorities, integrations, reliability, engineering standards, proofs of concept, and system-level fixes. Partner with Product and senior stakeholders, mentor engineers, handle technical escalations, evaluate emerging tools and AI practices, and write code for critical work. The role requires expert SQL and Python, scalable data platform experience, cloud expertise, and hands-on LLM orchestration experience. Top Skills: Ai Agents Azure Dagster Data Pipelines Data Platforms Databricks GCP Llm Orchestration Python SQL",
       "recruiter": {
         "recruiter_name": "Ovative Group Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28549,7 +29290,7 @@
       }
     },
     {
-      "id": "builtin_6897693254308390124",
+      "id": "builtin_2037818087486410205",
       "title": "Associate, Software Developer",
       "company": "Cantor Fitzgerald",
       "location": "New York, NY",
@@ -28579,7 +29320,7 @@
         "TypeScript"
       ],
       "snippet": "Open Software Engineer role at Cantor Fitzgerald in New York, NY via Built In.",
-      "description": "Cantor Fitzgerald Associate, Software Developer 4 Days Ago Saved In-Office New York, NY 110K-136K Annually Junior 110K-136K Annually Junior Financial Services Develop and maintain full-stack web applications for capital markets and fixed income using Angular, TypeScript, Java, Spring Boot, and Node.js. Build backend services, REST APIs, and database integrations; create UI/UX prototypes; implement CI/CD pipelines; test, debug, and tune application performance. Collaborate with business teams on requirements, participate in code reviews, deploy applications, and resolve production issues. Top Skills: Angular Confluence Figma Git Gitlab Java JavaScript Jenkins JIRA Linux Nginx Node.js Python Relational Databases Rest Apis Spring Boot Typescript",
+      "description": "Cantor Fitzgerald Associate, Software Developer 10 Days Ago Saved In-Office New York, NY 110K-136K Annually Junior 110K-136K Annually Junior Financial Services Develop and maintain full-stack web applications for capital markets and fixed income using Angular, TypeScript, Java, Spring Boot, and Node.js. Build backend services, REST APIs, and database integrations; create UI/UX prototypes; implement CI/CD pipelines; test, debug, and tune application performance. Collaborate with business teams on requirements, participate in code reviews, deploy applications, and resolve production issues. Top Skills: Angular Confluence Figma Git Gitlab Java JavaScript Jenkins JIRA Linux Nginx Node.js Python Relational Databases Rest Apis Spring Boot Typescript",
       "recruiter": {
         "recruiter_name": "Cantor Fitzgerald Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28592,7 +29333,7 @@
       }
     },
     {
-      "id": "builtin_658838628906534687",
+      "id": "builtin_611004124867233068",
       "title": "Senior Data Engineer",
       "company": "Pontera",
       "location": "New York, NY",
@@ -28619,7 +29360,7 @@
         "Snowflake"
       ],
       "snippet": "Open Senior Software Engineer role at Pontera in New York, NY via Built In.",
-      "description": "Pontera Senior Data Engineer 4 Days Ago Saved Hybrid New York, NY 180K-220K Annually Senior level 180K-220K Annually Senior level Fintech • Software • Financial Services Build and maintain production data pipelines, integrations, semantic models, AI agents, copilots, and automated workflows using business data. Partner with Sales, Marketing, RevOps, and Customer Success to deliver reliable analytics and automation solutions. Establish data quality, monitoring, evaluation, access controls, and deployment practices while enabling colleagues to adopt AI tools effectively. Top Skills: Ai Agents Api Integrations Claude Dbt Elt Fivetran Gong Llm Applications Python Salesforce Semantic Modeling Snowflake Snowflake Cortex SQL Zendesk",
+      "description": "Pontera Senior Data Engineer 10 Days Ago Saved Hybrid New York, NY 180K-220K Annually Senior level 180K-220K Annually Senior level Fintech • Software • Financial Services Build and maintain production data pipelines, integrations, semantic models, AI agents, copilots, and automated workflows using business data. Partner with Sales, Marketing, RevOps, and Customer Success to deliver reliable analytics and automation solutions. Establish data quality, monitoring, evaluation, access controls, and deployment practices while enabling colleagues to adopt AI tools effectively. Top Skills: Ai Agents Api Integrations Claude Dbt Elt Fivetran Gong Llm Applications Python Salesforce Semantic Modeling Snowflake Snowflake Cortex SQL Zendesk",
       "recruiter": {
         "recruiter_name": "Pontera Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -28632,7 +29373,7 @@
       }
     },
     {
-      "id": "builtin_1329339392206883038",
+      "id": "builtin_1938857174875507633",
       "title": "Sr. Analytics Engineer-Product Insights (Hybrid)",
       "company": "CrowdStrike",
       "location": "New York, NY",
@@ -28665,7 +29406,7 @@
         "Snowflake"
       ],
       "snippet": "Open Senior Software Engineer role at CrowdStrike in New York, NY via Built In.",
-      "description": "CrowdStrike Sr. Analytics Engineer-Product Insights (Hybrid) Reposted 4 Days Ago Saved Hybrid New York, NY 140K-220K Annually Senior level 140K-220K Annually Senior level Cloud • Computer Vision • Information Technology • Sales • Security • Cybersecurity Build and maintain analytics data systems and pipelines that capture, transform, and integrate product usage data at scale. Deliver accurate insights and visualizations to inform product decisions, collaborate cross-functionally, and apply AI tools to improve analytics and workflows. Top Skills: AI Amplitude AWS Azure Docker GCP Go Graph Databases Kubernetes Looker Machine Learning NoSQL Oci Power BI Python Rdbms Snowflake SQL Tableau",
+      "description": "CrowdStrike Sr. Analytics Engineer-Product Insights (Hybrid) Reposted 10 Days Ago Saved Hybrid New York, NY 140K-220K Annually Senior level 140K-220K Annually Senior level Cloud • Computer Vision • Information Technology • Sales • Security • Cybersecurity Build and maintain analytics data systems and pipelines that capture, transform, and integrate product usage data at scale. Deliver accurate insights and visualizations to inform product decisions, collaborate cross-functionally, and apply AI tools to improve analytics and workflows. Top Skills: AI Amplitude AWS Azure Docker GCP Go Graph Databases Kubernetes Looker Machine Learning NoSQL Oci Power BI Python Rdbms Snowflake SQL Tableau",
       "recruiter": {
         "recruiter_name": "CrowdStrike Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -29556,7 +30297,7 @@
       }
     },
     {
-      "id": "builtin_7146072385387383877",
+      "id": "builtin_857106731982394092",
       "title": "Senior Software Engineer, Shared Services",
       "company": "Justworks",
       "location": "New York, NY",
@@ -29582,7 +30323,7 @@
         "gRPC"
       ],
       "snippet": "Open Senior Software Engineer role at Justworks in New York, NY via Built In.",
-      "description": "Justworks Senior Software Engineer, Shared Services 9 Days Ago Saved Easy Apply Hybrid New York, NY, USA Easy Apply 188K-242K Annually Senior level 188K-242K Annually Senior level HR Tech • Payments • Professional Services • Software Own and operate Justworks’ shared Temporal platform, hardening its self-hosted cluster for multi-tenant reliability, scalability, security, and regional resilience. Define SLOs, observability, alerting, and safe workflow conventions; guide tenant teams on retries and idempotency; lead migrations and infrastructure consolidation; manage capacity and costs; and participate in on-call incident response, troubleshooting, and postmortems. Top Skills: Containers Go Grpc Kubernetes Temporal Tls/Mtls",
+      "description": "Justworks Senior Software Engineer, Shared Services 10 Days Ago Saved Easy Apply Hybrid New York, NY, USA Easy Apply 188K-242K Annually Senior level 188K-242K Annually Senior level HR Tech • Payments • Professional Services • Software Own and operate Justworks’ shared Temporal platform, hardening its self-hosted cluster for multi-tenant reliability, scalability, security, and regional resilience. Define SLOs, observability, alerting, and safe workflow conventions; guide tenant teams on retries and idempotency; lead migrations and infrastructure consolidation; manage capacity and costs; and participate in on-call incident response, troubleshooting, and postmortems. Top Skills: Containers Go Grpc Kubernetes Temporal Tls/Mtls",
       "recruiter": {
         "recruiter_name": "Justworks Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -32188,6 +32929,124 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=January%20%22hiring%22%20%22Senior%20Data%20Systems%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=January%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=January%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "hn_50339454_0",
+      "title": "Software Engineer",
+      "company": "Tech Startup",
+      "location": "New York, NY (On-site)",
+      "city": "New York, NY",
+      "location_type": "New York, NY",
+      "work_model": "On-site",
+      "date_posted": "2026-10-29",
+      "apply_url": "https://news.ycombinator.com/item?id=50339454",
+      "url": "https://news.ycombinator.com/item?id=50339454",
+      "salary": {
+        "min": 175000,
+        "max": 300000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$175,000 - $300,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "seniority": "Software Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "General Software",
+      "source": "Hacker News",
+      "description": "Backed by Sequoia Capital, Peregrine is the operational AI platform powering decision making and operations SF / NYC / DC | In-office 4 days | $175,000 - $300,000 Staff SWE, Platform (SF) https://grnh.se/h4368vl55us Staff SWE, Product Security (SF/NYC) https://grnh.se/b2kbmt3j5us Staff & Sr SWE (SF, NYC, DC) https://grnh.se/6jhp864a5us // https://grnh.se/gwf63pot5us Senior SWE, Foundations (SF/NYC) https://grnh.se/mn995net5us Sr SWE, Data Infrastructure (SF/NYC/DC) https://grnh.se/bq138yn05us Senior SWE, Federal Platform (DC) https://grnh.se/pma2hbgx5us Sr SWE, Traffic (SF) https://grnh.se/tdpez89u5us Staff Product Designer (SF /NYC) https://grnh.se/ydegg9tl5us Product Operations Manager (SF) https://grnh.se/0lopbszc5us",
+      "snippet": "Backed by Sequoia Capital, Peregrine is the operational AI platform powering decision making and operations SF / NYC / DC | In-office 4 days | $175,000 - $300,000 Staff SWE, Platform (SF) https://grnh.se/h4368vl55us Staff SWE, Product Security (SF/NYC) https://grnh.se/b2kbmt3j5us...",
+      "recruiter": {
+        "recruiter_name": "Tech Startup Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Tech Startup Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Tech%20Startup%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_1600675183967693399",
+      "title": "Software Engineer III, Master Data Management",
+      "company": "Ahold Delhaize USA",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Mid-Level",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/mdm-software-engineer-iii/11608458",
+      "date_posted": "2026-10-29",
+      "salary": {
+        "min": 125000,
+        "max": 188000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$125,000 - $188,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Azure",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Microservices"
+      ],
+      "snippet": "Open Mid-Level role at Ahold Delhaize USA in Boston, MA via Built In.",
+      "description": "Ahold Delhaize USA Software Engineer III, Master Data Management One Month Ago Saved In-Office Quincy, MA, USA 125K-188K Annually Senior level 125K-188K Annually Senior level AdTech • eCommerce • Food • Marketing Tech • Retail Designs, develops, tests, deploys, and supports reliable software solutions and significant components from inception through production. Builds APIs and integrations, applies Agile, DevOps, and CI/CD practices, improves automation and observability, performs testing and troubleshooting, and resolves production issues. Collaborates with product, architecture, engineering, and business teams, coordinates upgrades and vendor integrations, manages technical debt, communicates risks and value, and provides guidance to junior engineers. Top Skills: Agile APIs Automated Testing Azure Ci/Cd DevOps Docker Event-Driven Integration Identity And Access Management Kubernetes Microservices Middleware Observability Openshift Relational Databases",
+      "recruiter": {
+        "recruiter_name": "Ahold Delhaize USA Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Ahold Delhaize USA Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Ahold%20Delhaize%20USA%20%22hiring%22%20%22Software%20Engineer%20III%2C%20Master%20Data%20Management%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_2381654502249151207",
+      "title": "Full Stack Software Engineer, Auth",
+      "company": "Nominal",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/frontend-software-engineer-auth/11970533",
+      "date_posted": "2026-10-29",
+      "salary": {
+        "min": 213000,
+        "max": 310000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$213,000 - $310,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Software Engineer role at Nominal in New York, NY via Built In.",
+      "description": "Nominal Full Stack Software Engineer, Auth 11 Days Ago Saved In-Office New York, NY 213K-310K Annually Mid level 213K-310K Annually Mid level Software Build frontend experiences for authentication and authorization, including role management, user and group administration, workspaces, API keys, data access controls, and enterprise sign-in. Develop scalable React and TypeScript architecture, improve performance for complex workflows and large datasets, and make permission models understandable. Partner with product, design, and backend teams to solve ambiguous problems and shape intuitive, secure user experiences. Top Skills: APIs Authzed Oidc React SAML Spicedb Typescript Zanzibar-Style Authorization",
+      "recruiter": {
+        "recruiter_name": "Nominal Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Nominal Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Nominal%20%22hiring%22%20%22Full%20Stack%20Software%20Engineer%2C%20Auth%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Nominal%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -36524,45 +37383,6 @@
       }
     },
     {
-      "id": "hn_50339454_0",
-      "title": "Software Engineer",
-      "company": "Tech Startup",
-      "location": "New York, NY (On-site)",
-      "city": "New York, NY",
-      "location_type": "New York, NY",
-      "work_model": "On-site",
-      "date_posted": "2026-10-28",
-      "apply_url": "https://news.ycombinator.com/item?id=50339454",
-      "url": "https://news.ycombinator.com/item?id=50339454",
-      "salary": {
-        "min": 175000,
-        "max": 300000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$175,000 - $300,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "seniority": "Software Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "General Software",
-      "source": "Hacker News",
-      "description": "Backed by Sequoia Capital, Peregrine is the operational AI platform powering decision making and operations SF / NYC / DC | In-office 4 days | $175,000 - $300,000 Staff SWE, Platform (SF) https://grnh.se/h4368vl55us Staff SWE, Product Security (SF/NYC) https://grnh.se/b2kbmt3j5us Staff & Sr SWE (SF, NYC, DC) https://grnh.se/6jhp864a5us // https://grnh.se/gwf63pot5us Senior SWE, Foundations (SF/NYC) https://grnh.se/mn995net5us Sr SWE, Data Infrastructure (SF/NYC/DC) https://grnh.se/bq138yn05us Senior SWE, Federal Platform (DC) https://grnh.se/pma2hbgx5us Sr SWE, Traffic (SF) https://grnh.se/tdpez89u5us Staff Product Designer (SF /NYC) https://grnh.se/ydegg9tl5us Product Operations Manager (SF) https://grnh.se/0lopbszc5us",
-      "snippet": "Backed by Sequoia Capital, Peregrine is the operational AI platform powering decision making and operations SF / NYC / DC | In-office 4 days | $175,000 - $300,000 Staff SWE, Platform (SF) https://grnh.se/h4368vl55us Staff SWE, Product Security (SF/NYC) https://grnh.se/b2kbmt3j5us...",
-      "recruiter": {
-        "recruiter_name": "Tech Startup Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Tech Startup Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Tech%20Startup%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20Startup%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "ashby_harvey_6a0e78a0-e797-449d-8d6c-c20c9bfa214d",
       "title": "Senior People Systems Analyst",
       "company": "Harvey AI",
@@ -38406,7 +39226,7 @@
       }
     },
     {
-      "id": "builtin_1266430349784675412",
+      "id": "builtin_933084214687125934",
       "title": "Senior Software Engineer, Product Foundations",
       "company": "Justworks",
       "location": "New York, NY",
@@ -38439,7 +39259,7 @@
         "Terraform"
       ],
       "snippet": "Open Senior Software Engineer role at Justworks in New York, NY via Built In.",
-      "description": "Justworks Senior Software Engineer, Product Foundations 12 Days Ago Saved Easy Apply Hybrid New York, NY Easy Apply 168K-235K Annually Senior level 168K-235K Annually Senior level HR Tech • Payments • Professional Services • Software Own large-scale software projects from discovery through launch, improve system performance, reliability, and scalability, and expand fault-tolerant infrastructure. Provide technical leadership, mentorship, and knowledge-sharing while collaborating with product managers and designers. Enhance testing, monitoring, and continuous deployment systems, and ensure sensitive data remains secure. Top Skills: AWS CircleCI Datadog Docker Elasticsearch Git Go JavaScript Kafka Kubernetes Memcache MySQL Redis Ruby On Rails SQL Terraform",
+      "description": "Justworks Senior Software Engineer, Product Foundations 13 Days Ago Saved Easy Apply Hybrid New York, NY Easy Apply 168K-235K Annually Senior level 168K-235K Annually Senior level HR Tech • Payments • Professional Services • Software Own large-scale software projects from discovery through launch, improve system performance, reliability, and scalability, and expand fault-tolerant infrastructure. Provide technical leadership, mentorship, and knowledge-sharing while collaborating with product managers and designers. Enhance testing, monitoring, and continuous deployment systems, and ensure sensitive data remains secure. Top Skills: AWS CircleCI Datadog Docker Elasticsearch Git Go JavaScript Kafka Kubernetes Memcache MySQL Redis Ruby On Rails SQL Terraform",
       "recruiter": {
         "recruiter_name": "Justworks Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -38452,7 +39272,7 @@
       }
     },
     {
-      "id": "builtin_7309297305991414971",
+      "id": "builtin_7930019810265400265",
       "title": "Senior Software Engineer, Workforce Payments",
       "company": "Justworks",
       "location": "New York, NY",
@@ -38485,7 +39305,7 @@
         "Terraform"
       ],
       "snippet": "Open Senior Software Engineer role at Justworks in New York, NY via Built In.",
-      "description": "Justworks Senior Software Engineer, Workforce Payments 12 Days Ago Saved Easy Apply Hybrid New York, NY Easy Apply 188K-242K Annually Senior level 188K-242K Annually Senior level HR Tech • Payments • Professional Services • Software Build and lead development of the core computation platform powering payroll, money movement, and tax products. Own large-scale projects from discovery through launch, improve system performance, reliability, and scalability, and expand fault-tolerant processing infrastructure. Mentor engineers, strengthen testing and deployment practices, secure sensitive data, and collaborate with product managers, designers, and cross-functional teams to deliver accurate, compliant financial solutions. Top Skills: AWS CircleCI Datadog Docker Elasticsearch Git Go JavaScript Kafka Kubernetes Memcache MySQL Redis Ruby On Rails SQL Terraform",
+      "description": "Justworks Senior Software Engineer, Workforce Payments 13 Days Ago Saved Easy Apply Hybrid New York, NY Easy Apply 188K-242K Annually Senior level 188K-242K Annually Senior level HR Tech • Payments • Professional Services • Software Build and lead development of the core computation platform powering payroll, money movement, and tax products. Own large-scale projects from discovery through launch, improve system performance, reliability, and scalability, and expand fault-tolerant processing infrastructure. Mentor engineers, strengthen testing and deployment practices, secure sensitive data, and collaborate with product managers, designers, and cross-functional teams to deliver accurate, compliant financial solutions. Top Skills: AWS CircleCI Datadog Docker Elasticsearch Git Go JavaScript Kafka Kubernetes Memcache MySQL Redis Ruby On Rails SQL Terraform",
       "recruiter": {
         "recruiter_name": "Justworks Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -49512,6 +50332,110 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Absentia%20Labs%20%22hiring%22%20%22Senior%20Data%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Absentia%20Labs%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Absentia%20Labs%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_reddit_6909091",
+      "title": "Senior Software Engineer, Ads",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6909091",
+      "date_posted": "2026-10-23",
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$190,800 - $267,100 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "C++",
+        "Distributed Systems",
+        "Docker",
+        "Go",
+        "Java",
+        "Kafka",
+        "Kubernetes",
+        "Microservices",
+        "Python",
+        "Redis",
+        "Spark"
+      ],
+      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a Generalist Senior Backend Engineer position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 5+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Comprehensive Healthcare Benefits and Income Replacement Programs 401k with Employer Match Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave #li-remote Pay Transparency: This job posting may span more than one career level. In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/ . To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below. The base salary range for this position is: $190,800 — $267,100 USD In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+      "recruiter": {
+        "recruiter_name": "Reddit Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Reddit Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_reddit_6469397",
+      "title": "Software Engineer, Ads",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
+      "date_posted": "2026-10-23",
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$164,200 - $229,900 / yr"
+      },
+      "experience": {
+        "min_years": 3,
+        "max_years": null,
+        "display": "3+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "C++",
+        "Distributed Systems",
+        "Docker",
+        "Go",
+        "Java",
+        "Kafka",
+        "Kubernetes",
+        "Microservices",
+        "Python",
+        "Redis",
+        "Spark"
+      ],
+      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a generalist mid-level backend position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Mid-level engineers are expected to absorb best practices and learn exceptionally quickly while being effective core contributors. Engineers at this level must be able to code independently, but may work with senior engineers on the design of complex solutions. The most important skills an engineer at this level must possess are 1) coachability and an eagerness to grow, 2) deep passion for coding, and 3) excellent independent learning skills, all while operating as a fully functioning member of an engineering team. Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 3+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Comprehensive Healthcare Benefits and Income Replacement Programs 401k with Employer Match Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave Pay Transparency: This job posting may span more than one career level. In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/ . To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below. The base salary range for this position is: $164,200 — $229,900 USD In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+      "recruiter": {
+        "recruiter_name": "Reddit Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Reddit Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
       }
     },
     {
@@ -62352,170 +63276,6 @@
       }
     },
     {
-      "id": "builtin_1863271666236481378",
-      "title": "Senior Software Engineer",
-      "company": "INTOO",
-      "location": "Remote",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinboston.com/job/senior-software-engineer/10893936",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 130000,
-        "max": 170000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$130,000 - $170,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AWS",
-        "CI/CD",
-        "JavaScript",
-        "MySQL",
-        "React",
-        "Redis"
-      ],
-      "snippet": "Open Senior Software Engineer role at INTOO in Remote via Built In.",
-      "description": "INTOO Senior Software Engineer Reposted 20 Days Ago Saved Remote or Hybrid 14 Locations 130K-170K Annually Senior level 130K-170K Annually Senior level Other • Professional Services Own complex software systems and critical workflows end-to-end while ensuring reliability, performance, security, and maintainability. Lead architectural decisions, mentor engineers, manage incident response, improve system health, and communicate effectively with technical and non-technical stakeholders. The role requires extensive Ruby on Rails, AWS or equivalent cloud infrastructure, Linux production operations, frontend development, relational databases, testing, CI/CD, and observability experience. Top Skills: AWS Ci/Cd Iso 27001 JavaScript JIRA Linux MySQL Nginx Nist Oauth React Redis Ruby On Rails SAML Scrum Soc 2 Stimulus",
-      "recruiter": {
-        "recruiter_name": "INTOO Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "INTOO Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=INTOO%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=INTOO%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "builtin_782256771869001228",
-      "title": "Senior Full-Stack Engineer",
-      "company": "Salve, Inc.",
-      "location": "Remote",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Built In",
-      "apply_url": "https://www.builtinboston.com/job/senior-full-stack-engineer/9546746",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 110000,
-        "max": 130000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$110,000 - $130,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI",
-        "MySQL",
-        "Python",
-        "REST",
-        "React",
-        "TypeScript"
-      ],
-      "snippet": "Open Senior Software Engineer role at Salve, Inc. in Remote via Built In.",
-      "description": "Salve, Inc. Senior Full-Stack Engineer Reposted 20 Days Ago Saved Remote United States 110K-130K Annually Senior level 110K-130K Annually Senior level Big Data • Cannabis • eCommerce • Logistics • Database • Business Intelligence • Big Data Analytics The Senior Full-Stack Engineer will manage client relationships, design integration solutions, and ensure seamless delivery and optimization of technical workflows, while leveraging AI for efficiency. Top Skills: Edi Elt ETL Laravel MySQL PHP Postgres Python React Rest Apis Typescript Vue Webhooks",
-      "recruiter": {
-        "recruiter_name": "Salve, Inc. Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Salve, Inc. Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Salve%2C%20Inc.%20%22hiring%22%20%22Senior%20Full-Stack%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Salve%2C%20Inc.%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "builtin_4523659997680557159",
-      "title": "Founding Software Engineer, Product",
-      "company": "Peerbound",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Hybrid",
-      "seniority": "Software Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/founding-software-engineer-product/10545766",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 180000,
-        "max": 220000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$180,000 - $220,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI",
-        "GraphQL",
-        "Python",
-        "React",
-        "TypeScript"
-      ],
-      "snippet": "Open Software Engineer role at Peerbound in New York, NY via Built In.",
-      "description": "Peerbound Founding Software Engineer, Product Reposted 20 Days Ago Saved Hybrid New York, NY, USA 180K-220K Annually Senior level 180K-220K Annually Senior level Artificial Intelligence • Machine Learning • Marketing Tech • Natural Language Processing • Sales • Software Own product features end-to-end across web app, GraphQL API, and embeddable components. Design schemas and APIs, build backend and frontend, write tests, monitor real-user behavior, and ship weekly. Establish shared component library, design system, and testing patterns. Optimize performance and leverage AI tooling to accelerate engineering and product collaboration. Top Skills: Fastapi Figma GraphQL Postgres Python React Storybook Strawberry Graphql Tailwind Typescript",
-      "recruiter": {
-        "recruiter_name": "Peerbound Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Peerbound Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Peerbound%20%22hiring%22%20%22Founding%20Software%20Engineer%2C%20Product%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Peerbound%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_10881298746032580",
-      "title": "Software Engineer",
-      "company": "Airgoods",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/software-engineer/9691914",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 120000,
-        "max": 220000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$120,000 - $220,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Node.js",
-        "React",
-        "TypeScript"
-      ],
-      "snippet": "Open Software Engineer role at Airgoods in New York, NY via Built In.",
-      "description": "Airgoods Software Engineer Reposted 20 Days Ago Saved New York, NY 120K-220K Annually Mid level 120K-220K Annually Mid level eCommerce • Fintech • Food • Logistics Full-stack engineer responsible for end-to-end product development from ideation to launch. Build and ship web and mobile apps, prioritize product quality and speed, collaborate with founders and engineering team, and work in-person at the NYC office using a TypeScript/React/Node.js/Postgres stack. Top Skills: Express Next.Js Node.js Postgres React React Native Redux Tailwind Css Turborepo Typescript",
-      "recruiter": {
-        "recruiter_name": "Airgoods Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Airgoods Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Airgoods%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Airgoods%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "builtin_8769281690068906314",
       "title": "Senior Software Engineer",
       "company": "Altana",
@@ -62635,128 +63395,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Samsara%20%22hiring%22%20%22Senior%20AI%20Data%20%26%20Analytics%20Engineer%20II%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Samsara%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Samsara%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_4474985441374946276",
-      "title": "Senior Full Stack Developer",
-      "company": "Too Lost",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Hybrid",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/senior-full-stack-developer/9379447",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 130000,
-        "max": 140000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$130,000 - $140,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "JavaScript"
-      ],
-      "snippet": "Open Senior Software Engineer role at Too Lost in New York, NY via Built In.",
-      "description": "Too Lost Senior Full Stack Developer Reposted 20 Days Ago Saved Hybrid New York City, NY, USA 130K-140K Annually Senior level 130K-140K Annually Senior level Music • News + Entertainment The Senior Full Stack Developer will lead full stack development, mentor engineers, refactor services, and uphold system performance and security standards in a hybrid work environment. Top Skills: JavaScript Laravel Relational Databases Vue",
-      "recruiter": {
-        "recruiter_name": "Too Lost Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Too Lost Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Too%20Lost%20%22hiring%22%20%22Senior%20Full%20Stack%20Developer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Too%20Lost%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_801937373302429379",
-      "title": "Senior Full-Stack Engineer",
-      "company": "Eon",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer/8604551",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 145000,
-        "max": 180000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$145,000 - $180,000 / yr"
-      },
-      "experience": {
-        "min_years": 7,
-        "max_years": null,
-        "display": "7+ years"
-      },
-      "tech_stack": [
-        "AWS",
-        "Go",
-        "Python",
-        "REST",
-        "React"
-      ],
-      "snippet": "Open Senior Software Engineer role at Eon in New York, NY via Built In.",
-      "description": "Eon Senior Full-Stack Engineer Reposted 20 Days Ago Saved In-Office New York City, NY, USA 145K-180K Annually Senior level 145K-180K Annually Senior level Transportation • Travel Seeking a Senior Software Engineer with 7+ years of experience, proficient in Rails and Python, to develop applications and shape engineering culture. Top Skills: AWS Go Postgres Python Ruby on Rails React Native React Native Web Rest",
-      "recruiter": {
-        "recruiter_name": "Eon Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Eon Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Eon%20%22hiring%22%20%22Senior%20Full-Stack%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eon%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "builtin_1509210891933839961",
-      "title": "Senior Software Engineer",
-      "company": "Healthtek Solutions",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer/10938923",
-      "date_posted": "2026-10-14",
-      "salary": {
-        "min": 170000,
-        "max": 180000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$170,000 - $180,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Azure",
-        "CI/CD",
-        "Terraform",
-        "TypeScript"
-      ],
-      "snippet": "Open Senior Software Engineer role at Healthtek Solutions in New York, NY via Built In.",
-      "description": "Healthtek Solutions Senior Software Engineer Reposted 20 Days Ago Saved In-Office Brooklyn, New York, NY, USA 170K-180K Annually Senior level 170K-180K Annually Senior level Healthtech • Social Impact • Software Design and maintain scalable full-stack applications using C#, .NET, SQL Server, Angular, and Azure. Build serverless ETL and event-driven workflows with Azure Functions and messaging services. Lead architecture discussions, promote testing, CI/CD, observability, and infrastructure-as-code, and collaborate with product, data, RPA, and business teams. Participate in code reviews and incident response while mentoring junior developers and ensuring reliability, security, and performance. Top Skills: .Net Angular Azure Azure Api Management Azure Event Grid Azure Functions Azure Queue Storage Azure Service Bus Azure Sql Database Bicep C# Ci/Cd Infrastructure As Code Microsoft Entra SQL Server Terraform Typescript",
-      "recruiter": {
-        "recruiter_name": "Healthtek Solutions Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Healthtek Solutions Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Healthtek%20Solutions%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Healthtek%20Solutions%20engineering%20manager%20New%20York"
       }
     },
     {
@@ -64259,47 +64897,6 @@
       }
     },
     {
-      "id": "builtin_287910716436194905",
-      "title": "Software Engineer III, Master Data Management",
-      "company": "Ahold Delhaize USA",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "On-site",
-      "seniority": "Mid-Level",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinboston.com/job/mdm-software-engineer-iii/11608458",
-      "date_posted": "2026-10-10",
-      "salary": {
-        "min": 125000,
-        "max": 188000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$125,000 - $188,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Azure",
-        "CI/CD",
-        "Docker",
-        "Kubernetes",
-        "Microservices"
-      ],
-      "snippet": "Open Mid-Level role at Ahold Delhaize USA in Boston, MA via Built In.",
-      "description": "Ahold Delhaize USA Software Engineer III, Master Data Management 24 Days Ago Saved In-Office Quincy, MA, USA 125K-188K Annually Senior level 125K-188K Annually Senior level AdTech • eCommerce • Food • Marketing Tech • Retail Designs, develops, tests, deploys, and supports reliable software solutions and significant components from inception through production. Builds APIs and integrations, applies Agile, DevOps, and CI/CD practices, improves automation and observability, performs testing and troubleshooting, and resolves production issues. Collaborates with product, architecture, engineering, and business teams, coordinates upgrades and vendor integrations, manages technical debt, communicates risks and value, and provides guidance to junior engineers. Top Skills: Agile APIs Automated Testing Azure Ci/Cd DevOps Docker Event-Driven Integration Identity And Access Management Kubernetes Microservices Middleware Observability Openshift Relational Databases",
-      "recruiter": {
-        "recruiter_name": "Ahold Delhaize USA Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Ahold Delhaize USA Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Ahold%20Delhaize%20USA%20%22hiring%22%20%22Software%20Engineer%20III%2C%20Master%20Data%20Management%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ahold%20Delhaize%20USA%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "builtin_2851627247693387019",
       "title": "Senior Software Engineer, Backend",
       "company": "DraftKings",
@@ -64337,43 +64934,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=DraftKings%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Backend%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=DraftKings%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=DraftKings%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "builtin_3896266351521954331",
-      "title": "Sr. Director, Data & Integrations Engineering",
-      "company": "Cedar",
-      "location": "Remote",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Director",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinboston.com/job/sr-director-data-integrations-engineering/11605736",
-      "date_posted": "2026-10-10",
-      "salary": {
-        "min": 281000,
-        "max": 330000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$281,000 - $330,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "AI"
-      ],
-      "snippet": "Open Senior Director role at Cedar in Remote via Built In.",
-      "description": "Cedar Sr. Director, Data & Integrations Engineering 24 Days Ago Saved Easy Apply Remote United States Easy Apply 281K-330K Annually Senior level 281K-330K Annually Senior level Artificial Intelligence • Fintech • Healthtech • Software Leads approximately 35 engineers across data engineering, integration engineering, and integration support. Owns delivery predictability, manager development, operational reliability, SLA performance, data platform modernization, integration scalability, and organizational clarity. Partners with product, data science, commercial, and delivery teams while overseeing healthcare integrations with EHR systems, enterprise data infrastructure, incident management, and client-facing reliability commitments. Top Skills: Ai/Ml Athena Cerner Ehr Elt Epic ETL Fhir Hl7 Medallion Architecture",
-      "recruiter": {
-        "recruiter_name": "Cedar Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Cedar Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cedar%20%22hiring%22%20%22Sr.%20Director%2C%20Data%20%26%20Integrations%20Engineering%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cedar%20engineering%20manager%20Boston"
       }
     },
     {
@@ -85357,6 +85917,40 @@
       }
     },
     {
+      "id": "builtin_4632321179468857473",
+      "title": "Software Engineering Manager",
+      "company": "HistoWiz",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Engineering Manager",
+      "discipline": "General Software",
+      "archetype": "Engineering Leadership",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/software-engineering-manager/10353236",
+      "date_posted": "2026-11-09",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "Docker",
+        "GCP",
+        "Python",
+        "React"
+      ],
+      "snippet": "Open Engineering Manager role at HistoWiz in New York, NY via Built In.",
+      "description": "HistoWiz Software Engineering Manager Reposted 15 Hours Ago Saved In-Office Long Island City, New York, NY, USA Senior level Senior level Cloud • Mobile • Software • Biotech Lead a small engineering team to build full-stack web applications for medical researchers. Make architectural decisions, prioritize roadmap with product and customers, implement scalable front-end and back-end code, maintain deployments, build data pipelines for ML, and provide technical guidance and support. Top Skills: Ansible CircleCI Cloudflare Django Docker Gatsbyjs GCP Git Jss Material-Ui Netlify Postgres Python 3.10+ React",
+      "recruiter": {
+        "recruiter_name": "HistoWiz Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "HistoWiz Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=HistoWiz%20%22hiring%22%20%22Software%20Engineering%20Manager%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20engineering%20manager%20New%20York"
+      }
+    },
+    {
       "id": "builtin_6062569336041168192",
       "title": "Technical Lead",
       "company": "Reejig",
@@ -92665,6 +93259,39 @@
       }
     },
     {
+      "id": "hn_50423766_0",
+      "title": "Founding GTM Lead",
+      "company": "AetherGrid",
+      "location": "Remote (Remote)",
+      "city": "Remote",
+      "location_type": "Remote",
+      "work_model": "Remote",
+      "date_posted": "2026-11-01",
+      "apply_url": "https://news.ycombinator.com/item?id=50423766",
+      "url": "https://news.ycombinator.com/item?id=50423766",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Hacker News",
+      "description": "AetherGrid | Founding GTM Lead | REMOTE (Worldwide) | Paid, Fractional / Contract AetherGrid ( https://www.aethergrid.co.ke ) is an open-source control plane for distributed AI workloads. I'm the founder and have built the technical foundation. We're now moving into commercial growth. I'm looking for a hands-on GTM operator to help acquire our first paying customers, develop partnerships and build a repeatable sales strategy. Ideal background: - B2B infrastructure, cloud, AI or developer tools sales. - Proven experience acquiring and closing technical customers. - Strong understanding of developer-led growth and enterprise sales. - Comfortable engaging CTOs, infrastructure operators and engineering leaders. - Can execute independently, not just produce strategy decks. This is a paid engagement, initially fractional or contract, with compensation based on experience and scope. No unpaid or equity-only arrangements. To apply: wycliffe@aethergrid.co.ke Subject: HN Founding GTM Lead Please share a product you've taken to market, measurable results you've achieved, and how you'd approach getting AetherGrid its first 10 paying customers.",
+      "snippet": "AetherGrid | Founding GTM Lead | REMOTE (Worldwide) | Paid, Fractional / Contract AetherGrid ( https://www.aethergrid.co.ke ) is an open-source control plane for distributed AI workloads. I'm the founder and have built the technical foundation. We're now moving into commercial gr...",
+      "recruiter": {
+        "recruiter_name": "AetherGrid Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "AetherGrid Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=AetherGrid%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=AetherGrid%20%22hiring%22%20%22Founding%20GTM%20Lead%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=AetherGrid%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=AetherGrid%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_cohere_cb981ecd-a161-482c-8d8e-5f19bb6e7fdd",
       "title": "Senior Security Engineer",
       "company": "Cohere",
@@ -93737,46 +94364,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Palo%20Alto%20Networks%20%22hiring%22%20%22Principal%20Engineer%20Software%20-%20Storage%20%28Chronosphere%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Palo%20Alto%20Networks%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "gh_coinbase_7739592",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Coinbase",
-      "location": "Remote - India",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior ML Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Machine Learning & AI",
-      "source": "Greenhouse",
-      "apply_url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": {
-        "min_years": 5,
-        "max_years": null,
-        "display": "5+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "AWS",
-        "Computer Vision",
-        "LLM",
-        "NLP",
-        "Python"
-      ],
-      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
-      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
-      "recruiter": {
-        "recruiter_name": "Coinbase Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -108204,98 +108791,6 @@
       }
     },
     {
-      "id": "gh_reddit_6909093",
-      "title": "Senior Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6909093",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": {
-        "min_years": 3,
-        "max_years": null,
-        "display": "3+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "C++",
-        "Distributed Systems",
-        "Docker",
-        "Go",
-        "Java",
-        "Kafka",
-        "Kubernetes",
-        "Microservices",
-        "Python",
-        "Redis",
-        "Spark"
-      ],
-      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
-      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to rapidly innovate and grow like no other time in its history. We’re currently hiring across three distinct teams: Ad Safety & Verification Team The mission of the Ads Safety & Verification team is to protect the Reddit ads ecosystem so that users have a safe ads experience and legitimate advertisers trust Reddit. This team builds full stack, high scale products that span Reddit’s consumer-facing apps and ads systems. They own integrations with metrics verification and brand safety partners and operate services that scale to reliably handle tens of millions of requests per day. Ads Creative Management (ACM) Team The Ads Creative Management team focuses on the tools and systems advertisers use to create and manage their ad content. From images and videos to headlines and full post creatives, they enable efficient creative management and innovation across the campaign lifecycle. They work closely with AI teams to provide intelligent content suggestions and automation, helping advertisers launch high-quality campaigns faster and more effectively. Brand Innovation Team The Brand Innovation team drives the development of new ad formats that help advertisers maximize reach and brand impact. They focus on high-visibility, awareness-driven solutions that create memorable experiences for Reddit users. By delivering guaranteed placements and engaging ad interactions, they support major brand initiatives and help advertisers achieve measurable outcomes. Their work includes evolving existing formats and launching entirely new ones to keep Reddit’s ad offerings fresh and competitive. Role Description: This is a generalist mid-level backend position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Mid-level engineers are expected to absorb best practices and learn exceptionally quickly while being effective core contributors. Engineers at this level must be able to code independently, but may work with senior engineers on the design of complex solutions. The most important skills an engineer at this level must possess are 1) coachability and an eagerness to grow, 2) deep passion for coding, and 3) excellent independent learning skills, all while operating as a fully functioning member of an engineering team. Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 3+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Comprehensive Medical Benefits & Health Care Spending Account Registered Retirement Savings Plan with matching contributions Income Replacement Programs Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
-      "recruiter": {
-        "recruiter_name": "Reddit Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Reddit Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "gh_reddit_6512458",
-      "title": "Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": {
-        "min_years": 3,
-        "max_years": null,
-        "display": "3+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "C++",
-        "Distributed Systems",
-        "Docker",
-        "Go",
-        "Java",
-        "Kafka",
-        "Kubernetes",
-        "Microservices",
-        "Python",
-        "Redis",
-        "Spark"
-      ],
-      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
-      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to rapidly innovate and grow like no other time in its history. We’re currently hiring across multiple teams, some of these teams include: Ads ML Serving Team The Ads ML Serving team is part of Reddit’s Ads ML Platform, which builds the infrastructure and tools that power machine learning across Ads. This team focuses on creating a highly reliable, scalable, and efficient ML serving stack. Their work includes evolving long-term serving architecture, integrating closely with the ads serving stack, optimizing CPU/GPU performance, and building model velocity tools like observability libraries and model quality gating. Attribution & Identity Team The Attribution & Identity team builds products that help advertisers understand and measure the impact of their campaigns. They focus on attribution systems, identity solutions, and advertiser experimentation tools that improve performance insights and usability. Their goal is to make Reddit’s advertising platform more effective, transparent, and data-driven. Ads Growth Team The Ads Growth team drives initiatives to expand Reddit’s advertiser base, with a focus on Small to Medium Businesses (SMBs). We build and scale the technical foundation for key product pillars that enable SMB advertisers to succeed on Reddit. Our work spans collaboration with product, design, marketing, data science, UX, and sales teams to deliver measurable business outcomes. We prioritize iterative development, rapid shipping, rigorous testing, and building capabilities that create step-change growth. Our goal is to multiply the number of monthly active advertisers by delivering impactful tools, features, and experiences tailored to the needs of SMBs. Business Manager The Business Manager team stands out for its genuinely inclusive and collaborative culture, where not only is open feedback central, but every opinion and idea is truly valued and given space to shape our direction. Here, diverse perspectives are seen as a core strength, fostering a team dynamic where everyone feels empowered to contribute and innovate. On a day-to-day basis, engineers tackle complex, high-stakes challenges at the core of Reddit’s ads platform which include innovating on permissions systems, building Agency and Large Enterprise solutions, and driving adoption among Reddit's largest advertisers. From ideation to delivery, our engineers are trusted with end-to-end ownership of their projects, working closely in cross-functional collaboration with PMs, UX, and partner teams. This hands-on approach means every team member plays a direct and visible role in delivering high-impact, user-focused solutions for some of Reddit’s most strategic advertisers. Role Description: This is a generalist mid-level backend position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Mid-level engineers are expected to absorb best practices and learn exceptionally quickly while being effective core contributors. Engineers at this level must be able to code independently, but may work with senior engineers on the design of complex solutions. The most important skills an engineer at this level must possess are 1) coachability and an eagerness to grow, 2) deep passion for coding, and 3) excellent independent learning skills, all while operating as a fully functioning member of an engineering team. Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 3+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Comprehensive Medical Benefits & Health Care Spending Account Registered Retirement Savings Plan with matching contributions Income Replacement Programs Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
-      "recruiter": {
-        "recruiter_name": "Reddit Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Reddit Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
-      }
-    },
-    {
       "id": "ashby_perplexity_94e1b3a4-c773-4ee8-982a-ac9be04fbca8",
       "title": "Compensation Lead",
       "company": "Perplexity AI",
@@ -119729,40 +120224,6 @@
       }
     },
     {
-      "id": "builtin_2277048988227713790",
-      "title": "Software Engineering Manager",
-      "company": "HistoWiz",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "On-site",
-      "seniority": "Engineering Manager",
-      "discipline": "General Software",
-      "archetype": "Engineering Leadership",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/software-engineering-manager/10506308",
-      "date_posted": "2026-10-13",
-      "salary": null,
-      "experience": null,
-      "tech_stack": [
-        "Docker",
-        "GCP",
-        "Python",
-        "React"
-      ],
-      "snippet": "Open Engineering Manager role at HistoWiz in New York, NY via Built In.",
-      "description": "HistoWiz Software Engineering Manager Reposted 19 Days Ago Saved In-Office Queens, New York, NY, USA Senior level Senior level Cloud • Mobile • Software • Biotech Lead a full‑stack engineering team to build scalable frontend and backend systems, make architectural decisions, prioritize the product roadmap with stakeholders, build data pipelines for ML, support deployments and DevOps, and manage external engineers to deliver product objectives. Top Skills: Ansible CircleCI Cloudflare Django Docker Gatsbyjs GCP Git Jss Material-Ui Netlify Postgres Python 3.10+ React Restful Apis",
-      "recruiter": {
-        "recruiter_name": "HistoWiz Talent Lead",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "HistoWiz Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20lead%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=HistoWiz%20%22hiring%22%20%22Software%20Engineering%20Manager%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=HistoWiz%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "li_4335376313",
       "title": "Senior Software Engineer (Full Stack)",
       "company": "EliseAI",
@@ -123346,13 +123807,13 @@
         "Python"
       ],
       "snippet": "WHO ARE WE?\n\nCohere is the leading security-first enterprise AI company.  We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.\n\nWe’re training and deploying frontier models for enterprises ...",
-      "description": "WHO ARE WE?\n\nCohere is the leading security-first enterprise AI company.  We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.\n\nWe’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.\n\nWe obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.\n\nWe are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!\n\nAbout the Role\nAre you passionate about secure-by-design software engineering? Do you want to be at the forefront of AI innovation and enterprise security? Cohere's North team is seeking a Software Engineer with a focus on security to join our mission and make a significant impact. This isn't a review-and-advise role, you'll own and ship production security features that customers rely on every day.\n\n\nYour Role:\nAs a Senior Software Engineer with a security focus, you'll play a pivotal role in building and securing North's architecture. Your responsibilities will include:\n\n - Software Development: Contributing to the core development of security features such as OIDC/OAuth flows and session management, ensuring North's AI agents are secure\n\n - Secure Coding: Writing secure code to handle OIDC tokens, user claims, and sensitive data, adhering to best practices for JWT validation and encryption\n\n - Authentication and Data Protection: Implementing authentication mechanisms including user login, token management, and authorization checks to maintain data integrity\n\n - Tool Integration: Pulling in new tools to enhance North's security capabilities\n\n - DevSecOps: Design and implement secret management within Kubernetes clusters, including encryption and RBAC\n\n - Cross-functional Collaboration: Demonstrate strong soft skills to communicate security best practices to stakeholders in a clear and concise manner\n\n\nYou may be a good fit if:\n\n - Have 5+ years building user-facing security features in production systems\n\n - Ship production Python confidently and frequently\n\n - Understand OIDC/OAuth 2.0, JWT validation, and token lifecycle management deeply—not just conceptually\n\n - Have hands-on experience with Kubernetes in both development and production environments\n\n - Have worked across GCP, AWS, Azure, or hybrid/multi-cloud deployments\n\n - Are comfortable working across the stack\n\n - Communicate security concepts clearly to non-security engineers and stakeholders\n\n - Thrive in fast-moving environments where priorities evolve\n\n - Experience working with AI/ML systems or LLM-based applications\n\n\n\n\nFULL-TIME EMPLOYEES AT COHERE ENJOY THESE PERKS:\n\n - A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.\n\n - Full health and dental benefits, including a separate budget for mental health.\n\n - RRSP matching, 401K, Pension Scheme.\n\n - 100% Parental Leave top-up for up to 6 months, for either parent.\n\n - Annual enrichment benefits:\n   \n   Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.\n   \n   Education & learning stipend for conferences, courses, and coaching.\n\n - 6 weeks of paid vacation (30 working days!)\n\n - Budget for traveling to other offices if you are remote, plus an annual company offsite.\n\n\n\n\nHOW AND WHERE WE WORK:\n\n - Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.\n\n - For those in the office: a daily lunch program, plenty of snacks, and regular community and social events.\n\n - For those not near an office: a co-working benefit so you can work alongside others in your city.\n\n - Everyone receives a $500 home office stipend to set up your workspace properly.\n   \n   \n\nIf any of the above doesn’t line up exactly with your experience, we still encourage you to apply. \n\n\nWe strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an Accommodations Request Form https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit, and we will work together to meet your needs.\n\n\n\nWe may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.\n\n\n\nBeware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our official careers https://cohere.com/careers page.",
+      "description": "WHO ARE WE?\n\nCohere is the leading security-first enterprise AI company.  We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.\n\nWe’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.\n\nWe obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.\n\nWe are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!\n\n\n\nAbout the Role\nAre you passionate about secure-by-design software engineering? Do you want to be at the forefront of AI innovation and enterprise security? Cohere's North team is seeking a Software Engineer with a focus on security to join our mission and make a significant impact. This isn't a review-and-advise role, you'll own and ship production security features that customers rely on every day.\n\n\nYour Role:\nAs a Senior Software Engineer with a security focus, you'll play a pivotal role in building and securing North's architecture. Your responsibilities will include:\n\n - Software Development: Contributing to the core development of security features such as OIDC/OAuth flows and session management, ensuring North's AI agents are secure\n\n - Secure Coding: Writing secure code to handle OIDC tokens, user claims, and sensitive data, adhering to best practices for JWT validation and encryption\n\n - Authentication and Data Protection: Implementing authentication mechanisms including user login, token management, and authorization checks to maintain data integrity\n\n - Tool Integration: Pulling in new tools to enhance North's security capabilities\n\n - DevSecOps: Design and implement secret management within Kubernetes clusters, including encryption and RBAC\n\n - Cross-functional Collaboration: Demonstrate strong soft skills to communicate security best practices to stakeholders in a clear and concise manner\n\n\nYou may be a good fit if:\n\n - Have 5+ years building user-facing security features in production systems\n\n - Ship production Python confidently and frequently\n\n - Understand OIDC/OAuth 2.0, JWT validation, and token lifecycle management deeply—not just conceptually\n\n - Have hands-on experience with Kubernetes in both development and production environments\n\n - Have worked across GCP, AWS, Azure, or hybrid/multi-cloud deployments\n\n - Are comfortable working across the stack\n\n - Communicate security concepts clearly to non-security engineers and stakeholders\n\n - Thrive in fast-moving environments where priorities evolve\n\n - Experience working with AI/ML systems or LLM-based applications\n\n\n\n\nFULL-TIME EMPLOYEES AT COHERE ENJOY THESE PERKS:\n\n - A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.\n\n - Full health and dental benefits, including a separate budget for mental health.\n\n - RRSP matching, 401K, Pension Scheme.\n\n - 100% Parental Leave top-up for up to 6 months, for either parent.\n\n - Annual enrichment benefits:\n   \n   Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.\n   \n   Education & learning stipend for conferences, courses, and coaching.\n\n - 6 weeks of paid vacation (30 working days!)\n\n - Budget for traveling to other offices if you are remote, plus an annual company offsite.\n\n\n\n\nHOW AND WHERE WE WORK:\n\n - Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.\n\n - For those in the office: a daily lunch program, plenty of snacks, and regular community and social events.\n\n - For those not near an office: a co-working benefit so you can work alongside others in your city.\n\n - Everyone receives a $500 home office stipend to set up your workspace properly.\n   \n   \n\nIf any of the above doesn’t line up exactly with your experience, we still encourage you to apply. \n\n\nWe strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an Accommodations Request Form https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit, and we will work together to meet your needs.\n\n\n\nWe may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.\n\n\n\nBeware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our official careers https://cohere.com/careers page.",
       "recruiter": {
-        "recruiter_name": "Nadia Patel",
-        "point_of_contact": "Lead Talent Partner, Foundation Models & AI Systems",
+        "recruiter_name": "Cohere Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
         "recruiter_team": "Cohere People Team",
-        "profile_url": "https://www.linkedin.com/in/nadia-patel-cohere-ai/",
-        "is_verified_partner": true,
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Cohere%20%22hiring%22%20%22Software%20Engineer%2C%20Security%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Cohere%20engineering%20manager%20New%20York"
