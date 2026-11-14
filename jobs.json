@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "last_updated": "2026-11-14 13:09:04 UTC",
-    "total_jobs": 4058,
-    "with_salary_count": 2406,
-    "nyc_jobs": 2265,
-    "boston_jobs": 915,
+    "last_updated": "2026-11-14 22:05:16 UTC",
+    "total_jobs": 4066,
+    "with_salary_count": 2411,
+    "nyc_jobs": 2269,
+    "boston_jobs": 919,
     "senior_staff_jobs": 74,
-    "principal_jobs": 200,
+    "principal_jobs": 203,
     "staff_jobs": 494,
-    "senior_swe_jobs": 1197,
+    "senior_swe_jobs": 1198,
     "senior_ml_jobs": 133,
-    "mid_level_jobs": 248,
-    "swe_jobs": 1246,
+    "mid_level_jobs": 249,
+    "swe_jobs": 1247,
     "ml_engineer_jobs": 138,
-    "senior_director_jobs": 38,
+    "senior_director_jobs": 39,
     "director_jobs": 56,
     "senior_manager_jobs": 56,
-    "manager_jobs": 178,
-    "ml_jobs": 1116,
-    "general_swe_jobs": 2942,
+    "manager_jobs": 179,
+    "ml_jobs": 1118,
+    "general_swe_jobs": 2948,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -29,20 +29,20 @@
     ],
     "source_breakdown": {
       "Ashby": 447,
-      "Built In": 1660,
-      "Greenhouse": 1119,
+      "Built In": 1664,
+      "Greenhouse": 1120,
       "Hacker News": 142,
       "Lever": 56,
-      "LinkedIn": 634
+      "LinkedIn": 637
     },
     "archetype_breakdown": {
-      "Engineering Leadership": 124,
-      "General Software": 1763,
-      "Data Engineering": 121,
-      "Machine Learning & AI": 606,
+      "Engineering Leadership": 125,
+      "General Software": 1767,
+      "Data Engineering": 122,
+      "Machine Learning & AI": 607,
       "Backend & Distributed Systems": 321,
       "Mobile Engineering": 92,
-      "Infrastructure & Cloud / SRE": 441,
+      "Infrastructure & Cloud / SRE": 442,
       "Full Stack": 224,
       "Frontend & UI": 63,
       "Security Engineering": 274,
@@ -341,6 +341,254 @@
         "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
         "is_verified_partner": false,
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Founding%20Backend%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_6287898640921502427",
+      "title": "Software Engineer, Data Plane Hybrid",
+      "company": "Ribbon Communications",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "Hybrid",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/software-engineer-data-plane-hybrid/10843145",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 125000,
+        "max": 140000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$125,000 - $140,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "C++"
+      ],
+      "snippet": "Open Software Engineer role at Ribbon Communications in Boston, MA via Built In.",
+      "description": "Ribbon Communications Software Engineer, Data Plane Hybrid Reposted 4 Hours Ago Saved Hybrid Boston, MA 125K-140K Annually Mid level 125K-140K Annually Mid level Other Design, implement, test, and troubleshoot optimized data plane networking software for Session Border Controller products. Develop acceleration solutions using network processors and specialized hardware, investigate customer issues, and collaborate with distributed engineering and system test teams to validate functionality and performance. Top Skills: C C++ Cloud Native Network Functions Containerized Networking Dpdk Dpus Embedded Systems Linux Networking Smartnics Tcp/Ip Voip Vpp",
+      "recruiter": {
+        "recruiter_name": "Ribbon Communications Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Ribbon Communications Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Ribbon%20Communications%20%22hiring%22%20%22Software%20Engineer%2C%20Data%20Plane%20Hybrid%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_anthropic_5469291008",
+      "title": "Engineering Manager, Billing Platform",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Engineering Manager",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Engineering Leadership",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 405000,
+        "max": 485000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$405,000 - $485,000 / yr"
+      },
+      "experience": {
+        "min_years": 8,
+        "max_years": null,
+        "display": "8+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Go",
+        "Java",
+        "LLM",
+        "Python"
+      ],
+      "snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy e...",
+      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic exists to ensure the world safely navigates the transition through transformative AI. That work is funded by commercial revenue — and every dollar of it runs through Billing Platform. We build and operate the infrastructure that turns product usage into revenue across everything Anthropic ships: Claude.ai, the Developer Platform, Claude Code, and all that comes next. The faster we can price it, charge for it, and account for it correctly, the faster Anthropic can fund the mission. Pricing Foundations is the team within Billing that turns a signed enterprise agreement into something every system can act on. We own the model and the systems of record for what a customer bought: their commitments, their pricing terms, how many organizations roll up to one agreement, and the automation that provisions a signed deal across Anthropic's products and the cloud platforms where Claude is sold. When a deal closes, our systems decide what the customer is entitled to, what they pay, and what Finance reports. We're looking for an engineering manager to lead this team. You'll hire and grow the team, set its technical direction, and own how it delivers. Success looks like new deal structures shipping as configuration rather than one-off engineering, and signed deals provisioning automatically, with the rare exception routed to someone who can fix it. Key responsibilities Lead and grow the team. Hire, coach, and develop engineers, give clear and honest feedback, and build a team that owns its domain end to end. Own the commercial data model. Set the direction for how commitments, pricing terms, account hierarchies, and entitlements are modeled, so a new deal structure extends the model instead of working around it. Own the pricing primitives: the catalog of products and rates, and the constructs that let contracted pricing follow a customer across products and new model launches. Make the contract the source of truth. Build systems of record that Finance can close the books on and trace back to the signed contract, with reconciliation against the CRM and every downstream billing system designed in from the start. Automate the path from signature to a live customer. Lead the durable workflows that provision a signed deal across Anthropic's products and the cloud platforms where Claude is sold, recover from partial failure, and route exceptions to the right person with the context to resolve them. Build for people and agents. Own the interfaces for agreements, entitlements, and pricing terms that seller tools and Claude-powered agents read and write, so both get the same safe, auditable capabilities. Own planning and delivery. Turn competing asks from Sales, Deal Desk, Finance, Legal, and product teams into a clear roadmap, make the trade-offs explicit, and hold the team to its milestones. Operate what you ship. Set SLOs on the flows your team runs, instrument them so discrepancies surface before month-end close, and keep on-call sustainable as volume grows. Minimum qualifications 8+ years of industry experience, including 3+ years leading software engineering teams including hiring, coaching and performance management. A strong background building production backend systems, with enough depth in a language such as Go, Python, or Java to review designs and code. Experience leading teams that built billing, payments, pricing, contract management, or other financial systems of record in production. Experience modeling transactional or financial data, including relational databases and SQL. Experience leading teams that built and operated asynchronous, long-running workflows, such as on a durable workflow engine like Temporal or on queues and state machines. Preferred qualifications Experience building CPQ, contract management, or quote-to-cash platforms, and firsthand knowledge of how one change to pricing terms ripples through quoting, provisioning, invoicing, and revenue reporting. Experience with enterprise commercial structures such as multi-year or ramped commitments, drawdowns, amendments and renewals, or one agreement shared across many accounts. Experience integrating or extending third-party billing, payment, or CRM platforms, and opinions on where they fall short. Experience building revenue reconciliation or financial reporting pipelines, or systems that had to pass a financial audit. Experience automating a high-touch operational process and measuring the manual work it removed. Experience building LLM-powered tools or agents, or systems designed for agents to call safely. Experience growing a team through a period of rapid company growth. The annual compensation range for this role is listed below. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role. Annual Salary: $405,000 — $485,000 USD Logistics Minimum education: Bachelor’s degree or an equivalent combination of education, training, and/or experience Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience Minimum years of experience: Years of experience required will correlate with the internal job level requirements for the position Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices. Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this. For roles performing work in California: We will consider for employment all qualified applicants, including those with arrest or conviction records or criminal histories, in a manner consistent with the requirements of applicable state and local laws, including the San Francisco Fair Chance Ordinance, the City of Los Angeles’ Fair Chance Initiative for Hiring Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team. Your safety matters to us. To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit anthropic.com/careers directly for confirmed position openings. How we're different We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills. The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences. Come work with us! Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. Guidance on Candidates' AI Usage: Learn about our policy for using AI in our application process.",
+      "recruiter": {
+        "recruiter_name": "Anthropic Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Anthropic People & Staffing",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Anthropic%20%22hiring%22%20%22Engineering%20Manager%2C%20Billing%20Platform%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Anthropic%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_6160823608348090059",
+      "title": "Principal Software Engineer",
+      "company": "Liberty Mutual Insurance",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "Hybrid",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/principal-software-engineer/12257101",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 120000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$120,000 - $225,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AWS",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Open Principal role at Liberty Mutual Insurance in Boston, MA via Built In.",
+      "description": "Liberty Mutual Insurance Principal Software Engineer 4 Hours Ago Saved Hybrid Boston, MA, USA 120K-225K Annually Senior level 120K-225K Annually Senior level Artificial Intelligence • Fintech • Insurance • Marketing Tech • Software • Analytics Lead technical direction for Surety underwriting platform modernization using React, NestJS, TypeScript, and AWS. Design scalable systems, guide architecture and technical decisions, translate business needs into solutions, support contractor-led delivery teams, improve engineering quality, and mentor engineers. Collaborate with product, engineering, solution, and delivery teams in an ambiguous enterprise environment while balancing hands-on technical work with broader technical leadership. Top Skills: AWS Nestjs React Typescript",
+      "recruiter": {
+        "recruiter_name": "Liberty Mutual Insurance Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Liberty Mutual Insurance Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Liberty%20Mutual%20Insurance%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Liberty%20Mutual%20Insurance%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Liberty%20Mutual%20Insurance%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Liberty%20Mutual%20Insurance%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_3075255874744963312",
+      "title": "Senior Software Engineer - Managed Services",
+      "company": "CDW",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/senior-software-engineer-managed-services/12257120",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 106000,
+        "max": 150000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$106,000 - $150,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "CI/CD",
+        "Distributed Systems",
+        "Docker",
+        "Go",
+        "Java",
+        "Kubernetes",
+        "MongoDB",
+        "MySQL",
+        "Python",
+        "REST"
+      ],
+      "snippet": "Open Senior Software Engineer role at CDW in New York, NY via Built In.",
+      "description": "CDW Senior Software Engineer - Managed Services 4 Hours Ago Saved Remote or Hybrid New York, NY 106K-150K Annually Senior level 106K-150K Annually Senior level Information Technology Designs, develops, tests, and maintains software, APIs, integrations, and automation for Managed Services applications and platforms. Builds Python, Ansible, and Go solutions; supports enterprise application lifecycles; troubleshoots distributed systems; develops CI/CD pipelines; and improves operational efficiency. Provides technical leadership through architecture and code reviews, engineering standards, mentoring, documentation, and cross-functional collaboration with SRE, infrastructure, security, operations, and business teams. Top Skills: Ansible AWS Ci/Cd Docker Dynatrace Enterprise Messaging Event-Driven Architectures Git Go Grafana Hashicorp Vault Java Kubernetes Linux Azure MongoDB MySQL Opentelemetry Postgres Prometheus Python Rest Apis Soap Spring Boot",
+      "recruiter": {
+        "recruiter_name": "CDW Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "CDW Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=CDW%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=CDW%20%22hiring%22%20%22Senior%20Software%20Engineer%20-%20Managed%20Services%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=CDW%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=CDW%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "builtin_4746851082497902944",
+      "title": "AVP Data Engineering – Business Insurance Ontology & Knowledge Graph",
+      "company": "The Hartford Financial Services Group, Inc.",
+      "location": "Boston, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Senior Director",
+      "discipline": "General Software",
+      "archetype": "Data Engineering",
+      "source": "Built In",
+      "apply_url": "https://www.builtinboston.com/job/avp-data-engineering-business-insurance-ontology-knowledge-graph/12256680",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 182000,
+        "max": 273000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$182,000 - $273,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "AI",
+        "AWS",
+        "GCP",
+        "LangChain",
+        "Snowflake"
+      ],
+      "snippet": "Open Senior Director role at The Hartford Financial Services Group, Inc. in Boston, MA via Built In.",
+      "description": "The Hartford Financial Services Group, Inc. AVP Data Engineering – Business Insurance Ontology & Knowledge Graph 7 Hours Ago Saved In-Office Boston, MA 182K-273K Annually Expert/Leader 182K-273K Annually Expert/Leader Fintech • Payments • Financial Services Leads the strategy, architecture, implementation, and enterprise adoption of a Business Insurance ontology, semantic layer, and knowledge graph. Oversees ontologists, graph modelers, and semantic and AI data engineers; partners with executives across commercial insurance; and enables governed analytics, AI, agentic experiences, and decision automation. Responsibilities include semantic modeling, graph and data platform delivery, AI/RAG integration, governance, adoption, team leadership, vendor management, budgeting, and business value realization. Top Skills: A2A Amazon Ec2 Amazon Neptune Amazon S3 AWS Aws Lambda Cypher GCP Gql Graphrag Langchain Langgraph Llms Mcp Neo4J Opensearch Owl 2 Pinecone Postgres Rag Rdf Rdfs Shacl Skos Snowflake Spanner Graph Sparql Stardog Vector Stores Vertex Ai",
+      "recruiter": {
+        "recruiter_name": "The Hartford Financial Services Group, Inc. Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "The Hartford Financial Services Group, Inc. Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=The%20Hartford%20Financial%20Services%20Group%2C%20Inc.%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=The%20Hartford%20Financial%20Services%20Group%2C%20Inc.%20%22hiring%22%20%22AVP%20Data%20Engineering%20%E2%80%93%20Business%20Insurance%20Ontology%20%26%20Knowledge%20Graph%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=The%20Hartford%20Financial%20Services%20Group%2C%20Inc.%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=The%20Hartford%20Financial%20Services%20Group%2C%20Inc.%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "builtin_701195173808725081",
+      "title": "Platform Software Engineer",
+      "company": "Raydar",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Built In",
+      "apply_url": "https://www.builtinnyc.com/job/platform-software-engineer/12257193",
+      "date_posted": "2026-11-14",
+      "salary": {
+        "min": 210000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$210,000 - $240,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Python",
+        "React"
+      ],
+      "snippet": "Open Software Engineer role at Raydar in New York, NY via Built In.",
+      "description": "Raydar Platform Software Engineer 4 Hours Ago Saved In-Office New York, NY 210K-240K Annually Senior level 210K-240K Annually Senior level Professional Services • Consulting Build and scale server-side infrastructure for usage tracking, invoicing, and reporting. Responsibilities include ensuring exactly-once usage counting despite delayed or duplicated records, maintaining responsive services across interactive and offline workloads, validating invoice accuracy, optimizing usage dashboards, and contributing to backend infrastructure. The role requires Python, relational or cache data-store experience, frontend familiarity with Next.js or React, and experience operating high-volume systems. Top Skills: Cache Data Stores Next.Js Python React Relational Databases",
+      "recruiter": {
+        "recruiter_name": "Raydar Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Raydar Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Raydar%20%22hiring%22%20%22Platform%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Raydar%20engineering%20manager%20New%20York"
       }
@@ -769,7 +1017,7 @@
       }
     },
     {
-      "id": "builtin_5830799204865673951",
+      "id": "builtin_192343057047355819",
       "title": "Staff Software Engineer, Console",
       "company": "Deepgram",
       "location": "New York, NY",
@@ -2547,7 +2795,7 @@
       }
     },
     {
-      "id": "builtin_1731527575066137095",
+      "id": "builtin_7512752879412081073",
       "title": "Senior Solutions Architect",
       "company": "Deepgram",
       "location": "Remote",
@@ -2673,7 +2921,7 @@
       }
     },
     {
-      "id": "builtin_5939689525037917287",
+      "id": "builtin_5445105048205601585",
       "title": "Software Engineer, Fullstack, Spend Controls",
       "company": "Ramp",
       "location": "New York, NY",
@@ -6597,43 +6845,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Instacart%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Catalog%20Store%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Instacart%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Instacart%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "builtin_7195498091826933144",
-      "title": "Software Engineer, Data Plane Hybrid",
-      "company": "Ribbon Communications",
-      "location": "Boston, MA",
-      "city": "Boston, MA",
-      "work_model": "Hybrid",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Built In",
-      "apply_url": "https://www.builtinboston.com/job/software-engineer-data-plane-hybrid/10843145",
-      "date_posted": "2026-11-11",
-      "salary": {
-        "min": 125000,
-        "max": 140000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$125,000 - $140,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "C++"
-      ],
-      "snippet": "Open Software Engineer role at Ribbon Communications in Boston, MA via Built In.",
-      "description": "Ribbon Communications Software Engineer, Data Plane Hybrid Reposted 2 Days Ago Saved Hybrid Boston, MA 125K-140K Annually Mid level 125K-140K Annually Mid level Other Design, implement, test, and troubleshoot optimized data plane networking software for Session Border Controller products. Develop acceleration solutions using network processors and specialized hardware, investigate customer issues, and collaborate with distributed engineering and system test teams to validate functionality and performance. Top Skills: C C++ Cloud Native Network Functions Containerized Networking Dpdk Dpus Embedded Systems Linux Networking Smartnics Tcp/Ip Voip Vpp",
-      "recruiter": {
-        "recruiter_name": "Ribbon Communications Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Ribbon Communications Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Ribbon%20Communications%20%22hiring%22%20%22Software%20Engineer%2C%20Data%20Plane%20Hybrid%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ribbon%20Communications%20engineering%20manager%20Boston"
       }
     },
     {
@@ -13520,7 +13731,7 @@
       }
     },
     {
-      "id": "builtin_4931720038314973670",
+      "id": "builtin_7184665877793386684",
       "title": "Software Engineer, Backend, Comms Platform",
       "company": "Ramp",
       "location": "Boston, MA",
@@ -16467,7 +16678,7 @@
       }
     },
     {
-      "id": "builtin_910467780910873795",
+      "id": "builtin_8677409022494959863",
       "title": "Analytics Lead, Full Stack",
       "company": "Affirm",
       "location": "New York, NY",
@@ -22488,7 +22699,7 @@
       }
     },
     {
-      "id": "builtin_2836462443598448039",
+      "id": "builtin_649924360982383382",
       "title": "Software Engineer, Frontend",
       "company": "Ramp",
       "location": "New York, NY",
@@ -31205,7 +31416,7 @@
       }
     },
     {
-      "id": "builtin_7887778278545337409",
+      "id": "builtin_1547117707438647594",
       "title": "Staff Software Engineer (Backend, Business Systems)",
       "company": "WHOOP",
       "location": "Boston, MA",
@@ -34132,6 +34343,45 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Goodwin%20%22hiring%22%20%22Data%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Goodwin%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Goodwin%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "hn_50500910_0",
+      "title": "Software Engineer & Data Analyst",
+      "company": "Early-stage Startup",
+      "location": "Remote (Remote)",
+      "city": "Remote",
+      "location_type": "Remote",
+      "work_model": "Remote",
+      "date_posted": "2026-10-31",
+      "apply_url": "https://news.ycombinator.com/item?id=50500910",
+      "url": "https://news.ycombinator.com/item?id=50500910",
+      "salary": {
+        "min": 100000,
+        "max": 180000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$100,000 - $180,000 / yr"
+      },
+      "experience": null,
+      "tech_stack": [
+        "Python"
+      ],
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Hacker News",
+      "description": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & US Citizen) | $100,000 - $180,000 USD We’re hiring for two roles: a strong generalist Software Engineer and a Data Analyst. For the Software Engineer role, we’re looking for someone with solid technical ability and strong computer science fundamentals. Experience building reliable systems, performance optimization, clean architecture, and solving complex problems matters more to us than any specific tech stack. For the Data Analyst role, we’re looking for someone who can turn messy data into clear insights. Strong SQL/Python skills and the ability to drive product and business decisions with data are key. Some reasons you may enjoy working with us: * Collaborative and innovative environment where your voice is heard * Fully remote with flexible hours * Long-term, full-time role (not a fixed-term contract) * High ownership and interesting technical/data challenges * Work with a talented team shipping products customers use every day Only US and Canadian applicants will be considered. If you’re interested, send your resume to pauly.devy@kaveronix.com and mention which role you’re applying for.",
+      "snippet": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & US Citizen) | $100,000 - $180,000 USD We’re hiring for two roles: a strong generalist Software Engineer and a Data Analyst. For the Software Engineer role, we’re looking for someone with solid techn...",
+      "recruiter": {
+        "recruiter_name": "Early-stage Startup Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Early-stage Startup Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Early-stage%20Startup%20%22hiring%22%20%22Software%20Engineer%20%26%20Data%20Analyst%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20engineering%20manager%20Boston"
       }
     },
     {
@@ -46626,7 +46876,7 @@
       }
     },
     {
-      "id": "builtin_5047643277184220036",
+      "id": "builtin_303166030667671956",
       "title": "Senior Software Engineer, Shared Services",
       "company": "Justworks",
       "location": "New York, NY",
@@ -62331,45 +62581,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Citadel%20%22hiring%22%20%22Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Citadel%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Citadel%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "hn_49971729_0",
-      "title": "Software Engineer & Data Analyst",
-      "company": "Early-stage Startup",
-      "location": "Remote (Remote)",
-      "city": "Remote",
-      "location_type": "Remote",
-      "work_model": "Remote",
-      "date_posted": "2026-10-24",
-      "apply_url": "https://news.ycombinator.com/item?id=49971729",
-      "url": "https://news.ycombinator.com/item?id=49971729",
-      "salary": {
-        "min": 150000,
-        "max": 180000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$150,000 - $180,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Python"
-      ],
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Hacker News",
-      "description": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & Canada) | $150,000 - $180,000 USD We’re hiring for two roles: a strong generalist Software Engineer and a Data Analyst. For the Software Engineer role, we’re looking for someone with solid technical ability and strong computer science fundamentals. Experience building reliable systems, performance optimization, clean architecture, and solving complex problems matters more to us than any specific tech stack. For the Data Analyst role, we’re looking for someone who can turn messy data into clear insights. Strong SQL/Python skills and the ability to drive product and business decisions with data are key. Some reasons you may enjoy working with us: * Collaborative and innovative environment where your voice is heard * Fully remote with flexible hours * Long-term, full-time role (not a fixed-term contract) * High ownership and interesting technical/data challenges * Work with a talented team shipping products customers use every day Only US and Canadian applicants will be considered. If you’re interested, send your resume to paulephraimebuka@gmail.com and mention which role you’re applying for.",
-      "snippet": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & Canada) | $150,000 - $180,000 USD We’re hiring for two roles: a strong generalist Software Engineer and a Data Analyst. For the Software Engineer role, we’re looking for someone with solid technical...",
-      "recruiter": {
-        "recruiter_name": "Early-stage Startup Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Early-stage Startup Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Early-stage%20Startup%20%22hiring%22%20%22Software%20Engineer%20%26%20Data%20Analyst%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20engineering%20manager%20Boston"
       }
     },
     {
@@ -100856,7 +101067,7 @@
       }
     },
     {
-      "id": "builtin_4024510391850903985",
+      "id": "builtin_539260760033262769",
       "title": "Software Engineer, Frontier Data Products",
       "company": "Mercor",
       "location": "New York, NY",
@@ -100880,7 +101091,7 @@
         "Terraform"
       ],
       "snippet": "Open Software Engineer role at Mercor in New York, NY via Built In.",
-      "description": "Mercor Software Engineer, Frontier Data Products Reposted 8 Hours Ago Saved In-Office New York, NY Mid level Mid level Artificial Intelligence • Software As a Backend Engineer, you'll build backend services for candidate-job matching and marketplace workflows, focusing on APIs, data models, and operational systems. Top Skills: Elasticsearch Go Kafka Kubernetes Postgres Python Redis Terraform",
+      "description": "Mercor Software Engineer, Frontier Data Products Reposted 17 Hours Ago Saved In-Office New York, NY Mid level Mid level Artificial Intelligence • Software As a Backend Engineer, you'll build backend services for candidate-job matching and marketplace workflows, focusing on APIs, data models, and operational systems. Top Skills: Elasticsearch Go Kafka Kubernetes Postgres Python Redis Terraform",
       "recruiter": {
         "recruiter_name": "Mercor Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -100890,6 +101101,93 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Mercor%20%22hiring%22%20%22Software%20Engineer%2C%20Frontier%20Data%20Products%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Mercor%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Mercor%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4491096139",
+      "title": "Machine Learning Engineer IC3.1. Ads Recommendations",
+      "company": "Etsy",
+      "location": "Brooklyn, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Mid-Level",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Machine Learning & AI",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-ic3-1-ads-recommendations-at-etsy-4491096139",
+      "date_posted": "2026-11-14",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Machine Learning Engineer IC3.1. Ads Recommendations at Etsy (Brooklyn, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Etsy Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Etsy Engineering Staffing",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Etsy%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Etsy%20%22hiring%22%20%22Machine%20Learning%20Engineer%20IC3.1.%20Ads%20Recommendations%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Etsy%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Etsy%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "li_4488985831",
+      "title": "Lead Principal Engineer, OCI Object Storage",
+      "company": "Oracle",
+      "location": "Burlington, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/lead-principal-engineer-oci-object-storage-at-oracle-4488985831",
+      "date_posted": "2026-11-14",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Lead Principal Engineer, OCI Object Storage at Oracle (Burlington, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Oracle Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Oracle Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Oracle%20%22hiring%22%20%22Lead%20Principal%20Engineer%2C%20OCI%20Object%20Storage%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "li_4488987780",
+      "title": "Lead Principal Engineer, OCI Core Infrastructure",
+      "company": "Oracle",
+      "location": "Burlington, MA",
+      "city": "Boston, MA",
+      "work_model": "On-site",
+      "seniority": "Principal",
+      "discipline": "General Software",
+      "archetype": "Infrastructure & Cloud / SRE",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/lead-principal-engineer-oci-core-infrastructure-at-oracle-4488987780",
+      "date_posted": "2026-11-14",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Lead Principal Engineer, OCI Core Infrastructure at Oracle (Burlington, MA) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Oracle Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Oracle Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Oracle%20%22hiring%22%20%22Lead%20Principal%20Engineer%2C%20OCI%20Core%20Infrastructure%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Oracle%20engineering%20manager%20Boston"
       }
     },
     {
