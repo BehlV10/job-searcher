@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-11-15 13:38:14 UTC",
-    "total_jobs": 4073,
-    "with_salary_count": 2411,
-    "nyc_jobs": 2271,
+    "last_updated": "2026-11-15 22:36:03 UTC",
+    "total_jobs": 4076,
+    "with_salary_count": 2412,
+    "nyc_jobs": 2272,
     "boston_jobs": 922,
     "senior_staff_jobs": 75,
     "principal_jobs": 204,
@@ -11,14 +11,14 @@
     "senior_swe_jobs": 1200,
     "senior_ml_jobs": 133,
     "mid_level_jobs": 249,
-    "swe_jobs": 1249,
+    "swe_jobs": 1252,
     "ml_engineer_jobs": 138,
     "senior_director_jobs": 39,
     "director_jobs": 57,
     "senior_manager_jobs": 56,
     "manager_jobs": 179,
     "ml_jobs": 1119,
-    "general_swe_jobs": 2954,
+    "general_swe_jobs": 2957,
     "sources": [
       "LinkedIn",
       "Greenhouse",
@@ -28,22 +28,22 @@
       "Hacker News"
     ],
     "source_breakdown": {
-      "Built In": 1664,
+      "Built In": 1663,
       "Ashby": 448,
-      "Greenhouse": 1122,
-      "Hacker News": 142,
+      "Greenhouse": 1123,
+      "Hacker News": 143,
       "Lever": 56,
-      "LinkedIn": 641
+      "LinkedIn": 643
     },
     "archetype_breakdown": {
-      "General Software": 1773,
+      "General Software": 1775,
       "Engineering Leadership": 125,
       "Data Engineering": 122,
       "Machine Learning & AI": 608,
       "Backend & Distributed Systems": 321,
       "Mobile Engineering": 92,
       "Infrastructure & Cloud / SRE": 442,
-      "Full Stack": 224,
+      "Full Stack": 225,
       "Frontend & UI": 63,
       "Security Engineering": 274,
       "Systems & Embedded": 29
@@ -78,7 +78,7 @@
   },
   "jobs": [
     {
-      "id": "builtin_9113280855134932047",
+      "id": "builtin_8615283952668645612",
       "title": "Sr. Measurement Science Lead",
       "company": "Comcast",
       "location": "New York, NY",
@@ -100,7 +100,7 @@
       "experience": null,
       "tech_stack": [],
       "snippet": "Open Senior Software Engineer role at Comcast in New York, NY via Built In.",
-      "description": "Comcast Sr. Measurement Science Lead Reposted 9 Hours Ago Saved Hybrid New York, NY 114K-202K Annually Senior level 114K-202K Annually Senior level Digital Media • Information Technology • News + Entertainment Leads advertising measurement initiatives, including incrementality studies, geo-based and quasi-experimental designs, first-party measurement pilots, and campaign analytics. Evaluates methodology, test power, data quality, and measurement infrastructure while partnering with vendors, Product, Engineering, Sales, and Marketing. Translates complex results into actionable recommendations, benchmarks, client narratives, and product strategy. Conducts deep dives into creative, audience delivery, pacing, frequency, reach, CPMs, and performance drivers. Top Skills: Adtech Difference-In-Differences (Did) Geo Lift Marketing Measurement Media Mix Modeling (Mmm) Multi-Touch Attribution (Mta) Reporting Apis",
+      "description": "Comcast Sr. Measurement Science Lead Reposted 18 Hours Ago Saved Hybrid New York, NY 114K-202K Annually Senior level 114K-202K Annually Senior level Digital Media • Information Technology • News + Entertainment Leads advertising measurement initiatives, including incrementality studies, geo-based and quasi-experimental designs, first-party measurement pilots, and campaign analytics. Evaluates methodology, test power, data quality, and measurement infrastructure while partnering with vendors, Product, Engineering, Sales, and Marketing. Translates complex results into actionable recommendations, benchmarks, client narratives, and product strategy. Conducts deep dives into creative, audience delivery, pacing, frequency, reach, CPMs, and performance drivers. Top Skills: Adtech Difference-In-Differences (Did) Geo Lift Marketing Measurement Media Mix Modeling (Mmm) Multi-Touch Attribution (Mta) Reporting Apis",
       "recruiter": {
         "recruiter_name": "Comcast Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": "builtin_2944425499303359250",
+      "id": "builtin_4136436432306791949",
       "title": "Director, Engineering - Property & Specialty (P&S) Delivery - USRM Tech",
       "company": "Liberty Mutual Insurance",
       "location": "Boston, MA",
@@ -138,7 +138,7 @@
         "Distributed Systems"
       ],
       "snippet": "Open Director role at Liberty Mutual Insurance in Boston, MA via Built In.",
-      "description": "Liberty Mutual Insurance Director, Engineering - Property & Specialty (P&S) Delivery - USRM Tech 7 Hours Ago Saved Hybrid Boston, MA, USA 156K-281K Annually Expert/Leader 156K-281K Annually Expert/Leader Artificial Intelligence • Fintech • Insurance • Marketing Tech • Software • Analytics Leads a large engineering organization delivering Property & Specialty insurance technology capabilities. Defines technology strategy, accelerates product delivery, modernizes platforms, advances AI-enabled development, manages investment and prioritization decisions, and partners with senior business and technology stakeholders. The role oversees approximately 150 employees and contractors, drives transformation and operational excellence, develops talent, manages vendors, and ensures measurable business outcomes across distributed, multi-domain teams. Top Skills: Ai Tools Distributed Systems It Delivery Methodologies Software Engineering",
+      "description": "Liberty Mutual Insurance Director, Engineering - Property & Specialty (P&S) Delivery - USRM Tech 16 Hours Ago Saved Hybrid Boston, MA, USA 156K-281K Annually Expert/Leader 156K-281K Annually Expert/Leader Artificial Intelligence • Fintech • Insurance • Marketing Tech • Software • Analytics Leads a large engineering organization delivering Property & Specialty insurance technology capabilities. Defines technology strategy, accelerates product delivery, modernizes platforms, advances AI-enabled development, manages investment and prioritization decisions, and partners with senior business and technology stakeholders. The role oversees approximately 150 employees and contractors, drives transformation and operational excellence, develops talent, manages vendors, and ensures measurable business outcomes across distributed, multi-domain teams. Top Skills: Ai Tools Distributed Systems It Delivery Methodologies Software Engineering",
       "recruiter": {
         "recruiter_name": "Liberty Mutual Insurance Recruiting Team",
         "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
@@ -1090,7 +1090,7 @@
       }
     },
     {
-      "id": "builtin_5644448644940435025",
+      "id": "builtin_5489478582785428280",
       "title": "Staff Software Engineer, Console",
       "company": "Deepgram",
       "location": "New York, NY",
@@ -2947,7 +2947,7 @@
       }
     },
     {
-      "id": "builtin_7092304006464078382",
+      "id": "builtin_1704849809423923023",
       "title": "Software Engineer, Fullstack, Spend Controls",
       "company": "Ramp",
       "location": "New York, NY",
@@ -13794,7 +13794,7 @@
       }
     },
     {
-      "id": "builtin_9044653595725129021",
+      "id": "builtin_3339811882682841472",
       "title": "Software Engineer, Backend, Comms Platform",
       "company": "Ramp",
       "location": "Boston, MA",
@@ -16741,43 +16741,6 @@
       }
     },
     {
-      "id": "builtin_8097993365112746603",
-      "title": "Analytics Lead, Full Stack",
-      "company": "Affirm",
-      "location": "New York, NY",
-      "city": "New York, NY",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "Full Stack",
-      "source": "Built In",
-      "apply_url": "https://www.builtinnyc.com/job/analytics-lead-full-stack/12127661",
-      "date_posted": "2026-11-07",
-      "salary": {
-        "min": 145000,
-        "max": 205000,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$145,000 - $205,000 / yr"
-      },
-      "experience": null,
-      "tech_stack": [
-        "Python"
-      ],
-      "snippet": "Open Senior Software Engineer role at Affirm in New York, NY via Built In.",
-      "description": "Affirm Analytics Lead, Full Stack 8 Days Ago Saved Easy Apply Remote New York, NY Easy Apply 145K-205K Annually Senior level 145K-205K Annually Senior level Big Data • Fintech • Mobile • Payments • Financial Services Lead marketplace analytics for Affirm’s two-sided ecosystem by optimizing monetization, supply, demand, pricing, profitability, and user experience. Build KPI dashboards, analyze marketplace and affiliate performance, conduct experiments, evaluate incentives and placement, and perform loan-level profitability analyses. Partner cross-functionally with Product, Engineering, Sales, Client Success, and Marketing to improve merchant value, consumer engagement, conversion, and sustainable GMV growth. Top Skills: Dbt ETL Python Sigma SQL",
-      "recruiter": {
-        "recruiter_name": "Affirm Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
-        "recruiter_team": "Affirm Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20New%20York",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20New%20York"
-      }
-    },
-    {
       "id": "gh_twilio_8240487",
       "title": "Machine Learning Engineer 2",
       "company": "Twilio",
@@ -18618,6 +18581,53 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=EvolutionIQ%20%22hiring%22%20%22Software%20Engineer%20%28AI%20Data%20Engineering%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=EvolutionIQ%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=EvolutionIQ%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_coinbase_8347602",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior ML Engineer",
+      "discipline": "Machine Learning / AI",
+      "archetype": "Machine Learning & AI",
+      "source": "Greenhouse",
+      "apply_url": "https://www.coinbase.com/careers/positions/8347602?gh_jid=8347602",
+      "date_posted": "2026-11-06",
+      "salary": {
+        "min": 213750,
+        "max": 225000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$213,750 - $225,000 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Go",
+        "Kafka",
+        "LLM",
+        "PyTorch",
+        "Python",
+        "Spark"
+      ],
+      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
+      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The ML & Discovery team in Consumer Growth builds the machine learning systems that help millions of customers discover what to trade and engage with next across crypto, equities, derivatives, and prediction markets. Our models and platforms power personalized feed and asset ranking, intelligent notification orchestration, and LLM-driven market insights across the Coinbase app. As a Senior Machine Learning Engineer (L5) you will own end-to-end initiatives across the ML lifecycle, from problem formulation, feature engineering, and modeling to production serving and online A/B experimentation. Partnering closely with Product, Data Science, and Engineering in a high-velocity, data-driven environment, you will shape our team's roadmap, raise our engineering quality bar, and use AI-native workflows to deliver measurable business impact. What you’ll do: Own end-to-end machine learning initiatives from problem formulation and offline evaluation to production deployment and online A/B testing, driving measurable lifts in user engagement, retention, and trading activity. Build and iterate on multi-stage recommendation, retrieval, and contextual bandit models that serve personalized experiences to millions of users across crypto, equities, derivatives, and prediction markets. Design intelligent notification orchestration, candidate ranking, and targeting systems that match users with timely, high-value alerts while avoiding fatigue and improving user experience. Develop production LLM pipelines, grounding workflows, and automated evaluation loops that generate accurate, real-time market insights and personalized financial content. Architect resilient, low-latency model serving services and real-time feature pipelines, eliminating technical debt, leading incident response, and raising our operational reliability bar. Partner with Product, Data Science, and Engineering to shape the team roadmap, mentor L3-L4 engineers, and build AI-native workflows and automation that multiply team velocity. Required Skills and Experience: 5+ years of experience in machine learning engineering and software development, with a track record of shipping production ML systems that move customer and business metrics. Proven track record in one or more relevant domains: recommendation systems, multi-stage ranking and retrieval, contextual bandits, notification targeting, or production LLM applications. Strong software engineering and data skills in a backend language like Python or Go, with hands-on proficiency in modern ML and data stacks (such as PyTorch, GBDTs, Spark/Databricks, Ray, Kafka, and/or Tecton). Deep practical knowledge of offline model evaluation, training-serving skew mitigation, and design/interpretation of online A/B experiments tied to business metrics. Demonstrated ability to drive complex projects end-to-end, make pragmatic architectural trade-offs, and mentor junior engineers. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. P77866 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $213,750 — $225,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
+      "recruiter": {
+        "recruiter_name": "Coinbase Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -22762,7 +22772,7 @@
       }
     },
     {
-      "id": "builtin_3896740877643223907",
+      "id": "builtin_2911915355616230243",
       "title": "Software Engineer, Frontend",
       "company": "Ramp",
       "location": "New York, NY",
@@ -31635,7 +31645,7 @@
       }
     },
     {
-      "id": "builtin_4648619324114414868",
+      "id": "builtin_8643707910396327044",
       "title": "Staff Software Engineer (Backend, Business Systems)",
       "company": "WHOOP",
       "location": "Boston, MA",
@@ -34601,6 +34611,49 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Early-stage%20Startup%20%22hiring%22%20%22Software%20Engineer%20%26%20Data%20Analyst%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Early-stage%20Startup%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_affirm_8003170003",
+      "title": "Analytics Lead, Full Stack",
+      "company": "Affirm",
+      "location": "Remote Canada",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8003170003",
+      "date_posted": "2026-10-30",
+      "salary": {
+        "min": 145000,
+        "max": 205000,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$145,000 - $205,000 / yr"
+      },
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Python",
+        "REST"
+      ],
+      "snippet": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a highly motivated and analytical individual to join our Growth An...",
+      "description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a highly motivated and analytical individual to join our Growth Analytics International team. This team plays a crucial role in conducting research, monitoring performance, and running experiments to develop exceptional products for both consumers and merchants while driving long-term growth for the business. As Affirm continues expanding into new international markets, this role will be instrumental in establishing the operational analytics framework for new launches, beginning with Australia and expanding into future international markets. The ideal candidate will possess strong analytical and problem-solving abilities, a collaborative mindset, an eagerness to learn, and the patience to tackle complex challenges. Our team takes an end-to-end business analytics perspective, partnering across the organization to develop recommendations and solutions that enable the business to successfully execute its growth and profitability strategies. This role requires someone who can combine analytical rigor with business acumen to influence decisions and drive measurable outcomes. What you’ll do Establish and evolve the operational analytics framework for new international markets, ensuring scalable measurement, reporting, and decision-making capabilities as we expand globally. Operate with a business owner mindset by proactively identifying opportunities through analysis and product sense to enhance user experience, growth, and profitability. Own business problems from end to end by translating analytical insights into recommendations and optimization strategies that support business growth, profitability, and operational excellence. Take ownership of the end-to-end analytics process: define success metrics, generate insights and hypotheses, track performance, and create intuitive dashboards and reports that can be easily shared across the organization. Develop scalable analytics solutions and data models. Tackle ambiguous problems by identifying the core hypotheses and designing actionable experiments to validate product-market fit and economic viability. Translate analytical findings into clear and compelling narratives and business cases for leadership to inform decision-making. Spearhead weekly cross-functional metric reviews, collaborating with partners to conduct deep dives into significant metric shifts and suggest actionable steps. Partner effectively across Product, Risk, Finance, Commercial, and Operations to align strategies and execute against business objectives. Foster strong cross-functional relationships and establish yourself as a trusted advisor to team members. Mentor and guide junior analysts to deliver high-impact work that drives business results. What we look for: Passion to redefine the lending and financial industry for the better. Strong understanding of the consumer lending and credit industry, including lending economics, portfolio performance, and credit metrics. Experience supporting international lending markets, particularly Europe and/or APAC, is highly desirable. Demonstrated ability to balance growth objectives with profitability and develop data-driven growth strategies. Bachelor's or Master's degree in a quantitatively rigorous subject area such as statistics, mathematics, finance, or economics. 5+ years of proven success in a cross-functional analytical role. Practical and theoretical knowledge of A/B testing. Experience with SQL and performing statistical analysis using Python. Experience simultaneously balancing multiple workstreams and prioritizing an analytics roadmap. Demonstrated curiosity and a growth mindset, with hands-on experience using AI-powered tools such as Cursor, Claude, or similar assistants to accelerate analysis, automate workflows, enhance problem-solving, and advocate for AI adoption across analytical workflows. Strong interpersonal and communication skills, with the ability to influence both technical and non-technical audiences. Comfortable partnering across multiple cross-functional teams, particularly Product, Risk, Commercial, Finance, and Operations. Ability to think creatively and critically while thriving in a fast-paced, dynamic, and often ambiguous work environment. Willingness to go out of your way to help teammates, with humility and a team-first mindset. Previous experience mentoring and guiding junior analysts. Compensation & Benefits Base Pay Grade - M Equity Grade - 5 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year: $145,000 - $205,000 #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.",
+      "recruiter": {
+        "recruiter_name": "Affirm Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Affirm Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Lead%2C%20Full%20Stack%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
       }
     },
     {
@@ -47095,7 +47148,7 @@
       }
     },
     {
-      "id": "builtin_9142757237416617019",
+      "id": "builtin_5733124715206874170",
       "title": "Senior Software Engineer, Shared Services",
       "company": "Justworks",
       "location": "New York, NY",
@@ -47462,54 +47515,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Affirm%20%22hiring%22%20%22Analytics%20Engineer%20II%2C%20Full%20Stack%20%28Revenue%20Analytics%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Affirm%20engineering%20manager%20Boston"
-      }
-    },
-    {
-      "id": "gh_coinbase_8304034",
-      "title": "Senior Software Engineer",
-      "company": "Coinbase",
-      "location": "Remote - USA",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Greenhouse",
-      "apply_url": "https://www.coinbase.com/careers/positions/8304034?gh_jid=8304034",
-      "date_posted": "2026-10-30",
-      "salary": {
-        "min": 186065,
-        "max": 218900,
-        "currency": "USD",
-        "period": "yearly",
-        "display": "$186,065 - $218,900 / yr"
-      },
-      "experience": {
-        "min_years": 5,
-        "max_years": null,
-        "display": "5+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "AWS",
-        "Go",
-        "GraphQL",
-        "Kafka",
-        "Kubernetes",
-        "Terraform",
-        "gRPC"
-      ],
-      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
-      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . Join the Advanced Trading team within the Consumer & Business group as a Senior Software Engineer, Backend helping scale Coinbase Advanced trading products for customers around the globe. You'll own the design and delivery of social, asset discovery, and real-time notification experiences that drive awareness and engagement across a wide range of asset classes, taking complex projects from concept to production with minimal oversight. What you'll do: Own the end-to-end design, development, and reliability of high-performance backend services using Golang and gRPC, enabling seamless trading experiences for customers worldwide. Lead rapid experimentation and optimization of conversion funnels for key trading journeys, using data to prioritize high-impact opportunities. Drive accelerated time to market for new features by making system design trade-offs across performance, scalability, and maintainability. Champion software engineering best practices in design, coding, testing, documentation, monitoring, and alerting, raising the bar for the team. Partner cross-functionally with engineers, product managers, and designers across multiple time zones to translate product vision into quarterly roadmaps and high-impact outcomes. Required Skills and Experience: 5+ years of professional backend software engineering experience designing, building, scaling, and maintaining production systems, with significant experience in Golang and gRPC. Proven track record designing scalable service architectures and making system design trade-offs across performance, reliability, and maintainability in high-throughput environments. Hands-on experience with AWS, Kubernetes, Terraform, Datadog, or similar cloud infrastructure tools, and working knowledge of event-driven architectures (Kafka, MQ, or similar). Experience with SQL or NoSQL databases, third-party API integrations, and modern development practices including GraphQL and ETL pipelines. Demonstrated ability to take ambiguous, multi-quarter projects from concept to production with minimal guidance and sound technical judgment. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $186,065 — $218,900 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
-      "recruiter": {
-        "recruiter_name": "Coinbase Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -67480,6 +67485,58 @@
         "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
         "is_verified_partner": false,
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Senior%20Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
+      }
+    },
+    {
+      "id": "gh_reddit_6469397",
+      "title": "Software Engineer, Ads",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Greenhouse",
+      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
+      "date_posted": "2026-10-23",
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "yearly",
+        "display": "$164,200 - $229,900 / yr"
+      },
+      "experience": {
+        "min_years": 3,
+        "max_years": null,
+        "display": "3+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "C++",
+        "Distributed Systems",
+        "Docker",
+        "Go",
+        "Java",
+        "Kafka",
+        "Kubernetes",
+        "Microservices",
+        "Python",
+        "Redis",
+        "Spark"
+      ],
+      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a generalist mid-level backend position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Mid-level engineers are expected to absorb best practices and learn exceptionally quickly while being effective core contributors. Engineers at this level must be able to code independently, but may work with senior engineers on the design of complex solutions. The most important skills an engineer at this level must possess are 1) coachability and an eagerness to grow, 2) deep passion for coding, and 3) excellent independent learning skills, all while operating as a fully functioning member of an engineering team. Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 3+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Comprehensive Healthcare Benefits and Income Replacement Programs 401k with Employer Match Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave Pay Transparency: This job posting may span more than one career level. In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/ . To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below. The base salary range for this position is: $164,200 — $229,900 USD In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+      "recruiter": {
+        "recruiter_name": "Reddit Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Reddit Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
       }
@@ -102549,6 +102606,74 @@
       }
     },
     {
+      "id": "li_4488950567",
+      "title": "Quantum Software Engineer",
+      "company": "IBM",
+      "location": "Yorktown Heights, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/quantum-software-engineer-at-ibm-4488950567",
+      "date_posted": "2026-11-13",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [],
+      "snippet": "Open position for Quantum Software Engineer at IBM (Yorktown Heights, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "IBM Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "IBM Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=IBM%20%22hiring%22%20%22Quantum%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=IBM%20engineering%20manager%20New%20York"
+      }
+    },
+    {
+      "id": "gh_coinbase_8368072",
+      "title": "Senior Software Engineer",
+      "company": "Coinbase",
+      "location": "Remote - Brazil",
+      "city": "Remote",
+      "work_model": "Remote",
+      "seniority": "Senior Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "Greenhouse",
+      "apply_url": "https://www.coinbase.com/careers/positions/8368072?gh_jid=8368072",
+      "date_posted": "2026-11-12",
+      "salary": null,
+      "experience": {
+        "min_years": 5,
+        "max_years": null,
+        "display": "5+ years"
+      },
+      "tech_stack": [
+        "AI",
+        "Distributed Systems",
+        "Go",
+        "React",
+        "TypeScript"
+      ],
+      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
+      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . As a Senior Software Engineer on the CEE Surfaces team within Coinbase's Customer Experience and Engagement org, you'll build and scale the customer- and agent-facing support experiences that power Help Center, chat, in-product entry points, and agent tools. This team owns high-impact CX journeys spanning React/TypeScript frontends, Go backend services, and integrations with CEE Foundations and Intelligence layers. You'll ship reliable, measurable features that improve automation, resolution quality, and customer satisfaction across every support surface. What you'll do: Build end-to-end full-stack features across React/TypeScript frontends and Go backend services for Help Center, chat, and agent-facing workflows. Partner with Product, Design, CX Ops, and peer engineering teams to turn high-volume customer problems into intuitive self-serve and assisted-support experiences. Own APIs, service integrations, and UI flows that connect Surfaces with CEE Foundations and Intelligence capabilities, including routing, procedures, data-plane integrations, and evaluation systems. Drive CX outcomes through experimentation, instrumentation, and iterative delivery, using metrics such as containment, AtR, CSAT, and escalation rates. Lead integration of AI/ML and vendor capabilities into customer and agent experiences with appropriate guardrails, observability, and rollout discipline. Strengthen production reliability through on-call participation, incident response, debugging, and mentoring engineers on full-stack design, testing, and deployment practices. Required Skills and Experience: 5+ years of software engineering experience building and operating production full-stack web applications, with hands-on proficiency in React (or similar modern frontend frameworks) with TypeScript and backend API development in Go. Demonstrated experience designing and shipping customer-facing experiences in close partnership with Product and Design, not solely backend or platform systems. Proven track record with distributed systems and production fundamentals including API design, caching, observability, debugging, incident response, and operational reliability. Experience integrating AI/ML or third-party platform capabilities into production applications with engineering rigor around guardrails, testing, and rollout. Track record of delivering measurable product outcomes across cross-functional teams, including translating ambiguous problem spaces into shipped solutions. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. #P79071 Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): R$443.460 — R$466.800 BRL Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
+      "recruiter": {
+        "recruiter_name": "Coinbase Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "Coinbase Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "builtin_5096242240401578726",
       "title": "Software Engineer, Securities Finance",
       "company": "Alpaca",
@@ -110866,6 +110991,37 @@
       }
     },
     {
+      "id": "li_4485075649",
+      "title": "Software Engineer, AI/ML",
+      "company": "Meta",
+      "location": "New York, NY",
+      "city": "New York, NY",
+      "work_model": "On-site",
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "General Software",
+      "source": "LinkedIn",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-ai-ml-at-meta-4485075649",
+      "date_posted": "2026-11-04",
+      "salary": null,
+      "experience": null,
+      "tech_stack": [
+        "AI"
+      ],
+      "snippet": "Open position for Software Engineer, AI/ML at Meta (New York, NY) via LinkedIn.",
+      "description": "",
+      "recruiter": {
+        "recruiter_name": "Meta Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (New York)",
+        "recruiter_team": "Meta Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Meta%20technical%20recruiter%20New%20York",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Meta%20%22hiring%22%20%22Software%20Engineer%2C%20AI/ML%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Meta%20technical%20recruiter%20New%20York",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Meta%20engineering%20manager%20New%20York"
+      }
+    },
+    {
       "id": "li_4486807737",
       "title": "Software Engineer II - GTEx Group",
       "company": "Broad Institute of MIT and Harvard",
@@ -114519,6 +114675,48 @@
       }
     },
     {
+      "id": "hn_50508598_0",
+      "title": "Full Stack Engineer (mostly backend + API)",
+      "company": "New Product",
+      "location": "Remote (Remote)",
+      "city": "Remote",
+      "location_type": "Remote",
+      "work_model": "Remote",
+      "date_posted": "2026-11-01",
+      "apply_url": "https://news.ycombinator.com/item?id=50508598",
+      "url": "https://news.ycombinator.com/item?id=50508598",
+      "salary": null,
+      "experience": {
+        "min_years": 6,
+        "max_years": null,
+        "display": "6+ years"
+      },
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Go",
+        "GraphQL",
+        "Python"
+      ],
+      "seniority": "Software Engineer",
+      "discipline": "General Software",
+      "archetype": "Full Stack",
+      "source": "Hacker News",
+      "description": "New Product | Full Stack Engineer (mostly backend + API) | Meet In The Bay Area / Work Remotely | Currently Employed But Wants To Moonlight, Be Overemployed, Add Hourly Compensation | $XXX/hour Looking for a full-stack, senior or staff engineer (6+ years of experience) that is currently working for a company within the Bay Area and is looking to moonlight, be overemployed, or add hourly compensation. I’d be responsible for product, marketing, advertising and will provide the capital to test the product hypothesis. Preferred Technical Stack: - Raw CSS, Tailwind, or Bootstrap - Raw HTML or HTMX - Raw JS - Go and/or Python - Postgres - GraphQL - Supabase/GCP/Azure/AWS - Monolith/SPA/JWT Additional/Bonus: - Familiarity with quantitative finance and technical architecture powering market making platforms - eCommerce catalog/ETL pipeline ingestion - URL normalization and product schema entity matching - Shopify Applications webapp @ ross94957.com",
+      "snippet": "New Product | Full Stack Engineer (mostly backend + API) | Meet In The Bay Area / Work Remotely | Currently Employed But Wants To Moonlight, Be Overemployed, Add Hourly Compensation | $XXX/hour Looking for a full-stack, senior or staff engineer (6+ years of experience) that is cu...",
+      "recruiter": {
+        "recruiter_name": "New Product Recruiting Team",
+        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
+        "recruiter_team": "New Product Talent Acquisition",
+        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=New%20Product%20technical%20recruiter%20Boston",
+        "is_verified_partner": false,
+        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=New%20Product%20%22hiring%22%20%22Full%20Stack%20Engineer%20%28mostly%20backend%20%2B%20API%29%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=New%20Product%20technical%20recruiter%20Boston",
+        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=New%20Product%20engineering%20manager%20Boston"
+      }
+    },
+    {
       "id": "ashby_cohere_cb981ecd-a161-482c-8d8e-5f19bb6e7fdd",
       "title": "Senior Security Engineer",
       "company": "Cohere",
@@ -115741,46 +115939,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Harvey%20%22hiring%22%20%22Staff/Sr.%20Staff%20Software%20Engineer%2C%20Product%20Engineering%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Harvey%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Harvey%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "gh_coinbase_7739592",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Coinbase",
-      "location": "Remote - India",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Senior ML Engineer",
-      "discipline": "Machine Learning / AI",
-      "archetype": "Machine Learning & AI",
-      "source": "Greenhouse",
-      "apply_url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
-      "date_posted": "2026-10-30",
-      "salary": null,
-      "experience": {
-        "min_years": 5,
-        "max_years": null,
-        "display": "5+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "AWS",
-        "Computer Vision",
-        "LLM",
-        "NLP",
-        "Python"
-      ],
-      "snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pu...",
-      "description": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .",
-      "recruiter": {
-        "recruiter_name": "Coinbase Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Coinbase Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Coinbase%20%22hiring%22%20%22Senior%20Machine%20Learning%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Coinbase%20engineering%20manager%20Boston"
       }
     },
     {
@@ -130339,52 +130497,6 @@
         "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Atlassian%20%22hiring%22%20%22Principal%20Software%20Engineer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
         "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Atlassian%20technical%20recruiter%20New%20York",
         "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Atlassian%20engineering%20manager%20New%20York"
-      }
-    },
-    {
-      "id": "gh_reddit_6512458",
-      "title": "Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "city": "Remote",
-      "work_model": "Remote",
-      "seniority": "Software Engineer",
-      "discipline": "General Software",
-      "archetype": "General Software",
-      "source": "Greenhouse",
-      "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "date_posted": "2026-10-23",
-      "salary": null,
-      "experience": {
-        "min_years": 3,
-        "max_years": null,
-        "display": "3+ years"
-      },
-      "tech_stack": [
-        "AI",
-        "C++",
-        "Distributed Systems",
-        "Docker",
-        "Go",
-        "Java",
-        "Kafka",
-        "Kubernetes",
-        "Microservices",
-        "Python",
-        "Redis",
-        "Spark"
-      ],
-      "snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,0...",
-      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to rapidly innovate and grow like no other time in its history. We’re currently hiring across multiple teams, some of these teams include: Ads ML Serving Team The Ads ML Serving team is part of Reddit’s Ads ML Platform, which builds the infrastructure and tools that power machine learning across Ads. This team focuses on creating a highly reliable, scalable, and efficient ML serving stack. Their work includes evolving long-term serving architecture, integrating closely with the ads serving stack, optimizing CPU/GPU performance, and building model velocity tools like observability libraries and model quality gating. Attribution & Identity Team The Attribution & Identity team builds products that help advertisers understand and measure the impact of their campaigns. They focus on attribution systems, identity solutions, and advertiser experimentation tools that improve performance insights and usability. Their goal is to make Reddit’s advertising platform more effective, transparent, and data-driven. Ads Growth Team The Ads Growth team drives initiatives to expand Reddit’s advertiser base, with a focus on Small to Medium Businesses (SMBs). We build and scale the technical foundation for key product pillars that enable SMB advertisers to succeed on Reddit. Our work spans collaboration with product, design, marketing, data science, UX, and sales teams to deliver measurable business outcomes. We prioritize iterative development, rapid shipping, rigorous testing, and building capabilities that create step-change growth. Our goal is to multiply the number of monthly active advertisers by delivering impactful tools, features, and experiences tailored to the needs of SMBs. Business Manager The Business Manager team stands out for its genuinely inclusive and collaborative culture, where not only is open feedback central, but every opinion and idea is truly valued and given space to shape our direction. Here, diverse perspectives are seen as a core strength, fostering a team dynamic where everyone feels empowered to contribute and innovate. On a day-to-day basis, engineers tackle complex, high-stakes challenges at the core of Reddit’s ads platform which include innovating on permissions systems, building Agency and Large Enterprise solutions, and driving adoption among Reddit's largest advertisers. From ideation to delivery, our engineers are trusted with end-to-end ownership of their projects, working closely in cross-functional collaboration with PMs, UX, and partner teams. This hands-on approach means every team member plays a direct and visible role in delivering high-impact, user-focused solutions for some of Reddit’s most strategic advertisers. Role Description: This is a generalist mid-level backend position within the Ads Organization. Ads is the fuel that powers Reddit’s mission. As a backend engineer on the team, candidates might work on: Microservices and APIs that power our advertiser-facing product, ads.reddit.com Distributed systems that ensure the right ad gets shown to the right user at the right time Backends that power interactive user experiences on our ads like Polls and Games Real time, data intensive systems that measure the performance of our ad campaigns Infrastructure that supports all of the above Technologies used on the team include: Languages: Go, Python, Scala Frameworks: Spark, Thrift, Baseplate, Kafka Datastores: Postgres, BigQuery, Redis, Druid Tools: Kubernetes, Argo, Docker Mid-level engineers are expected to absorb best practices and learn exceptionally quickly while being effective core contributors. Engineers at this level must be able to code independently, but may work with senior engineers on the design of complex solutions. The most important skills an engineer at this level must possess are 1) coachability and an eagerness to grow, 2) deep passion for coding, and 3) excellent independent learning skills, all while operating as a fully functioning member of an engineering team. Responsibilities: Work with product managers to design and implement Ads products. Collaborate closely with the platform and data teams while building new features. Lead the processes needed to improve operational stability, including improving code quality, delivering dashboards and data visualizations. Build extensible components that would align with the product objectives. Support day to day project management tasks including communicating project updates, managing project timelines and overseeing project execution. Required Qualifications: 3+ years of software development experience in one or more general purpose programming languages (Java, Scala, Go, C++, Python). Able to take complete ownership of a feature or project. Bonus Points: Experience working in the Ads domain Experience or interest in the advertising business and understanding customer needs Benefits: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support Family Planning Support Gender-Affirming Care Mental Health & Coaching Benefits Comprehensive Medical Benefits & Health Care Spending Account Registered Retirement Savings Plan with matching contributions Income Replacement Programs Flexible Vacation & Paid Volunteer Time Off Generous Paid Parental Leave In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
-      "recruiter": {
-        "recruiter_name": "Reddit Recruiting Team",
-        "point_of_contact": "Technical Recruiter / Talent Lead (Boston)",
-        "recruiter_team": "Reddit Talent Acquisition",
-        "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "is_verified_partner": false,
-        "hiring_posts_url": "https://www.linkedin.com/search/results/content/?keywords=Reddit%20%22hiring%22%20%22Software%20Engineer%2C%20Ads%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
-        "recruiter_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20technical%20recruiter%20Boston",
-        "manager_search_url": "https://www.linkedin.com/search/results/people/?keywords=Reddit%20engineering%20manager%20Boston"
       }
     },
     {
